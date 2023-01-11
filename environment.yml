@@ -10,3 +10,4 @@ dependencies:
 - numpy
 - sqlalchemy
 - psycopg2
+- plotly
