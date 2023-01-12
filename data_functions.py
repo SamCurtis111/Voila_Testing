@@ -5,6 +5,9 @@ Functions
 from sqlalchemy import create_engine
 import pandas as pd
 import numpy as np
+engine = create_engine('postgresql://postgres:iforgot23@localhost/Voluntary_Carbon')
+aws_engine = create_engine('postgresql://Attunga01:875mSzNM@attunga-instance-1.c6crotlobtrk.us-east-2.rds.amazonaws.com/postgres')
+engine_list = [engine, aws_engine]
 
 class Retrieve_Data:
     def __init__(self):
@@ -32,44 +35,63 @@ class Retrieve_Data:
         self.df_projects['Crediting Period End Date'] = pd.to_datetime(self.df_projects['Crediting Period End Date'], format='%Y-%m-%d').dt.date
 
         self.ngeo_issuance, self.ngeo_retirement = self.ngeo_eligibility()
+        self.assign_methods()
         
     def ngeo_eligibility(self):
-        #---------------------
-        # One Hot Encode the certifications
-        certification_frame = (self.df_projects['Additional Issuance Certifications'].str.split(r's*,s*', expand=True)
-           .apply(pd.Series.value_counts, 1)
-           .iloc[:, 1:]
-           .fillna(0, downcast='infer'))
-        
-        # Add grouping columns (e.g. all SDG and all CCD)
-        sdg_cols = [col for col in certification_frame.columns if ':' in col]
-        ccb_cols = [col for col in certification_frame.columns if 'CCB-' in col]
-        
-        certification_frame['SDG'] = np.where((certification_frame[sdg_cols]==1).any(axis=1),1,0)
-        certification_frame['CCB'] = np.where((certification_frame[ccb_cols]==1).any(axis=1),1,0)
-        
-        try:
-            any_cert_cols = ['SDG','CCB','CORSIA','Social Carbon']
-            certification_frame['No Additional Cert'] = np.where((certification_frame[any_cert_cols]==0).all(axis=1),1,0)
-        except KeyError:
-            any_cert_cols = ['SDG','CCB']#,'Social Carbon']
-            certification_frame['No Additional Cert'] = np.where((certification_frame[any_cert_cols]==0).all(axis=1),1,0)
-        
-        self.df_projects = pd.concat([self.df_projects, certification_frame], axis=1)
-        self.df_projects = self.df_projects.drop(columns=['Additional Issuance Certifications'])
-        #------------------------
-        #------------------------
-        # Determine NGEO Eligible Projects
-        ngeo_projects = self.df_projects[(self.df_projects.CCB==1)]
-        ngeo_projects = ngeo_projects.drop_duplicates(subset='Project ID')
-        
-        ngeo_projects = list(ngeo_projects['Project ID'].unique())
-        #--------------------------
-        #--------------------------
-        # Get supply / demand of NGEO eligible projects
-        ngeo_issuance = self.df_issuance[self.df_issuance['Project ID'].isin(ngeo_projects)].drop_duplicates()
-        ngeo_retirement = self.df_retirement[self.df_retirement['Project ID'].isin(ngeo_projects)].drop_duplicates()
-        return ngeo_issuance, ngeo_retirement   
+            #---------------------
+            # One Hot Encode the certifications
+            certification_frame = (self.df_projects['Additional Issuance Certifications'].str.split(r's*,s*', expand=True)
+               .apply(pd.Series.value_counts, 1)
+               .iloc[:, 1:]
+               .fillna(0, downcast='infer'))
+            
+            #certification_frame = df_projects.copy()
+            #cols = list(certification_frame)
+            # Add grouping columns (e.g. all SDG and all CCD)
+            #sdg_cols = [col for col in certification_frame.columns if ':' in col]  # uncomment this to figure out GEO projects later
+            #ccb_cols = []
+            #for c in cols:
+             #   if 'CCB' in c:
+              #      ccb_cols.append(c)
+                    
+            #ccb_cols.insert(0, 'Project ID')        
+                    
+            #sub_df = certification_frame.copy()        
+            #sub_df = sub_df[ccb_cols]
+            #sub_df = sub_df.set_index('Project ID')
+            #sub_df['CCB_Any'] = sub_df.sum(axis=1)
+            #sub_df = sub_df[sub_df.CCB_Any > 0].reset_index()
+            #ngeo_projects = list(sub_df['Project ID'].unique())
+            
+            # Add grouping columns (e.g. all SDG and all CCD)
+            sdg_cols = [col for col in certification_frame.columns if ':' in col]
+            ccb_cols = [col for col in certification_frame.columns if 'CCB-' in col]
+            
+            certification_frame['SDG'] = np.where((certification_frame[sdg_cols]==1).any(axis=1),1,0)
+            certification_frame['CCB'] = np.where((certification_frame[ccb_cols]==1).any(axis=1),1,0)
+            
+            try:
+                any_cert_cols = ['SDG','CCB','CORSIA','Social Carbon']
+                certification_frame['No Additional Cert'] = np.where((certification_frame[any_cert_cols]==0).all(axis=1),1,0)
+            except KeyError:
+                any_cert_cols = ['SDG','CCB']#,'Social Carbon']
+                certification_frame['No Additional Cert'] = np.where((certification_frame[any_cert_cols]==0).all(axis=1),1,0)
+            
+            self.df_projects = pd.concat([self.df_projects, certification_frame], axis=1)
+            self.df_projects = self.df_projects.drop(columns=['Additional Issuance Certifications'])
+            #------------------------
+            #------------------------
+            # Determine NGEO Eligible Projects
+            ngeo_projects = self.df_projects[(self.df_projects.CCB==1)]
+            ngeo_projects = ngeo_projects.drop_duplicates(subset='Project ID')
+            
+            ngeo_projects = list(ngeo_projects['Project ID'].unique())
+            #--------------------------
+            #--------------------------
+            # Get supply / demand of NGEO eligible projects
+            ngeo_issuance = self.df_issuance[self.df_issuance['Project ID'].isin(ngeo_projects)].drop_duplicates()
+            ngeo_retirement = self.df_retirement[self.df_retirement['Project ID'].isin(ngeo_projects)].drop_duplicates()
+            return ngeo_issuance, ngeo_retirement    
 
     def assign_methods(self):
         # COOKSTOVES #
@@ -223,20 +245,33 @@ class Retrieve_Data:
         if merge_group=='All':
             grouped_issuance = self.df_issuance.copy()
             grouped_retirement = self.df_retirement.copy()
-            grouped_issuance = grouped_issuance.groupby(by='Vintage').sum()['Quantity of Units Issued'].reset_index()
-            grouped_retirement = grouped_retirement.groupby(by='Vintage').sum()['Quantity of Units'].reset_index()
+            grouped_issuance = grouped_issuance.groupby(by=['Vintage','Method']).sum()['Quantity of Units Issued'].reset_index()
+            grouped_retirement = grouped_retirement.groupby(by=['Vintage','Method']).sum()['Quantity of Units'].reset_index()
+            method_balance = grouped_issuance.merge(grouped_retirement, how='left',on=['Vintage','Method'])
         elif merge_group=='NGEO':
             grouped_issuance = self.ngeo_issuance.groupby(by='Vintage').sum()['Quantity of Units Issued'].reset_index()
             grouped_retirement = self.ngeo_retirement.groupby(by='Vintage').sum()['Quantity of Units'].reset_index()
+            method_balance = grouped_issuance.merge(grouped_retirement, how='left',on='Vintage')
         else:
             grouped_issuance=self.df_issuance[self.df_issuance['Method']==merge_group].reset_index(drop=True)
             grouped_retirement = self.df_retirement[self.df_retirement['Method']==merge_group].reset_index(drop=True)
             grouped_issuance = grouped_issuance.groupby(by='Vintage').sum()['Quantity of Units Issued'].reset_index()
             grouped_retirement = grouped_retirement.groupby(by='Vintage').sum()['Quantity of Units'].reset_index()
         
-        method_balance = grouped_issuance.merge(grouped_retirement, how='left',on='Vintage')
+        
         method_balance['Remaining'] = method_balance['Quantity of Units Issued'] - method_balance['Quantity of Units']
         
         method_balance = method_balance.set_index('Vintage')
         return method_balance    
+
     
+
+app = Retrieve_Data()
+
+for e in engine_list:
+    app.unit_balance().reset_index().to_sql('Vintage_Balances', e, if_exists='replace', index=False)
+    app.unit_balance(merge_group='NGEO').reset_index().to_sql('Vintage_Balances_NGEO', e, if_exists='replace', index=False)
+    app.df_issuance.to_sql('VCS_Issuance_Labeled', e, if_exists='replace', index=False)
+    app.df_retirement.to_sql('VCS_Retirement_Labeled', e, if_exists='replace', index=False)
+    app.ngeo_issuance.to_sql('NGEO_Issuance', e, if_exists='replace', index=False)
+    app.ngeo_retirement.to_sql('NGEO_Retirement', e, if_exists='replace', index=False)
