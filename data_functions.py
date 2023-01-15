@@ -263,12 +263,27 @@ class Retrieve_Data:
         
         method_balance = method_balance.set_index('Vintage')
         return method_balance    
+    
+    ##############
+    # CREDIT RETIREMENT ANALYSIS
+    def vintage_retirements(self):
+            df = self.df_retirement.copy()
+            df['Date of Retirement'] = pd.to_datetime(df['Date of Retirement'])
+            df['Retirement_Month'] = [str(i.year)[2:]+'_'+str(i.month).zfill(2) for i in df['Date of Retirement']]
+            vintage_retirement = df.groupby(by=['Retirement_Month']).mean()['Vintage'].reset_index()
+            qty_retirement = df.groupby(by=['Retirement_Month']).sum()['Quantity of Units'].reset_index()
+            
+            df = vintage_retirement.merge(qty_retirement, on='Retirement_Month')
+            df['Vintage'] = round(df.Vintage, 0).astype(int)
+            df.columns = ['Year_Mth', 'Vintage', 'Quantity']
+            return df
 
     
 
 app = Retrieve_Data()
 
 for e in engine_list:
+    app.vintage_retirements().to_sql('Retirements_Monthly_Vintage', e, if_exists='replace', index=False)
     app.unit_balance().reset_index().to_sql('Vintage_Balances', e, if_exists='replace', index=False)
     app.unit_balance(merge_group='NGEO').reset_index().to_sql('Vintage_Balances_NGEO', e, if_exists='replace', index=False)
     app.df_issuance.to_sql('VCS_Issuance_Labeled', e, if_exists='replace', index=False)
