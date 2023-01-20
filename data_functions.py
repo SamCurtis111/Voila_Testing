@@ -182,6 +182,21 @@ class Retrieve_Data:
         dropcols = list(df_ldc)[15:33]
         df_ldc = df_ldc.drop(columns=dropcols)
         return df_ldc
+    
+    ## GET THE VINTAGE BALANCES OF NGEO ELIGIBLE PROJECTS
+    def ngeo_project_balances(self):
+        issuance = self.ngeo_issuance.copy()
+        retirement = self.ngeo_retirement.copy()
+        
+        issuance = issuance.groupby(by=['Vintage','Project ID','Method','Project Name','Project Country/Area']).sum()['Quantity of Units Issued'].reset_index()
+        issuance.columns = ['Vintage','ID','Method','Name','Country','Issued']     
+        retirement = retirement.groupby(by=['Vintage','Project ID','Method','Project Name','Project Country/Area']).sum()['Quantity of Units'].reset_index()
+        retirement.columns = ['Vintage','ID','Method','Name','Country','Retired']
+        
+        balance = pd.merge(issuance, retirement, on=['Vintage','ID','Method','Name','Country'], how="left")
+        balance = balance.fillna(0)
+        balance['Balance'] = balance.Issued - balance.Retired
+        return balance    
 
 
 app = Retrieve_Data()
@@ -196,6 +211,4 @@ for e in engine_list:
     app.ngeo_issuance.to_sql('NGEO_Issuance', e, if_exists='replace', index=False)
     app.ngeo_retirement.to_sql('NGEO_Retirement', e, if_exists='replace', index=False)
     app.retirement_ratios().to_sql('Method_Retirement_Ratios', e, if_exists='replace', index=False)
-
-
-
+    app.ngeo_project_balances().to_sql('NGEO_Projects_Vintage_Balances', e, if_exists='replace', index=False)
