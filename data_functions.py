@@ -5,6 +5,7 @@ Functions
 from sqlalchemy import create_engine
 import pandas as pd
 import numpy as np
+from datetime import datetime, timedelta
 engine = create_engine('postgresql://postgres:iforgot23@localhost/Voluntary_Carbon')
 aws_engine = create_engine('postgresql://Attunga01:875mSzNM@attunga-instance-1.c6crotlobtrk.us-east-2.rds.amazonaws.com/postgres')
 engine_list = [engine, aws_engine]
@@ -42,6 +43,10 @@ class Retrieve_Data:
 
         self.ngeo_issuance, self.ngeo_retirement = self.ngeo_eligibility()
         self.ldc_list = ['Afghanistan', 'Angola', 'Bangladesh', 'Benin', 'Bhutan', 'Burkina Faso', 'Burundi', 'Cambodia', 'Central African Republic', 'Chad', 'Comoros', 'Congo', 'Djibouti', 'Eritrea', 'Ethiopia', 'Gambia', 'Guinea', 'Guinea-Bissau', 'Haiti', 'Kiribati', 'Laos', 'Lesotho', 'Liberia', 'Madagascar', 'Malawi', 'Mali', 'Mauritania', 'Mozambique', 'Myanmar', 'Nepal', 'Niger', 'Rwanda', 'São Tomé and Príncipe', 'Senegal', 'Sierra Leone', 'Solomon Islands', 'Somalia', 'South Sudan', 'Sudan', 'Tanzania', 'Timor-Leste', 'Timor Leste', 'Togo', 'Tuvalu', 'Uganda', 'Yemen', 'Zambia']
+        
+        self.today = datetime.today()
+        self.yesterday = self.today - timedelta(days=1)
+        self.yesterday = self.yesterday.date()
         
     def ngeo_eligibility(self):
             #---------------------
@@ -178,10 +183,33 @@ class Retrieve_Data:
         return raw
     
     def ldc_projects(self):
-        df_ldc = self.df_projects[self.df_projects.isin(self.ldc_list)]
+        df_ldc = self.df_projects[self.df_projects['Country/Area'].isin(self.ldc_list)]
         dropcols = list(df_ldc)[15:33]
         df_ldc = df_ldc.drop(columns=dropcols)
         return df_ldc
+    
+    def ldc_project_balances(self):
+        # Merge issuance and retirement data
+        df_issuance = self.df_issuance
+        df_retirement = self.df_retirement
+        df_projects = app.ldc_projects()
+        ldc_ids = list(df_projects['Project ID'].unique())
+        
+        df_issuance = df_issuance[df_issuance['Project ID'].isin(ldc_ids)]
+        df_retirement = df_retirement[df_retirement['Project ID'].isin(ldc_ids)]
+        
+        df_issuance = df_issuance.groupby(by=['Project ID','Vintage']).sum()['Quantity of Units Issued'].reset_index()
+        df_retirement = df_retirement.groupby(by=['Project ID','Vintage']).sum()['Quantity of Units'].reset_index()        
+        
+        df_balance = pd.merge(df_issuance, df_retirement, on=['Project ID','Vintage'], how="left")
+        df_balance = df_balance.fillna(0)
+        df_balance.columns = ['Project ID','Vintage','Issued','Retired']
+        df_balance['Balance'] = df_balance.Issued - df_balance.Retired
+        
+        # Add the project names
+        proj_names = df_projects[['Project ID','Method','Type','Country/Area','Project Name','Status','Estimated Annual Emission Reductions']]
+        balances = pd.merge(df_balance, proj_names, on=['Project ID'], how="left")
+        return balances
     
     ## GET THE VINTAGE BALANCES OF NGEO ELIGIBLE PROJECTS
     def ngeo_project_balances(self):
@@ -196,13 +224,26 @@ class Retrieve_Data:
         balance = pd.merge(issuance, retirement, on=['Vintage','ID','Method','Name','Country'], how="left")
         balance = balance.fillna(0)
         balance['Balance'] = balance.Issued - balance.Retired
-        return balance    
-
+        return balance
+    
+    # Yesterday issuances and retirements
+    def yesterday_issuance_retirement(self):
+        yest_issuances = self.df_issuance[self.df_issuance['Issuance Date']==self.yesterday]
+        yest_issuances = yest_issuances[['Issuance Date','Project ID','Project Name','Project Country/Area','Method','Vintage','Quantity of Units Issued','Vintage Report Total']]
+        yest_issuances.columns = ['Date','ID','Name','Country','Method','Vintage','Units Issued','Issued Per Vintage']
+        
+        yest_retirement = self.df_retirement[self.df_retirement['Date of Retirement']==self.yesterday]
+        yest_retirement = yest_retirement[['Date of Retirement','Project ID','Project Name','Project Country/Area','Method','Vintage','Quantity of Units','Account Holder','Beneficial Owner','Retirement Reason Details']]
+        yest_retirement.columns = ['Date','ID','Name','Country','Method','Vintage','Qty','Account Holder','Beneficial Owner','Reason']
+        
+        return yest_issuances, yest_retirement  
+        
 
 app = Retrieve_Data()
 
 for e in engine_list:
     app.ldc_projects().to_sql('LDC_Projects', e, if_exists='replace', index=False)
+    app.ldc_project_balances().to_sql('LDC_Project_Balances', e, if_exists='replace', index=False)
     app.vintage_retirements().to_sql('Retirements_Monthly_Vintage', e, if_exists='replace', index=False)
     app.unit_balance().reset_index().to_sql('Vintage_Balances', e, if_exists='replace', index=False)
     app.unit_balance(merge_group='NGEO').reset_index().to_sql('Vintage_Balances_NGEO', e, if_exists='replace', index=False)
@@ -212,3 +253,6 @@ for e in engine_list:
     app.ngeo_retirement.to_sql('NGEO_Retirement', e, if_exists='replace', index=False)
     app.retirement_ratios().to_sql('Method_Retirement_Ratios', e, if_exists='replace', index=False)
     app.ngeo_project_balances().to_sql('NGEO_Projects_Vintage_Balances', e, if_exists='replace', index=False)
+    iss, ret = app.yesterday_issuance_retirement()
+    iss.to_sql('VCS_Overnight_Issuance', e, if_exists='replace', index=False)
+    ret.to_sql('VCS_Overnight_Retirement', e, if_exists='replace', index=False)
