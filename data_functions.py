@@ -41,7 +41,16 @@ class Retrieve_Data:
         self.df_retirement['Vintage'] = [i.year for i in self.df_retirement['To Vintage']] 
         self.df_retirement = pd.merge(self.df_retirement, self.project_merge, on='Project ID', how='left')
 
+        query = 'select * from \"Broker_Markets\"'
+        self.df_broker = pd.read_sql(query, self.engine)
+
         self.ngeo_issuance, self.ngeo_retirement = self.ngeo_eligibility()
+        
+        self.ngeo_project_list = list(self.ngeo_issuance['Project ID'].unique())
+        #self.ngeo_project_list['ID'] = ['VCS ' + str(i) for i in self.ngeo_project_list.ID]
+        
+        self.ngeo_undesirable_list = self.determine_undesirable_ngeos()
+        
         self.ldc_list = ['Afghanistan', 'Angola', 'Bangladesh', 'Benin', 'Bhutan', 'Burkina Faso', 'Burundi', 'Cambodia', 'Central African Republic', 'Chad', 'Comoros', 'Congo', 'Djibouti', 'Eritrea', 'Ethiopia', 'Gambia', 'Guinea', 'Guinea-Bissau', 'Haiti', 'Kiribati', 'Laos', 'Lesotho', 'Liberia', 'Madagascar', 'Malawi', 'Mali', 'Mauritania', 'Mozambique', 'Myanmar', 'Nepal', 'Niger', 'Rwanda', 'São Tomé and Príncipe', 'Senegal', 'Sierra Leone', 'Solomon Islands', 'Somalia', 'South Sudan', 'Sudan', 'Tanzania', 'Timor-Leste', 'Timor Leste', 'Togo', 'Tuvalu', 'Uganda', 'Yemen', 'Zambia']
         
         self.today = datetime.today()
@@ -236,7 +245,52 @@ class Retrieve_Data:
         yest_retirement = yest_retirement[['Date of Retirement','Project ID','Project Name','Project Country/Area','Method','Vintage','Quantity of Units','Account Holder','Beneficial Owner','Retirement Reason Details']]
         yest_retirement.columns = ['Date','ID','Name','Country','Method','Vintage','Qty','Account Holder','Beneficial Owner','Reason']
         
-        return yest_issuances, yest_retirement  
+        return yest_issuances, yest_retirement
+    
+    # Any NGEO project thats not bid / traded in past 2 yrs
+    def determine_undesirable_ngeos(self):
+        df = self.df_broker[(self.df_broker['Price Type']=="Bid") | (self.df_broker['Price Type']=="Trade")]
+        df = df[df.Year>=2022].reset_index(drop=True)
+        ngeo_projs = ['VCS '+str(i) for i in self.ngeo_project_list]
+        df = df[df['Project ID'].isin(ngeo_projs)]    
+        desirables = list(df['Project ID'].unique())
+        desirables = [int(i[4:]) for i in desirables]
+        
+        undesirables = self.ngeo_issuance[~(self.ngeo_issuance['Project ID'].isin(desirables))].copy()
+        undesriables = list(undesirables['Project ID'].unique())
+        return undesriables
+    
+    # Analysis on 'undesirable' NGEO projects (those that haven't been bid/traded in past 2 years)
+    def ngeo_undesirable_vintage_balances(self):
+        issued = self.df_issuance[self.df_issuance['Project ID'].isin(self.ngeo_undesirable_list)].copy()
+        issued = issued.groupby(by=['Project ID', 'Vintage']).sum()['Quantity of Units Issued'].reset_index()
+        retired = self.df_retirement[self.df_retirement['Project ID'].isin(self.ngeo_undesirable_list)].copy()
+        retired = retired.groupby(by=['Project ID', 'Vintage']).sum()['Quantity of Units'].reset_index()
+        balance = pd.merge(issued, retired, on=['Project ID', 'Vintage'], how="left")
+        balance = balance.fillna(0)
+        balance.columns = ['ID', 'Vintage', 'Issued', 'Retired']
+        balance['Balance'] = balance.Issued - balance.Retired
+        #balance = balance[balance.Vintage >= 2016]
+        balance_grouped = balance.groupby(by=['Vintage']).sum().reset_index()
+        balance_grouped = balance_grouped.drop(columns='ID')
+        return balance, balance_grouped
+
+    def ngeo_undesirable_project_balances(self):
+        retirement = self.ngeo_retirement.copy()
+        retirement['YY'] = [str(i.year)[-2:] for i in retirement['Date of Retirement']]
+        retirement = retirement[retirement['Project ID'].isin(self.ngeo_undesirable_list)]
+        retirement = retirement.groupby(by=['Project ID','Vintage','YY']).sum()['Quantity of Units'].reset_index()
+        
+        issuance = self.ngeo_issuance.copy()
+        issuance['YY'] = [str(i.year)[-2:] for i in issuance['Issuance Date']]
+        issuance = issuance[issuance['Project ID'].isin(self.ngeo_undesirable_list)]
+        issuance = issuance.groupby(by=['Project ID','Vintage','YY']).sum()['Quantity of Units Issued'].reset_index()
+        
+        undesirable_balances = pd.merge(issuance, retirement, on=['Project ID','Vintage','YY'], how="left")
+        undesirable_balances = undesirable_balances.fillna(0)
+        undesirable_balances.columns = ['Project ID','Vintage','Retirement Year','Issued','Retired']
+        return undesirable_balances
+        
         
 
 app = Retrieve_Data()
@@ -256,3 +310,7 @@ for e in engine_list:
     iss, ret = app.yesterday_issuance_retirement()
     iss.to_sql('VCS_Overnight_Issuance', e, if_exists='replace', index=False)
     ret.to_sql('VCS_Overnight_Retirement', e, if_exists='replace', index=False)
+    undesirable_ngeo_projet_balances, undesirable_ngeo_vintage_balances = app.ngeo_undesirable_vintage_balances()
+    undesirable_ngeo_projet_balances.to_sql('NGEO_Undesirable_Projects', e, if_exists='replace', index=False)
+    undesirable_ngeo_vintage_balances.to_sql('NGEO_Undesirable_Vintages', e, if_exists='replace', index=False)
+    app.ngeo_undesirable_project_balances().to_sql('NGEO_Undesirable_Projects_Dated', e, if_exists='replace', index=False)
