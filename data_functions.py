@@ -43,11 +43,15 @@ class Retrieve_Data:
 
         query = 'select * from \"Broker_Markets\"'
         self.df_broker = pd.read_sql(query, self.engine)
+        
+        query = 'select * from \"SIP_Settles\"'
+        self.df_sip_settles = pd.read_sql(query, self.engine)        
+        
 
         self.ngeo_issuance, self.ngeo_retirement = self.ngeo_eligibility()
         
         self.ngeo_project_list = list(self.ngeo_issuance['Project ID'].unique())
-        #self.ngeo_project_list['ID'] = ['VCS ' + str(i) for i in self.ngeo_project_list.ID]
+        self.ngeo_project_list_string = ['VCS ' + str(i) for i in self.ngeo_project_list]
         
         self.ngeo_undesirable_list = self.determine_undesirable_ngeos()
         
@@ -251,8 +255,7 @@ class Retrieve_Data:
     def determine_undesirable_ngeos(self):
         df = self.df_broker[(self.df_broker['Price Type']=="Bid") | (self.df_broker['Price Type']=="Trade")]
         df = df[df.Year>=2022].reset_index(drop=True)
-        ngeo_projs = ['VCS '+str(i) for i in self.ngeo_project_list]
-        df = df[df['Project ID'].isin(ngeo_projs)]    
+        df = df[df['Project ID'].isin(self.ngeo_project_list_string)]   
         desirables = list(df['Project ID'].unique())
         desirables = [int(i[4:]) for i in desirables]
         
@@ -277,12 +280,12 @@ class Retrieve_Data:
 
     def ngeo_undesirable_project_balances(self):
         retirement = self.ngeo_retirement.copy()
-        retirement['YY'] = [str(i.year)[-2:] for i in retirement['Date of Retirement']]
+        retirement['YY'] = [i.year for i in retirement['Date of Retirement']]
         retirement = retirement[retirement['Project ID'].isin(self.ngeo_undesirable_list)]
         retirement = retirement.groupby(by=['Project ID','Vintage','YY']).sum()['Quantity of Units'].reset_index()
         
         issuance = self.ngeo_issuance.copy()
-        issuance['YY'] = [str(i.year)[-2:] for i in issuance['Issuance Date']]
+        issuance['YY'] = [i.year for i in issuance['Issuance Date']]
         issuance = issuance[issuance['Project ID'].isin(self.ngeo_undesirable_list)]
         issuance = issuance.groupby(by=['Project ID','Vintage','YY']).sum()['Quantity of Units Issued'].reset_index()
         
