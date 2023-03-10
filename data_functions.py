@@ -298,22 +298,74 @@ class Retrieve_Data:
 
 app = Retrieve_Data()
 
+app.ldc_projects().to_csv('C:/GitHub/Voila_Testing/data/LDC_Projects.csv')
+app.ldc_project_balances().to_csv('C:/GitHub/Voila_Testing/data/LDC_Project_Balances.csv')
+app.vintage_retirements().to_csv('C:/GitHub/Voila_Testing/data/Retirements_Monthly_Vintage.csv')
+app.unit_balance().to_csv('C:/GitHub/Voila_Testing/data/Vintage_Balances.csv')
+app.unit_balance(merge_group='NGEO').to_csv('C:/GitHub/Voila_Testing/data/Vintage_Balances_NGEO.csv')
+app.df_issuance.to_csv('C:/GitHub/Voila_Testing/data/VCS_Issuance_Labeled.csv')
+app.df_retirement.to_csv('C:/GitHub/Voila_Testing/data/VCS_Retirement_Labeled.csv')
+app.ngeo_issuance.to_csv('C:/GitHub/Voila_Testing/data/NGEO_Issuance.csv')
+app.ngeo_retirement.to_csv('C:/GitHub/Voila_Testing/data/NGEO_Retirement.csv')
+app.retirement_ratios().to_csv('C:/GitHub/Voila_Testing/data/Method_Retirement_Ratios.csv')
+app.ngeo_project_balances().to_csv('C:/GitHub/Voila_Testing/data/NGEO_Projects_Vintage_Balances.csv')
+
+iss, ret = app.yesterday_issuance_retirement()
+iss.to_csv('C:/GitHub/Voila_Testing/data/VCS_Overnight_Issuance.csv')
+ret.to_csv('C:/GitHub/Voila_Testing/data/VCS_Overnight_Retirement.csv')
+
+undesirable_ngeo_projet_balances, undesirable_ngeo_vintage_balances = app.ngeo_undesirable_vintage_balances()
+undesirable_ngeo_projet_balances.to_csv('C:/GitHub/Voila_Testing/data/NGEO_Undesirable_Projects.csv')
+undesirable_ngeo_vintage_balances.to_csv('C:/GitHub/Voila_Testing/data/NGEO_Undesirable_Vintages.csv')
+
+app.ngeo_undesirable_project_balances().to_csv('C:/GitHub/Voila_Testing/data/NGEO_Undesirable_Projects_Dated.csv')
+
+print('csvs written')
+
+
+
 for e in engine_list:
     app.ldc_projects().to_sql('LDC_Projects', e, if_exists='replace', index=False)
+    
+    
     app.ldc_project_balances().to_sql('LDC_Project_Balances', e, if_exists='replace', index=False)
+    
+    
     app.vintage_retirements().to_sql('Retirements_Monthly_Vintage', e, if_exists='replace', index=False)
+    
+    
     app.unit_balance().reset_index().to_sql('Vintage_Balances', e, if_exists='replace', index=False)
+    
+    
     app.unit_balance(merge_group='NGEO').reset_index().to_sql('Vintage_Balances_NGEO', e, if_exists='replace', index=False)
+    
+    
     app.df_issuance.to_sql('VCS_Issuance_Labeled', e, if_exists='replace', index=False)
+    
+    
     app.df_retirement.to_sql('VCS_Retirement_Labeled', e, if_exists='replace', index=False)
+    
+    
     app.ngeo_issuance.to_sql('NGEO_Issuance', e, if_exists='replace', index=False)
+    
+    
     app.ngeo_retirement.to_sql('NGEO_Retirement', e, if_exists='replace', index=False)
+    
+    
+    
     app.retirement_ratios().to_sql('Method_Retirement_Ratios', e, if_exists='replace', index=False)
+    
+    
     app.ngeo_project_balances().to_sql('NGEO_Projects_Vintage_Balances', e, if_exists='replace', index=False)
+    
+    
     iss, ret = app.yesterday_issuance_retirement()
     iss.to_sql('VCS_Overnight_Issuance', e, if_exists='replace', index=False)
     ret.to_sql('VCS_Overnight_Retirement', e, if_exists='replace', index=False)
+    
     undesirable_ngeo_projet_balances, undesirable_ngeo_vintage_balances = app.ngeo_undesirable_vintage_balances()
     undesirable_ngeo_projet_balances.to_sql('NGEO_Undesirable_Projects', e, if_exists='replace', index=False)
     undesirable_ngeo_vintage_balances.to_sql('NGEO_Undesirable_Vintages', e, if_exists='replace', index=False)
+    
     app.ngeo_undesirable_project_balances().to_sql('NGEO_Undesirable_Projects_Dated', e, if_exists='replace', index=False)
+    
