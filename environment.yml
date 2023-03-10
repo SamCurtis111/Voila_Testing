@@ -11,4 +11,3 @@ dependencies:
 - sqlalchemy
 - psycopg2
 - plotly
-- datetime
