@@ -500,3 +500,54 @@ z = project.retirement
 z = z[z['Beneficial Owner']=='Chanel']
 z = z.groupby(by=['Year','Month']).sum()['Quantity of Units']
 
+
+#######################################################################################
+## USING FUZZY LOOKUP FOR RETIREMENT DATA
+# rename the entire retirement dataset
+# is there a more efficient way to use a dict for existing matches?
+# could be like an AWS db and then it scans it for existing match
+#######################################################################################
+## Create a fuzzy lookup function
+def match_names(name, list_names, min_score=0):
+    scores = pd.DataFrame()
+    scores['Name'] = list_names
+    ratio = []
+    for i in scores.Name:
+        score = fuzz.ratio(name, i)
+        ratio.append(score)
+    scores['Ratio'] = ratio
+    scores = scores[scores.Ratio>=75]
+    return scores
+
+ret = df_retirement.copy()
+ret['Year'] = [i.year for i in ret['Date of Retirement']]
+ret['Month'] = [i.month for i in ret['Date of Retirement']]
+
+retirees = ret.groupby(by=['Beneficial Owner']).sum()['Quantity of Units'].reset_index()
+retirees.columns = ['Name','Qty Retired'] 
+
+
+owners = list(retirees['Name'].unique())
+
+match_dict = {}
+best_name = {}
+
+from tqdm import tqdm
+
+for i in tqdm(owners):
+    matches = match_names(i, owners)
+    if len(matches) > 1:
+        matches = matches.merge(retirees, on=['Name'], how="left")
+        match_dict[i] = matches
+        
+        #year_retired = matches.groupby(by=['Retirement Year']).sum().reset_index()  
+        total_retired = matches['Qty Retired'].sum()
+        largest_value = max(matches['Qty Retired'])
+        name = matches[matches['Qty Retired']==largest_value].reset_index(drop=True)
+        name = name.Name[0]
+        #year_retired['Name'] = name 
+        #year_retired = year_retired[['Name','Retirement Year','Qty Retired']]
+        best_name[i] = name
+    else:
+        best_name[i] = i        
+
