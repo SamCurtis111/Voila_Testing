@@ -404,8 +404,11 @@ class Project_Analysis:
         
         self.retirement = df_retirement
         self.retirement = self.retirement[self.retirement['Project ID']==self.ID]
+        #self.retirement = retirement[retirement['Project ID']==prid]
         self.retirement['Year'] = [i.year for i in self.retirement['Date of Retirement']]
+        #self.retirement['Year'] = [i.year for i in retirement['Date of Retirement']]
         self.retirement['Month'] = [i.month for i in self.retirement['Date of Retirement']]
+        #self.retirement['Month'] = [i.month for i in retirement['Date of Retirement']]
         
     def project_balance(self):
         issued = self.issuance.groupby(by=['Project ID','Vintage']).sum().reset_index()
@@ -446,6 +449,7 @@ class Project_Analysis:
     # Use fuzzy function to merge names
     def top_retirees(self):
         retirees = self.retirement.groupby(by=['Beneficial Owner','Year']).sum()['Quantity of Units'].reset_index()
+        #retirees = project.retirement.groupby(by=['Beneficial Owner','Year']).sum()['Quantity of Units'].reset_index()
         retirees.columns = ['Name','Retirement Year','Qty Retired']     
         
         owners = list(retirees['Name'].unique())
@@ -455,6 +459,7 @@ class Project_Analysis:
         
         for i in owners:
             matches = self.match_names(i, owners)
+            #matches = project.match_names(i, owners)
             if len(matches) > 1:
                 matches = matches.merge(retirees, on=['Name'], how="left")
                 match_dict[i] = matches
@@ -467,33 +472,48 @@ class Project_Analysis:
                 year_retired['Name'] = name 
                 year_retired = year_retired[['Name','Retirement Year','Qty Retired']]
                 best_name[name] = year_retired
+                
             else:
-                pass            
-        
-        d = { k: v.set_index('Name') for k, v in best_name.items()}    # Conver the DF into a DF 
-        df = pd.concat(d)
-        df = df.droplevel(0)
-        df = df.reset_index()
+                final_frame = retirees.copy()
+                final_frame.columns = ['Name','Retirement Year','Qty Retired']
+                
+                retiree_totals = final_frame.groupby(by=['Name']).sum()['Qty Retired'].reset_index()
+                retiree_totals.columns = ['Name','Total']
+                
+                final_frame = final_frame.pivot_table('Qty Retired','Name','Retirement Year')
+                
+                final_frame = final_frame.merge(retiree_totals, on=['Name'], how='left')
+                pass
+            
+        if len(list(match_dict)) > 1:
+            d = { k: v.set_index('Name') for k, v in best_name.items()}    # Conver the Dict into a DF
+            
+            df = pd.concat(d)
+            df = df.droplevel(0)
+            df = df.reset_index()
+            
+            dropnames = list(match_dict)
+            retirees = retirees[~retirees.Name.isin(dropnames)]
+            
+            final_frame = pd.concat([retirees,df])
+            final_frame = final_frame.pivot_table('Qty Retired','Name','Retirement Year')
+            final_frame = final_frame.fillna(0)
+            final_frame['Total'] = final_frame[list(final_frame.columns)].sum(axis=1)
+            final_frame = final_frame.reset_index()
+            final_frame = final_frame.sort_values(by=['Total'], ascending=False).reset_index(drop=True)
+        else:
+            pass                
 
-        # Drop all the names with matches out of the retirement dataframe
-        dropnames = list(match_dict)
-        retirees = retirees[~retirees.Name.isin(dropnames)]
-        
-        final_frame = pd.concat([retirees,df])
-        final_frame = final_frame.pivot_table('Qty Retired','Name','Retirement Year')
-        final_frame = final_frame.fillna(0)
-        final_frame['Total'] = final_frame[list(final_frame.columns)].sum(axis=1)
-        final_frame = final_frame.reset_index()
-        final_frame = final_frame.sort_values(by=['Total'], ascending=False).reset_index(drop=True)
         return final_frame            
 
 
 
-prid = 1899
+prid = 2250
 project = Project_Analysis(prid)
 balance = project.project_balance()
 issuances, retirements = project.issuance_retirement_tables()
 most_retires = project.top_retirees()
+broker_data = project.broker_data
 
 
 z = project.retirement

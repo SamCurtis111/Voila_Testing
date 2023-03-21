@@ -1,66 +1,97 @@
 ,Date,ID,Name,Country,Method,Vintage,Qty,Account Holder,Beneficial Owner,Reason
-0,2023-03-13,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),Avoided Def.,2013,1,,,
-1,2023-03-13,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),Avoided Def.,2013,6,Carbonext Tecnologia em Soluções Ambientais Ltda.,GINBRA COMERCIO E DISTRIBUIDORA DE BEBIDAS LTDA,
-2,2023-03-13,1820,Manantiales Behr Wind Farm,Argentina (AR),Wind,2021,12500,,,
-3,2023-03-13,173,Vishnuprayag Hydro-electric Project (VHEP) by Jaiprakash Power Ventures Ltd.(JPVL),India (IN),Hydro,2007,86,Fokus-Zukunft GmbH & Co. KG,Röstperle Seeshaupter Biokaffee,Röstperle Seeshaupter Biokaffee
-4,2023-03-13,173,Vishnuprayag Hydro-electric Project (VHEP) by Jaiprakash Power Ventures Ltd.(JPVL),India (IN),Hydro,2007,66,Fokus-Zukunft GmbH & Co. KG,Wilox Strumpfwaren GmbH,Wilox Strumpfwaren GmbH
-5,2023-03-13,934,The Mai Ndombe REDD+ Project,"Congo, The Democratic Republic of The (CD)",Avoided Def.,2017,14,Meta Carbon Inc,Green Token Community,Meta Carbon 1.3: https://carbon-creatures.com/collections/sunda-pangolin?tab=transparency
-6,2023-03-13,837,"Natural Gas Based Combined Cycle Power Generation, at Kothapeta, East Godavari, Andhra Pradesh, India",India (IN),Other,2011,166,iOffset,Phoenix Enhancement Services Bodyshop,Offsetting emissions for Phoenix Enhancement Services Bodyshop for January 2022 to December 2022
-7,2023-03-13,1447,199.70 MW Wind Project in Maharashtra by BWDPL,India (IN),Wind,2017,36,The Fuel Trading Co,Portland Fuel Ltd,PFL Green Fuel Club February 2023
-8,2023-03-13,1558,"Agroforestry and forest restoration for ecological connectivity, poverty reduction and biodiversity conservation in Cerro San Gil, Caribbean Guatemala",Guatemala (GT),ARR,2021,11870,,,
-9,2023-03-13,837,"Natural Gas Based Combined Cycle Power Generation, at Kothapeta, East Godavari, Andhra Pradesh, India",India (IN),Other,2011,200,iOffset,Motofix Accident Repair Centres Ltd,Offsetting emissions for Motofix Accident Repair Centres Ltd for January to December 2022
-10,2023-03-13,1950,Longyuan Mulilo De Aar 2 North Wind Energy Facility,South Africa (ZA),Wind,2021,910,,,
-11,2023-03-13,1974,Srepok 1 Solar Power Project,Viet Nam (VN),Solar,2021,3664,,,
-12,2023-03-13,1974,Srepok 1 Solar Power Project,Viet Nam (VN),Solar,2020,3537,,,
-13,2023-03-13,1974,Srepok 1 Solar Power Project,Viet Nam (VN),Solar,2020,96,,,
-14,2023-03-13,80,Greenville County Landfill Gas Utilization Project,United States (US),LFG,2007,25,,,
-15,2023-03-13,959,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay (UY),ARR,2013,250,,,
-16,2023-03-13,1915,Ombepo Wind,Namibia (NA),Wind,2020,1250,,,
-17,2023-03-13,93,86 MW Hydro Project in Himachal Pradesh,India (IN),Hydro,2014,183,2162,team energie GmbH & Co. KG,"Klimaneutralstellung des Tankkarten-Bereichs tp24 und tsk für 2022, der team energie GmbH & Co. KG"
-18,2023-03-13,93,86 MW Hydro Project in Himachal Pradesh,India (IN),Hydro,2015,2966,2162,team energie GmbH & Co. KG,"Klimaneutralstellung des Tankkarten-Bereichs tp24 und tsk für 2022, der team energie GmbH & Co. KG"
-19,2023-03-13,93,86 MW Hydro Project in Himachal Pradesh,India (IN),Hydro,2015,1825,2162,team energie GmbH & Co. KG,"Klimaneutralstellung des Tankkarten-Bereichs tp24 und tsk für 2022, der team energie GmbH & Co. KG"
-20,2023-03-13,488,"82 MW Lau Renun Hydro Power Plant, North Sumatra",Indonesia (ID),Hydro,2011,3316,2162,team energie GmbH & Co. KG,"Klimaneutralstellung des Tankkarten-Bereichs tp24 und tsk für 2022, der team energie GmbH & Co. KG"
-21,2023-03-13,513,Salto Pilão Hydropower Plant Project Activity,Brazil (BR),Hydro,2012,3,Eccaplan Consultoria em Desenvolvimento Sustenta´vel ltda.,Volkswagen Financial Services,Retirement on be half of Volkswagen Financial Services - : Festa final de ano VWFS
-23,2023-03-13,1329,Maísa REDD+ Project,Brazil (BR),Avoided Def.,2015,2,Eccaplan Consultoria em Desenvolvimento Sustenta´vel ltda.,Volkswagen Financial Services,Retirement on be half of Volkswagen Financial Services - : Festa final de ano VWFS
-24,2023-03-13,513,Salto Pilão Hydropower Plant Project Activity,Brazil (BR),Hydro,2012,1,Eccaplan Consultoria em Desenvolvimento Sustenta´vel ltda.,Paranoid,Retirement on be half of Paranoid - Filmagem McCain
-25,2023-03-13,1329,Maísa REDD+ Project,Brazil (BR),Avoided Def.,2015,1,Eccaplan Consultoria em Desenvolvimento Sustenta´vel ltda.,Paranoid,Retirement on be half of Paranoid - Filmagem McCain
-26,2023-03-13,185,"Fuel-Switching Project from Fossil Fuels to Biomass in La Providencia, Arcor",Argentina (AR),Construction / Manufacturing,2010,6,CARBON NEUTRAL+,SA LA NACION,Compensación de la huella de carbono por viajes corporativos del primer trimestre 2023
-27,2023-03-13,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),Avoided Def.,2013,1,Carbonext Tecnologia em Soluções Ambientais Ltda.,Ambiental Clean Ltda ME,Carbon Neutral by Carbonext
-28,2023-03-13,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),Avoided Def.,2013,27,Carbonext Tecnologia em Soluções Ambientais Ltda.,Visionflex Soluções Gráficas Ltda.,Carbon Neutral by Carbonext
-29,2023-03-13,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),Avoided Def.,2013,16,Carbonext Tecnologia em Soluções Ambientais Ltda.,OISA TECNOLOGIA E SERVIÇOS LTDA,Carbon Neutral by Carbonext
-30,2023-03-13,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),Avoided Def.,2013,1,Carbonext Tecnologia em Soluções Ambientais Ltda.,Ampla Visão Informática Ltda,Carbon Neutral by Carbonext
-31,2023-03-13,1644,Larimar Wind Farm Project,Dominican Republic (DO),Wind,2017,278,,,
-32,2023-03-13,837,"Natural Gas Based Combined Cycle Power Generation, at Kothapeta, East Godavari, Andhra Pradesh, India",India (IN),Other,2011,1529,iOffset,Motofix Accident Repair Centres Ltd,Offsetting emissions for Motofix Accident Repair Centres Ltd for January to December 2022
-33,2023-03-13,1378,"Forestry Project for the Basin of the Chinchina River, an Environmental and Productive Alternative for the City and the Region",Colombia (CO),ARR,2012,475,Swiss Carbon Value Ltd,Clínica Universitaria Bolivariana con NIT 890902922-6,La Clínica Universitaria Bolivariana con NIT 890902922-6 ha compensado 475 toneladas de CO2
-34,2023-03-13,513,Salto Pilão Hydropower Plant Project Activity,Brazil (BR),Hydro,2012,1,Eccaplan Consultoria em Desenvolvimento Sustenta´vel ltda.,Alelo S.A,Retirement on be half of Alelo S.A - Evento: Download Veloe
-35,2023-03-13,1329,Maísa REDD+ Project,Brazil (BR),Avoided Def.,2015,1,Eccaplan Consultoria em Desenvolvimento Sustenta´vel ltda.,Alelo S.A,Retirement on be half of Alelo S.A - Evento: Download Veloe
-36,2023-03-13,934,The Mai Ndombe REDD+ Project,"Congo, The Democratic Republic of The (CD)",Avoided Def.,2017,7,Meta Carbon Inc,Atomic Hub Feb 2023: https://carbon-creatures.com/asset/ff4e32eb-b949-4ab1-852d-366a1e3c6ce6,https://carbon-creatures.com/asset/ff4e32eb-b949-4ab1-852d-366a1e3c6ce6
-37,2023-03-13,1644,Larimar Wind Farm Project,Dominican Republic (DO),Wind,2017,274,,,
-38,2023-03-13,1783,72 MWac Ramnad Renewable Energy Project,India (IN),Other,2018,879,2162,team energie GmbH & Co. KG,Klimaneutralstellung des Erdgas- Produktes teamgas grün & flexibel 2022 der team energie GmbH & Co. KG
-39,2023-03-13,93,86 MW Hydro Project in Himachal Pradesh,India (IN),Hydro,2018,545,2162,team energie GmbH & Co. KG,Klimaneutralstellung des Erdgas- Produktes teamgas grün & flexibel 2022 der team energie GmbH & Co. KG
-40,2023-03-13,1521,Wind Based Power Generation by Mytrah Energy (India) Limited (EKIESL-VCS-January-16-01),India (IN),Wind,2016,2637,2162,team energie GmbH & Co. KG,Klimaneutralstellung des Erdgas- Produktes teamgas grün & flexibel 2022 der team energie GmbH & Co. KG
-41,2023-03-13,1566,REDD+ Project Resguardo Indigena Unificado Selva de Mataven (RIU SM),Colombia (CO),Avoided Def.,2018,8200,CLIMATE IMPACT X PTE. LTD.,DBS Bank Ltd.,For DBS Bank Ltd. operational net-carbon-neutral commitment
-42,2023-03-13,1521,Wind Based Power Generation by Mytrah Energy (India) Limited (EKIESL-VCS-January-16-01),India (IN),Wind,2016,2200,2162,team energie GmbH & Co. KG,Klimaneutralstellung des Erdgas- Produktes teamgas grün & flexibel 2022 der team energie GmbH & Co. KG
-43,2023-03-13,981,Pacajai REDD+ Project,Brazil (BR),Avoided Def.,2012,1000,,,
-44,2023-03-13,1423,"Teesta Low Dam Project, Stage-IV",India (IN),Other,2017,8000,,,
-45,2023-03-13,1790,Renewable Power Project by Axis Wind Farms (MPR Dam) Private Limited,India (IN),Wind,2020,20888,,,
-46,2023-03-13,1900,Makame Savannah REDD,Tanzania (TZ),Avoided Def.,2018,174,Carbon Tanzania,Asilia Lodges and Camps Southern Tanzania,Offsets for camp and company operations 2022
-47,2023-03-13,1900,Makame Savannah REDD,Tanzania (TZ),Avoided Def.,2018,65,Carbon Tanzania,Asilia Kenya Ltd,Offsets for camp and company operational emissions 2022
-48,2023-03-13,1900,Makame Savannah REDD,Tanzania (TZ),Avoided Def.,2017,19,Carbon Tanzania,Matemwe Bungalows Zazwi (Z) Ltd,Offsets for beach lodge operational emissions
-49,2023-03-13,1900,Makame Savannah REDD,Tanzania (TZ),Avoided Def.,2017,101,Carbon Tanzania,Asilia Lodges and Camps Southern Tanzania,Offsets for camp and company operations 2021
-50,2023-03-13,1793,Renewable Power Project by Devarahipparigi Wind Power Private Limited,India (IN),Wind,2020,1,,,
-51,2023-03-13,1793,Renewable Power Project by Devarahipparigi Wind Power Private Limited,India (IN),Wind,2020,2,,,
-52,2023-03-13,1793,Renewable Power Project by Devarahipparigi Wind Power Private Limited,India (IN),Wind,2020,1,,,
-53,2023-03-13,1793,Renewable Power Project by Devarahipparigi Wind Power Private Limited,India (IN),Wind,2020,17,,,
-54,2023-03-13,1793,Renewable Power Project by Devarahipparigi Wind Power Private Limited,India (IN),Wind,2020,4,,,
-55,2023-03-13,884,Nansha Hydro Power Project in Yunnan Province China,China (CN),Hydro,2012,11214,,,
-56,2023-03-13,884,Nansha Hydro Power Project in Yunnan Province China,China (CN),Hydro,2012,11214,,,
-57,2023-03-13,985,Cordillera Azul National Park REDD Project,Peru (PE),Avoided Def.,2017,645,,,
-58,2023-03-13,2082,Qianbei Afforestation Project,China (CN),ARR,2020,65000,,,
-60,2023-03-13,1469,"Bhud Wind Power Project, Maharashtra",India (IN),Wind,2014,1,Value Network Venture Advisory Services PTE. LTD,Company Name,"On behalf of ""Company Name"" for Scope 3 emissions from year 2023"
-61,2023-03-13,1208,Nam Chim Hydro Power Project,Viet Nam (VN),Hydro,2012,748,Vietnam Carbon Assets Ltd.,Buro Scanbrit,retired on behalf of Buro Scanbrit
-62,2023-03-13,1900,Makame Savannah REDD,Tanzania (TZ),Avoided Def.,2018,2580,Carbon Tanzania,Asilia Lodges and Camps,Safari camp and company operational offsets for 2022
-63,2023-03-13,1162,Jiangxi Province Le'an County Forest Farm Carbon Sink Project,China (CN),Avoided Def.,2010,13,Fokus-Zukunft GmbH & Co. KG,Biohotels,Biohotels
-64,2023-03-13,1162,Jiangxi Province Le'an County Forest Farm Carbon Sink Project,China (CN),Avoided Def.,2012,3,Fokus-Zukunft GmbH & Co. KG,Biohotels,Biohotels
-65,2023-03-13,2250,Delta Blue Carbon – 1,Pakistan (PK),Blue Carbon,2018,347,CLIMATE IMPACT X PTE. LTD.,Compensate Operations on behalf of its customers.,Carbon credits retired by Compensate Operations on behalf of its customers.
-66,2023-03-13,2293,NIHT Topaiyo REDD +,Papua New Guinea (PG),Avoided Def.,2019,60,Pathzero Pty Limited,NTF Architecture,60t CO2e have been retired on behalf of NTF Architecture to offset emissions for the year ended 30 June 2022
+0,2023-03-20,981,Pacajai REDD+ Project,Brazil (BR),Avoided Def.,2017,3000,,,
+1,2023-03-20,1020,Solar Power Plant of 15MW in Gujarat by Palace Solar Energy Private Limited,India (IN),Solar,2019,4000,,,
+2,2023-03-20,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),Avoided Def.,2014,5,Carbonext Tecnologia em Soluções Ambientais Ltda.,A2 S.I. ASSESSORIA EMPRESARIAL LTDA.,Carbon Neutral by Carbonext
+3,2023-03-20,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),Avoided Def.,2014,17,Carbonext Tecnologia em Soluções Ambientais Ltda.,B SANTANA SOARES SERV LOGISTICA LTDA - ALVOLOG,Carbon Neutral by Carbonext
+4,2023-03-20,173,Vishnuprayag Hydro-electric Project (VHEP) by Jaiprakash Power Ventures Ltd.(JPVL),India (IN),Hydro,2014,16,,,
+5,2023-03-20,173,Vishnuprayag Hydro-electric Project (VHEP) by Jaiprakash Power Ventures Ltd.(JPVL),India (IN),Hydro,2014,24,,,
+6,2023-03-20,173,Vishnuprayag Hydro-electric Project (VHEP) by Jaiprakash Power Ventures Ltd.(JPVL),India (IN),Hydro,2014,24,,,
+7,2023-03-20,1793,Renewable Power Project by Devarahipparigi Wind Power Private Limited,India (IN),Wind,2020,23,,,
+8,2023-03-20,1654,Fortaleza Ituxi REDD Project,Brazil (BR),Avoided Def.,2015,149,,,
+9,2023-03-20,1654,Fortaleza Ituxi REDD Project,Brazil (BR),Avoided Def.,2015,300,,,
+10,2023-03-20,977,RMDLT Portel - Para REDD Project,Brazil (BR),Avoided Def.,2012,1,,,
+11,2023-03-20,977,RMDLT Portel - Para REDD Project,Brazil (BR),Avoided Def.,2012,1,,,
+12,2023-03-20,1061,Kentilux Wind Farm,Uruguay (UY),Wind,2012,26,Pike Carbosur S.A.,TTY S.A.,TTY S.A.
+13,2023-03-20,1918,Paradigm Kenya Clean Cookstoves Project,Kenya (KE),Cookstoves,2017,212,Comply Direct Ltd,Regent Office Care Ltd,Offset Scope 1 and 2 Organisational Footprint for Jan - Dec 2022
+14,2023-03-20,1447,199.70 MW Wind Project in Maharashtra by BWDPL,India (IN),Wind,2018,182,Comply Direct Ltd,Regent Office Care Ltd,Offset Scope 1 and 2 Organisational Footprint for Jan - Dec 2022
+15,2023-03-20,981,Pacajai REDD+ Project,Brazil (BR),Avoided Def.,2015,210,Comply Direct Ltd,Regent Office Care Ltd,Offset Scope 1 and 2 Organisational Footprint for Jan - Dec 2022
+16,2023-03-20,674,Rimba Raya Biodiversity Reserve Project,Indonesia (ID),Avoided Def.,2014,943,Carbon Footprint Ltd.,VINCI Construction UK Ltd,VINCI Construction UK Ltd
+17,2023-03-20,674,Rimba Raya Biodiversity Reserve Project,Indonesia (ID),Avoided Def.,2014,1000,Carbon Footprint Ltd,VINCI Construction UK Ltd,VINCI Construction UK Ltd
+18,2023-03-20,674,Rimba Raya Biodiversity Reserve Project,Indonesia (ID),Avoided Def.,2014,8,Carbon Footprint Ltd,VINCI Construction UK Ltd,VINCI Construction UK Ltd
+19,2023-03-20,674,Rimba Raya Biodiversity Reserve Project,Indonesia (ID),Avoided Def.,2014,648,Carbon Footprint Ltd,VINCI Construction UK Ltd,VINCI Construction UK Ltd
+20,2023-03-20,674,Rimba Raya Biodiversity Reserve Project,Indonesia (ID),Avoided Def.,2014,142,Carbon Footprint Ltd,VINCI Construction UK Ltd,VINCI Construction UK Ltd
+22,2023-03-20,674,Rimba Raya Biodiversity Reserve Project,Indonesia (ID),Avoided Def.,2014,1000,Carbon Footprint Ltd,SchoolBlazer Ltd,SchoolBlazer Ltd
+23,2023-03-20,674,Rimba Raya Biodiversity Reserve Project,Indonesia (ID),Avoided Def.,2014,852,Carbon Footprint Ltd,Harrison Spinks Beds Ltd,Harrison Spinks Beds Ltd
+24,2023-03-20,674,Rimba Raya Biodiversity Reserve Project,Indonesia (ID),Avoided Def.,2014,300,Carbon Footprint Ltd,Robert Bird Group,Robert Bird Group
+25,2023-03-20,674,Rimba Raya Biodiversity Reserve Project,Indonesia (ID),Avoided Def.,2014,53,Carbon Footprint Ltd,Clearwater Hampers Ltd,Clearwater Hampers Ltd
+26,2023-03-20,674,Rimba Raya Biodiversity Reserve Project,Indonesia (ID),Avoided Def.,2014,350,Carbon Footprint Ltd,ACAS,ACAS
+27,2023-03-20,674,Rimba Raya Biodiversity Reserve Project,Indonesia (ID),Avoided Def.,2014,12,Carbon Footprint Ltd,American Express Global Business Travel,Customer Solution Meeting Barcelona 2021
+28,2023-03-20,674,Rimba Raya Biodiversity Reserve Project,Indonesia (ID),Avoided Def.,2014,6,Carbon Footprint Ltd,American Express Global Business Travel,Global Sales Meeting Barcelona 2021
+29,2023-03-20,808,Yuxian Baiyantuo 49.3 MW Wind Power Project,China (CN),Wind,2018,2280,Carbon Footprint Ltd.,Certas Energy,Certas Energy
+30,2023-03-20,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),Avoided Def.,2013,1,,,
+31,2023-03-20,489,44 MW Bundled Wind Power Project in Maharashtra managed by Enercon India Limited.,India (IN),Wind,2018,667,,,
+32,2023-03-20,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),Avoided Def.,2013,1,,,
+33,2023-03-20,1748,Southern Cardamom REDD+ Project,Cambodia (KH),Avoided Def.,2018,240000,,,
+34,2023-03-20,1748,Southern Cardamom REDD+ Project,Cambodia (KH),Avoided Def.,2018,45000,,,
+35,2023-03-20,1748,Southern Cardamom REDD+ Project,Cambodia (KH),Avoided Def.,2018,65000,,,
+36,2023-03-20,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),Avoided Def.,2013,5,Carbonext Tecnologia em Soluções Ambientais Ltda.,"Dogs Can Fly, DavidBR e Faber Castell BR",Filmagem da Campanha Criatividade Faber Castell
+37,2023-03-20,2052,Renewable Wind Power Project by Axis Wind Farms (Rayalaseema) Pvt. Ltd,India (IN),Wind,2021,8240,Carbon Footprint Ltd,Barton Petroleum,Barton Petroleum
+38,2023-03-20,1241,Veer (NLBC) Small Hydro Power Project,India (IN),Hydro,2018,2157,Carbon Footprint Ltd,Barton Petroleum,Barton Petroleum
+39,2023-03-20,1830,Wind Power Project at Theni by Powerica Limited,India (IN),Wind,2020,5763,Carbon Footprint Ltd.,Barton Petroleum,Barton Petroleum
+40,2023-03-20,1670,Bundled Solar Power Project by D.J. Malpani and Giriraj Enterprises,India (IN),Solar,2020,4321,Carbon Footprint Ltd,Samsung (UK),Samsung (UK)
+41,2023-03-20,1447,199.70 MW Wind Project in Maharashtra by BWDPL,India (IN),Wind,2021,48334,Carbon Footprint Ltd,Samsung (UK),Samsung (UK)
+42,2023-03-20,1447,199.70 MW Wind Project in Maharashtra by BWDPL,India (IN),Wind,2017,13741,Carbon Footprint Ltd,Samsung (UK),Samsung (UK)
+43,2023-03-20,868,"REDD project in Brazil nut concessions in Madre de Dios, Peru",Peru (PE),Avoided Def.,2017,1105,Rubicon Carbon Services LLC,On Behalf of Nobody,Not used for offset claims
+44,2023-03-20,1622,REDD+ Project for Caribbean Guatemala: The Conservation Coast,Guatemala (GT),Avoided Def.,2012,46,Forest Carbon Limited,Gray Dawes,Credits purchased by Gray Dawes Legacy Project on behalf of its contracted clients.
+45,2023-03-20,1622,REDD+ Project for Caribbean Guatemala: The Conservation Coast,Guatemala (GT),Avoided Def.,2012,5,Forest Carbon Limited,Gray Dawes,Credits purchased by Gray Dawes Legacy Project on behalf of its contracted clients.
+46,2023-03-20,961,‘El Arriero ’ Afforestation on degraded grasslands under extensive grazing project,Uruguay (UY),ARR,2018,18,Forest Carbon Limited,Gray Dawes,Credits purchased by Gray Dawes Legacy Project on behalf of its contracted clients.
+47,2023-03-20,961,‘El Arriero ’ Afforestation on degraded grasslands under extensive grazing project,Uruguay (UY),ARR,2018,47,Forest Carbon Limited,Gray Dawes,Credits purchased by Gray Dawes Legacy Project on behalf of its contracted clients.
+48,2023-03-20,432,"Xiaoshan Power Plant’s NG Power Generation Project of Zhejiang Southeast Electric Power Co., Ltd.",China (CN),Other,2012,67,Forest Carbon Limited,NBS Enterprises Ltd,On behalf of NBS to offset emissions associated with its 2022 business activity. Stapled with 201 Woodland Carbon Code PIUs assigned 20th March 2023 on the UK Land Carbon Registry.
+49,2023-03-20,1330,Midilli Hydroelectric Power Plant,Turkey (TR),Hydro,2013,67,Forest Carbon Limited,NBS Enterprises Ltd,On behalf of NBS to offset emissions associated with its 2022 business activity. Stapled with 201 Woodland Carbon Code PIUs assigned 20th March 2023 on the UK Land Carbon Registry.
+50,2023-03-20,92,300MW Hydropower project by JHPL,India (IN),Hydro,2017,67,Forest Carbon Limited,NBS Enterprises Ltd,On behalf of NBS to offset emissions associated with its 2022 business activity. Stapled with 201 Woodland Carbon Code PIUs assigned 20th March 2023 on the UK Land Carbon Registry.
+51,2023-03-20,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),Avoided Def.,2014,3,Carbonext Tecnologia em Soluções Ambientais Ltda.,BR Partners Logística Internacional LTDA,Carbon Neutral by Carbonext
+52,2023-03-20,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),Avoided Def.,2014,1,Carbonext Tecnologia em Soluções Ambientais Ltda.,CAPE X ENGENHARIA LTDA,Carbon Neutral by Carbonext
+53,2023-03-20,439,Yingpeng HFC23 Decompostion Project,China (CN),Fugitive Emiss.,2009,1,,,
+54,2023-03-20,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),Avoided Def.,2014,1,Carbonext Tecnologia em Soluções Ambientais Ltda.,TIDE SOCIAL COMUNICACAO LTDA,Carbon Neutral by Carbonext
+55,2023-03-20,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),Avoided Def.,2014,1,Carbonext Tecnologia em Soluções Ambientais Ltda.,MARISA MARTIN LTDA.,Carbon Neutral by Carbonext
+56,2023-03-20,964,"Uzundere I 63.0 MW Hydroelectric Power Plant Project, Turkey",Turkey (TR),Hydro,2013,1,3189,Envirorally,
+57,2023-03-20,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),Avoided Def.,2014,3,Carbonext Tecnologia em Soluções Ambientais Ltda.,CASA SANTA LUZIA IMPORTADORA LTDA.,Carbon Neutral by Carbonext
+58,2023-03-20,2252,Rio Anapu-Pacaja REDD Project,Brazil (BR),Avoided Def.,2017,4,"GLOBAL FACTOR COMMODITY TRADING, S.A.U.",GF,"Compensación de emisiones del Departamento de Desarrollo Económico, Sostenibilidad y Medio Ambiente del Gobierno Vasco, de las emisiones derivadas de sus actividades generadas por la asistencia a eventos internacionales de cambio climático en 2022"
+59,2023-03-20,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),Avoided Def.,2015,2,iOffset,SHORTS BOY DISTILLERY LTD,Offsetting the 2022 Scope 1 & 2 emissions of The Shorts Boy Distillery Ltd
+61,2023-03-20,1748,Southern Cardamom REDD+ Project,Cambodia (KH),Avoided Def.,2017,1,3189,Folkingtons,
+63,2023-03-20,1477,Katingan Peatland Restoration and Conservation Project,Indonesia (ID),ARR,2015,81,PT Bumi Terra Gaia,"The Acre, PT SAS INDOBOGA KULINER",The Acre offsetting their CO2 Emissions for the month of Feb 2023
+64,2023-03-20,1084,"Energy efficiency measures in cooling systems at New Tech Park, 151 Lorong Chuan, Singapore",Singapore (SG),Other,2016,81,PT Bumi Terra Gaia,"The Acre, PT SAS INDOBOGA KULINER",The Acre offsetting their CO2 Emissions for the month of Feb 2023
+65,2023-03-20,1477,Katingan Peatland Restoration and Conservation Project,Indonesia (ID),ARR,2015,49,PT Bumi Terra Gaia,"Catur Coffee, PT Singa Garuda Mas",Catur Coffee going carbon neutral Feb 2023
+66,2023-03-20,1084,"Energy efficiency measures in cooling systems at New Tech Park, 151 Lorong Chuan, Singapore",Singapore (SG),Other,2016,50,PT Bumi Terra Gaia,"Catur Coffee, PT Singa Garuda Mas",Catur Coffee going carbon neutral Feb 2023
+68,2023-03-20,844,Madre de Dios Amazon REDD+ Project,Peru (PE),Avoided Def.,2019,100,Tree-Nation ASBL,"SOMFY ESPAÑA, S.A.U.","Retirement in the name of SOMFY ESPAÑA, S.A.U."
+69,2023-03-20,1622,REDD+ Project for Caribbean Guatemala: The Conservation Coast,Guatemala (GT),Avoided Def.,2012,24,Forest Carbon Limited,Sealand Projects Ltd,Retired by Forest Carbon on behalf of Sealand Projects Ltd.
+70,2023-03-20,1903,VTRM Renewable Energy 2,Brazil (BR),Other,2021,16500,,,
+71,2023-03-20,173,Vishnuprayag Hydro-electric Project (VHEP) by Jaiprakash Power Ventures Ltd.(JPVL),India (IN),Hydro,2012,35,,,
+72,2023-03-20,911,Grid Connected Wind Energy Project in Tamil Nadu,India (IN),Wind,2019,344,CO2logic SA,Greentripper – Customers & Climate partners 2022 emissions,Greentripper – Customers & Climate partners 2022 emissions
+73,2023-03-20,1081,"Clean Energy Generation in Gujarat, India",India (IN),Other,2013,2654,CO2logic SA,2022 Retirements,2022 Retirements
+74,2023-03-20,1214,Vajrakarur Wind Power Project in Andhra Pradesh,India (IN),Wind,2017,42,CO2logic SA,2022 Retirements,2022 Retirements
+75,2023-03-20,669,Wind Energy project by Ramco group in india,India (IN),Wind,2012,7776,CO2logic SA,2022 Retirements,2022 Retirements
+76,2023-03-20,1441,"Bundled clean energy project in jamnagar, Gujarat",India (IN),Other,2013,1409,CO2logic SA,2022 Retirements,2022 Retirements
+77,2023-03-20,1447,199.70 MW Wind Project in Maharashtra by BWDPL,India (IN),Wind,2015,689,CO2logic SA,2022 Retirements,2022 Retirements
+79,2023-03-20,412,"Bundled wind energy generation projects in Gujarat, India",India (IN),Wind,2011,101,CO2logic SA,2022 Retirements,2022 Retirements
+80,2023-03-20,344,Wind power project by HZL in Gujarat.,India (IN),Wind,2013,179,CO2logic SA,2022 Retirements,2022 Retirements
+81,2023-03-20,911,Grid Connected Wind Energy Project in Tamil Nadu,India (IN),Wind,2019,4332,CO2logic SA,2022 Retirements,2022 Retirements
+82,2023-03-20,911,Grid Connected Wind Energy Project in Tamil Nadu,India (IN),Wind,2016,5977,CO2logic SA,2022 Retirements,2022 Retirements
+83,2023-03-20,911,Grid Connected Wind Energy Project in Tamil Nadu,India (IN),Wind,2017,776,CO2logic SA,2022 Retirements,2022 Retirements
+85,2023-03-20,1497,VCS Grouped Project for Renewable Power Generation by Essel Mining & Industries Limited,India (IN),Other,2017,9353,CO2logic SA,2022 Retirements,2022 Retirements
+86,2023-03-20,1214,Vajrakarur Wind Power Project in Andhra Pradesh,India (IN),Wind,2017,2035,CO2logic SA,Certificate 22/406,Certificate 22/406
+89,2023-03-20,927,"13.75 MW wind power project in Davangere, Karnataka, India",India (IN),Wind,2010,10000,CO2logic SA,2022 Retirements - Certificate 22/142,2022 Retirements - Certificate 22/142
+90,2023-03-20,969,Qingdao Longxin Wind Power Project Phase I,China (CN),Wind,2011,217,"Baineng New Energy (Shenzhen) Co.,Ltd","Yunnan Botanee Bio-Technology Group Co., Ltd.","Yunnan Botanee Bio-Technology Group Co., Ltd. purchase 217 tons of VCUs to offset the greenhouse gas emissions generated from its operation activities from January 1st 2022 to December 31st 2022 from Cypress New Energy Co., Ltd."
+91,2023-03-20,682,"Wind Power Project at Anthiyur, Tamil Nadu",India (IN),Wind,2018,89,Tasman Environmental Markets Australia Pty Ltd,EA Technology,Retired on behalf of EA Technology - a client of TEM.
+93,2023-03-20,1523,"Wind Based Power Generation by Panama Wind Energy Godawari Private Limited, Pune in the State of Maharashtra, India",India (IN),Wind,2021,1377,"Native, a Public Benefit Corporation",Brilliant Earth,"Retirement on behalf of Native, a PBC project supporter"
+94,2023-03-20,1867,Ningxia Xiangshan Wind Farm Project,China (CN),Wind,2021,621,Pathzero Pty Limited,Brighte,621t CO2e have been retired on behalf of Brighte to offset emissions for the year ended 30 June 2022
+95,2023-03-20,788,China Guangdong Shenzhen Qianwan LNG generation project,China (CN),Other,2008,22059,3394,Energy Locals,Financial Year 21-22 Carbon Offset
+96,2023-03-20,619,15 MW Grid Connected Renewable Energy Wind Turbine in Karnataka,India (IN),Wind,2010,3532,3394,Energy Locals,Financial Year 21-22 Carbon Offset
+97,2023-03-20,876,Shree Nakoda Ispat Ltd 12MW Biomass power generation project,India (IN),Other,2010,7454,3394,Energy Locals,Financial Year 21-22 Carbon Offset
+99,2023-03-20,12,Chuanwei Group 24 MW Waste Gas based Captive Power Plant,China (CN),Other,2013,6662,3394,Energy Locals,Financial Year 21-22 Carbon Offset
+100,2023-03-20,12,Chuanwei Group 24 MW Waste Gas based Captive Power Plant,China (CN),Other,2013,419,3394,Energy Locals,Financial Year 21-22 Carbon Offset
+101,2023-03-20,12,Chuanwei Group 24 MW Waste Gas based Captive Power Plant,China (CN),Other,2013,14581,3394,Energy Locals,Financial Year 21-22 Carbon Offset
+102,2023-03-20,12,Chuanwei Group 24 MW Waste Gas based Captive Power Plant,China (CN),Other,2012,13338,3394,Energy Locals,Financial Year 21-22 Carbon Offset
+103,2023-03-20,1446,Sichuan Furong Coal Mine Methane Utilization Project,China (CN),Fugitive Emiss.,2013,26556,3394,Energy Locals,Financial Year 21-22 Carbon Offset
+104,2023-03-20,1748,Southern Cardamom REDD+ Project,Cambodia (KH),Avoided Def.,2016,113,GYXIS CORPORATION,Enessance Holdings Group,Retirement for ENESSANCE HOLDINGS GROUP as Carbon Neutral LPG in February 2023
+105,2023-03-20,1748,Southern Cardamom REDD+ Project,Cambodia (KH),Avoided Def.,2017,22,GYXIS CORPORATION,Enessance Holdings Group,Retirement for ENESSANCE HOLDINGS GROUP as Carbon Neutral LPG in February 2023
