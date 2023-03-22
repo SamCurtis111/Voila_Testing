@@ -28,7 +28,7 @@
 26,673,2017,229902,229817.0,85.0,ARR,AFOLU,Uganda,Natural High Forest Rehabilitation Project on degraded land of Kibale National Park,Registered,74181.0
 27,673,2020,199544,158850.0,40694.0,ARR,AFOLU,Uganda,Natural High Forest Rehabilitation Project on degraded land of Kibale National Park,Registered,74181.0
 28,799,2011,25350,25350.0,0.0,ARR,AFOLU,Uganda,Bukaleba Forest Project,Registered,11903.0
-29,799,2016,226201,151526.0,74675.0,ARR,AFOLU,Uganda,Bukaleba Forest Project,Registered,11903.0
+29,799,2016,226201,153843.0,72358.0,ARR,AFOLU,Uganda,Bukaleba Forest Project,Registered,11903.0
 30,799,2020,100358,0.0,100358.0,ARR,AFOLU,Uganda,Bukaleba Forest Project,Registered,11903.0
 31,824,2011,56064,56064.0,0.0,ARR,AFOLU,Uganda,"TIST Program in Uganda, VCS 001",Registered,24348.0
 32,824,2013,50715,50715.0,0.0,ARR,AFOLU,Uganda,"TIST Program in Uganda, VCS 001",Registered,24348.0
@@ -130,12 +130,12 @@
 128,1564,2012,25200,4408.0,20792.0,LFG,Non_AFOLU,Tanzania,"Landfill gas recovery and electricity generation at “Mtoni Dumpsite”, Dar Es Salaam, Tanzania",Units Transferred from Approved GHG Program,202271.0
 129,1650,2013,3854572,3853272.0,1300.0,Avoided Def.,AFOLU,Cambodia,Reduced Emissions from Deforestation and Degradation in Keo Seima Wildlife Sanctuary,Registered,1426648.0
 130,1650,2014,3079496,3077503.0,1993.0,Avoided Def.,AFOLU,Cambodia,Reduced Emissions from Deforestation and Degradation in Keo Seima Wildlife Sanctuary,Registered,1426648.0
-131,1650,2015,2168043,341649.0,1826394.0,Avoided Def.,AFOLU,Cambodia,Reduced Emissions from Deforestation and Degradation in Keo Seima Wildlife Sanctuary,Registered,1426648.0
+131,1650,2015,2168043,342013.0,1826030.0,Avoided Def.,AFOLU,Cambodia,Reduced Emissions from Deforestation and Degradation in Keo Seima Wildlife Sanctuary,Registered,1426648.0
 132,1650,2016,2267566,210000.0,2057566.0,Avoided Def.,AFOLU,Cambodia,Reduced Emissions from Deforestation and Degradation in Keo Seima Wildlife Sanctuary,Registered,1426648.0
 133,1650,2017,1804031,328830.0,1475201.0,Avoided Def.,AFOLU,Cambodia,Reduced Emissions from Deforestation and Degradation in Keo Seima Wildlife Sanctuary,Registered,1426648.0
 134,1650,2018,439129,106350.0,332779.0,Avoided Def.,AFOLU,Cambodia,Reduced Emissions from Deforestation and Degradation in Keo Seima Wildlife Sanctuary,Registered,1426648.0
 135,1650,2019,955477,231580.0,723897.0,Avoided Def.,AFOLU,Cambodia,Reduced Emissions from Deforestation and Degradation in Keo Seima Wildlife Sanctuary,Registered,1426648.0
-136,1665,2018,9100,4646.0,4454.0,Other,Non_AFOLU,Liberia,HPP Project Liberia,Registered,3580.0
+136,1665,2018,9100,9100.0,0.0,Other,Non_AFOLU,Liberia,HPP Project Liberia,Registered,3580.0
 137,1683,2018,14393,0.0,14393.0,Solar,Non_AFOLU,Senegal,Kahone Solar PV Plant,Registered,21521.0
 138,1683,2019,17642,0.0,17642.0,Solar,Non_AFOLU,Senegal,Kahone Solar PV Plant,Registered,21521.0
 139,1683,2020,14716,0.0,14716.0,Solar,Non_AFOLU,Senegal,Kahone Solar PV Plant,Registered,21521.0
