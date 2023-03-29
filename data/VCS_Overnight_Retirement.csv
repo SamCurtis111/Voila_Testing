@@ -1,109 +1,76 @@
 ,Date,ID,Name,Country,Method,Vintage,Qty,Account Holder,Beneficial Owner,Reason
-0,2023-03-23,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),Avoided Def.,2015,894,Carbonext Tecnologia em Soluções Ambientais Ltda.,COMPANHIA DE LOCACAO DAS AMERICAS,O principal motivo pela aquisição dos créditos é para que possamos neutralizar toda a nossa emissão de gases de efeito estufa com a realização de ações de responsabilidade social corporativa.
-1,2023-03-23,837,"Natural Gas Based Combined Cycle Power Generation, at Kothapeta, East Godavari, Andhra Pradesh, India",India (IN),Other,2011,223,iOffset,AB Crush Panelcraft,Offsetting emissions for AB Crush Panelcraft for January to December 2022
-2,2023-03-23,832,Cikel Brazilian Amazon REDD APD Project Avoiding Planned Deforestation,Brazil (BR),Avoided Def.,2010,1,,,
-3,2023-03-23,959,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay (UY),ARR,2012,72,Up2You SRL,Ideal Standard Holdings,Carbon Neutral Event
-4,2023-03-23,902,KARIBA REDD+ PROJECT,Zimbabwe (ZW),ARR,2014,180,Up2You SRL,Ideal Standard Holdings,Carbon Neutral Event
-5,2023-03-23,1020,Solar Power Plant of 15MW in Gujarat by Palace Solar Energy Private Limited,India (IN),Solar,2019,2661,,,
-6,2023-03-23,1067,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park within the area of Madre de Dios region –Peru,Peru (PE),Avoided Def.,2013,357,,,
-7,2023-03-23,607,Darkwoods Forest Carbon Project,Canada (CA),IFM,2017,500,,,
-8,2023-03-23,1301,Guohua Rongcheng Phase ll Wind Farm Project,China (CN),Wind,2014,1650,,,
-9,2023-03-23,1094,Ecomapua Amazon REDD Project,Brazil (BR),Avoided Def.,2006,212,,,
-10,2023-03-23,868,"REDD project in Brazil nut concessions in Madre de Dios, Peru",Peru (PE),Avoided Def.,2018,40,Bosques Amazonicos,"Compensación de las emisiones generadas por la Carrera de la Energía Engie en Ilo 2022, desayuno de contacto directo en Lima e Ilo y eventos de fin de año 2022 en Lima e Ilo","Compensación de las emisiones generadas por la Carrera de la Energía Engie en Ilo 2022, desayuno de contacto directo en Lima e Ilo y eventos de fin de año 2022 en Lima e Ilo"
-11,2023-03-23,1340,Bale Mountains Eco-region REDD+ project,Ethiopia (ET),Avoided Def.,2019,4989,,,
-12,2023-03-23,1340,Bale Mountains Eco-region REDD+ project,Ethiopia (ET),Avoided Def.,2019,3175,,,
-13,2023-03-23,2512,"AFFORESTATION OF DEGRADED GRASSLANDS IN VICHADA, COLOMBIA",Colombia (CO),ARR,2020,1365,ClearSky Limited,MKS PAMP SA,"Retired on behalf of MKS PAMP SA, as part of their requirements for Carbon Neutrality certification given by Carbon Trust for the production of their Large Bars 995 numbered N000016 through N000055"
-14,2023-03-23,1720,ONIL Stoves —Guatemala – CPA 002,Guatemala (GT),Cookstoves,2021,121,,,
-15,2023-03-23,1903,VTRM Renewable Energy 2,Brazil (BR),Other,2020,63,,,
-16,2023-03-23,1903,VTRM Renewable Energy 2,Brazil (BR),Other,2021,3937,,,
-17,2023-03-23,1783,72 MWac Ramnad Renewable Energy Project,India (IN),Other,2018,2065,2162,team energie GmbH & Co. KG,Klimaneutralstellung des Heizöl-Produktes KlimaPlus für 2022 der team energie GmbH & Co. KG
-18,2023-03-23,93,86 MW Hydro Project in Himachal Pradesh,India (IN),Hydro,2021,6391,2162,team energie GmbH & Co. KG,Klimaneutralstellung des Heizöl-Produktes KlimaPlus für 2022 der team energie GmbH & Co. KG
-19,2023-03-23,488,"82 MW Lau Renun Hydro Power Plant, North Sumatra",Indonesia (ID),Hydro,2019,364,2162,team energie GmbH & Co. KG,Klimaneutralstellung des Heizöl-Produktes KlimaPlus für 2022 der team energie GmbH & Co. KG
-20,2023-03-23,1903,VTRM Renewable Energy 2,Brazil (BR),Other,2020,10000,,,
-21,2023-03-23,674,Rimba Raya Biodiversity Reserve Project,Indonesia (ID),Avoided Def.,2014,1250,Aither Group SA,LifeGate Impatto Zero for Pastificio Luigi Garofalo 2022-2023,LifeGate Impatto Zero for Pastificio Luigi Garofalo 2022-2023
-22,2023-03-23,1884,Bikes for the Planet - Brazil,Brazil (BR),Transport,2021,500,,,
-23,2023-03-23,1815,Renewable Solar Power Project by Adani Green Energy Limited,India (IN),Solar,2020,803,2412,TotalEnergies Clientes (TE Clientes),Carbon Neutral Products 2022
-24,2023-03-23,929,Energy Efficiency and Solid Waste Diversion Activities within the Quebec Sustainable Community,Canada (CA),Waste,2016,57,,,
-25,2023-03-23,2252,Rio Anapu-Pacaja REDD Project,Brazil (BR),Avoided Def.,2017,512,SOCAR Trading Sa,STSA,Retirement for Corporate reasons
-26,2023-03-23,981,Pacajai REDD+ Project,Brazil (BR),Avoided Def.,2015,200,,,
-27,2023-03-23,1348,Las Pizarras Project,Peru (PE),Other,2015,900,,,
-28,2023-03-23,1348,Las Pizarras Project,Peru (PE),Other,2015,10,,,
-29,2023-03-23,1348,Las Pizarras Project,Peru (PE),Other,2015,2,,,
-30,2023-03-23,1348,Las Pizarras Project,Peru (PE),Other,2015,30,,,
-31,2023-03-23,1348,Las Pizarras Project,Peru (PE),Other,2015,986,,,
-32,2023-03-23,902,KARIBA REDD+ PROJECT,Zimbabwe (ZW),ARR,2015,650,,,
-33,2023-03-23,902,KARIBA REDD+ PROJECT,Zimbabwe (ZW),ARR,2015,10,,,
-34,2023-03-23,902,KARIBA REDD+ PROJECT,Zimbabwe (ZW),ARR,2015,2,,,
-35,2023-03-23,902,KARIBA REDD+ PROJECT,Zimbabwe (ZW),ARR,2015,70,,,
-36,2023-03-23,985,Cordillera Azul National Park REDD Project,Peru (PE),Avoided Def.,2017,5794,Strive Climate Action SL,Grupo MAPFRE en España,Compensación de la huella de carbono del año 2022 conforme al alcance definido en el Informe Integrado: https://www.mapfre.com/media/accionistas/2022/informe-integrado-mapfre-2022.pdf
-37,2023-03-23,985,Cordillera Azul National Park REDD Project,Peru (PE),Avoided Def.,2017,7500,Strive Climate Action SL,Grupo MAPFRE en España,Compensación de la huella de carbono del año 2022 conforme al alcance definido en el Informe Integrado: https://www.mapfre.com/media/accionistas/2022/informe-integrado-mapfre-2022.pdf
-38,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-39,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-40,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-41,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-42,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-43,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-44,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-45,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-46,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-47,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-48,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-49,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-51,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-52,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-53,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-54,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-55,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-56,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-57,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-58,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-59,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-60,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-62,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-63,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-64,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-65,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-66,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-67,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-68,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-69,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-70,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-71,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-72,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-73,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-74,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-75,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-77,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-78,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-79,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-80,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-81,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-82,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-83,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-84,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-86,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-87,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-88,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-89,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-90,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-91,2023-03-23,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
-92,2023-03-23,93,86 MW Hydro Project in Himachal Pradesh,India (IN),Hydro,2014,98,2162,Stadtwerke Kleve GmbH,Klimaneutralstellung CleverÖkoGas für das Verbrauchsjahr 2022; Stadtwerke Kleve GmbH
-93,2023-03-23,93,86 MW Hydro Project in Himachal Pradesh,India (IN),Hydro,2018,3112,2162,Stadtwerke Kleve GmbH,Klimaneutralstellung CleverÖkoGas für das Verbrauchsjahr 2022; Stadtwerke Kleve GmbH
-95,2023-03-23,1201,Gola REDD project,Sierra Leone (SL),Avoided Def.,2014,322,ClimateCare Limited,Baillie Gifford & Co.,Retired by Climate Impact Partners on behalf of Baillie Gifford & Co. to offset FY2019/20 company emissions
-96,2023-03-23,1201,Gola REDD project,Sierra Leone (SL),Avoided Def.,2014,9678,ClimateCare Limited,Baillie Gifford & Co.,Retired by Climate Impact Partners on behalf of Baillie Gifford & Co. to offset FY2019/20 company emissions
-97,2023-03-23,1201,Gola REDD project,Sierra Leone (SL),Avoided Def.,2014,1250,ClimateCare Limited,Baillie Gifford & Co.,Retired by Climate Impact Partners on behalf of Baillie Gifford & Co. to offset FY2019/20 company emissions
-98,2023-03-23,2917,Adjusted Water Management in Rice Cultivation in Shengzhou City,China (CN),ALM,2018,130,,,
-99,2023-03-23,1759,Methane Recovery and Power Generation Project at ESIPL,India (IN),Waste,2021,130,,,
-100,2023-03-23,1748,Southern Cardamom REDD+ Project,Cambodia (KH),Avoided Def.,2017,386,,,
-101,2023-03-23,2082,Qianbei Afforestation Project,China (CN),ARR,2020,53,"Jiangsu Jingrong Electricity Sales Co.,Ltd",湛江奋勇高新区管委会，英文：Zhanjiang Fenyong High-tech Zone Management Committee,
-102,2023-03-23,1748,Southern Cardamom REDD+ Project,Cambodia (KH),Avoided Def.,2017,56000,,,
-103,2023-03-23,427,Chol Charoen Group Wastewater Treatment with Biogas System I (Khonkaen),Thailand (TH),Waste,2020,254,,,
-104,2023-03-23,427,Chol Charoen Group Wastewater Treatment with Biogas System I (Khonkaen),Thailand (TH),Waste,2020,115,,,
-105,2023-03-23,415,VP Biosupply Wastewater Treatment and Biogas Utilization Project,Thailand (TH),Waste,2020,1137,,,
-106,2023-03-23,2478,Reducing Gas Leakages within the Titas Gas Distribution Network in Bangladesh,Bangladesh (BD),Fugitive Emiss.,2019,328,,,
-107,2023-03-23,2478,Reducing Gas Leakages within the Titas Gas Distribution Network in Bangladesh,Bangladesh (BD),Fugitive Emiss.,2019,349,,,
-108,2023-03-23,2478,Reducing Gas Leakages within the Titas Gas Distribution Network in Bangladesh,Bangladesh (BD),Fugitive Emiss.,2019,9223,,,
-109,2023-03-23,487,"210 MW Musi Hydro Power Plant, Bengkulu",Indonesia (ID),Hydro,2018,24000,,,
-110,2023-03-23,2296,CYY Global Plus Wastewater Treatment and Biogas Utilization Project,Thailand (TH),Waste,2020,2085,,,
-111,2023-03-23,513,Salto Pilão Hydropower Plant Project Activity,Brazil (BR),Hydro,2012,3,Eccaplan Consultoria em Desenvolvimento Sustenta´vel ltda.,LANDIA,Retirement on be half of LANDIA - SPRITE LIMELIGHT
-112,2023-03-23,1329,Maísa REDD+ Project,Brazil (BR),Avoided Def.,2015,2,Eccaplan Consultoria em Desenvolvimento Sustenta´vel ltda.,LANDIA,Retirement on be half of LANDIA - SPRITE LIMELIGHT
+0,2023-03-29,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
+1,2023-03-29,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
+2,2023-03-29,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
+3,2023-03-29,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
+4,2023-03-29,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
+5,2023-03-29,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
+6,2023-03-29,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
+7,2023-03-29,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
+8,2023-03-29,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
+9,2023-03-29,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
+10,2023-03-29,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
+11,2023-03-29,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
+12,2023-03-29,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
+13,2023-03-29,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
+14,2023-03-29,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
+15,2023-03-29,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
+16,2023-03-29,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
+17,2023-03-29,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
+18,2023-03-29,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
+19,2023-03-29,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
+20,2023-03-29,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
+21,2023-03-29,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
+22,2023-03-29,934,The Mai Ndombe REDD+ Project,"Congo, The Democratic Republic of The (CD)",Avoided Def.,2019,42000,,,
+23,2023-03-29,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
+24,2023-03-29,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
+25,2023-03-29,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
+26,2023-03-29,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
+27,2023-03-29,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
+28,2023-03-29,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
+29,2023-03-29,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
+30,2023-03-29,766,Teesta- V Hydro Power project in Sikkim,India (IN),Hydro,2009,1,Ambipar Group,Compensação de Carbono Ambipar Response Brasil,Private offset
+31,2023-03-29,3207,CO2 UTILIZATION IN CONCRETE - Removals & Reductions - CarbonCure - U.S. Project #1,United States (US),Construction / Manufacturing,2021,35,,,
+32,2023-03-29,674,Rimba Raya Biodiversity Reserve Project,Indonesia (ID),Avoided Def.,2016,9112,,,
+33,2023-03-29,2250,Delta Blue Carbon – 1,Pakistan (PK),Blue Carbon,2016,4075,,,
+34,2023-03-29,2250,Delta Blue Carbon – 1,Pakistan (PK),Blue Carbon,2015,299,,,
+35,2023-03-29,2250,Delta Blue Carbon – 1,Pakistan (PK),Blue Carbon,2015,7474,,,
+36,2023-03-29,2250,Delta Blue Carbon – 1,Pakistan (PK),Blue Carbon,2015,329,,,
+37,2023-03-29,2250,Delta Blue Carbon – 1,Pakistan (PK),Blue Carbon,2015,711,,,
+38,2023-03-29,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),Avoided Def.,2013,1,Carbonext Tecnologia em Soluções Ambientais Ltda.,FUNDTUR - FUNDAÇÃO DE TURISMO DO MATO GROSSO DO SUL,Compensação de CO2e decorrente do deslocamento e estadia da equipe da Fundação de Turismo de Mato Grosso do Sul (Fundtur MS) para expor durante o WTM Latin America que ocorreu no Expo Center Norte na cidade de São Paulo - SP nos dias 03 a 05 de Abril de 2023
+39,2023-03-29,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),Avoided Def.,2015,960,,,
+40,2023-03-29,934,The Mai Ndombe REDD+ Project,"Congo, The Democratic Republic of The (CD)",Avoided Def.,2017,1,,,
+41,2023-03-29,934,The Mai Ndombe REDD+ Project,"Congo, The Democratic Republic of The (CD)",Avoided Def.,2017,237,,,
+42,2023-03-29,934,The Mai Ndombe REDD+ Project,"Congo, The Democratic Republic of The (CD)",Avoided Def.,2017,61,,,
+43,2023-03-29,2042,Renewable Wind Power Project by Adani,India (IN),Wind,2021,279,"Aspiration Partners, Inc.",Retired via Patch on behalf of 2023 Climate Neutral certifying companies,Retired via Patch on behalf of 2023 Climate Neutral certifying companies
+44,2023-03-29,1859,Heqing Solar Cooker Project II,China (CN),Cookstoves,2018,12,Up2You SRL,FAIRCONNECT SpA,Mitigazione emissioni parziali 2021 e 2022
+45,2023-03-29,1508,Pakarab Fertiliser Co-generation Power Project,Pakistan (PK),Construction / Manufacturing,2010,12,Up2You SRL,FAIRCONNECT SpA,Mitigazione emissioni parziali 2021 e 2022
+46,2023-03-29,2042,Renewable Wind Power Project by Adani,India (IN),Wind,2021,781,,,
+47,2023-03-29,488,"82 MW Lau Renun Hydro Power Plant, North Sumatra",Indonesia (ID),Hydro,2016,1021,2162,Gemeindewerke Heikendorf AöR,Klimaneutralstellung Ökogas für das Verbrauchsjahr 2022 für die Gemeindewerke Heikendorf
+48,2023-03-29,488,"82 MW Lau Renun Hydro Power Plant, North Sumatra",Indonesia (ID),Hydro,2016,86,2162,Gemeindewerke Heikendorf AöR,Klimaneutralstellung Ökogas für das Verbrauchsjahr 2022 für die Gemeindewerke Heikendorf
+49,2023-03-29,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),Avoided Def.,2016,8,Zukunftswerk eG,Zukunftswerk eG,Kompensation für Christina S. zum Ausgleich der Emissionen einer Flugreise
+50,2023-03-29,1233,Reforestation with Rubber on degraded lands of Colombia,Colombia (CO),ARR,2019,10,CARBON SINK SAS,KEKO S.A.,Compensación huella de carbono
+51,2023-03-29,1329,Maísa REDD+ Project,Brazil (BR),Avoided Def.,2014,15,CARBON SINK SAS,KEKO S.A.,Compensación huella de carbono
+52,2023-03-29,962,Forteko afforestation on degraded grasslands under extensive grazing,Uruguay (UY),ARR,2013,5,CARBON SINK SAS,aeros,Compensación huella de carbono
+53,2023-03-29,1186,Viñales biomass power plant,Chile (CL),Other,2016,342,2119,Bever B.V.,Vergroening Elektriciteitsverbruik 2022
+54,2023-03-29,2659,Ruijing Geothermal Based Space Heating System,China (CN),Other,2021,217600,2234,EY Global Services,Retired on behalf of EY Global Services Limited for FY23
+55,2023-03-29,2481,Generation Forest Group Project,Panama (PA),ARR,2017,13,5092,Planet A GmbH,Retirement on behalf of Planet A
+56,2023-03-29,185,"Fuel-Switching Project from Fossil Fuels to Biomass in La Providencia, Arcor",Argentina (AR),Construction / Manufacturing,2010,1,CARBON NEUTRAL+,RODRIGUEZ LAURA,
+57,2023-03-29,674,Rimba Raya Biodiversity Reserve Project,Indonesia (ID),Avoided Def.,2018,7500,OTC Flow B.V.,Energieagentur Ebersberg-München gGmbH,"Stilllegung im Auftrag der Energieagentur Ebersberg-München gGmbH, Kompensation der CO2-Emissionen des Landkreises München in 2022, Spende Klimaschutzprojekte Landkreis München 2022"
+58,2023-03-29,674,Rimba Raya Biodiversity Reserve Project,Indonesia (ID),Avoided Def.,2018,2500,OTC Flow B.V.,Energieagentur Ebersberg-München gGmbH,"Stilllegung im Auftrag der Energieagentur Ebersberg-München gGmbH, Kompensation der CO2-Emissionen des Landkreises München in 2022, Spende Klimaschutzprojekte Landkreis München 2022"
+59,2023-03-29,173,Vishnuprayag Hydro-electric Project (VHEP) by Jaiprakash Power Ventures Ltd.(JPVL),India (IN),Hydro,2007,46,Fokus-Zukunft GmbH & Co. KG,Radys AG,Radys AG
+60,2023-03-29,2396,Adjusted Water Management in Rice Cultivation in Nanling County,China (CN),ALM,2020,274,,,
+61,2023-03-29,292,"150 MW grid connected Wind Power based electricity generation project in Gujarat, India.",India (IN),Wind,2016,170,Pangolin Associates Pty Ltd,Pangolin,Retired on behalf of Bassike for FY2022 Climate Active submission
+62,2023-03-29,934,The Mai Ndombe REDD+ Project,"Congo, The Democratic Republic of The (CD)",Avoided Def.,2019,5000,,,
+63,2023-03-29,934,The Mai Ndombe REDD+ Project,"Congo, The Democratic Republic of The (CD)",Avoided Def.,2019,3000,,,
+65,2023-03-29,934,The Mai Ndombe REDD+ Project,"Congo, The Democratic Republic of The (CD)",Avoided Def.,2019,50000,,,
+66,2023-03-29,934,The Mai Ndombe REDD+ Project,"Congo, The Democratic Republic of The (CD)",Avoided Def.,2019,8000,,,
+67,2023-03-29,934,The Mai Ndombe REDD+ Project,"Congo, The Democratic Republic of The (CD)",Avoided Def.,2019,4415,,,
+68,2023-03-29,1650,Reduced Emissions from Deforestation and Degradation in Keo Seima Wildlife Sanctuary,Cambodia (KH),Avoided Def.,2019,10,Carbon Free Consulting Corporation,"GUUN CO.,LTD.","Voluntary offset of business activities(March,2023)for GUUN CO.,LTD."
+69,2023-03-29,1974,Srepok 1 Solar Power Project,Viet Nam (VN),Solar,2020,2428,Climate Labs GmbH,Klima,Retired on behalf of our Klima App Users www.klima.com
+70,2023-03-29,142,"Reforestation of degraded grasslands in Uchindile & Mapanda, Tanzania",Tanzania (TZ),ARR,2020,2124,Climate Labs GmbH,Klima,Retired on behalf of our Klima App Users www.klima.com
+71,2023-03-29,1734,Large scale grid connected solar PV Project in Toujounine (Nouakchott),Mauritania (MR),Solar,2020,976,Climate Labs GmbH,Klima,Retired on behalf of our Klima App Users www.klima.com
+72,2023-03-29,2082,Qianbei Afforestation Project,China (CN),ARR,2017,3320,Mitsubishi Corporation,"Mitsubishi Corporation Energy Co., Ltd.",
+73,2023-03-29,1481,"Wind power project in Maharashtra, India - Andhra Lake Phase - II",India (IN),Wind,2018,3320,Mitsubishi Corporation,"Mitsubishi Corporation Energy Co., Ltd.",
+74,2023-03-29,486,"50 MW Sipansihaporas Hydro Power Plant, North Sumatra",Indonesia (ID),Hydro,2017,3320,Mitsubishi Corporation,"Mitsubishi Corporation Energy Co., Ltd.",
+75,2023-03-29,899,"TIST Program in Kenya, VCS 006",Kenya (KE),ARR,2021,991,3495,"Figma, Inc.","Retirement of environmental credits on behalf of Figma, Inc."
