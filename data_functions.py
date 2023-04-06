@@ -173,7 +173,7 @@ class Retrieve_Data:
         zz = z.groupby(by=['Method','YY_MM']).sum()['Quantity of Units Issued'].reset_index()
         
                 
-        x = self.df_retirement
+        x = self.df_retirement.copy()
         x = x.drop_duplicates()
         x = x.sort_values(by='Date of Retirement').reset_index(drop=True)
         x['YY_MM'] = [str(i.year)[2:]+'_'+str(i.month).zfill(2) for i in x['Date of Retirement']]
@@ -204,17 +204,17 @@ class Retrieve_Data:
     def ldc_project_balances(self):
         # Merge issuance and retirement data
         df_issuance = self.df_issuance
-        df_retirement = self.df_retirement
+        retirement = self.df_retirement
         df_projects = app.ldc_projects()
         ldc_ids = list(df_projects['Project ID'].unique())
         
         df_issuance = df_issuance[df_issuance['Project ID'].isin(ldc_ids)]
-        df_retirement = df_retirement[df_retirement['Project ID'].isin(ldc_ids)]
+        retirement = retirement[retirement['Project ID'].isin(ldc_ids)]
         
         df_issuance = df_issuance.groupby(by=['Project ID','Vintage']).sum()['Quantity of Units Issued'].reset_index()
-        df_retirement = df_retirement.groupby(by=['Project ID','Vintage']).sum()['Quantity of Units'].reset_index()        
+        retirement = retirement.groupby(by=['Project ID','Vintage']).sum()['Quantity of Units'].reset_index()        
         
-        df_balance = pd.merge(df_issuance, df_retirement, on=['Project ID','Vintage'], how="left")
+        df_balance = pd.merge(df_issuance, retirement, on=['Project ID','Vintage'], how="left")
         df_balance = df_balance.fillna(0)
         df_balance.columns = ['Project ID','Vintage','Issued','Retired']
         df_balance['Balance'] = df_balance.Issued - df_balance.Retired
@@ -245,7 +245,7 @@ class Retrieve_Data:
         yest_issuances = yest_issuances[['Issuance Date','Project ID','Project Name','Project Country/Area','Method','Vintage','Quantity of Units Issued','Vintage Report Total']]
         yest_issuances.columns = ['Date','ID','Name','Country','Method','Vintage','Units Issued','Issued Per Vintage']
         
-        yest_retirement = self.df_retirement[self.df_retirement['Date of Retirement']==self.yesterday]
+        yest_retirement = self.df_retirement[self.df_retirement['Date of Retirement']==self.yesterday].copy()
         yest_retirement = yest_retirement[['Date of Retirement','Project ID','Project Name','Project Country/Area','Method','Vintage','Quantity of Units','Account Holder','Beneficial Owner','Retirement Reason Details']]
         yest_retirement.columns = ['Date','ID','Name','Country','Method','Vintage','Qty','Account Holder','Beneficial Owner','Reason']
         

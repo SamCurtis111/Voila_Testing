@@ -4381,7 +4381,7 @@
 4812,VCS 1566,REDD,REDD+ Project Resguardo Indigena Unificado Selva de Mataven,Colombia,VCS-CCB,100000,13.5,Offer,Tullets,2022-11-30 00:00:00,0.0,,2022,11,2018
 4813,VCS 1650,REDD,Keo Seima Wildlife Sanctuary,Cambodia,VCS-CCB,100000,13.0,Offer,FIS,2022-11-30 00:00:00,1.0,,2022,11,2018
 4814,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,5000,8.0,Bid,Tullets,2022-11-30 00:00:00,0.0,,2022,11,2017
-4815,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,21000,11.0,Trade,,2022-11-30 00:00:00,0.0,,2022,11,2017
+4815,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,21000,11.0,Trade,CBL,2022-11-30 00:00:00,0.0,,2022,11,2017
 4816,VCS 1198,Hydro,Pembelik Hydro Electricity Power Plant,Turkey,VCS,117000,1.95,Trade,CBL,2022-11-30 00:00:00,0.0,,2022,11,2020
 4817,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,10000,8.35,Trade,CBL,2022-11-30 00:00:00,0.0,,2022,11,2017
 4818,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,10000,8.0,Trade,CBL,2022-11-30 00:00:00,0.0,,2022,11,2017
@@ -5953,294 +5953,888 @@
 6436,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,10.5,Offer,ICAP,2023-03-10 00:00:00,1.0,,2023,3,2020
 6437,VCS 2410,ARR,"REFORESTATION OF DEGRADED FOREST RESERVE AREAS IN GHANA, WEST AFRICA",Ghana,VCS,0,15.0,Offer,ICAP,2023-03-10 00:00:00,0.0,,2023,3,2020
 6438,VCS 2082,ARR,Qianbei Afforestation Project,China,VCS,0,11.5,Offer,ICAP,2023-03-10 00:00:00,0.0,,2023,3,2082
-6439,VCS 1899,ARR; WRC,Sumatra Merang Peatland Project,Indonesia,VCS-CCB,0,12.0,Offer,ICAP,2023-03-10 00:00:00,0.0,,2023,3,1899
-6440,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,14.0,Bid,ICAP,2022-04-06 00:00:00,0.0,,2022,4,2019
-6441,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,50000,14.0,Bid,ICAP,2022-04-06 00:00:00,1.0,,2022,4,2019
-6442,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,39000,11.0,Bid,ICAP,2022-04-12 00:00:00,1.0,,2022,4,2017
-6444,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,50000,11.1,Bid,Jarden,2022-04-13 00:00:00,1.0,,2022,4,2018
-6445,VCS 612,REDD,The Kasigau Corridor REDD Project - Phase II The Community Ranches,Kenya,VCS-CCB,40000,9.5,Bid,Jarden,2022-04-13 00:00:00,0.0,,2022,4,2016
-6447,VCS 1650,REDD,Keo Seima Wildlife Sanctuary,Cambodia,VCS-CCB,100000,13.0,Bid,Jarden,2022-04-22 00:00:00,1.0,,2022,4,2019
-6448,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,100000,14.0,Bid,TFS,2022-05-02 00:00:00,1.0,,2022,5,2018
-6449,VCS 902,ARR; REDD,Kariba REDD+,Zimbabwe,VCS-CCB,100000,14.0,Bid,TFS,2022-05-02 00:00:00,0.0,,2022,5,2018
-6450,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,10000,10.8,Bid,ICAP,2022-05-12 00:00:00,0.0,,2022,5,2015
-6451,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,50000,14.75,Bid,TFS,2022-05-16 00:00:00,1.0,,2022,5,2018
-6452,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,14.75,Bid,TFS,2022-05-16 00:00:00,0.0,,2022,5,2018
-6453,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,25000,14.75,Bid,TFS,2022-05-16 00:00:00,0.0,,2022,5,2019
-6454,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,10000,10.8,Bid,ICAP,2022-05-17 00:00:00,0.0,,2022,5,2015
-6455,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,100000,10.9,Bid,ICAP,2022-05-24 00:00:00,0.0,,2022,5,2017
-6456,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,0,11.15,Bid,ICAP,2022-05-26 00:00:00,0.0,,2022,5,2017
-6457,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,14.5,Bid,Tullets,2022-05-30 00:00:00,0.0,,2022,5,2020
-6458,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,15.0,Bid,Tullets,2022-05-31 00:00:00,0.0,,2022,5,2020
-6459,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,50000,14.75,Bid,ICAP,2022-05-31 00:00:00,1.0,,2022,5,2019
-6460,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,15.0,Bid,ICAP,2022-05-31 00:00:00,0.0,,2022,5,2019
-6461,VCS 928,Hydro,Yunnan Mangli Hydropower Project,China,VCS,0,2.5,Bid,ICAP,2022-05-31 00:00:00,0.0,,2022,5,2019
-6462,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,15.0,Bid,ICAP,2022-06-01 00:00:00,0.0,,2022,6,2019
-6463,VCS 728,Wind,CECIC Gansu Yumen Changma No.3 Wind Farm Project,China,VCS,0,2.75,Bid,ICAP,2022-06-01 00:00:00,0.0,,2022,6,2019
-6464,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,50000,14.5,Bid,ICAP,2022-06-07 00:00:00,1.0,,2022,6,2019
-6465,VCS 728,Wind,CECIC Gansu Yumen Changma No.3 Wind Farm Project,China,VCS,0,2.75,Bid,ICAP,2022-06-07 00:00:00,0.0,,2022,6,2019
-6466,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,50000,11.0,Bid,ICAP,2022-06-07 00:00:00,0.0,,2022,6,2017
-6467,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,50000,14.5,Bid,ICAP,2022-06-08 00:00:00,1.0,,2022,6,2019
-6468,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,14.9,Bid,TFS,2022-06-08 00:00:00,0.0,,2022,6,2020
-6469,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,100000,10.0,Bid,ICAP,2022-06-09 00:00:00,0.0,,2022,6,2016
-6471,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,100000,13.6,Bid,ICAP,2022-06-20 00:00:00,0.0,,2022,6,2019
-6472,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,100000,12.8,Bid,ICAP,2022-06-20 00:00:00,0.0,,2022,6,2018
-6473,GS 7312,Cookstoves,Promoting improved cooking practices in nigeria,Nigeria,GS-SDG,20000,9.5,Bid,ICAP,2022-06-20 00:00:00,0.0,,2022,6,2021
-6474,GS 7312,Cookstoves,Promoting improved cooking practices in nigeria,Nigeria,GS-SDG,50000,9.25,Bid,ICAP,2022-06-20 00:00:00,0.0,,2022,6,2020
-6475,VCS 2375,ARR,Jilin Sanchazi Afforestation Project,China,VCS-CCB,0,13.5,Bid,ICAP,2022-06-27 00:00:00,0.0,,2022,6,2019
-6476,GS 7312,Cookstoves,Promoting improved cooking practices in nigeria,Nigeria,GS-SDG,20000,9.25,Bid,ICAP,2022-06-27 00:00:00,0.0,,2022,6,2021
-6478,VCS 2082,ARR,Qianbei Afforestation Project,China,VCS,0,12.85,Bid,Tullets,2022-06-28 00:00:00,0.0,,2022,6,2019
-6479,VCS 1001,Wind,Inner mongolia yihewusu phase II wind power project,China,VCS,15000,2.5,Bid,TFS,2022-06-30 00:00:00,0.0,,2022,6,2021
-6480,VCS 2375,ARR,Jilin Sanchazi Afforestation Project,China,VCS-CCB,0,13.5,Bid,ICAP,2022-06-30 00:00:00,0.0,Sep22 delivery,2022,6,2019
-6481,GS 7312,Cookstoves,Promoting improved cooking practices in nigeria,Nigeria,GS-SDG,20000,9.25,Bid,ICAP,2022-06-30 00:00:00,0.0,,2022,6,2021
-6482,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,100000,11.3,Bid,Tullets,2022-07-22 00:00:00,1.0,,2022,7,2019
-6483,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,90000,8.5,Bid,ICAP,2022-07-22 00:00:00,0.0,,2022,7,2016
-6486,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,13.0,Bid,Tullets,2022-08-02 00:00:00,0.0,Corporate - Needed 3 day due dilligence window,2022,8,2020
-6490,VCS 1650,REDD,Keo Seima Wildlife Sanctuary,Cambodia,VCS-CCB,0,13.25,Bid,ICAP,2022-08-22 00:00:00,1.0,,2022,8,2019
-6491,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,100000,14.0,Bid,TFS,2022-08-28 00:00:00,1.0,,2022,8,2018
-6492,VCS 902,ARR; REDD,Kariba REDD+,Zimbabwe,VCS-CCB,100000,14.0,Bid,TFS,2022-08-28 00:00:00,0.0,,2022,8,2018
-6493,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,9.5,Bid,ICAP,2022-08-31 00:00:00,0.0,,2022,8,2016
-6494,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,13.25,Bid,TFS,2022-09-01 00:00:00,1.0,,2022,9,2019
-6495,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,13.5,Bid,TFS,2022-09-01 00:00:00,1.0,,2022,9,2020
-6497,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,13.0,Bid,TFS,2022-09-02 00:00:00,1.0,,2022,9,2019
-6498,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,13.0,Bid,TFS,2022-09-02 00:00:00,1.0,,2022,9,2020
-6499,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,13.5,Bid,TFS,2022-09-05 00:00:00,1.0,,2022,9,2019
-6500,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,14.25,Bid,TFS,2022-09-05 00:00:00,1.0,,2022,9,2020
-6501,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,13.25,Bid,TFS,2022-09-06 00:00:00,1.0,,2022,9,2019
-6502,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,14.0,Bid,TFS,2022-09-06 00:00:00,1.0,,2022,9,2020
-6503,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,13.5,Bid,TFS,2022-09-07 00:00:00,1.0,,2022,9,2019
-6504,VCS 2082,ARR,Qianbei Afforestation Project,China,VCS,50000,13.8,Bid,Jarden,2022-09-07 00:00:00,0.0,,2022,9,2020
-6505,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,50000,8.75,Bid,ICAP,2022-09-12 00:00:00,0.0,,2022,9,2016
-6506,VCS 1935,IFM,Hubei Hongshan IFM (Conversion of Logged to Protected Forest) Project,China,VCS-CCB,60000,7.0,Bid,ICAP,2022-09-12 00:00:00,0.0,,2022,9,2016
-6507,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,50000,8.75,Bid,ICAP,2022-09-13 00:00:00,0.0,,2022,9,2016
-6508,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,50000,14.5,Bid,TFS,2022-09-14 00:00:00,1.0,"25k sept, 25k oct (bid)",2022,9,2019
-6509,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,9.5,Bid,ICAP,2022-09-14 00:00:00,0.0,,2022,9,2016
-6510,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,50000,8.75,Bid,ICAP,2022-09-14 00:00:00,0.0,,2022,9,2016
-6511,VCS 2478,Fugitive emissions,Reducing Gas Leakages within the Titas Gas Distribution Network in Bangladesh,Bangladesh,VCS-SDG,125000,5.25,Bid,ICAP,2022-09-15 00:00:00,1.0,,2022,9,2019
-6512,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,50000,12.75,Bid,TFS,2022-09-26 00:00:00,1.0,,2022,9,2019
-6514,VCS 1587,Wind,FATMA WEPP,Turkey,VCS,50000,5.0,Bid,ICAP,2022-09-29 00:00:00,0.0,,2022,9,2020
-6515,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,25000,9.85,Bid,ICAP,2022-10-10 00:00:00,0.0,,2022,10,2017
-6516,VCS 1566,REDD,REDD+ Project Resguardo Indigena Unificado Selva de Mataven,Colombia,VCS-CCB,0,12.8,Bid,ICAP,2022-10-10 00:00:00,0.0,2023-01-01 00:00:00,2022,10,2018
-6517,VCS 1566,REDD,REDD+ Project Resguardo Indigena Unificado Selva de Mataven,Colombia,VCS-CCB,0,12.8,Bid,ICAP,2022-10-10 00:00:00,0.0,,2022,10,2018
-6518,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,9.8,Bid,ICAP,2022-10-11 00:00:00,0.0,,2022,10,2017
-6519,VCS 1650,REDD,Keo Seima Wildlife Sanctuary,Cambodia,VCS-CCB,20000,7.8,Bid,HVB,2022-10-13 00:00:00,1.0,,2022,10,2016
-6521,VCS 1258,Wind,Saint Nikola Wind Farm,Bulgaria,VCS,50000,5.2,Bid,ICAP,2022-10-26 00:00:00,0.0,,2022,10,2018
-6522,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,0,12.75,Bid,Tullets,2022-10-26 00:00:00,0.0,,2022,10,2018
-6523,VCS 2359,ARR,Serro Do Sudeste Landscape Restoration and Reforestation Project,Brazil,VCS,0,7.25,Bid,Tullets,2022-10-26 00:00:00,0.0,,2022,10,2020
-6527,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,15.2,Bid,ICAP,2022-11-03 00:00:00,1.0,,2022,11,2020
-6528,VCS 1067,REDD,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park,Peru,VCS-CCB,50000,14.1,Bid,ICAP,2022-11-04 00:00:00,0.0,,2022,11,2020
-6529,VCS 1067,REDD,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park,Peru,VCS-CCB,70000,13.25,Bid,Tullets,2022-11-07 00:00:00,0.0,,2022,11,2020
-6530,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,0,12.0,Bid,Tullets,2022-11-07 00:00:00,0.0,Feb23 Delivery,2022,11,2018
-6531,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,60000,13.5,Bid,TFS,2022-11-09 00:00:00,0.0,,2022,11,2019
-6532,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,15.15,Bid,ICAP,2022-11-10 00:00:00,1.0,,2022,11,2020
-6533,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,13.75,Bid,TFS,2022-11-14 00:00:00,0.0,,2022,11,2019
-6534,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,13.5,Bid,FIS,2022-11-14 00:00:00,0.0,,2022,11,2019
-6535,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,0,12.0,Bid,Tullets,2022-11-14 00:00:00,0.0,,2022,11,2018
-6536,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,100000,14.0,Bid,FIS,2022-11-18 00:00:00,0.0,,2022,11,2019
-6537,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,100000,14.5,Bid,FIS,2022-11-18 00:00:00,0.0,,2022,11,2020
-6538,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,13.5,Bid,ICAP,2022-11-21 00:00:00,0.0,,2022,11,2019
-6539,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,50000,11.5,Bid,Jarden,2022-11-22 00:00:00,0.0,,2022,11,2018
-6540,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,13.5,Bid,ICAP,2022-11-23 00:00:00,0.0,,2022,11,2019
-6541,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,12.5,Bid,FIS,2022-11-23 00:00:00,0.0,,2022,11,2019
-6542,GS 11207,Energy Efficiency,Multi-Layer Household Water Filtration System in Kenya,Kenya,GS-SDG,25000,10.25,Bid,Tullets,2022-11-24 00:00:00,0.0,,2022,11,2021
-6543,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,6.9,Bid,ICAP,2022-11-28 00:00:00,0.0,,2022,11,2016
-6544,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,9.0,Bid,ICAP,2022-11-28 00:00:00,0.0,,2022,11,2017
-6545,VCS 1792,Solar,Ghani solar renewable power project by greenko group,India,VCS-SDG,10000,4.0,Bid,Jarden,2022-11-30 00:00:00,0.0,,2022,11,2021
-6546,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,100000,8.5,Bid,FIS,2022-11-30 00:00:00,0.0,,2022,11,2016
-6547,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,9.25,Bid,ICAP,2022-12-02 00:00:00,0.0,,2022,12,2017
-6548,VCS 1792,Solar,Ghani solar renewable power project by greenko group,India,VCS-SDG,10000,4.0,Bid,Jarden,2022-12-05 00:00:00,0.0,,2022,12,2021
-6549,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,9.7,Bid,ICAP,2022-12-05 00:00:00,0.0,,2022,12,2017
-6550,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,11.0,Bid,Tullets,2022-12-08 00:00:00,0.0,,2022,12,2019
-6551,VCS 1067,REDD,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park,Peru,VCS-CCB,0,11.5,Bid,ICAP,2022-12-08 00:00:00,0.0,,2022,12,2020
-6552,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,0,8.0,Bid,ICAP,2022-12-08 00:00:00,0.0,,2022,12,2018
-6553,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,0,8.5,Bid,ICAP,2022-12-12 00:00:00,0.0,,2022,12,2018
-6554,VCS 1067,REDD,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park,Peru,VCS-CCB,0,11.0,Bid,ICAP,2022-12-12 00:00:00,0.0,,2022,12,2020
-6555,VCS 985,REDD,Cordillera Azul National Park REDD Project,Peru,VCS-CCB,0,4.35,Bid,Tullets,2022-12-12 00:00:00,0.0,,2022,12,2017
-6556,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,5.25,Bid,Tullets,2022-12-13 00:00:00,1.0,,2022,12,2016
-6557,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,25000,13.4,Bid,Tullets,2022-12-14 00:00:00,0.0,,2022,12,2019
-6559,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,0,11.25,Bid,ICAP,2022-12-19 00:00:00,0.0,,2022,12,2018
-6560,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,0,5.5,Bid,Tullets,2023-01-09 00:00:00,0.0,,2023,1,2016
-6561,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,50000,5.5,Bid,Tullets,2023-01-10 00:00:00,0.0,,2023,1,2016
-6562,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,50000,6.0,Bid,Tullets,2023-01-11 00:00:00,0.0,,2023,1,2016
-6563,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,11.25,Bid,ICAP,2023-01-17 00:00:00,0.0,,2023,1,2019
-6564,VCS 902,ARR; REDD,Kariba REDD+,Zimbabwe,VCS-CCB,0,3.3,Bid,ICAP,2023-01-17 00:00:00,0.0,,2023,1,2016
-6565,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,16.8,Bid,Tullets,2023-01-17 00:00:00,0.0,,2023,1,2020
-6566,VCS 902,ARR; REDD,Kariba REDD+,Zimbabwe,VCS-CCB,0,3.5,Bid,ICAP,2023-01-18 00:00:00,0.0,,2023,1,2016
-6567,VCS 2252,REDD,Rio Anapu-Pacaja,Brazil,VCS-CCB,0,4.25,Bid,Tullets,2023-01-18 00:00:00,0.0,,2023,1,2017
-6568,VCS 2252,REDD,Rio Anapu-Pacaja,Brazil,VCS-CCB,0,3.6,Bid,ICAP,2023-01-23 00:00:00,0.0,,2023,1,2017
-6569,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,4.0,Bid,Tullets,2023-01-25 00:00:00,0.0,,2023,1,2017
-6570,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,50000,7.0,Bid,Tullets,2023-01-26 00:00:00,0.0,,2023,1,2016
-6571,GS 5642,Cookstoves,Burn Stoves Project in Kenya,Kenya,GS-SDG,0,7.5,Bid,ICAP,2023-02-01 00:00:00,0.0,,2023,2,2020
-6572,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,20000,6.3,Bid,Tullets,2023-02-06 00:00:00,0.0,,2023,2,2016
-6573,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,8.9,Bid,ICAP,2023-02-09 00:00:00,0.0,,2023,2,2019
-6574,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,9.0,Bid,ICAP,2023-02-09 00:00:00,1.0,,2023,2,2019
-6575,VCS 1364,Hydro,Hydroelectric Project PCH Luzma,Colombia,VCS-SDG,0,3.0,Bid,Tullets,2023-02-13 00:00:00,0.0,,2023,2,2019
-6576,VCS 1644,Wind,Larimar Wind Farm Project,Dominican Republic,VCS-SDG,0,3.8,Bid,Tullets,2023-02-15 00:00:00,0.0,,2023,2,2018
-6577,VCS 1067,REDD,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park,Peru,VCS-CCB,0,10.0,Bid,ICAP,2023-02-17 00:00:00,0.0,,2023,2,2020
-6578,VCS 1644,Wind,Larimar Wind Farm Project,Dominican Republic,VCS-SDG,0,3.8,Bid,Tullets,2023-02-17 00:00:00,0.0,,2023,2,2018
-6579,VCS 1067,REDD,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park,Peru,VCS-CCB,0,10.0,Bid,ICAP,2023-02-17 00:00:00,0.0,,2023,2,2020
-6580,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,11.9,Bid,ICAP,2023-02-17 00:00:00,0.0,,2023,2,2020
-6581,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,14.25,Bid,ICAP,2023-02-20 00:00:00,0.0,,2023,2,2020
-6582,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,15.0,Bid,ICAP,2023-02-21 00:00:00,0.0,,2023,2,2020
-6583,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,15.2,Bid,ICAP,2023-02-23 00:00:00,0.0,,2023,2,2020
-6584,VCS 1650,REDD,Keo Seima Wildlife Sanctuary,Cambodia,VCS-CCB,0,4.0,Bid,ICAP,2023-02-23 00:00:00,1.0,,2023,2,2017
-6585,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,4.5,Bid,ICAP,2023-02-23 00:00:00,0.0,,2023,2,2016
-6586,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,15.2,Bid,ICAP,2023-02-24 00:00:00,0.0,,2023,2,2020
-6587,VCS 1650,REDD,Keo Seima Wildlife Sanctuary,Cambodia,VCS-CCB,0,4.0,Bid,ICAP,2023-02-24 00:00:00,1.0,,2023,2,2017
-6588,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,4000,6.5,Bid,Tullets,2023-02-27 00:00:00,0.0,,2023,2,2018
-6589,VCS 2070,ARR,Guinan Afforestation Project,China,VCS-CCB,0,8.25,Bid,Tullets,2023-02-27 00:00:00,0.0,,2023,2,2020
-6590,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,0,2.5,Bid,Tullets,2023-02-27 00:00:00,0.0,,2023,2,2014
-6591,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,4000,6.5,Bid,Tullets,2023-02-27 00:00:00,0.0,,2023,2,2018
-6592,VCS 2070,ARR,Guinan Afforestation Project,China,VCS-CCB,0,8.25,Bid,Tullets,2023-02-27 00:00:00,0.0,,2023,2,2020
-6593,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,7.25,Bid,Tullets,2023-02-28 00:00:00,0.0,,2023,2,2018
-6594,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,4000,7.25,Bid,Tullets,2023-02-28 00:00:00,0.0,,2023,2,2018
-6595,VCS 2070,ARR,Guinan Afforestation Project,China,VCS-CCB,0,8.25,Bid,Tullets,2023-02-28 00:00:00,0.0,,2023,2,2020
-6596,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,8.5,Bid,Tullets,2023-03-01 00:00:00,0.0,,2023,3,2019
-6597,VCS 2070,ARR,Guinan Afforestation Project,China,VCS-CCB,50000,8.25,Bid,Tullets,2023-03-01 00:00:00,0.0,,2023,3,2020
-6598,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,15.75,Bid,ICAP,2023-03-07 00:00:00,0.0,,2023,3,2020
-6599,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,16.0,Bid,ICAP,2023-03-09 00:00:00,0.0,,2023,3,2020
-6600,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,16.0,Bid,ICAP,2023-03-10 00:00:00,0.0,,2023,3,2512
-6601,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,15.0,Offer,ICAP,2022-04-06 00:00:00,0.0,,2022,4,2019
-6602,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,50000,14.85,Offer,ICAP,2022-04-06 00:00:00,1.0,,2022,4,2019
-6603,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,39000,11.75,Offer,ICAP,2022-04-12 00:00:00,1.0,,2022,4,2017
-6605,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,50000,15.15,Offer,Jarden,2022-04-13 00:00:00,1.0,,2022,4,2018
-6606,VCS 612,REDD,The Kasigau Corridor REDD Project - Phase II The Community Ranches,Kenya,VCS-CCB,40000,12.5,Offer,Jarden,2022-04-13 00:00:00,0.0,,2022,4,2016
-6608,VCS 1650,REDD,Keo Seima Wildlife Sanctuary,Cambodia,VCS-CCB,100000,15.0,Offer,Jarden,2022-04-22 00:00:00,1.0,,2022,4,2019
-6609,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,100000,16.0,Offer,TFS,2022-05-02 00:00:00,1.0,,2022,5,2018
-6610,VCS 902,ARR; REDD,Kariba REDD+,Zimbabwe,VCS-CCB,100000,16.0,Offer,TFS,2022-05-02 00:00:00,0.0,,2022,5,2018
-6611,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,10000,11.3,Offer,ICAP,2022-05-12 00:00:00,0.0,,2022,5,2015
-6612,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,50000,15.5,Offer,TFS,2022-05-16 00:00:00,1.0,,2022,5,2018
-6613,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,15.15,Offer,TFS,2022-05-16 00:00:00,0.0,,2022,5,2018
-6614,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,25000,15.75,Offer,TFS,2022-05-16 00:00:00,0.0,,2022,5,2019
-6615,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,10000,11.3,Offer,ICAP,2022-05-17 00:00:00,0.0,,2022,5,2015
-6616,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,100000,12.0,Offer,ICAP,2022-05-24 00:00:00,0.0,,2022,5,2017
-6617,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,0,11.5,Offer,ICAP,2022-05-26 00:00:00,0.0,,2022,5,2017
-6618,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,15.6,Offer,Tullets,2022-05-30 00:00:00,0.0,,2022,5,2020
-6619,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,15.6,Offer,Tullets,2022-05-31 00:00:00,0.0,,2022,5,2020
-6620,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,50000,15.25,Offer,ICAP,2022-05-31 00:00:00,1.0,,2022,5,2019
-6621,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,15.4,Offer,ICAP,2022-05-31 00:00:00,0.0,,2022,5,2019
-6622,VCS 928,Hydro,Yunnan Mangli Hydropower Project,China,VCS,0,5.0,Offer,ICAP,2022-05-31 00:00:00,0.0,,2022,5,2019
-6623,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,15.4,Offer,ICAP,2022-06-01 00:00:00,0.0,,2022,6,2019
-6624,VCS 728,Wind,CECIC Gansu Yumen Changma No.3 Wind Farm Project,China,VCS,0,4.75,Offer,ICAP,2022-06-01 00:00:00,0.0,,2022,6,2019
-6625,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,50000,15.2,Offer,ICAP,2022-06-07 00:00:00,1.0,,2022,6,2019
-6626,VCS 728,Wind,CECIC Gansu Yumen Changma No.3 Wind Farm Project,China,VCS,0,5.0,Offer,ICAP,2022-06-07 00:00:00,0.0,,2022,6,2019
-6627,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,50000,11.75,Offer,ICAP,2022-06-07 00:00:00,0.0,,2022,6,2017
-6628,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,50000,15.2,Offer,ICAP,2022-06-08 00:00:00,1.0,,2022,6,2019
-6629,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,16.2,Offer,TFS,2022-06-08 00:00:00,0.0,,2022,6,2020
-6630,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,100000,11.1,Offer,ICAP,2022-06-09 00:00:00,0.0,,2022,6,2016
-6632,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,100000,13.85,Offer,ICAP,2022-06-20 00:00:00,0.0,,2022,6,2019
-6633,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,100000,13.0,Offer,ICAP,2022-06-20 00:00:00,0.0,,2022,6,2018
-6634,GS 7312,Cookstoves,Promoting improved cooking practices in nigeria,Nigeria,GS-SDG,20000,10.3,Offer,ICAP,2022-06-20 00:00:00,0.0,,2022,6,2021
-6635,GS 7312,Cookstoves,Promoting improved cooking practices in nigeria,Nigeria,GS-SDG,50000,10.85,Offer,ICAP,2022-06-20 00:00:00,0.0,,2022,6,2020
-6636,VCS 2375,ARR,Jilin Sanchazi Afforestation Project,China,VCS-CCB,0,14.75,Offer,ICAP,2022-06-27 00:00:00,0.0,,2022,6,2019
-6637,GS 7312,Cookstoves,Promoting improved cooking practices in nigeria,Nigeria,GS-SDG,20000,10.4,Offer,ICAP,2022-06-27 00:00:00,0.0,,2022,6,2021
-6639,VCS 2082,ARR,Qianbei Afforestation Project,China,VCS,0,14.75,Offer,Tullets,2022-06-28 00:00:00,0.0,,2022,6,2019
-6640,VCS 1001,Wind,Inner mongolia yihewusu phase II wind power project,China,VCS,15000,3.9,Offer,TFS,2022-06-30 00:00:00,0.0,,2022,6,2021
-6641,VCS 2375,ARR,Jilin Sanchazi Afforestation Project,China,VCS-CCB,0,14.75,Offer,ICAP,2022-06-30 00:00:00,0.0,Sep22 delivery,2022,6,2019
-6642,GS 7312,Cookstoves,Promoting improved cooking practices in nigeria,Nigeria,GS-SDG,20000,10.4,Offer,ICAP,2022-06-30 00:00:00,0.0,,2022,6,2021
-6643,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,100000,13.5,Offer,Tullets,2022-07-22 00:00:00,1.0,,2022,7,2019
-6644,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,90000,9.0,Offer,ICAP,2022-07-22 00:00:00,0.0,,2022,7,2016
-6647,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,13.25,Offer,Tullets,2022-08-02 00:00:00,0.0,Corporate - Needed 3 day due dilligence window,2022,8,2020
-6651,VCS 1650,REDD,Keo Seima Wildlife Sanctuary,Cambodia,VCS-CCB,0,13.75,Offer,ICAP,2022-08-22 00:00:00,1.0,,2022,8,2019
-6652,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,100000,16.0,Offer,TFS,2022-08-28 00:00:00,1.0,,2022,8,2018
-6653,VCS 902,ARR; REDD,Kariba REDD+,Zimbabwe,VCS-CCB,100000,16.0,Offer,TFS,2022-08-28 00:00:00,0.0,,2022,8,2018
-6654,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,10.25,Offer,ICAP,2022-08-31 00:00:00,0.0,,2022,8,2016
-6655,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,14.75,Offer,TFS,2022-09-01 00:00:00,1.0,,2022,9,2019
-6656,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,15.25,Offer,TFS,2022-09-01 00:00:00,1.0,,2022,9,2020
-6658,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,13.75,Offer,TFS,2022-09-02 00:00:00,1.0,,2022,9,2019
-6659,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,15.0,Offer,TFS,2022-09-02 00:00:00,1.0,,2022,9,2020
-6660,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,13.75,Offer,TFS,2022-09-05 00:00:00,1.0,,2022,9,2019
-6661,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,15.0,Offer,TFS,2022-09-05 00:00:00,1.0,,2022,9,2020
-6662,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,14.0,Offer,TFS,2022-09-06 00:00:00,1.0,,2022,9,2019
-6663,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,15.5,Offer,TFS,2022-09-06 00:00:00,1.0,,2022,9,2020
-6664,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,14.25,Offer,TFS,2022-09-07 00:00:00,1.0,,2022,9,2019
-6665,VCS 2082,ARR,Qianbei Afforestation Project,China,VCS,50000,15.5,Offer,Jarden,2022-09-07 00:00:00,0.0,,2022,9,2020
-6666,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,50000,9.25,Offer,ICAP,2022-09-12 00:00:00,0.0,,2022,9,2016
-6667,VCS 1935,IFM,Hubei Hongshan IFM (Conversion of Logged to Protected Forest) Project,China,VCS-CCB,60000,9.25,Offer,ICAP,2022-09-12 00:00:00,0.0,,2022,9,2016
-6668,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,50000,9.25,Offer,ICAP,2022-09-13 00:00:00,0.0,,2022,9,2016
-6669,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,50000,14.8,Offer,TFS,2022-09-14 00:00:00,1.0,"25k sept, 25k oct (bid)",2022,9,2019
-6670,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,11.0,Offer,ICAP,2022-09-14 00:00:00,0.0,,2022,9,2016
-6671,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,50000,10.0,Offer,ICAP,2022-09-14 00:00:00,0.0,,2022,9,2016
-6672,VCS 2478,Fugitive emissions,Reducing Gas Leakages within the Titas Gas Distribution Network in Bangladesh,Bangladesh,VCS-SDG,125000,5.7,Offer,ICAP,2022-09-15 00:00:00,1.0,,2022,9,2019
-6673,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,50000,15.5,Offer,TFS,2022-09-26 00:00:00,1.0,,2022,9,2019
-6675,VCS 1587,Wind,FATMA WEPP,Turkey,VCS,50000,6.4,Offer,ICAP,2022-09-29 00:00:00,0.0,,2022,9,2020
-6676,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,25000,10.05,Offer,ICAP,2022-10-10 00:00:00,0.0,,2022,10,2017
-6677,VCS 1566,REDD,REDD+ Project Resguardo Indigena Unificado Selva de Mataven,Colombia,VCS-CCB,0,13.3,Offer,ICAP,2022-10-10 00:00:00,0.0,2023-01-01 00:00:00,2022,10,2018
-6678,VCS 1566,REDD,REDD+ Project Resguardo Indigena Unificado Selva de Mataven,Colombia,VCS-CCB,0,13.5,Offer,ICAP,2022-10-10 00:00:00,0.0,,2022,10,2018
-6679,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,11.0,Offer,ICAP,2022-10-11 00:00:00,0.0,,2022,10,2017
-6680,VCS 1650,REDD,Keo Seima Wildlife Sanctuary,Cambodia,VCS-CCB,20000,8.6,Offer,HVB,2022-10-13 00:00:00,1.0,,2022,10,2016
-6682,VCS 1258,Wind,Saint Nikola Wind Farm,Bulgaria,VCS,50000,5.45,Offer,ICAP,2022-10-26 00:00:00,0.0,,2022,10,2018
-6683,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,0,14.5,Offer,Tullets,2022-10-26 00:00:00,0.0,,2022,10,2018
-6684,VCS 2359,ARR,Serro Do Sudeste Landscape Restoration and Reforestation Project,Brazil,VCS,0,8.0,Offer,Tullets,2022-10-26 00:00:00,0.0,,2022,10,2020
-6688,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,15.9,Offer,ICAP,2022-11-03 00:00:00,1.0,,2022,11,2020
-6689,VCS 1067,REDD,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park,Peru,VCS-CCB,50000,14.8,Offer,ICAP,2022-11-04 00:00:00,0.0,,2022,11,2020
-6690,VCS 1067,REDD,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park,Peru,VCS-CCB,70000,14.8,Offer,Tullets,2022-11-07 00:00:00,0.0,,2022,11,2020
-6691,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,0,14.0,Offer,Tullets,2022-11-07 00:00:00,0.0,Feb23 Delivery,2022,11,2018
-6692,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,60000,15.25,Offer,TFS,2022-11-09 00:00:00,0.0,,2022,11,2019
-6693,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,15.9,Offer,ICAP,2022-11-10 00:00:00,1.0,,2022,11,2020
-6694,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,14.25,Offer,TFS,2022-11-14 00:00:00,0.0,,2022,11,2019
-6695,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,14.5,Offer,FIS,2022-11-14 00:00:00,0.0,,2022,11,2019
-6696,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,0,12.5,Offer,Tullets,2022-11-14 00:00:00,0.0,,2022,11,2018
-6697,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,100000,14.5,Offer,FIS,2022-11-18 00:00:00,0.0,,2022,11,2019
-6698,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,100000,15.5,Offer,FIS,2022-11-18 00:00:00,0.0,,2022,11,2020
-6699,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,14.5,Offer,ICAP,2022-11-21 00:00:00,0.0,,2022,11,2019
-6700,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,50000,13.6,Offer,Jarden,2022-11-22 00:00:00,0.0,,2022,11,2018
-6701,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,14.5,Offer,ICAP,2022-11-23 00:00:00,0.0,,2022,11,2019
-6702,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,14.2,Offer,FIS,2022-11-23 00:00:00,0.0,,2022,11,2019
-6703,GS 11207,Energy Efficiency,Multi-Layer Household Water Filtration System in Kenya,Kenya,GS-SDG,25000,11.0,Offer,Tullets,2022-11-24 00:00:00,0.0,,2022,11,2021
-6704,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,7.15,Offer,ICAP,2022-11-28 00:00:00,0.0,,2022,11,2016
-6705,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,10.1,Offer,ICAP,2022-11-28 00:00:00,0.0,,2022,11,2017
-6706,VCS 1792,Solar,Ghani solar renewable power project by greenko group,India,VCS-SDG,10000,4.25,Offer,Jarden,2022-11-30 00:00:00,0.0,,2022,11,2021
-6707,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,100000,9.55,Offer,FIS,2022-11-30 00:00:00,0.0,,2022,11,2016
-6708,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,10.1,Offer,ICAP,2022-12-02 00:00:00,0.0,,2022,12,2017
-6709,VCS 1792,Solar,Ghani solar renewable power project by greenko group,India,VCS-SDG,10000,4.25,Offer,Jarden,2022-12-05 00:00:00,0.0,,2022,12,2021
-6710,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,10.1,Offer,ICAP,2022-12-05 00:00:00,0.0,,2022,12,2017
-6711,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,14.0,Offer,Tullets,2022-12-08 00:00:00,0.0,,2022,12,2019
-6712,VCS 1067,REDD,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park,Peru,VCS-CCB,0,14.5,Offer,ICAP,2022-12-08 00:00:00,0.0,,2022,12,2020
-6713,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,0,13.35,Offer,ICAP,2022-12-08 00:00:00,0.0,,2022,12,2018
-6714,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,0,13.35,Offer,ICAP,2022-12-12 00:00:00,0.0,,2022,12,2018
-6715,VCS 1067,REDD,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park,Peru,VCS-CCB,0,14.5,Offer,ICAP,2022-12-12 00:00:00,0.0,,2022,12,2020
-6716,VCS 985,REDD,Cordillera Azul National Park REDD Project,Peru,VCS-CCB,0,5.0,Offer,Tullets,2022-12-12 00:00:00,0.0,,2022,12,2017
-6717,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,5.75,Offer,Tullets,2022-12-13 00:00:00,1.0,,2022,12,2016
-6718,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,25000,14.0,Offer,Tullets,2022-12-14 00:00:00,0.0,,2022,12,2019
-6720,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,0,12.5,Offer,ICAP,2022-12-19 00:00:00,0.0,,2022,12,2018
-6721,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,0,9.0,Offer,Tullets,2023-01-09 00:00:00,0.0,,2023,1,2016
-6722,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,50000,8.0,Offer,Tullets,2023-01-10 00:00:00,0.0,,2023,1,2016
-6723,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,50000,6.5,Offer,Tullets,2023-01-11 00:00:00,0.0,,2023,1,2016
-6724,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,12.0,Offer,ICAP,2023-01-17 00:00:00,0.0,,2023,1,2019
-6725,VCS 902,ARR; REDD,Kariba REDD+,Zimbabwe,VCS-CCB,0,4.0,Offer,ICAP,2023-01-17 00:00:00,0.0,,2023,1,2016
-6726,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,17.35,Offer,Tullets,2023-01-17 00:00:00,0.0,,2023,1,2020
-6727,VCS 902,ARR; REDD,Kariba REDD+,Zimbabwe,VCS-CCB,0,4.0,Offer,ICAP,2023-01-18 00:00:00,0.0,,2023,1,2016
-6728,VCS 2252,REDD,Rio Anapu-Pacaja,Brazil,VCS-CCB,0,4.9,Offer,Tullets,2023-01-18 00:00:00,0.0,,2023,1,2017
-6729,VCS 2252,REDD,Rio Anapu-Pacaja,Brazil,VCS-CCB,0,4.6,Offer,ICAP,2023-01-23 00:00:00,0.0,,2023,1,2017
-6730,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,7.5,Offer,Tullets,2023-01-25 00:00:00,0.0,,2023,1,2017
-6731,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,50000,7.5,Offer,Tullets,2023-01-26 00:00:00,0.0,,2023,1,2016
-6732,GS 5642,Cookstoves,Burn Stoves Project in Kenya,Kenya,GS-SDG,0,8.25,Offer,ICAP,2023-02-01 00:00:00,0.0,,2023,2,2020
-6733,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,20000,6.75,Offer,Tullets,2023-02-06 00:00:00,0.0,,2023,2,2016
-6734,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,9.25,Offer,ICAP,2023-02-09 00:00:00,0.0,,2023,2,2019
-6735,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,9.55,Offer,ICAP,2023-02-09 00:00:00,1.0,,2023,2,2019
-6736,VCS 1364,Hydro,Hydroelectric Project PCH Luzma,Colombia,VCS-SDG,0,4.15,Offer,Tullets,2023-02-13 00:00:00,0.0,,2023,2,2019
-6737,VCS 1644,Wind,Larimar Wind Farm Project,Dominican Republic,VCS-SDG,0,3.9,Offer,Tullets,2023-02-15 00:00:00,0.0,,2023,2,2018
-6738,VCS 1067,REDD,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park,Peru,VCS-CCB,0,11.0,Offer,ICAP,2023-02-17 00:00:00,0.0,,2023,2,2020
-6739,VCS 1644,Wind,Larimar Wind Farm Project,Dominican Republic,VCS-SDG,0,3.9,Offer,Tullets,2023-02-17 00:00:00,0.0,,2023,2,2018
-6740,VCS 1067,REDD,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park,Peru,VCS-CCB,0,11.5,Offer,ICAP,2023-02-17 00:00:00,0.0,,2023,2,2020
-6741,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,17.8,Offer,ICAP,2023-02-17 00:00:00,0.0,,2023,2,2020
-6742,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,16.25,Offer,ICAP,2023-02-20 00:00:00,0.0,,2023,2,2020
-6743,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,15.75,Offer,ICAP,2023-02-21 00:00:00,0.0,,2023,2,2020
-6744,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,15.75,Offer,ICAP,2023-02-23 00:00:00,0.0,,2023,2,2020
-6745,VCS 1650,REDD,Keo Seima Wildlife Sanctuary,Cambodia,VCS-CCB,0,4.5,Offer,ICAP,2023-02-23 00:00:00,1.0,,2023,2,2017
-6746,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,4.75,Offer,ICAP,2023-02-23 00:00:00,0.0,,2023,2,2016
-6747,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,15.75,Offer,ICAP,2023-02-24 00:00:00,0.0,,2023,2,2020
-6748,VCS 1650,REDD,Keo Seima Wildlife Sanctuary,Cambodia,VCS-CCB,0,4.5,Offer,ICAP,2023-02-24 00:00:00,1.0,,2023,2,2017
-6749,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,4000,8.5,Offer,Tullets,2023-02-27 00:00:00,0.0,,2023,2,2018
-6750,VCS 2070,ARR,Guinan Afforestation Project,China,VCS-CCB,0,9.8,Offer,Tullets,2023-02-27 00:00:00,0.0,,2023,2,2020
-6751,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,0,3.0,Offer,Tullets,2023-02-27 00:00:00,0.0,,2023,2,2014
-6752,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,4000,8.5,Offer,Tullets,2023-02-27 00:00:00,0.0,,2023,2,2018
-6753,VCS 2070,ARR,Guinan Afforestation Project,China,VCS-CCB,0,9.8,Offer,Tullets,2023-02-27 00:00:00,0.0,,2023,2,2020
-6754,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,8.0,Offer,Tullets,2023-02-28 00:00:00,0.0,,2023,2,2018
-6755,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,4000,8.0,Offer,Tullets,2023-02-28 00:00:00,0.0,,2023,2,2018
-6756,VCS 2070,ARR,Guinan Afforestation Project,China,VCS-CCB,0,9.8,Offer,Tullets,2023-02-28 00:00:00,0.0,,2023,2,2020
-6757,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,9.75,Offer,Tullets,2023-03-01 00:00:00,0.0,,2023,3,2019
-6758,VCS 2070,ARR,Guinan Afforestation Project,China,VCS-CCB,50000,9.8,Offer,Tullets,2023-03-01 00:00:00,0.0,,2023,3,2020
-6759,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,17.35,Offer,ICAP,2023-03-07 00:00:00,0.0,,2023,3,2020
-6760,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,17.5,Offer,ICAP,2023-03-09 00:00:00,0.0,,2023,3,2020
-6761,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,17.5,Offer,ICAP,2023-03-10 00:00:00,0.0,,2023,3,2512
+6439,VCS 1899,ARR; WRC,Sumatra Merang Peatland Project,Indonesia,VCS-CCB,0,12.0,Bid,ICAP,2023-03-10 00:00:00,0.0,,2023,3,2019
+6440,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,25000,4.0,Offer,Tullets,2023-03-13 00:00:00,1.0,,2023,3,2017
+6441,VCS 2252,REDD,Rio Anapu-Pacaja,Brazil,VCS-CCB,0,3.5,Offer,Tullets,2023-03-13 00:00:00,0.0,,2023,3,2016
+6442,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,0,3.5,Offer,Tullets,2023-03-13 00:00:00,0.0,,2023,3,2016
+6443,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,0,3.5,Offer,Tullets,2023-03-13 00:00:00,1.0,,2023,3,2016
+6444,VCS 981,REDD,Pacajai REDD+,Brazil,VCS-CCB,30000,3.25,Offer,Tullets,2023-03-13 00:00:00,0.0,,2023,3,2017
+6445,VCS 1650,REDD,Keo Seima Wildlife Sanctuary,Cambodia,VCS-CCB,0,3.9,Offer,Tullets,2023-03-13 00:00:00,1.0,,2023,3,2017
+6446,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,0,4.1,Offer,Tullets,2023-03-13 00:00:00,0.0,,2023,3,2017
+6447,VCS 2410,ARR,"REFORESTATION OF DEGRADED FOREST RESERVE AREAS IN GHANA, WEST AFRICA",Ghana,VCS,0,15.25,Offer,Tullets,2023-03-13 00:00:00,0.0,,2023,3,2020
+6448,VCS 1903,Wind,VTRM Renewable Energy 2,Brazil,VCS,0,6.95,Offer,Tullets,2023-03-13 00:00:00,0.0,,2023,3,2020
+6449,VCS 2539,REDD,EVERGREEN REDD+ PROJECT,Brazil,VCS,0,5.0,Offer,Tullets,2023-03-13 00:00:00,0.0,,2023,3,2020
+6450,VCS 1753,Solar,Bundled Solar Photovoltaic Project by ACME,India,VCS,100000,3.0,Offer,Tullets,2023-03-13 00:00:00,0.0,,2023,3,2019
+6451,VCS 1746,Wind,108 MW Fatanpur Wind Power Project in Madhya Pradesh,India,VCS,114000,3.9,Offer,Tullets,2023-03-13 00:00:00,0.0,,2023,3,2019
+6452,VCS 1771,Wind,46 MW Mangoli Wind Power Project in Karnataka,India,VCS,26000,3.9,Offer,Tullets,2023-03-13 00:00:00,0.0,,2023,3,2019
+6453,VCS 2605,LFG,iZMIR Landfill Gas (LFG) Capture and Utilization Project,Turkey,VCS,0,4.0,Offer,Tullets,2023-03-13 00:00:00,0.0,,2023,3,2019
+6454,VCS 1041,Wind,Oaxaca IV Wind Energy Project,Mexico,VCS,0,5.5,Offer,Tullets,2023-03-13 00:00:00,0.0,,2023,3,2019
+6455,VCS 1042,Wind,Oaxaca III Wind Energy Project,Mexico,VCS,0,5.5,Offer,Tullets,2023-03-13 00:00:00,0.0,,2023,3,2019
+6456,VCS 1345,Hydro,Boyabat Hydroelectric Power Plant,Turkey,VCS,0,2.35,Offer,Tullets,2023-03-13 00:00:00,0.0,,2023,3,2020
+6457,VCS 2605,LFG,iZMIR Landfill Gas (LFG) Capture and Utilization Project,Turkey,VCS,0,4.0,Offer,Tullets,2023-03-13 00:00:00,0.0,,2023,3,2021
+6458,VCS 2473,Cookstoves,Installation of high efficient cookstoves by enking international,India,VCS,25000,8.1,Offer,Tullets,2023-03-13 00:00:00,0.0,,2023,3,2019
+6459,VCS 1867,Wind,Ningxia Xiangshan Wind Farm Project,China,VCS-SDG,100000,2.75,Offer,Tullets,2023-03-13 00:00:00,0.0,,2023,3,2019
+6460,VCS 2083,ARR,Liangdu Afforestation Project,China,VCS-CCB,50000,10.0,Offer,Tullets,2023-03-13 00:00:00,0.0,,2023,3,2020
+6461,VCS 2095,Hydro,Duzce Aksu Hydro Electricity Power Plant,Turkey,VCS,14000,1.8,Offer,Tullets,2023-03-13 00:00:00,0.0,,2023,3,2020
+6462,VCS 1753,Solar,Bundled Solar Photovoltaic Project by ACME,India,VCS,0,2.7,Offer,ICAP,2023-03-13 00:00:00,0.0,,2023,3,2019
+6463,VCS 292,Wind,"150 MW Grid Connected Wind Power Based Electricity Generation Project in Gujarat, India",India,VCS,0,2.75,Offer,ICAP,2023-03-13 00:00:00,0.0,,2023,3,2018
+6464,VCS 2252,REDD,Rio Anapu-Pacaja,Brazil,VCS-CCB,0,11.5,Offer,ICAP,2023-03-13 00:00:00,0.0,,2023,3,2020
+6465,VCS 1506,Hydro,Cirakdami Hydro Electricity Power Plant,Turkey,VCS,0,2.35,Offer,ICAP,2023-03-13 00:00:00,0.0,,2023,3,2016
+6466,VCS 535,Run of river,78 MW AKOCAK Hydroelectric Power Plant,Turkey,VCS,0,2.35,Offer,ICAP,2023-03-13 00:00:00,0.0,,2023,3,2016
+6467,VCS 813,Wind,Inner Mongolia Chifen Gaofen Winder Power Project,China,VCS ,0,2.35,Offer,ICAP,2023-03-13 00:00:00,0.0,,2023,3,2016
+6468,VCS 1115,REDD,JARI/AMAPA REDD+ Project,Brazil,VCS-CCB,6741,5.0,Offer,CBL,2023-03-13 00:00:00,0.0,,2023,3,2018
+6469,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,5000,4.0,Offer,CBL,2023-03-13 00:00:00,1.0,,2023,3,2017
+6470,VCS 535,Run of river,78 MW AKOCAK Hydroelectric Power Plant,Turkey,VCS,1669,1.5,Offer,CBL,2023-03-13 00:00:00,0.0,,2023,3,2017
+6471,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,13000,3.75,Offer,CBL,2023-03-13 00:00:00,1.0,,2023,3,2016
+6472,VCS 1860,Cookstoves,Heqing Solar Cooker Project I,China,VCS,4000,8.0,Offer,CBL,2023-03-13 00:00:00,0.0,,2023,3,2018
+6473,VCS 2250,ARR; WRC,Delta Blue Carbon 1,Pakistan,VCS-CCB,800,29.6,Offer,CBL,2023-03-13 00:00:00,0.0,,2023,3,2016
+6474,VCS 1742,Run of river,Hydroelectric Project in Kinnaur ,India,VCS,100000,1.27,Trade,CBL,2023-03-13 00:00:00,0.0,,2023,3,2018
+6475,VCS 2828,Cookstoves,Improved Cooking Stove Programme in Burundi,Burundi,VCS,100,9.15,Trade,CBL,2023-03-13 00:00:00,1.0,,2023,3,2022
+6476,VCS 292,Wind,"150 MW Grid Connected Wind Power Based Electricity Generation Project in Gujarat, India",India,VCS,0,2.75,Offer,ICAP,2023-03-14 00:00:00,0.0,,2023,3,2018
+6477,VCS 1753,Solar,Bundled Solar Photovoltaic Project by ACME,India,VCS,0,2.7,Offer,ICAP,2023-03-14 00:00:00,0.0,,2023,3,2019
+6478,VCS 2252,REDD,Rio Anapu-Pacaja,Brazil,VCS-CCB,0,11.5,Offer,ICAP,2023-03-14 00:00:00,0.0,,2023,3,2020
+6479,VCS 1506,Hydro,Cirakdami Hydro Electricity Power Plant,Turkey,VCS,0,2.35,Offer,ICAP,2023-03-14 00:00:00,0.0,,2023,3,2016
+6480,VCS 535,Run of river,78 MW AKOCAK Hydroelectric Power Plant,Turkey,VCS,0,2.35,Offer,ICAP,2023-03-14 00:00:00,0.0,,2023,3,2016
+6481,VCS 813,Wind,Inner Mongolia Chifen Gaofen Winder Power Project,China,VCS ,0,2.35,Offer,ICAP,2023-03-14 00:00:00,0.0,,2023,3,2016
+6482,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,481,10.5,Bid,CBL,2023-03-14 00:00:00,0.0,,2023,3,2018
+6483,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,18519,10.5,Offer,CBL,2023-03-14 00:00:00,0.0,,2023,3,2018
+6484,VCS 1867,Wind,Ningxia Xiangshan Wind Farm Project,China,VCS-SDG,50000,3.2,Offer,CBL,2023-03-14 00:00:00,0.0,,2023,3,2022
+6485,VCS 1115,REDD,JARI/AMAPA REDD+ Project,Brazil,VCS-CCB,6741,5.0,Offer,CBL,2023-03-14 00:00:00,0.0,,2023,3,2018
+6486,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,5000,4.0,Offer,CBL,2023-03-14 00:00:00,1.0,,2023,3,2017
+6487,VCS 535,Run of river,78 MW AKOCAK Hydroelectric Power Plant,Turkey,VCS,1669,1.5,Offer,CBL,2023-03-14 00:00:00,0.0,,2023,3,2017
+6488,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,5000,3.5,Offer,CBL,2023-03-14 00:00:00,1.0,,2023,3,2016
+6489,VCS 1860,Cookstoves,Heqing Solar Cooker Project I,China,VCS,4000,8.0,Offer,CBL,2023-03-14 00:00:00,0.0,,2023,3,2018
+6490,VCS 985,REDD,Cordillera Azul National Park REDD Project,Peru,VCS-CCB,4508,3.5,Offer,CBL,2023-03-14 00:00:00,0.0,,2023,3,2016
+6491,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,1064,3.75,Offer,CBL,2023-03-14 00:00:00,0.0,,2023,3,2016
+6492,VCS 1742,Run of river,Hydroelectric Project in Kinnaur ,India,VCS,5000,1.27,Offer,CBL,2023-03-14 00:00:00,0.0,,2023,3,2018
+6493,VCS 1742,Run of river,Hydroelectric Project in Kinnaur ,India,VCS,5000,1.27,Bid,CBL,2023-03-14 00:00:00,0.0,,2023,3,2018
+6494,VCS 535,Run of river,78 MW AKOCAK Hydroelectric Power Plant,Turkey,VCS,1669,1.27,Offer,CBL,2023-03-14 00:00:00,0.0,,2023,3,2017
+6495,GS 2682,Wind,Kavakli Wind Power Project,Turkey,GS-SDG,190,4.5,Bid,CBL,2023-03-14 00:00:00,0.0,,2023,3,2015
+6496,VCS 902,ARR; REDD,Kariba REDD+,Zimbabwe,VCS-CCB,10000,8.0,Offer,CBL,2023-03-14 00:00:00,0.0,,2023,3,2018
+6497,GS 10790,Cookstoves,Efficient and Clean Cooking for households in Somalia,Somalia,GS-SDG,3604,10.0,Offer,CBL,2023-03-14 00:00:00,1.0,,2023,3,2020
+6498,GS 10790,Cookstoves,Efficient and Clean Cooking for households in Somalia,Somalia,GS-SDG,10396,10.0,Offer,CBL,2023-03-14 00:00:00,1.0,,2023,3,2021
+6499,GS 2682,Wind,Kavakli Wind Power Project,Turkey,GS-SDG,190,4.5,Trade,CBL,2023-03-14 00:00:00,0.0,,2023,3,2015
+6500,VCS 1742,Run of river,Hydroelectric Project in Kinnaur ,India,VCS,5000,1.27,Trade,CBL,2023-03-14 00:00:00,0.0,,2023,3,2018
+6501,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,87500,6.95,Trade,CBL,2023-03-14 00:00:00,1.0,,2023,3,2020
+6502,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,481,10.5,Trade,CBL,2023-03-14 00:00:00,0.0,,2023,3,2018
+6503,VCS 2252,REDD,Rio Anapu-Pacaja,Brazil,VCS-CCB,450000,3.5,Offer,FIS,2023-03-14 00:00:00,0.0,,2023,3,2017
+6504,VCS 1792,Solar,Ghani solar renewable power project by greenko group,India,VCS-SDG,50000,2.65,Offer,FIS,2023-03-14 00:00:00,0.0,,2023,3,2019
+6505,VCS 1753,Solar,Bundled Solar Photovoltaic Project by ACME,India,VCS,50000,2.65,Offer,FIS,2023-03-14 00:00:00,0.0,,2023,3,2019
+6506,VCS 2052,Wind,Renewable wind power project by Axis Wind Farms,India,VCS-SDG,50000,2.65,Offer,FIS,2023-03-14 00:00:00,0.0,,2023,3,2019
+6507,VCS 1792,Solar,Ghani solar renewable power project by greenko group,India,VCS-SDG,0,2.7,Offer,ICAP,2023-03-15 00:00:00,0.0,,2023,3,2019
+6508,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,15.75,Offer,ICAP,2023-03-15 00:00:00,0.0,,2023,3,2019
+6509,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,10.0,Offer,ICAP,2023-03-15 00:00:00,0.0,,2023,3,2020
+6510,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,10.4,Offer,ICAP,2023-03-15 00:00:00,1.0,,2023,3,2020
+6511,VCS 2252,REDD,Rio Anapu-Pacaja,Brazil,VCS-CCB,45000,3.5,Offer,FIS,2023-03-16 00:00:00,0.0,,2023,3,2017
+6512,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,9.0,Offer,FIS,2023-03-16 00:00:00,0.0,,2023,3,2019
+6513,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,14500,4.5,Bid,FIS,2023-03-16 00:00:00,0.0,,2023,3,2017
+6514,VCS 292,Wind,"150 MW Grid Connected Wind Power Based Electricity Generation Project in Gujarat, India",India,VCS,0,2.75,Offer,ICAP,2023-03-16 00:00:00,0.0,,2023,3,2018
+6515,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,9.2,Offer,ICAP,2023-03-16 00:00:00,1.0,,2023,3,2019
+6516,VCS 2252,REDD,Rio Anapu-Pacaja,Brazil,VCS-CCB,0,3.5,Offer,FIS,2023-03-16 00:00:00,0.0,,2023,3,2017
+6517,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,4.5,Bid,FIS,2023-03-16 00:00:00,0.0,,2023,3,2017
+6518,VCS 1792,Solar,Ghani solar renewable power project by greenko group,India,VCS-SDG,0,2.7,Offer,ICAP,2023-03-15 00:00:00,0.0,,2023,3,2019
+6519,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,10.0,Offer,ICAP,2023-03-15 00:00:00,0.0,,2023,3,2020
+6520,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,15.75,Offer,ICAP,2023-03-15 00:00:00,0.0,,2023,3,2019
+6521,VCS 1753,Solar,Bundled Solar Photovoltaic Project by ACME,India,VCS,900,3.85,Trade,CBL,2023-03-15 00:00:00,0.0,,2023,3,2019
+6522,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,9.2,Offer,ICAP,2023-03-16 00:00:00,1.0,,2023,3,2019
+6523,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,10.4,Offer,ICAP,2023-03-16 00:00:00,1.0,,2023,3,2020
+6524,VCS 1792,Solar,Ghani solar renewable power project by greenko group,India,VCS-SDG,0,2.7,Offer,ICAP,2023-03-16 00:00:00,0.0,,2023,3,2019
+6525,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,15.75,Offer,ICAP,2023-03-16 00:00:00,0.0,,2023,3,2019
+6526,VCS 2252,REDD,Rio Anapu-Pacaja,Brazil,VCS-CCB,85000,3.25,Trade,Tullets,2023-03-16 00:00:00,0.0,,2023,3,2016
+6527,VCS 2252,REDD,Rio Anapu-Pacaja,Brazil,VCS-CCB,63000,3.25,Trade,Tullets,2023-03-16 00:00:00,0.0,,2023,3,2017
+6528,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,17.5,Offer,Tullets,2023-03-16 00:00:00,0.0,,2023,3,2020
+6529,VCS 2070,ARR,Guinan Afforestation Project,China,VCS-CCB,0,8.25,Offer,Tullets,2023-03-16 00:00:00,0.0,,2023,3,2020
+6530,VCS 1896,ARR,Hunan Northern and Northwestern area afforestation area,China,VCS-CCB,0,8.25,Offer,Tullets,2023-03-16 00:00:00,0.0,,2023,3,2020
+6531,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,6.25,Offer,Tullets,2023-03-16 00:00:00,1.0,,2023,3,2018
+6532,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,3.5,Offer,Tullets,2023-03-16 00:00:00,1.0,,2023,3,2017
+6533,VCS 985,REDD,Cordillera Azul National Park REDD Project,Peru,VCS-CCB,0,3.25,Offer,Tullets,2023-03-16 00:00:00,0.0,,2023,3,2017
+6534,VCS 1935,IFM,Hubei Hongshan IFM (Conversion of Logged to Protected Forest) Project,China,VCS-CCB,0,3.3,Offer,Tullets,2023-03-16 00:00:00,0.0,,2023,3,2015
+6535,VCS 1867,Wind,Ningxia Xiangshan Wind Farm Project,China,VCS-SDG,0,2.75,Offer,Tullets,2023-03-16 00:00:00,0.0,,2023,3,2019
+6536,VCS 1792,Solar,Ghani solar renewable power project by greenko group,India,VCS-SDG,0,2.75,Offer,Tullets,2023-03-16 00:00:00,0.0,,2023,3,2019
+6537,VCS 2749,Rwanda,DelAgua Clean Cooking Grouped Project,Rwanda,VCS,0,7.5,Offer,Tullets,2023-03-16 00:00:00,1.0,,2023,3,2019
+6538,VCS 26,Hydro,Gansu Diebu Niaojiaga 12.9 MW Hydropower Station Project,China,VCS,9747,1.94,Offer,CBL,2023-03-15 00:00:00,0.0,,2023,3,2013
+6539,VCS 97,Hydro,Yanling Shendu Hydropower Project,China,VCS,19000,1.6,Offer,CBL,2023-03-15 00:00:00,0.0,,2023,3,2011
+6540,VCS 371,Hydro,Guangdong Lankou 26MW Hydro Power Project,China,VCS,9394,1.99,Offer,CBL,2023-03-15 00:00:00,0.0,,2023,3,2017
+6541,VCS 656,Hydro,Guizhou Qingshuihe Gelbridge Hydropower Project,China,VCS,31500,2.1,Offer,CBL,2023-03-15 00:00:00,0.0,,2023,3,2018
+6542,VCS 371,Hydro,Guangdong Lankou 26MW Hydro Power Project,China,VCS,10000,1.5,Offer,CBL,2023-03-15 00:00:00,0.0,,2023,3,2012
+6543,VCS 97,Hydro,Yanling Shendu Hydropower Project,China,VCS,6042,1.65,Offer,CBL,2023-03-15 00:00:00,0.0,,2023,3,2012
+6544,VCS 1753,Solar,Bundled Solar Photovoltaic Project by ACME,India,VCS,13385,3.85,Offer,CBL,2023-03-15 00:00:00,0.0,,2023,3,2019
+6545,VCS 2697,Waste to Energy,Zhengbang AWMS GHG Mitigation Project in Sichuan Province,China,VCS,650,3.75,Bid,CBL,2023-03-16 00:00:00,0.0,,2023,3,2021
+6546,VCS 2697,Waste to Energy,Zhengbang AWMS GHG Mitigation Project in Sichuan Province,China,VCS,72024,3.75,Offer,CBL,2023-03-16 00:00:00,0.0,,2023,3,2021
+6547,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,1064,3.5,Offer,CBL,2023-03-16 00:00:00,0.0,,2023,3,2016
+6548,VCS 985,REDD,Cordillera Azul National Park REDD Project,Peru,VCS-CCB,4508,3.5,Offer,CBL,2023-03-16 00:00:00,0.0,,2023,3,2016
+6549,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,8000,3.5,Offer,CBL,2023-03-16 00:00:00,1.0,,2023,3,2016
+6550,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,5000,4.0,Offer,CBL,2023-03-16 00:00:00,1.0,,2023,3,2017
+6551,VCS 535,Run of river,78 MW AKOCAK Hydroelectric Power Plant,Turkey,VCS,1669,1.25,Offer,CBL,2023-03-16 00:00:00,0.0,,2023,3,2017
+6552,VCS 1860,Cookstoves,Heqing Solar Cooker Project I,China,VCS,4000,8.0,Offer,CBL,2023-03-16 00:00:00,0.0,,2023,3,2018
+6553,VCS 1115,REDD,JARI/AMAPA REDD+ Project,Brazil,VCS-CCB,6741,5.0,Offer,CBL,2023-03-16 00:00:00,0.0,,2023,3,2018
+6554,VCS 1753,Solar,Bundled Solar Photovoltaic Project by ACME,India,VCS,25000,3.2,Offer,CBL,2023-03-16 00:00:00,0.0,,2023,3,2019
+6555,VCS 1792,Solar,Ghani solar renewable power project by greenko group,India,VCS-SDG,25000,3.2,Offer,CBL,2023-03-16 00:00:00,0.0,,2023,3,2019
+6556,VCS 2052,Wind,Renewable wind power project by Axis Wind Farms,India,VCS-SDG,25000,3.2,Offer,CBL,2023-03-16 00:00:00,0.0,,2023,3,2019
+6557,VCS 1650,REDD,Keo Seima Wildlife Sanctuary,Cambodia,VCS-CCB,5000,7.0,Offer,CBL,2023-03-16 00:00:00,1.0,,2023,3,2017
+6558,VCS 536,Hydro,Uluabat Hydroelectric Power Plant,Turkey,VCS,3551,1.75,Offer,CBL,2023-03-16 00:00:00,0.0,,2023,3,2015
+6559,VCS 1330,Hydro,Midilli Hydroelectric Power Plant,Turkey,VCS,18478,2.5,Offer,CBL,2023-03-16 00:00:00,0.0,,2023,3,2015
+6560,VCS 2697,Waste to Energy,Zhengbang AWMS GHG Mitigation Project in Sichuan Province,China,VCS,72024,4.75,Offer,CBL,2023-03-16 00:00:00,0.0,,2023,3,2021
+6561,VCS 1115,REDD,JARI/AMAPA REDD+ Project,Brazil,VCS-CCB,6741,3.9,Offer,CBL,2023-03-16 00:00:00,0.0,,2023,3,2018
+6562,GS 7526,Solar,BMT Solar Farm,Viet Nam,GS-SDG,1000,10.0,Offer,CBL,2023-03-16 00:00:00,0.0,,2023,3,2019
+6563,GS 7551,Solar,AMI Khanh Hoa Solar Project,Viet Nam,GS-SDG,1000,6.65,Offer,CBL,2023-03-16 00:00:00,0.0,,2023,3,2019
+6564,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,5000,2.8,Offer,CBL,2023-03-16 00:00:00,1.0,,2023,3,2016
+6565,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,1064,3.4,Offer,CBL,2023-03-16 00:00:00,0.0,,2023,3,2016
+6566,VCS 756,Wind,Crow Lake Wind Emissions Reduction Project,United States,VCS,9555,11.0,Offer,CBL,2023-03-16 00:00:00,0.0,,2023,3,2020
+6567,VCS 2697,Waste to Energy,Zhengbang AWMS GHG Mitigation Project in Sichuan Province,China,VCS,650,3.75,Trade,CBL,2023-03-16 00:00:00,0.0,,2023,3,2021
+6568,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,9.2,Offer,ICAP,2023-03-17 00:00:00,1.0,,2023,3,2019
+6569,VCS 1115,REDD,JARI/AMAPA REDD+ Project,Brazil,VCS-CCB,6741,4.0,Offer,CBL,2023-03-17 00:00:00,0.0,,2023,3,2018
+6570,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,5000,4.0,Offer,CBL,2023-03-17 00:00:00,1.0,,2023,3,2017
+6571,VCS 535,Run of river,78 MW AKOCAK Hydroelectric Power Plant,Turkey,VCS,1669,1.25,Offer,CBL,2023-03-17 00:00:00,0.0,,2023,3,2017
+6572,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,1064,3.5,Offer,CBL,2023-03-17 00:00:00,0.0,,2023,3,2016
+6573,VCS 1860,Cookstoves,Heqing Solar Cooker Project I,China,VCS,4000,8.0,Offer,CBL,2023-03-17 00:00:00,0.0,,2023,3,2018
+6574,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,8900,3.25,Offer,CBL,2023-03-17 00:00:00,1.0,,2023,3,2016
+6575,VCS 487,Hydro,"210 MW Musi Hydro Power Plant, Bengkulu",Bengkulu,VCS,21583,2.25,Offer,CBL,2023-03-17 00:00:00,0.0,,2023,3,2016
+6576,VCS 1522,Run of river,Soubre Hydropower Project,Ivory Coast,VCS-SDG,10362,3.25,Offer,CBL,2023-03-17 00:00:00,0.0,,2023,3,2019
+6577,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,3900,3.25,Offer,CBL,2023-03-17 00:00:00,1.0,,2023,3,2016
+6579,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,1319,4.25,Offer,CBL,2023-03-17 00:00:00,0.0,,2023,3,2017
+6580,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,1041,7.0,Offer,CBL,2023-03-17 00:00:00,1.0,,2023,3,2018
+6581,VCS 1622,REDD,REDD+ Project for Caribbean Guatemala: The Conservation Coast,Guatemala,VCS-CCB,1500,5.0,Offer,CBL,2023-03-17 00:00:00,0.0,,2023,3,2017
+6582,GS 10790,Cookstoves,Efficient and Clean Cooking for households in Somalia,Somalia,GS-SDG,3604,10.0,Offer,CBL,2023-03-17 00:00:00,1.0,,2023,3,2020
+6583,GS 10790,Cookstoves,Efficient and Clean Cooking for households in Somalia,Somalia,GS-SDG,10396,10.0,Offer,CBL,2023-03-17 00:00:00,1.0,,2023,3,2021
+6584,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,1319,7.5,Offer,CBL,2023-03-17 00:00:00,0.0,,2023,3,2017
+6585,VCS 173,Run of river,Vishnuprayag Hydro-electric Project,India,VCS,100,1.85,Trade,CBL,2023-03-17 00:00:00,0.0,,2023,3,2015
+6586,VCS 1522,Run of river,Soubre Hydropower Project,Ivory Coast,VCS-SDG,181,3.25,Trade,CBL,2023-03-17 00:00:00,0.0,,2023,3,2019
+6587,VCS 483,Hydro,"Sarbari-I Small Hydro Project of DSL Hydrowatt Limited (DSLHL), Himachal Pradesh, India",India,VCS,174,2.25,Trade,CBL,2023-03-17 00:00:00,0.0,,2023,3,2016
+6588,VCS 1935,IFM,Hubei Hongshan IFM (Conversion of Logged to Protected Forest) Project,China,VCS-CCB,0,7.0,Offer,ICAP,2023-03-17 00:00:00,0.0,,2023,3,2018
+6589,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,0,7.25,Offer,ICAP,2023-03-17 00:00:00,1.0,,2023,3,2018
+6590,VCS 2082,ARR,Qianbei Afforestation Project,China,VCS,0,11.0,Offer,ICAP,2023-03-17 00:00:00,0.0,,2023,3,2021
+6591,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,8.4,Offer,ICAP,2023-03-17 00:00:00,1.0,,2023,3,2019
+6592,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,0,2.95,Offer,Tullets,2023-03-17 00:00:00,0.0,,2023,3,2014
+6593,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,0,4.1,Offer,Tullets,2023-03-17 00:00:00,0.0,,2023,3,2017
+6594,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,0,11.75,Offer,Tullets,2023-03-17 00:00:00,0.0,,2023,3,2018
+6595,VCS 2539,REDD,EVERGREEN REDD+ PROJECT,Brazil,VCS,0,5.0,Offer,Tullets,2023-03-17 00:00:00,0.0,,2023,3,2020
+6596,VCS 1186,Biomass,Vinales Biomass Power Plant,Chile,VCS,0,3.5,Offer,Tullets,2023-03-17 00:00:00,0.0,,2023,3,2015
+6597,VCS 1519,Wind,"Satara Wind Power Project in Maharashtra, India",India,VCS,0,2.4,Bid,Tullets,2023-03-17 00:00:00,0.0,,2023,3,2016
+6598,VCS 1041,Wind,Oaxaca IV Wind Energy Project,Mexico,VCS,0,5.0,Bid,Tullets,2023-03-17 00:00:00,0.0,,2023,3,2019
+6599,VCS 1519,Wind,"Satara Wind Power Project in Maharashtra, India",India,VCS,0,2.8,Offer,Tullets,2023-03-17 00:00:00,0.0,,2023,3,2020
+6600,VCS 1812,Wind,VRTM Renewable Energy,Brazil,VCS,0,6.0,Offer,Tullets,2023-03-17 00:00:00,0.0,,2023,3,2020
+6601,VCS 1903,Wind,VTRM Renewable Energy 2,Brazil,VCS,0,6.0,Offer,Tullets,2023-03-17 00:00:00,0.0,,2023,3,2020
+6602,GS 11335,Biogas,Shuangbaotai Animal Manure Management System GHG Mitigation Project in Guangdong Province,China,GS-SDG,0,4.75,Offer,Tullets,2023-03-17 00:00:00,0.0,,2023,3,2021
+6603,GS 11336,Biogas,Shuangbaotai Animal Manure Management System GHG Mitigation Project in Guanxi Province,China,GS-SDG,0,4.75,Offer,Tullets,2023-03-17 00:00:00,0.0,,2023,3,2021
+6604,VCS 1867,Wind,Ningxia Xiangshan Wind Farm Project,China,VCS-SDG,0,2.75,Offer,Tullets,2023-03-17 00:00:00,0.0,,2023,3,2019
+6605,VCS 1792,Solar,Ghani solar renewable power project by greenko group,India,VCS-SDG,0,2.75,Offer,Tullets,2023-03-17 00:00:00,0.0,,2023,3,2019
+6606,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,17.5,Offer,Tullets,2023-03-17 00:00:00,0.0,,2023,3,2020
+6607,VCS 2252,REDD,Rio Anapu-Pacaja,Brazil,VCS-CCB,0,8.75,Offer,Tullets,2023-03-17 00:00:00,0.0,,2023,3,2020
+6608,VCS 2508,REDD,UNITOR REDD+ PROJECT,Brazil,VCS,0,6.3,Offer,Tullets,2023-03-17 00:00:00,0.0,,2023,3,2018
+6609,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,8.8,Offer,ICAP,2023-03-20 00:00:00,1.0,,2023,3,2019
+6610,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,8.4,Offer,ICAP,2023-03-20 00:00:00,1.0,,2023,3,2019
+6611,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,0,7.25,Offer,ICAP,2023-03-20 00:00:00,1.0,,2023,3,2018
+6612,VCS 535,Run of river,78 MW AKOCAK Hydroelectric Power Plant,Turkey,VCS,1669,1.25,Offer,CBL,2023-03-20 00:00:00,0.0,,2023,3,2017
+6613,VCS 1860,Cookstoves,Heqing Solar Cooker Project I,China,VCS,4000,8.0,Offer,CBL,2023-03-20 00:00:00,0.0,,2023,3,2018
+6614,VCS 1115,REDD,JARI/AMAPA REDD+ Project,Brazil,VCS-CCB,6741,4.25,Offer,CBL,2023-03-20 00:00:00,0.0,,2023,3,2018
+6615,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,5400,3.0,Offer,CBL,2023-03-20 00:00:00,1.0,,2023,3,2016
+6616,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,1064,3.5,Offer,CBL,2023-03-20 00:00:00,0.0,,2023,3,2016
+6617,VCS 1622,REDD,REDD+ Project for Caribbean Guatemala: The Conservation Coast,Guatemala,VCS-CCB,1500,5.0,Offer,CBL,2023-03-20 00:00:00,0.0,,2023,3,2017
+6618,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,1319,5.0,Offer,CBL,2023-03-20 00:00:00,0.0,,2023,3,2017
+6619,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,7144,4.25,Offer,CBL,2023-03-20 00:00:00,1.0,,2023,3,2017
+6620,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,1041,8.0,Offer,CBL,2023-03-20 00:00:00,1.0,,2023,3,2018
+6621,VCS 981,REDD,Pacajai REDD+,Brazil,VCS-CCB,20000,3.3,Offer,CBL,2023-03-20 00:00:00,0.0,,2023,3,2017
+6622,VCS 1753,Solar,Bundled Solar Photovoltaic Project by ACME,India,VCS,10000,2.75,Offer,CBL,2023-03-20 00:00:00,0.0,,2023,3,2019
+6623,VCS 1792,Solar,Ghani solar renewable power project by greenko group,India,VCS-SDG,10000,2.75,Offer,CBL,2023-03-20 00:00:00,0.0,,2023,3,2019
+6624,VCS 414,Wind,Hebei Haixing 49.5MW Wind Farm Project,China,VCS,6051,2.3,Offer,CBL,2023-03-20 00:00:00,0.0,,2023,3,2017
+6625,VCS 1791,Solar,Pavagada Solar Renewable Power Project by Greenko Group,India,VCS-SDG,125000,3.5,Offer,CBL,2023-03-20 00:00:00,0.0,,2023,3,2020
+6626,VCS 414,Wind,Hebei Haixing 49.5MW Wind Farm Project,China,VCS,720,2.32,Trade,CBL,2023-03-20 00:00:00,0.0,,2023,3,2017
+6627,VCS 981,REDD,Pacajai REDD+,Brazil,VCS-CCB,20000,3.3,Trade,CBL,2023-03-20 00:00:00,0.0,,2023,3,2017
+6628,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,17.5,Offer,Tullets,2023-03-20 00:00:00,0.0,,2023,3,2020
+6629,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,0,2.95,Offer,Tullets,2023-03-20 00:00:00,0.0,,2023,3,2014
+6630,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,0,4.1,Offer,Tullets,2023-03-20 00:00:00,0.0,,2023,3,2017
+6631,VCS 2539,REDD,EVERGREEN REDD+ PROJECT,Brazil,VCS,0,5.0,Offer,Tullets,2023-03-20 00:00:00,0.0,,2023,3,2020
+6632,VCS 2982,Cookstoves,BioLite Improved Cook stoves Programme,Kenya,VCS-SDG,0,6.5,Offer,Tullets,2023-03-20 00:00:00,0.0,,2023,3,2020
+6633,VCS 2402,Biogas,Linshu Biogas Recovery and Power Generation Project,China,VCS,0,4.1,Offer,ICAP,2023-03-20 00:00:00,0.0,,2023,3,2020
+6634,VCS 2082,ARR,Qianbei Afforestation Project,China,VCS,0,10.0,Offer,ICAP,2023-03-20 00:00:00,0.0,,2023,3,2021
+6635,VCS 2749,Cookstoves,DelAgua Clean Cooking Grouped Project,Rwanda,VCS,0,5.85,Offer,ICAP,2023-03-20 00:00:00,1.0,,2023,3,2019
+6636,VCS 2361,ARR,Afforesation in cooperation with local landowners for Forestal San Pedro S.A,Paraguay,VCS,0,13.0,Offer,ICAP,2023-03-20 00:00:00,0.0,,2023,3,2017
+6637,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,4.75,Trade,Unknown,2023-03-20 00:00:00,0.0,,2023,3,2017
+6638,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,25000,6.0,Bid,FIS,2023-03-21 00:00:00,1.0,,2023,3,2019
+6639,VCS 1519,Wind,"Satara Wind Power Project in Maharashtra, India",India,VCS,6000,2.65,Trade,Tullets,2023-03-21 00:00:00,0.0,,2023,3,2020
+6640,VCS 1660,Wind,Wind bundle project in Maharashtra by Sispara,India,VCS,6000,2.65,Trade,Tullets,2023-03-21 00:00:00,0.0,,2023,3,2020
+6641,VCS 1380,Hydro,Akinci Hydroelectric Power Plant,Turkey,VCS-SDG,77000,3.1,Offer,Tullets,2023-03-21 00:00:00,0.0,,2023,3,2019
+6642,VCS 1569,Wind,Karacabey Wind Power Project,Turkey,VCS-SDG,28000,3.1,Offer,Tullets,2023-03-21 00:00:00,0.0,,2023,3,2017
+6643,VCS 1741,Hydro,Yumrutepe Regulator and 15.013 MW Hydroelectric power plant project,Turkey,VCS-SDG,28000,3.1,Offer,Tullets,2023-03-21 00:00:00,0.0,,2023,3,2017
+6644,VCS 1380,Hydro,Akinci Hydroelectric Power Plant,Turkey,VCS-SDG,28000,3.1,Offer,Tullets,2023-03-21 00:00:00,0.0,,2023,3,2017
+6645,VCS 1115,REDD,JARI/AMAPA REDD+ Project,Brazil,VCS-CCB,5700,4.25,Offer,CBL,2023-03-21 00:00:00,0.0,,2023,3,2018
+6646,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,7144,4.0,Offer,CBL,2023-03-21 00:00:00,1.0,,2023,3,2017
+6647,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,1319,4.5,Offer,CBL,2023-03-21 00:00:00,0.0,,2023,3,2017
+6648,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,1064,3.5,Offer,CBL,2023-03-21 00:00:00,0.0,,2023,3,2016
+6649,VCS 535,Run of river,78 MW AKOCAK Hydroelectric Power Plant,Turkey,VCS,1669,1.25,Offer,CBL,2023-03-21 00:00:00,0.0,,2023,3,2017
+6650,VCS 1622,REDD,REDD+ Project for Caribbean Guatemala: The Conservation Coast,Guatemala,VCS-CCB,1500,5.0,Offer,CBL,2023-03-21 00:00:00,0.0,,2023,3,2017
+6651,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,1041,8.0,Offer,CBL,2023-03-21 00:00:00,1.0,,2023,3,2018
+6652,VCS 1860,Cookstoves,Heqing Solar Cooker Project I,China,VCS,4000,8.0,Offer,CBL,2023-03-21 00:00:00,0.0,,2023,3,2018
+6653,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,13400,3.0,Offer,CBL,2023-03-21 00:00:00,1.0,,2023,3,2016
+6654,VCS 371,Hydro,Guangdong Lankou 26MW Hydro Power Project,China,VCS,9879,1.5,Offer,CBL,2023-03-21 00:00:00,0.0,,2023,3,2012
+6655,VCS 173,Run of river,Vishnuprayag Hydro-electric Project,India,VCS,149900,1.95,Offer,CBL,2023-03-21 00:00:00,0.0,,2023,3,2015
+6656,VCS 981,REDD,Pacajai REDD+,Brazil,VCS-CCB,20000,3.6,Trade,CBL,2023-03-21 00:00:00,0.0,,2023,3,2017
+6657,VCS 292,Wind,"150 MW Grid Connected Wind Power Based Electricity Generation Project in Gujarat, India",India,VCS,416,3.75,Trade,CBL,2023-03-21 00:00:00,0.0,,2023,3,2016
+6658,VCS 371,Hydro,Guangdong Lankou 26MW Hydro Power Project,China,VCS,121,1.5,Trade,CBL,2023-03-21 00:00:00,0.0,,2023,3,2012
+6659,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,50000,7.0,Offer,FIS,2023-03-22 00:00:00,1.0,,2023,3,2018
+6660,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,28000,5.25,Offer,FIS,2023-03-22 00:00:00,0.0,,2023,3,2017
+6661,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,35000,2.6,Offer,Tullets,2023-03-22 00:00:00,1.0,,2023,3,2016
+6662,VCS 985,REDD,Cordillera Azul National Park REDD Project,Peru,VCS-CCB,49000,2.95,Offer,Tullets,2023-03-22 00:00:00,0.0,,2023,3,2017
+6663,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,17.5,Offer,Tullets,2023-03-22 00:00:00,0.0,,2023,3,2020
+6664,VCS 1566,REDD,REDD+ Project Resguardo Indigena Unificado Selva de Mataven,Colombia,VCS-CCB,100000,7.75,Offer,Tullets,2023-03-22 00:00:00,0.0,,2023,3,2018
+6665,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,7144,4.0,Offer,CBL,2023-03-22 00:00:00,1.0,,2023,3,2017
+6666,VCS 1115,REDD,JARI/AMAPA REDD+ Project,Brazil,VCS-CCB,5700,4.0,Offer,CBL,2023-03-22 00:00:00,0.0,,2023,3,2018
+6667,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,1319,4.5,Offer,CBL,2023-03-22 00:00:00,0.0,,2023,3,2017
+6668,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,1064,3.25,Offer,CBL,2023-03-22 00:00:00,0.0,,2023,3,2016
+6669,VCS 535,Run of river,78 MW AKOCAK Hydroelectric Power Plant,Turkey,VCS,1669,1.25,Offer,CBL,2023-03-22 00:00:00,0.0,,2023,3,2017
+6670,VCS 1622,REDD,REDD+ Project for Caribbean Guatemala: The Conservation Coast,Guatemala,VCS-CCB,1500,4.5,Offer,CBL,2023-03-22 00:00:00,0.0,,2023,3,2017
+6671,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,5673,5.0,Offer,CBL,2023-03-22 00:00:00,0.0,,2023,3,2017
+6672,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,1041,8.0,Offer,CBL,2023-03-22 00:00:00,1.0,,2023,3,2018
+6673,VCS 1860,Cookstoves,Heqing Solar Cooker Project I,China,VCS,4000,7.5,Offer,CBL,2023-03-22 00:00:00,0.0,,2023,3,2018
+6674,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,13400,2.85,Offer,CBL,2023-03-22 00:00:00,1.0,,2023,3,2016
+6675,VCS 985,REDD,Cordillera Azul National Park REDD Project,Peru,VCS-CCB,13300,3.35,Trade,CBL,2023-03-22 00:00:00,0.0,,2023,3,2016
+6676,VCS 2361,ARR,Afforesation in cooperation with local landowners for Forestal San Pedro S.A,Paraguay,VCS,0,12.0,Offer,ICAP,2023-03-23 00:00:00,0.0,,2023,3,2017
+6677,VCS 1115,REDD,JARI/AMAPA REDD+ Project,Brazil,VCS-CCB,5700,4.0,Offer,CBL,2023-03-23 00:00:00,0.0,,2023,3,2018
+6678,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,7144,3.85,Offer,CBL,2023-03-23 00:00:00,1.0,,2023,3,2017
+6679,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,1064,3.25,Offer,CBL,2023-03-23 00:00:00,0.0,,2023,3,2016
+6680,VCS 535,Run of river,78 MW AKOCAK Hydroelectric Power Plant,Turkey,VCS,1669,1.25,Offer,CBL,2023-03-23 00:00:00,0.0,,2023,3,2017
+6681,VCS 1622,REDD,REDD+ Project for Caribbean Guatemala: The Conservation Coast,Guatemala,VCS-CCB,1500,4.5,Offer,CBL,2023-03-23 00:00:00,0.0,,2023,3,2017
+6682,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,1319,4.5,Offer,CBL,2023-03-23 00:00:00,0.0,,2023,3,2017
+6683,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,18400,2.85,Offer,CBL,2023-03-23 00:00:00,1.0,,2023,3,2016
+6684,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,5673,5.0,Offer,CBL,2023-03-23 00:00:00,0.0,,2023,3,2017
+6685,VCS 1860,Cookstoves,Heqing Solar Cooker Project I,China,VCS,4000,7.25,Offer,CBL,2023-03-23 00:00:00,0.0,,2023,3,2018
+6686,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,1041,8.0,Offer,CBL,2023-03-23 00:00:00,1.0,,2023,3,2018
+6687,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,13400,2.85,Offer,CBL,2023-03-23 00:00:00,1.0,,2023,3,2016
+6688,VCS 2372,Cookstoves,Installation of High Efficiency Wood Burning Cookstoves in Malawi - Project 2,Malawi,VCS-SDG,3000,10.0,Offer,CBL,2023-03-23 00:00:00,1.0,,2023,3,2020
+6689,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,6500,3.3,Offer,CBL,2023-03-23 00:00:00,0.0,,2023,3,2012
+6690,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,25157,3.8,Offer,CBL,2023-03-23 00:00:00,0.0,,2023,3,2014
+6691,VCS 1113,REDD,The Valparaiso Project,Brazil,VCS-CCB,10800,3.8,Offer,CBL,2023-03-23 00:00:00,0.0,,2023,3,2014
+6692,VCS 1112,REDD,The Russas Project,Brazil,VCS-CCB,1117,3.8,Offer,CBL,2023-03-23 00:00:00,0.0,,2023,3,2014
+6693,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,4.8,Offer,ICAP,2023-03-24 00:00:00,0.0,,2023,3,2017
+6694,GS 5523,Solar,Solar Power Project by Fortum FinnSurya Energy Pvt Ltd,India,GS-SDG,10000,3.8,Trade,Sigma,2023-03-23 00:00:00,0.0,,2023,3,2020
+6695,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,1319,4.5,Offer,CBL,2023-03-24 00:00:00,0.0,,2023,3,2017
+6696,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,7144,3.85,Offer,CBL,2023-03-24 00:00:00,1.0,,2023,3,2017
+6697,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,1064,3.25,Offer,CBL,2023-03-24 00:00:00,0.0,,2023,3,2016
+6698,VCS 535,Run of river,78 MW AKOCAK Hydroelectric Power Plant,Turkey,VCS,1669,1.25,Offer,CBL,2023-03-24 00:00:00,0.0,,2023,3,2017
+6699,VCS 1622,REDD,REDD+ Project for Caribbean Guatemala: The Conservation Coast,Guatemala,VCS-CCB,1500,4.5,Offer,CBL,2023-03-24 00:00:00,0.0,,2023,3,2017
+6700,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,13400,2.85,Offer,CBL,2023-03-24 00:00:00,1.0,,2023,3,2016
+6701,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,1041,8.0,Offer,CBL,2023-03-24 00:00:00,1.0,,2023,3,2018
+6702,VCS 1860,Cookstoves,Heqing Solar Cooker Project I,China,VCS,4000,7.5,Offer,CBL,2023-03-24 00:00:00,0.0,,2023,3,2018
+6703,VCS 2082,ARR,Qianbei Afforestation Project,China,VCS,25000,13.05,Offer,CBL,2023-03-24 00:00:00,0.0,,2023,3,2020
+6704,VCS 2402,Biogas,Linshu Biogas Recovery and Power Generation Project,China,VCS,0,4.1,Offer,ICAP,2023-03-24 00:00:00,0.0,,2023,3,2020
+6705,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,8.8,Offer,ICAP,2023-03-24 00:00:00,1.0,,2023,3,2019
+6706,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,9.2,Offer,ICAP,2023-03-24 00:00:00,0.0,,2023,3,2019
+6707,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,15.5,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2019
+6708,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,15.0,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2018
+6709,VCS 2082,ARR,Qianbei Afforestation Project,China,VCS,0,12.5,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2020
+6710,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,0,10.5,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2018
+6711,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,9.75,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2020
+6712,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,9.0,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2019
+6713,VCS 1650,REDD,Keo Seima Wildlife Sanctuary,Cambodia,VCS-CCB,0,8.9,Offer,Sigma,2023-03-24 00:00:00,1.0,,2023,3,2018
+6714,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,0,8.0,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2017
+6715,VCS 2508,REDD,UNITOR REDD+ PROJECT,Brazil,VCS,0,7.5,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2019
+6716,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,0,7.2,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2017
+6717,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,5.35,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2017
+6718,VCS 2361,ARR,Afforesation in cooperation with local landowners for Forestal San Pedro S.A,Paraguay,VCS,0,6.0,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2016
+6719,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,4.75,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2016
+6720,VCS 902,ARR; REDD,Kariba REDD+,Zimbabwe,VCS-CCB,0,4.2,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2016
+6721,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,4.0,Offer,Sigma,2023-03-24 00:00:00,1.0,,2023,3,2017
+6722,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,0,3.8,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2013
+6723,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,0,4.0,Offer,Sigma,2023-03-24 00:00:00,1.0,,2023,3,2017
+6724,VCS 1650,REDD,Keo Seima Wildlife Sanctuary,Cambodia,VCS-CCB,0,3.5,Offer,Sigma,2023-03-24 00:00:00,1.0,,2023,3,2017
+6725,VCS 1115,REDD,JARI/AMAPA REDD+ Project,Brazil,VCS-CCB,0,3.5,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2017
+6726,VCS 985,REDD,Cordillera Azul National Park REDD Project,Peru,VCS-CCB,0,3.4,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2016
+6727,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,0,3.4,Offer,Sigma,2023-03-24 00:00:00,1.0,,2023,3,2016
+6728,VCS 2252,REDD,Rio Anapu-Pacaja,Brazil,VCS-CCB,0,3.4,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2017
+6729,VCS 981,REDD,Pacajai REDD+,Brazil,VCS-CCB,0,3.25,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2017
+6730,VCS 1115,REDD,JARI/AMAPA REDD+ Project,Brazil,VCS-CCB,0,3.25,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2016
+6731,VCS 977,REDD,RMDLT Portel - Para REDD Project,Brazil,VCS-CCB,0,2.9,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2015
+6732,VCS 799,ARR,Bukaleba Forest Project,Uganda,VCS,0,2.1,Offer,Sigma,2023-03-24 00:00:00,1.0,,2023,3,2011
+6733,VCS 2007,Solar,Benban Solar PV Project (Plot 43_4),Egypt,VCS,0,7.5,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2020
+6734,VCS 2749,Rwanda,DelAgua Clean Cooking Grouped Project,Rwanda,VCS,0,5.8,Offer,Sigma,2023-03-24 00:00:00,1.0,,2023,3,2019
+6735,VCS 2664,Cookstoves,Installation of high efficient cookstoves by eki energy services limited,India,VCS-SDG,0,5.8,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2020
+6736,VCS 2002,Wind,Theparak Wind in Thailand,Thailand,VCS-SDG,0,5.6,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2020
+6737,VCS 2352,LFG,Shizaiqian MSW landfill site LFG recovery to power project,China,VCS-SDG,0,4.9,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2019
+6738,VCS 1522,Run of river,Soubre Hydropower Project,Ivory Coast,VCS-SDG,0,4.2,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2019
+6739,VCS 1198,Hydro,Pembelik Hydro Electricity Power Plant,Turkey,VCS,0,3.5,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2020
+6740,VCS 2605,LFG,iZMIR Landfill Gas (LFG) Capture and Utilization Project,Turkey,VCS,0,3.9,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2019
+6741,VCS 1522,Run of river,Soubre Hydropower Project,Ivory Coast,VCS-SDG,0,3.75,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2017
+6742,VCS 650,Biomass,"Biomass Based Power Generation Plant at Village Channu, Punjab",India,VCS,0,3.75,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2016
+6743,VCS 2846,Methane Recovery,FSW AMMS GHG Mitigation Project in Nanyang City,China,VCS,0,3.6,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2020
+6744,VCS 1937,Hydro,Song Lo Hydropower Project,Viet Nam,VCS,0,3.6,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2017
+6745,VCS 1778,Thermal Energy,Lahendong Unit 5 & Unit 6 Geothermal Project,Indonesia,VCS,0,3.5,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2016
+6746,VCS 1771,Wind,46 MW Mangoli Wind Power Project in Karnataka,India,VCS,0,3.25,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2017
+6747,VCS 1931,Solar,Energising India using Solar Energy Projects,India,VCS-SDG,0,3.0,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2020
+6748,VCS 1805,Solar,Solar Energy Project(s) by SB Energy Private Limited,India,VCS,0,3.0,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2021
+6749,VCS 1289,Wind,Talas de Maciel II Wind Farm,Uruguay,VCS,0,2.75,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2018
+6750,VCS 1744,Biomass,4 MW Biomass based cogeneration plant by godrej agrovet ltd,India,VCS-SDG,0,2.5,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2020
+6751,VCS 1337,Efficient Materials,AAC Blocks Manufacturing Unit Based on an Energy Efficient Brick/Block Manufacturing Technology by Biltech Building Elements (Surat),India,VCS,0,2.25,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2014
+6752,VCS 1090,Solar,Solar PV Power Project by Roha Dyechem Pvt. Ltd.,India,VCS,0,2.25,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2013
+6753,VCS 1200,Wind,Guohua Wulate Zhongqi Phase II Wind Farm Project,China,VCS,0,2.2,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2017
+6754,VCS 1742,Run of river,Hydroelectric Project in Kinnaur ,India,VCS,0,2.15,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2019
+6755,VCS 1315,Biomass,Biomass Based Generation Plant at Godrej Agrovet Ltd. Chintampalli,India,VCS,0,2.0,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2019
+6756,VCS 1499,Hydro,Toros Hydroelectric Power Plant,Turkey,VCS,0,1.9,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2018
+6757,VCS 1090,Solar,Solar PV Power Project by Roha Dyechem Pvt. Ltd.,India,VCS,0,1.55,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2013
+6758,VCS 1424,Hydro,URI II Hydroelectric Project,India,VCS,0,1.5,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2014
+6759,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,0,2.95,Offer,Tullets,2023-03-27 00:00:00,0.0,,2023,3,2014
+6760,VCS 1186,Biomass,Vinales Biomass Power Plant,Chile,VCS,0,3.5,Offer,Tullets,2023-03-27 00:00:00,0.0,,2023,3,2015
+6761,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,0,4.0,Offer,Tullets,2023-03-27 00:00:00,1.0,,2023,3,2017
+6762,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,0,4.1,Offer,Tullets,2023-03-27 00:00:00,0.0,,2023,3,2017
+6763,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,0,10.25,Offer,Tullets,2023-03-27 00:00:00,0.0,,2023,3,2019
+6764,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,0,11.75,Offer,Tullets,2023-03-27 00:00:00,0.0,,2023,3,2020
+6765,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,17.5,Offer,Tullets,2023-03-27 00:00:00,0.0,,2023,3,2020
+6766,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,0,13.25,Offer,Tullets,2023-03-27 00:00:00,0.0,,2023,3,2021
+6767,GS 11335,Biogas,Shuangbaotai Animal Manure Management System GHG Mitigation Project in Guangdong Province,China,GS-SDG,0,4.75,Offer,Tullets,2023-03-27 00:00:00,0.0,,2023,3,2021
+6768,GS 11336,Biogas,Shuangbaotai Animal Manure Management System GHG Mitigation Project in Guanxi Province,China,GS-SDG,0,4.75,Offer,Tullets,2023-03-27 00:00:00,0.0,,2023,3,2021
+6769,VCS 2539,REDD,EVERGREEN REDD+ PROJECT,Brazil,VCS,0,5.0,Offer,Tullets,2023-03-27 00:00:00,0.0,,2023,3,2020
+6770,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,5.5,Offer,Tullets,2023-03-27 00:00:00,0.0,,2023,3,2017
+6771,VCS 2250,ARR; WRC,Delta Blue Carbon 1,Pakistan,VCS-CCB,0,30.0,Offer,Tullets,2023-03-27 00:00:00,0.0,,2023,3,2020
+6772,VCS 2402,Biogas,Linshu Biogas Recovery and Power Generation Project,China,VCS,0,4.1,Offer,ICAP,2023-03-27 00:00:00,0.0,,2023,3,2020
+6773,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,3673,5.25,Offer,CBL,2023-03-27 00:00:00,0.0,,2023,3,2017
+6774,VCS 1644,Wind,Larimar Wind Farm Project,Dominican Republic,VCS-SDG,3928,3.85,Offer,CBL,2023-03-27 00:00:00,0.0,,2023,3,2018
+6775,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,1000,10.0,Trade,CBL,2023-03-27 00:00:00,1.0,,2023,3,2020
+6776,VCS 1644,Wind,Larimar Wind Farm Project,Dominican Republic,VCS-SDG,645,3.85,Trade,CBL,2023-03-27 00:00:00,0.0,,2023,3,2018
+6777,VCS 981,REDD,Pacajai REDD+,Brazil,VCS-CCB,800,8.0,Trade,CBL,2023-03-27 00:00:00,0.0,,2023,3,2014
+6778,VCS 2250,ARR; WRC,Delta Blue Carbon 1,Pakistan,VCS-CCB,329,32.0,Trade,ICAP,2023-03-28 00:00:00,0.0,,2023,3,2016
+6779,VCS 2070,ARR,Guinan Afforestation Project,China,VCS-CCB,20000,8.25,Trade,Tullets,2023-03-28 00:00:00,0.0,,2023,3,2020
+6780,VCS 1792,Solar,Ghani solar renewable power project by greenko group,India,VCS-SDG,0,2.5,Offer,Tullets,2023-03-28 00:00:00,0.0,,2023,3,2019
+6781,GS 7551,Solar,AMI Khanh Hoa Solar Project,Viet Nam,GS-SDG,0,6.5,Offer,Tullets,2023-03-28 00:00:00,0.0,,2023,3,2019
+6782,GS 4425,Wind,Vaayu India Wind Power Project in Tamilnadu,India,GS-SDG,100000,4.25,Offer,Tullets,2023-03-28 00:00:00,0.0,,2023,3,2020
+6783,GS 4426,Wind,Wind Energy Project in Gujarat,India,GS-SDG,100000,4.25,Offer,Tullets,2023-03-28 00:00:00,0.0,,2023,3,2020
+6784,VCS 1861,Hydro,3.5MW Manuni Hydro Electric Project in Himanchal Pradesh by Winsome Textile Industries Ltd,India,VCS,0,3.0,Offer,Tullets,2023-03-28 00:00:00,0.0,,2023,3,2020
+6785,VCS 1093,Solar,Solar Power Project by Sai Sudhir Energy Limited,India,VCS,0,2.75,Offer,Tullets,2023-03-28 00:00:00,0.0,,2023,3,2019
+6786,VCS 1896,ARR,Hunan Northern and Northwestern area afforestation area,China,VCS-CCB,50000,8.25,Offer,Tullets,2023-03-28 00:00:00,0.0,,2023,3,2020
+6787,VCS 1146,Alternative Energy,The Hyundai Waste Energy Recovery Co-Generation Project Phase II,South Korea,VCS,200000,2.75,Offer,Tullets,2023-03-28 00:00:00,0.0,,2023,3,2015
+6788,VCS 2252,REDD,Rio Anapu-Pacaja,Brazil,VCS-CCB,100000,8.0,Offer,Tullets,2023-03-28 00:00:00,0.0,,2023,3,2018
+6789,VCS 1522,Run of river,Soubre Hydropower Project,Ivory Coast,VCS-SDG,500000,2.8,Trade,Tullets,2023-03-28 00:00:00,0.0,,2023,3,2018
+6790,VCS 2070,ARR,Guinan Afforestation Project,China,VCS-CCB,20000,8.25,Trade,Tullets,2023-03-28 00:00:00,0.0,,2023,3,2020
+6791,VCS 2252,REDD,Rio Anapu-Pacaja,Brazil,VCS-CCB,100000,6.0,Bid,Tullets,2023-03-28 00:00:00,0.0,,2023,3,2018
+6792,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,1319,4.5,Offer,CBL,2023-03-28 00:00:00,0.0,,2023,3,2017
+6793,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,1064,3.25,Offer,CBL,2023-03-28 00:00:00,0.0,,2023,3,2016
+6794,VCS 1622,REDD,REDD+ Project for Caribbean Guatemala: The Conservation Coast,Guatemala,VCS-CCB,1500,4.5,Offer,CBL,2023-03-28 00:00:00,0.0,,2023,3,2017
+6795,VCS 535,Run of river,78 MW AKOCAK Hydroelectric Power Plant,Turkey,VCS,1669,1.25,Offer,CBL,2023-03-28 00:00:00,0.0,,2023,3,2017
+6796,VCS 1860,Cookstoves,Heqing Solar Cooker Project I,China,VCS,4000,7.5,Offer,CBL,2023-03-28 00:00:00,0.0,,2023,3,2018
+6797,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,1041,8.0,Offer,CBL,2023-03-28 00:00:00,1.0,,2023,3,2018
+6798,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,13400,2.85,Offer,CBL,2023-03-28 00:00:00,1.0,,2023,3,2016
+6799,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,3673,5.25,Offer,CBL,2023-03-28 00:00:00,0.0,,2023,3,2017
+6800,VCS 985,REDD,Cordillera Azul National Park REDD Project,Peru,VCS-CCB,1000,5.6,Offer,CBL,2023-03-28 00:00:00,0.0,,2023,3,2013
+6801,VCS 481,Wind,9 MW Power Project In Tamil Nadu by ACC Limited,India,VCS,5000,5.5,Offer,CBL,2023-03-28 00:00:00,0.0,,2023,3,2018
+6802,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,1000,9.8,Trade,CBL,2023-03-28 00:00:00,0.0,,2023,3,2020
+6803,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,20000,8.6,Trade,Sigma,2023-03-28 00:00:00,0.0,,2023,3,2019
+6804,VCS 971,Hydro,Dak Srong 2 Hydropower Project,Viet Nam,VCS,0,3.6,Offer,ICAP,2023-03-28 00:00:00,0.0,,2023,3,2016
+6805,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,50000,7.2,Offer,Sigma,2023-03-28 00:00:00,0.0,,2023,3,2017
+6806,VCS 1115,REDD,JARI/AMAPA REDD+ Project,Brazil,VCS-CCB,39000,3.5,Offer,Sigma,2023-03-28 00:00:00,0.0,,2023,3,2016
+6807,VCS 2252,REDD,Rio Anapu-Pacaja,Brazil,VCS-CCB,100000,3.4,Offer,Sigma,2023-03-28 00:00:00,0.0,,2023,3,2017
+6808,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,100000,3.35,Offer,Sigma,2023-03-28 00:00:00,1.0,,2023,3,2016
+6809,VCS 1090,Solar,Solar PV Power Project by Roha Dyechem Pvt. Ltd.,India,VCS,40000,1.55,Offer,Sigma,2023-03-28 00:00:00,0.0,,2023,3,2013
+6810,VCS 1424,Hydro,URI II Hydroelectric Project,India,VCS,98000,1.5,Offer,Sigma,2023-03-28 00:00:00,0.0,,2023,3,2014
+6811,VCS 1899,ARR; WRC,Sumatra Merang Peatland Project,Indonesia,VCS-CCB,20000,10.5,Bid,Sigma,2023-03-29 00:00:00,0.0,,2023,3,2019
+6812,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,50000,7.2,Offer,Sigma,2023-03-29 00:00:00,0.0,,2023,3,2017
+6813,VCS 1115,REDD,JARI/AMAPA REDD+ Project,Brazil,VCS-CCB,39000,3.5,Offer,Sigma,2023-03-29 00:00:00,0.0,,2023,3,2017
+6814,VCS 2252,REDD,Rio Anapu-Pacaja,Brazil,VCS-CCB,100000,3.4,Offer,Sigma,2023-03-29 00:00:00,0.0,,2023,3,2017
+6815,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,100000,3.35,Offer,Sigma,2023-03-29 00:00:00,1.0,,2023,3,2016
+6816,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,7144,4.25,Offer,CBL,2023-03-29 00:00:00,1.0,,2023,3,2017
+6817,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,1319,4.5,Offer,CBL,2023-03-29 00:00:00,0.0,,2023,3,2017
+6818,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,1064,3.25,Offer,CBL,2023-03-29 00:00:00,0.0,,2023,3,2016
+6819,VCS 535,Run of river,78 MW AKOCAK Hydroelectric Power Plant,Turkey,VCS,1669,1.25,Offer,CBL,2023-03-29 00:00:00,0.0,,2023,3,2017
+6820,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,3400,2.85,Offer,CBL,2023-03-29 00:00:00,1.0,,2023,3,2016
+6821,VCS 1115,REDD,JARI/AMAPA REDD+ Project,Brazil,VCS-CCB,5700,5.0,Offer,CBL,2023-03-29 00:00:00,0.0,,2023,3,2018
+6822,VCS 1622,REDD,REDD+ Project for Caribbean Guatemala: The Conservation Coast,Guatemala,VCS-CCB,1500,4.5,Offer,CBL,2023-03-29 00:00:00,0.0,,2023,3,2017
+6823,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,1041,8.0,Offer,CBL,2023-03-29 00:00:00,1.0,,2023,3,2018
+6824,VCS 1860,Cookstoves,Heqing Solar Cooker Project I,China,VCS,4000,7.5,Offer,CBL,2023-03-29 00:00:00,0.0,,2023,3,2018
+6825,VCS 2250,ARR; WRC,Delta Blue Carbon 1,Pakistan,VCS-CCB,700,29.6,Offer,CBL,2023-03-29 00:00:00,0.0,,2023,3,2016
+6826,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,17915,10.5,Offer,CBL,2023-03-29 00:00:00,0.0,,2023,3,2018
+6827,VCS 1112,REDD,The Russas Project,Brazil,VCS-CCB,3484,3.85,Offer,CBL,2023-03-29 00:00:00,0.0,,2023,3,2015
+6828,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,20000,3.85,Offer,CBL,2023-03-29 00:00:00,0.0,,2023,3,2015
+6829,VCS 1113,REDD,The Valparaiso Project,Brazil,VCS-CCB,15872,3.85,Offer,CBL,2023-03-29 00:00:00,0.0,,2023,3,2015
+6830,VCS 2539,REDD,EVERGREEN REDD+ PROJECT,Brazil,VCS,15000,6.5,Offer,CBL,2023-03-29 00:00:00,0.0,,2023,3,2021
+6831,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,604,10.5,Trade,CBL,2023-03-29 00:00:00,0.0,,2023,3,2018
+6832,VCS 2250,ARR; WRC,Delta Blue Carbon 1,Pakistan,VCS-CCB,100,29.6,Trade,CBL,2023-03-29 00:00:00,0.0,,2023,3,2016
+6833,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,100,4.25,Trade,CBL,2023-03-29 00:00:00,1.0,,2023,3,2017
+6834,VCS 1446,Methane Recovery,Sichuan Furong Coal Mine Methane Utilization Project,China,VCS,39166,2.35,Trade,CBL,2023-03-29 00:00:00,0.0,,2023,3,2019
+6835,VCS 1067,REDD,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park,Peru,VCS-CCB,0,6.5,Bid,ICAP,2023-03-29 00:00:00,0.0,,2023,3,2018
+6836,VCS 2478,Fugitive emissions,Reducing Gas Leakages within the Titas Gas Distribution Network in Bangladesh,Bangladesh,VCS-SDG,0,4.5,Offer,ICAP,2023-03-29 00:00:00,1.0,,2023,3,2018
+6837,VCS 1735,Solar,Negros Island Solar Power Inc.,Philippines,VCS-SDG,0,5.75,Offer,ICAP,2023-03-29 00:00:00,0.0,,2023,3,2020
+6838,VCS 1146,Alternative Energy,The Hyundai Waste Energy Recovery Co-Generation Project Phase II,South Korea,VCS,0,3.0,Offer,ICAP,2023-03-29 00:00:00,0.0,,2023,3,2015
+6839,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,5.25,Offer,ICAP,2023-03-29 00:00:00,0.0,,2023,3,2017
+6840,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,8.6,Offer,ICAP,2023-03-29 00:00:00,0.0,,2023,3,2019
+6841,VCS 1899,ARR; WRC,Sumatra Merang Peatland Project,Indonesia,VCS-CCB,0,10.5,Bid,Sigma,2023-03-30 00:00:00,0.0,,2023,3,2019
+6842,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,0,7.2,Offer,Sigma,2023-03-30 00:00:00,0.0,,2023,3,2017
+6843,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,0,7.05,Offer,Sigma,2023-03-30 00:00:00,1.0,,2023,3,2018
+6844,VCS 1115,REDD,JARI/AMAPA REDD+ Project,Brazil,VCS-CCB,0,3.5,Offer,Sigma,2023-03-30 00:00:00,0.0,,2023,3,2017
+6845,VCS 2252,REDD,Rio Anapu-Pacaja,Brazil,VCS-CCB,0,3.4,Offer,Sigma,2023-03-30 00:00:00,0.0,,2023,3,2017
+6846,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,0,3.35,Offer,Sigma,2023-03-30 00:00:00,1.0,,2023,3,2016
+6847,VCS 1067,REDD,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park,Peru,VCS-CCB,0,6.5,Bid,ICAP,2023-03-30 00:00:00,0.0,,2023,3,2018
+6848,VCS 971,Hydro,Dak Srong 2 Hydropower Project,Viet Nam,VCS,0,3.6,Offer,ICAP,2023-03-30 00:00:00,0.0,,2023,3,2016
+6849,VCS 2605,LFG,iZMIR Landfill Gas (LFG) Capture and Utilization Project,Turkey,VCS,0,4.5,Offer,ICAP,2023-03-30 00:00:00,0.0,,2023,3,2018
+6850,VCS 1735,Solar,Negros Island Solar Power Inc.,Philippines,VCS-SDG,0,5.75,Offer,ICAP,2023-03-30 00:00:00,0.0,,2023,3,2020
+6851,VCS 2087,ARR,Chudu Afforestation Project,China,VCS-CCB,0,8.0,Offer,ICAP,2023-03-30 00:00:00,0.0,,2023,3,2020
+6852,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,5.25,Offer,ICAP,2023-03-30 00:00:00,0.0,,2023,3,2017
+6853,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,8.0,Offer,ICAP,2023-03-30 00:00:00,0.0,,2023,3,2018
+6854,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,8.6,Offer,ICAP,2023-03-30 00:00:00,0.0,,2023,3,2019
+6855,VCS 985,REDD,Cordillera Azul National Park REDD Project,Peru,VCS-CCB,4778,3.25,Offer,CBL,2023-03-30 00:00:00,0.0,,2023,3,2016
+6856,VCS 1115,REDD,JARI/AMAPA REDD+ Project,Brazil,VCS-CCB,5700,5.0,Offer,CBL,2023-03-30 00:00:00,0.0,,2023,3,2018
+6857,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,7044,4.25,Offer,CBL,2023-03-30 00:00:00,1.0,,2023,3,2017
+6858,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,1319,4.5,Offer,CBL,2023-03-30 00:00:00,0.0,,2023,3,2017
+6859,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,1064,3.25,Offer,CBL,2023-03-30 00:00:00,0.0,,2023,3,2016
+6860,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,3400,3.0,Offer,CBL,2023-03-30 00:00:00,1.0,,2023,3,2016
+6861,VCS 535,Run of river,78 MW AKOCAK Hydroelectric Power Plant,Turkey,VCS,1669,1.25,Offer,CBL,2023-03-30 00:00:00,0.0,,2023,3,2017
+6862,VCS 1622,REDD,REDD+ Project for Caribbean Guatemala: The Conservation Coast,Guatemala,VCS-CCB,1500,4.5,Offer,CBL,2023-03-30 00:00:00,0.0,,2023,3,2017
+6863,VCS 1860,Cookstoves,Heqing Solar Cooker Project I,China,VCS,4000,7.5,Offer,CBL,2023-03-30 00:00:00,0.0,,2023,3,2018
+6864,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,1041,8.0,Offer,CBL,2023-03-30 00:00:00,1.0,,2023,3,2018
+6865,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,3000,5.25,Offer,CBL,2023-03-30 00:00:00,0.0,,2023,3,2017
+6866,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,1064,3.25,Bid,CBL,2023-03-30 00:00:00,0.0,,2023,3,2016
+6867,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,24221,3.8,Offer,CBL,2023-03-30 00:00:00,0.0,,2023,3,2014
+6868,VCS 2930,Fugitive emissions,Reducing Gas Leakages within the Titas Gas Distribution Network in Bangladesh Verra,Bangladesh,VCS,1000,5.0,Trade,CBL,2023-03-30 00:00:00,1.0,,2023,3,2021
+6869,GS 7744,Wind,West Huaybong 2 wind farm project,Thailand,GS-SDG,80544,6.16,Trade,CBL,2023-03-30 00:00:00,0.0,,2023,3,2020
+6870,GS 7744,Wind,West Huaybong 2 wind farm project,Thailand,GS-SDG,64003,5.84,Trade,CBL,2023-03-30 00:00:00,0.0,,2023,3,2021
+6871,VCS 2539,REDD,EVERGREEN REDD+ PROJECT,Brazil,VCS,15000,8.9,Trade,CBL,2023-03-30 00:00:00,0.0,,2023,3,2021
+6872,VCS 2930,Fugitive emissions,Reducing Gas Leakages within the Titas Gas Distribution Network in Bangladesh Verra,Bangladesh,VCS,35368,4.8,Trade,CBL,2023-03-30 00:00:00,1.0,,2023,3,2021
+6873,VCS 2002,Wind,Theparak Wind in Thailand,Thailand,VCS-SDG,951,5.3,Trade,CBL,2023-03-30 00:00:00,0.0,,2023,3,2021
+6874,GS 7744,Wind,West Huaybong 2 wind farm project,Thailand,GS-SDG,64003,5.3,Trade,CBL,2023-03-30 00:00:00,0.0,,2023,3,2021
+6875,GS 7744,Wind,West Huaybong 2 wind farm project,Thailand,GS-SDG,80544,5.3,Trade,CBL,2023-03-30 00:00:00,0.0,,2023,3,2020
+6876,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,936,3.8,Trade,CBL,2023-03-30 00:00:00,0.0,,2023,3,2014
+6877,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,1064,3.25,Trade,CBL,2023-03-30 00:00:00,0.0,,2023,3,2016
+6878,VCS 2539,REDD,EVERGREEN REDD+ PROJECT,Brazil,VCS,15000,6.5,Trade,CBL,2023-03-30 00:00:00,0.0,,2023,3,2021
+6879,VCS 1950,Wind,Longyuan Mulilo De Aar 2 North Wind Energy Facility,South Africa,VCS,0,4.25,Trade,ICAP,2023-03-31 00:00:00,0.0,,2023,3,2018
+6880,VCS 1067,REDD,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park,Peru,VCS-CCB,0,11.25,Offer,ICAP,2023-03-31 00:00:00,0.0,,2023,3,2020
+6881,VCS 971,Hydro,Dak Srong 2 Hydropower Project,Viet Nam,VCS,0,3.6,Offer,ICAP,2023-03-31 00:00:00,0.0,,2023,3,2016
+6882,VCS 2605,LFG,iZMIR Landfill Gas (LFG) Capture and Utilization Project,Turkey,VCS,0,4.5,Offer,ICAP,2023-03-31 00:00:00,0.0,,2023,3,2018
+6883,VCS 2087,ARR,Chudu Afforestation Project,China,VCS-CCB,0,8.0,Bid,ICAP,2023-03-31 00:00:00,0.0,,2023,3,2020
+6884,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,5.25,Offer,ICAP,2023-03-31 00:00:00,0.0,,2023,3,2017
+6885,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,8.6,Offer,ICAP,2023-03-31 00:00:00,0.0,,2023,3,2019
+6886,VCS 985,REDD,Cordillera Azul National Park REDD Project,Peru,VCS-CCB,4778,3.0,Offer,CBL,2023-03-31 00:00:00,0.0,,2023,3,2016
+6887,VCS 1115,REDD,JARI/AMAPA REDD+ Project,Brazil,VCS-CCB,5700,5.0,Offer,CBL,2023-03-31 00:00:00,0.0,,2023,3,2018
+6888,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,7044,4.25,Offer,CBL,2023-03-31 00:00:00,1.0,,2023,3,2017
+6889,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,1319,4.5,Offer,CBL,2023-03-31 00:00:00,0.0,,2023,3,2017
+6890,VCS 535,Run of river,78 MW AKOCAK Hydroelectric Power Plant,Turkey,VCS,1669,1.25,Offer,CBL,2023-03-31 00:00:00,0.0,,2023,3,2017
+6891,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,3400,3.0,Offer,CBL,2023-03-31 00:00:00,1.0,,2023,3,2016
+6892,VCS 1622,REDD,REDD+ Project for Caribbean Guatemala: The Conservation Coast,Guatemala,VCS-CCB,1500,4.5,Offer,CBL,2023-03-31 00:00:00,0.0,,2023,3,2017
+6893,VCS 1860,Cookstoves,Heqing Solar Cooker Project I,China,VCS,4000,7.0,Offer,CBL,2023-03-31 00:00:00,0.0,,2023,3,2018
+6894,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,1041,8.0,Offer,CBL,2023-03-31 00:00:00,1.0,,2023,3,2018
+6895,VCS 1953,REDD,Floresa Verde (ARC) REDD+ Project,Brazil,VCS-CCB,5000,3.25,Offer,CBL,2023-03-31 00:00:00,0.0,,2023,3,2016
+6896,VCS 97,Hydro,Yanling Shendu Hydropower Project,China,VCS,6042,1.56,Offer,CBL,2023-03-31 00:00:00,0.0,,2023,3,2012
+6897,VCS 371,Hydro,Guangdong Lankou 26MW Hydro Power Project,China,VCS,9879,1.56,Offer,CBL,2023-03-31 00:00:00,0.0,,2023,3,2012
+6898,VCS 1953,REDD,Floresa Verde (ARC) REDD+ Project,Brazil,VCS-CCB,3250,2.9,Offer,CBL,2023-03-31 00:00:00,0.0,,2023,3,2016
+6899,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,1041,7.5,Offer,CBL,2023-03-31 00:00:00,1.0,,2023,3,2018
+6900,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,2500,3.25,Offer,CBL,2023-03-31 00:00:00,0.0,,2023,3,2016
+6901,VCS 2002,Wind,Theparak Wind in Thailand,Thailand,VCS-SDG,951,5.84,Trade,CBL,2023-03-31 00:00:00,0.0,,2023,3,2021
+6902,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,1000,9.0,Trade,CBL,2023-03-31 00:00:00,1.0,,2023,3,2020
+6903,VCS 1899,ARR; WRC,Sumatra Merang Peatland Project,Indonesia,VCS-CCB,20000,12.0,Bid,Sigma,2023-04-03 00:00:00,0.0,,2023,4,2019
+6904,VCS 1115,REDD,JARI/AMAPA REDD+ Project,Brazil,VCS-CCB,39000,3.5,Offer,Sigma,2023-04-03 00:00:00,0.0,,2023,4,2017
+6905,VCS 2252,REDD,Rio Anapu-Pacaja,Brazil,VCS-CCB,100000,3.4,Offer,Sigma,2023-04-03 00:00:00,0.0,,2023,4,2017
+6906,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,100000,3.35,Offer,Sigma,2023-04-03 00:00:00,1.0,,2023,4,2016
+6907,VCS 1950,Wind,Longyuan Mulilo De Aar 2 North Wind Energy Facility,South Africa,VCS,0,4.25,Trade,ICAP,2023-04-03 00:00:00,0.0,,2023,4,2018
+6908,VCS 2002,Wind,Theparak Wind in Thailand,Thailand,VCS-SDG,20000,4.5,Trade,Sigma,2023-04-03 00:00:00,0.0,,2023,4,2021
+6909,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,1041,8.0,Offer,CBL,2023-04-04 00:00:00,1.0,,2023,4,2018
+6910,VCS 1860,Cookstoves,Heqing Solar Cooker Project I,China,VCS,4000,7.5,Offer,CBL,2023-04-04 00:00:00,0.0,,2023,4,2018
+6911,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,7044,4.25,Offer,CBL,2023-04-04 00:00:00,1.0,,2023,4,2017
+6912,VCS 1389,REDD,Acapa - Bajo Mira Y Fontera REDD+ Project,Colombia,VCS-CCB,10626,7.35,Offer,CBL,2023-04-04 00:00:00,0.0,,2023,4,2016
+6913,VCS 1344,Hydro,Murat HEPP,Turkey,VCS,17020,3.25,Offer,CBL,2023-04-04 00:00:00,0.0,,2023,4,2019
+6914,VCS 2478,Fugitive emissions,Reducing Gas Leakages within the Titas Gas Distribution Network in Bangladesh,Bangladesh,VCS-SDG,8054,4.5,Offer,CBL,2023-04-04 00:00:00,1.0,,2023,4,2018
+6915,VCS 2082,ARR,Qianbei Afforestation Project,China,VCS,24680,13.05,Offer,CBL,2023-04-04 00:00:00,0.0,,2023,4,2020
+6916,VCS 1330,Hydro,Midilli Hydroelectric Power Plant,Turkey,VCS,8908,2.3,Offer,CBL,2023-04-04 00:00:00,0.0,,2023,4,2017
+6917,VCS 1330,Hydro,Midilli Hydroelectric Power Plant,Turkey,VCS,18478,1.9,Offer,CBL,2023-04-04 00:00:00,0.0,,2023,4,2015
+6918,GS 10790,Cookstoves,Efficient and Clean Cooking for households in Somalia,Somalia,GS-SDG,3604,8.5,Trade,CBL,2023-04-04 00:00:00,1.0,,2023,4,2020
+6919,VCS 2082,ARR,Qianbei Afforestation Project,China,VCS,320,13.05,Trade,CBL,2023-04-04 00:00:00,0.0,,2023,4,2020
+6920,VCS 2478,Fugitive emissions,Reducing Gas Leakages within the Titas Gas Distribution Network in Bangladesh,Bangladesh,VCS-SDG,280,4.5,Trade,CBL,2023-04-04 00:00:00,1.0,,2023,4,2018
+6921,VCS 1344,Hydro,Murat HEPP,Turkey,VCS,280,3.25,Trade,CBL,2023-04-04 00:00:00,0.0,,2023,4,2019
+6922,VCS 1389,REDD,Acapa - Bajo Mira Y Fontera REDD+ Project,Colombia,VCS-CCB,280,7.35,Trade,CBL,2023-04-04 00:00:00,0.0,,2023,4,2016
+6923,VCS 1115,REDD,JARI/AMAPA REDD+ Project,Brazil,VCS-CCB,280,5.0,Trade,CBL,2023-04-04 00:00:00,0.0,,2023,4,2018
+6924,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,17.25,Offer,ICAP,2023-04-04 00:00:00,0.0,,2023,4,2020
+6925,VCS 1146,Alternative Energy,The Hyundai Waste Energy Recovery Co-Generation Project Phase II,South Korea,VCS,0,2.75,Offer,ICAP,2023-04-05 00:00:00,0.0,,2023,4,2015
+6926,VCS 1784,Solar,Solar Power Project by Mytrah Energy,India,VCS-SDG,0,3.5,Offer,ICAP,2023-04-05 00:00:00,0.0,,2023,4,2019
+6927,VCS 2000,Wind,K.R.S Three in Thailand,Thailand,VCS-SDG,0,4.4,Offer,ICAP,2023-04-05 00:00:00,0.0,,2023,4,2019
+6928,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,16.5,Offer,ICAP,2023-04-05 00:00:00,0.0,,2023,4,2020
+6929,VCS 2250,ARR; WRC,Delta Blue Carbon 1,Pakistan,VCS-CCB,0,34.0,Offer,ICAP,2023-04-05 00:00:00,0.0,,2023,4,2020
+6930,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,1319,4.5,Offer,CBL,2023-04-05 00:00:00,0.0,,2023,4,2017
+6931,VCS 1380,Hydro,Akinci Hydroelectric Power Plant,Turkey,VCS-SDG,2463,3.1,Offer,CBL,2023-04-05 00:00:00,0.0,,2023,4,2020
+6932,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,3000,5.25,Offer,CBL,2023-04-05 00:00:00,0.0,,2023,4,2017
+6933,VCS 985,REDD,Cordillera Azul National Park REDD Project,Peru,VCS-CCB,4041,3.25,Offer,CBL,2023-04-05 00:00:00,0.0,,2023,4,2016
+6934,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,7044,4.25,Offer,CBL,2023-04-05 00:00:00,1.0,,2023,4,2017
+6935,VCS 535,Run of river,78 MW AKOCAK Hydroelectric Power Plant,Turkey,VCS,1669,1.5,Offer,CBL,2023-04-05 00:00:00,0.0,,2023,4,2017
+6936,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,2934,3.0,Offer,CBL,2023-04-05 00:00:00,1.0,,2023,4,2016
+6937,VCS 1622,REDD,REDD+ Project for Caribbean Guatemala: The Conservation Coast,Guatemala,VCS-CCB,1500,4.5,Offer,CBL,2023-04-05 00:00:00,0.0,,2023,4,2017
+6938,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,1041,8.0,Offer,CBL,2023-04-05 00:00:00,1.0,,2023,4,2018
+6939,VCS 1860,Cookstoves,Heqing Solar Cooker Project I,China,VCS,4000,7.5,Offer,CBL,2023-04-05 00:00:00,0.0,,2023,4,2018
+6940,VCS 1115,REDD,JARI/AMAPA REDD+ Project,Brazil,VCS-CCB,5000,5.0,Offer,CBL,2023-04-05 00:00:00,0.0,,2023,4,2018
+6941,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,5000,3.25,Offer,CBL,2023-04-05 00:00:00,0.0,,2023,4,2016
+6942,VCS 1650,REDD,Keo Seima Wildlife Sanctuary,Cambodia,VCS-CCB,1000,2.0,Bid,CBL,2023-04-05 00:00:00,1.0,,2023,4,2017
+6943,VCS 1650,REDD,Keo Seima Wildlife Sanctuary,Cambodia,VCS-CCB,3000,3.2,Bid,CBL,2023-04-05 00:00:00,1.0,,2023,4,2017
+6945,VCS 985,REDD,Cordillera Azul National Park REDD Project,Peru,VCS-CCB,4041,3.05,Offer,CBL,2023-04-05 00:00:00,0.0,,2023,4,2016
+6946,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,125,12.0,Offer,CBL,2023-04-05 00:00:00,1.0,,2023,4,2016
+6947,VCS 985,REDD,Cordillera Azul National Park REDD Project,Peru,VCS-CCB,4,3.05,Trade,CBL,2023-04-05 00:00:00,0.0,,2023,4,2016
+6948,VCS 756,Wind,Crow Lake Wind Emissions Reduction Project,United States,VCS,1365,12.5,Trade,CBL,2023-04-05 00:00:00,0.0,,2023,4,2020
+6949,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,115000,2.95,Offer,Tullets,2023-04-04 00:00:00,0.0,,2023,4,2014
+6950,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,250000,4.1,Offer,Tullets,2023-04-04 00:00:00,0.0,,2023,4,2017
+6951,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,50000,10.25,Offer,Tullets,2023-04-04 00:00:00,0.0,,2023,4,2019
+6952,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,50000,11.75,Offer,Tullets,2023-04-04 00:00:00,0.0,,2023,4,2020
+6953,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,50000,13.25,Offer,Tullets,2023-04-04 00:00:00,0.0,,2023,4,2021
+6954,VCS 2539,REDD,EVERGREEN REDD+ PROJECT,Brazil,VCS,15000,5.0,Offer,Tullets,2023-04-04 00:00:00,0.0,,2023,4,2020
+6955,VCS 2508,REDD,UNITOR REDD+ PROJECT,Brazil,VCS,500000,7.75,Offer,Tullets,2023-04-04 00:00:00,0.0,,2023,4,2018
+6956,VCS 1186,Biomass,Vinales Biomass Power Plant,Chile,VCS,0,3.5,Offer,Tullets,2023-04-04 00:00:00,0.0,,2023,4,2015
+6957,VCS 1898,Wind,50 MW Tsetsii Wind Farm in Mongolia,Mongolia,VCS-SDG,0,2.8,Offer,Tullets,2023-04-04 00:00:00,0.0,,2023,4,2018
+6958,VCS 2070,ARR,Guinan Afforestation Project,China,VCS-CCB,50000,8.5,Offer,Tullets,2023-04-04 00:00:00,0.0,,2023,4,2020
+6959,VCS 1896,ARR,Hunan Northern and Northwestern area afforestation area,China,VCS-CCB,0,8.5,Offer,Tullets,2023-04-04 00:00:00,0.0,,2023,4,2020
+6960,VCS 1899,ARR; WRC,Sumatra Merang Peatland Project,Indonesia,VCS-CCB,20000,12.4,Trade,Tullets,2023-04-04 00:00:00,0.0,,2023,4,2019
+6961,VCS 1112,REDD,The Russas Project,Brazil,VCS-CCB,0,11.5,Offer,Tullets,2023-04-04 00:00:00,0.0,,2023,4,2018
+6962,VCS 1115,REDD,JARI/AMAPA REDD+ Project,Brazil,VCS-CCB,0,4.25,Offer,Tullets,2023-04-04 00:00:00,0.0,,2023,4,2016
+6963,VCS 2982,Cookstoves,BioLite Improved Cook stoves Programme,Kenya,VCS-SDG,0,6.75,Offer,Tullets,2023-04-04 00:00:00,0.0,,2023,4,2020
+6964,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,0,7.5,Offer,Tullets,2023-04-04 00:00:00,0.0,,2023,4,2017
+6965,VCS 964,Hydro,Uzundere I 63.0 MW Hydroelectric Power Plant Project,Turkey,VCS,0,1.5,Offer,Tullets,2023-04-04 00:00:00,0.0,,2023,4,2014
+6966,VCS 964,Hydro,Uzundere I 63.0 MW Hydroelectric Power Plant Project,Turkey,VCS,0,1.7,Offer,Tullets,2023-04-04 00:00:00,0.0,,2023,4,2017
+6967,VCS 1221,Hydro,Eglence I-II Hydroelectric Power Plant,Turkey,VCS,0,1.8,Offer,Tullets,2023-04-04 00:00:00,0.0,,2023,4,2019
+6968,VCS 1221,Hydro,Eglence I-II Hydroelectric Power Plant,Turkey,VCS,0,1.9,Offer,Tullets,2023-04-04 00:00:00,0.0,,2023,4,2020
+6969,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,0,4.1,Offer,Tullets,2023-04-04 00:00:00,0.0,,2023,4,2017
+6970,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,14.0,Bid,ICAP,2022-04-06 00:00:00,0.0,,2022,4,2019
+6971,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,50000,14.0,Bid,ICAP,2022-04-06 00:00:00,1.0,,2022,4,2019
+6972,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,39000,11.0,Bid,ICAP,2022-04-12 00:00:00,1.0,,2022,4,2017
+6974,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,50000,11.1,Bid,Jarden,2022-04-13 00:00:00,1.0,,2022,4,2018
+6975,VCS 612,REDD,The Kasigau Corridor REDD Project - Phase II The Community Ranches,Kenya,VCS-CCB,40000,9.5,Bid,Jarden,2022-04-13 00:00:00,0.0,,2022,4,2016
+6977,VCS 1650,REDD,Keo Seima Wildlife Sanctuary,Cambodia,VCS-CCB,100000,13.0,Bid,Jarden,2022-04-22 00:00:00,1.0,,2022,4,2019
+6978,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,100000,14.0,Bid,TFS,2022-05-02 00:00:00,1.0,,2022,5,2018
+6979,VCS 902,ARR; REDD,Kariba REDD+,Zimbabwe,VCS-CCB,100000,14.0,Bid,TFS,2022-05-02 00:00:00,0.0,,2022,5,2018
+6980,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,10000,10.8,Bid,ICAP,2022-05-12 00:00:00,0.0,,2022,5,2015
+6981,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,50000,14.75,Bid,TFS,2022-05-16 00:00:00,1.0,,2022,5,2018
+6982,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,14.75,Bid,TFS,2022-05-16 00:00:00,0.0,,2022,5,2018
+6983,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,25000,14.75,Bid,TFS,2022-05-16 00:00:00,0.0,,2022,5,2019
+6984,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,10000,10.8,Bid,ICAP,2022-05-17 00:00:00,0.0,,2022,5,2015
+6985,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,100000,10.9,Bid,ICAP,2022-05-24 00:00:00,0.0,,2022,5,2017
+6986,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,0,11.15,Bid,ICAP,2022-05-26 00:00:00,0.0,,2022,5,2017
+6987,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,14.5,Bid,Tullets,2022-05-30 00:00:00,0.0,,2022,5,2020
+6988,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,15.0,Bid,Tullets,2022-05-31 00:00:00,0.0,,2022,5,2020
+6989,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,50000,14.75,Bid,ICAP,2022-05-31 00:00:00,1.0,,2022,5,2019
+6990,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,15.0,Bid,ICAP,2022-05-31 00:00:00,0.0,,2022,5,2019
+6991,VCS 928,Hydro,Yunnan Mangli Hydropower Project,China,VCS,0,2.5,Bid,ICAP,2022-05-31 00:00:00,0.0,,2022,5,2019
+6992,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,15.0,Bid,ICAP,2022-06-01 00:00:00,0.0,,2022,6,2019
+6993,VCS 728,Wind,CECIC Gansu Yumen Changma No.3 Wind Farm Project,China,VCS,0,2.75,Bid,ICAP,2022-06-01 00:00:00,0.0,,2022,6,2019
+6994,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,50000,14.5,Bid,ICAP,2022-06-07 00:00:00,1.0,,2022,6,2019
+6995,VCS 728,Wind,CECIC Gansu Yumen Changma No.3 Wind Farm Project,China,VCS,0,2.75,Bid,ICAP,2022-06-07 00:00:00,0.0,,2022,6,2019
+6996,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,50000,11.0,Bid,ICAP,2022-06-07 00:00:00,0.0,,2022,6,2017
+6997,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,50000,14.5,Bid,ICAP,2022-06-08 00:00:00,1.0,,2022,6,2019
+6998,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,14.9,Bid,TFS,2022-06-08 00:00:00,0.0,,2022,6,2020
+6999,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,100000,10.0,Bid,ICAP,2022-06-09 00:00:00,0.0,,2022,6,2016
+7001,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,100000,13.6,Bid,ICAP,2022-06-20 00:00:00,0.0,,2022,6,2019
+7002,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,100000,12.8,Bid,ICAP,2022-06-20 00:00:00,0.0,,2022,6,2018
+7003,GS 7312,Cookstoves,Promoting improved cooking practices in nigeria,Nigeria,GS-SDG,20000,9.5,Bid,ICAP,2022-06-20 00:00:00,0.0,,2022,6,2021
+7004,GS 7312,Cookstoves,Promoting improved cooking practices in nigeria,Nigeria,GS-SDG,50000,9.25,Bid,ICAP,2022-06-20 00:00:00,0.0,,2022,6,2020
+7005,VCS 2375,ARR,Jilin Sanchazi Afforestation Project,China,VCS-CCB,0,13.5,Bid,ICAP,2022-06-27 00:00:00,0.0,,2022,6,2019
+7006,GS 7312,Cookstoves,Promoting improved cooking practices in nigeria,Nigeria,GS-SDG,20000,9.25,Bid,ICAP,2022-06-27 00:00:00,0.0,,2022,6,2021
+7008,VCS 2082,ARR,Qianbei Afforestation Project,China,VCS,0,12.85,Bid,Tullets,2022-06-28 00:00:00,0.0,,2022,6,2019
+7009,VCS 1001,Wind,Inner mongolia yihewusu phase II wind power project,China,VCS,15000,2.5,Bid,TFS,2022-06-30 00:00:00,0.0,,2022,6,2021
+7010,VCS 2375,ARR,Jilin Sanchazi Afforestation Project,China,VCS-CCB,0,13.5,Bid,ICAP,2022-06-30 00:00:00,0.0,Sep22 delivery,2022,6,2019
+7011,GS 7312,Cookstoves,Promoting improved cooking practices in nigeria,Nigeria,GS-SDG,20000,9.25,Bid,ICAP,2022-06-30 00:00:00,0.0,,2022,6,2021
+7012,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,100000,11.3,Bid,Tullets,2022-07-22 00:00:00,1.0,,2022,7,2019
+7013,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,90000,8.5,Bid,ICAP,2022-07-22 00:00:00,0.0,,2022,7,2016
+7016,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,13.0,Bid,Tullets,2022-08-02 00:00:00,0.0,Corporate - Needed 3 day due dilligence window,2022,8,2020
+7020,VCS 1650,REDD,Keo Seima Wildlife Sanctuary,Cambodia,VCS-CCB,0,13.25,Bid,ICAP,2022-08-22 00:00:00,1.0,,2022,8,2019
+7021,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,100000,14.0,Bid,TFS,2022-08-28 00:00:00,1.0,,2022,8,2018
+7022,VCS 902,ARR; REDD,Kariba REDD+,Zimbabwe,VCS-CCB,100000,14.0,Bid,TFS,2022-08-28 00:00:00,0.0,,2022,8,2018
+7023,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,9.5,Bid,ICAP,2022-08-31 00:00:00,0.0,,2022,8,2016
+7024,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,13.25,Bid,TFS,2022-09-01 00:00:00,1.0,,2022,9,2019
+7025,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,13.5,Bid,TFS,2022-09-01 00:00:00,1.0,,2022,9,2020
+7027,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,13.0,Bid,TFS,2022-09-02 00:00:00,1.0,,2022,9,2019
+7028,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,13.0,Bid,TFS,2022-09-02 00:00:00,1.0,,2022,9,2020
+7029,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,13.5,Bid,TFS,2022-09-05 00:00:00,1.0,,2022,9,2019
+7030,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,14.25,Bid,TFS,2022-09-05 00:00:00,1.0,,2022,9,2020
+7031,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,13.25,Bid,TFS,2022-09-06 00:00:00,1.0,,2022,9,2019
+7032,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,14.0,Bid,TFS,2022-09-06 00:00:00,1.0,,2022,9,2020
+7033,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,13.5,Bid,TFS,2022-09-07 00:00:00,1.0,,2022,9,2019
+7034,VCS 2082,ARR,Qianbei Afforestation Project,China,VCS,50000,13.8,Bid,Jarden,2022-09-07 00:00:00,0.0,,2022,9,2020
+7035,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,50000,8.75,Bid,ICAP,2022-09-12 00:00:00,0.0,,2022,9,2016
+7036,VCS 1935,IFM,Hubei Hongshan IFM (Conversion of Logged to Protected Forest) Project,China,VCS-CCB,60000,7.0,Bid,ICAP,2022-09-12 00:00:00,0.0,,2022,9,2016
+7037,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,50000,8.75,Bid,ICAP,2022-09-13 00:00:00,0.0,,2022,9,2016
+7038,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,50000,14.5,Bid,TFS,2022-09-14 00:00:00,1.0,"25k sept, 25k oct (bid)",2022,9,2019
+7039,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,9.5,Bid,ICAP,2022-09-14 00:00:00,0.0,,2022,9,2016
+7040,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,50000,8.75,Bid,ICAP,2022-09-14 00:00:00,0.0,,2022,9,2016
+7041,VCS 2478,Fugitive emissions,Reducing Gas Leakages within the Titas Gas Distribution Network in Bangladesh,Bangladesh,VCS-SDG,125000,5.25,Bid,ICAP,2022-09-15 00:00:00,1.0,,2022,9,2019
+7042,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,50000,12.75,Bid,TFS,2022-09-26 00:00:00,1.0,,2022,9,2019
+7044,VCS 1587,Wind,FATMA WEPP,Turkey,VCS,50000,5.0,Bid,ICAP,2022-09-29 00:00:00,0.0,,2022,9,2020
+7045,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,25000,9.85,Bid,ICAP,2022-10-10 00:00:00,0.0,,2022,10,2017
+7046,VCS 1566,REDD,REDD+ Project Resguardo Indigena Unificado Selva de Mataven,Colombia,VCS-CCB,0,12.8,Bid,ICAP,2022-10-10 00:00:00,0.0,2023-01-01 00:00:00,2022,10,2018
+7047,VCS 1566,REDD,REDD+ Project Resguardo Indigena Unificado Selva de Mataven,Colombia,VCS-CCB,0,12.8,Bid,ICAP,2022-10-10 00:00:00,0.0,,2022,10,2018
+7048,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,9.8,Bid,ICAP,2022-10-11 00:00:00,0.0,,2022,10,2017
+7049,VCS 1650,REDD,Keo Seima Wildlife Sanctuary,Cambodia,VCS-CCB,20000,7.8,Bid,HVB,2022-10-13 00:00:00,1.0,,2022,10,2016
+7051,VCS 1258,Wind,Saint Nikola Wind Farm,Bulgaria,VCS,50000,5.2,Bid,ICAP,2022-10-26 00:00:00,0.0,,2022,10,2018
+7052,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,0,12.75,Bid,Tullets,2022-10-26 00:00:00,0.0,,2022,10,2018
+7053,VCS 2359,ARR,Serro Do Sudeste Landscape Restoration and Reforestation Project,Brazil,VCS,0,7.25,Bid,Tullets,2022-10-26 00:00:00,0.0,,2022,10,2020
+7057,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,15.2,Bid,ICAP,2022-11-03 00:00:00,1.0,,2022,11,2020
+7058,VCS 1067,REDD,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park,Peru,VCS-CCB,50000,14.1,Bid,ICAP,2022-11-04 00:00:00,0.0,,2022,11,2020
+7059,VCS 1067,REDD,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park,Peru,VCS-CCB,70000,13.25,Bid,Tullets,2022-11-07 00:00:00,0.0,,2022,11,2020
+7060,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,0,12.0,Bid,Tullets,2022-11-07 00:00:00,0.0,Feb23 Delivery,2022,11,2018
+7061,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,60000,13.5,Bid,TFS,2022-11-09 00:00:00,0.0,,2022,11,2019
+7062,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,15.15,Bid,ICAP,2022-11-10 00:00:00,1.0,,2022,11,2020
+7063,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,13.75,Bid,TFS,2022-11-14 00:00:00,0.0,,2022,11,2019
+7064,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,13.5,Bid,FIS,2022-11-14 00:00:00,0.0,,2022,11,2019
+7065,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,0,12.0,Bid,Tullets,2022-11-14 00:00:00,0.0,,2022,11,2018
+7066,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,100000,14.0,Bid,FIS,2022-11-18 00:00:00,0.0,,2022,11,2019
+7067,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,100000,14.5,Bid,FIS,2022-11-18 00:00:00,0.0,,2022,11,2020
+7068,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,13.5,Bid,ICAP,2022-11-21 00:00:00,0.0,,2022,11,2019
+7069,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,50000,11.5,Bid,Jarden,2022-11-22 00:00:00,0.0,,2022,11,2018
+7070,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,13.5,Bid,ICAP,2022-11-23 00:00:00,0.0,,2022,11,2019
+7071,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,12.5,Bid,FIS,2022-11-23 00:00:00,0.0,,2022,11,2019
+7072,GS 11207,Energy Efficiency,Multi-Layer Household Water Filtration System in Kenya,Kenya,GS-SDG,25000,10.25,Bid,Tullets,2022-11-24 00:00:00,0.0,,2022,11,2021
+7073,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,6.9,Bid,ICAP,2022-11-28 00:00:00,0.0,,2022,11,2016
+7074,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,9.0,Bid,ICAP,2022-11-28 00:00:00,0.0,,2022,11,2017
+7075,VCS 1792,Solar,Ghani solar renewable power project by greenko group,India,VCS-SDG,10000,4.0,Bid,Jarden,2022-11-30 00:00:00,0.0,,2022,11,2021
+7076,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,100000,8.5,Bid,FIS,2022-11-30 00:00:00,0.0,,2022,11,2016
+7077,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,9.25,Bid,ICAP,2022-12-02 00:00:00,0.0,,2022,12,2017
+7078,VCS 1792,Solar,Ghani solar renewable power project by greenko group,India,VCS-SDG,10000,4.0,Bid,Jarden,2022-12-05 00:00:00,0.0,,2022,12,2021
+7079,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,9.7,Bid,ICAP,2022-12-05 00:00:00,0.0,,2022,12,2017
+7080,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,11.0,Bid,Tullets,2022-12-08 00:00:00,0.0,,2022,12,2019
+7081,VCS 1067,REDD,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park,Peru,VCS-CCB,0,11.5,Bid,ICAP,2022-12-08 00:00:00,0.0,,2022,12,2020
+7082,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,0,8.0,Bid,ICAP,2022-12-08 00:00:00,0.0,,2022,12,2018
+7083,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,0,8.5,Bid,ICAP,2022-12-12 00:00:00,0.0,,2022,12,2018
+7084,VCS 1067,REDD,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park,Peru,VCS-CCB,0,11.0,Bid,ICAP,2022-12-12 00:00:00,0.0,,2022,12,2020
+7085,VCS 985,REDD,Cordillera Azul National Park REDD Project,Peru,VCS-CCB,0,4.35,Bid,Tullets,2022-12-12 00:00:00,0.0,,2022,12,2017
+7086,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,5.25,Bid,Tullets,2022-12-13 00:00:00,1.0,,2022,12,2016
+7087,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,25000,13.4,Bid,Tullets,2022-12-14 00:00:00,0.0,,2022,12,2019
+7089,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,0,11.25,Bid,ICAP,2022-12-19 00:00:00,0.0,,2022,12,2018
+7090,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,0,5.5,Bid,Tullets,2023-01-09 00:00:00,0.0,,2023,1,2016
+7091,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,50000,5.5,Bid,Tullets,2023-01-10 00:00:00,0.0,,2023,1,2016
+7092,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,50000,6.0,Bid,Tullets,2023-01-11 00:00:00,0.0,,2023,1,2016
+7093,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,11.25,Bid,ICAP,2023-01-17 00:00:00,0.0,,2023,1,2019
+7094,VCS 902,ARR; REDD,Kariba REDD+,Zimbabwe,VCS-CCB,0,3.3,Bid,ICAP,2023-01-17 00:00:00,0.0,,2023,1,2016
+7095,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,16.8,Bid,Tullets,2023-01-17 00:00:00,0.0,,2023,1,2020
+7096,VCS 902,ARR; REDD,Kariba REDD+,Zimbabwe,VCS-CCB,0,3.5,Bid,ICAP,2023-01-18 00:00:00,0.0,,2023,1,2016
+7097,VCS 2252,REDD,Rio Anapu-Pacaja,Brazil,VCS-CCB,0,4.25,Bid,Tullets,2023-01-18 00:00:00,0.0,,2023,1,2017
+7098,VCS 2252,REDD,Rio Anapu-Pacaja,Brazil,VCS-CCB,0,3.6,Bid,ICAP,2023-01-23 00:00:00,0.0,,2023,1,2017
+7099,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,4.0,Bid,Tullets,2023-01-25 00:00:00,0.0,,2023,1,2017
+7100,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,50000,7.0,Bid,Tullets,2023-01-26 00:00:00,0.0,,2023,1,2016
+7101,GS 5642,Cookstoves,Burn Stoves Project in Kenya,Kenya,GS-SDG,0,7.5,Bid,ICAP,2023-02-01 00:00:00,0.0,,2023,2,2020
+7102,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,20000,6.3,Bid,Tullets,2023-02-06 00:00:00,0.0,,2023,2,2016
+7103,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,8.9,Bid,ICAP,2023-02-09 00:00:00,0.0,,2023,2,2019
+7104,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,9.0,Bid,ICAP,2023-02-09 00:00:00,1.0,,2023,2,2019
+7105,VCS 1364,Hydro,Hydroelectric Project PCH Luzma,Colombia,VCS-SDG,0,3.0,Bid,Tullets,2023-02-13 00:00:00,0.0,,2023,2,2019
+7106,VCS 1644,Wind,Larimar Wind Farm Project,Dominican Republic,VCS-SDG,0,3.8,Bid,Tullets,2023-02-15 00:00:00,0.0,,2023,2,2018
+7107,VCS 1067,REDD,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park,Peru,VCS-CCB,0,10.0,Bid,ICAP,2023-02-17 00:00:00,0.0,,2023,2,2020
+7108,VCS 1644,Wind,Larimar Wind Farm Project,Dominican Republic,VCS-SDG,0,3.8,Bid,Tullets,2023-02-17 00:00:00,0.0,,2023,2,2018
+7109,VCS 1067,REDD,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park,Peru,VCS-CCB,0,10.0,Bid,ICAP,2023-02-17 00:00:00,0.0,,2023,2,2020
+7110,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,11.9,Bid,ICAP,2023-02-17 00:00:00,0.0,,2023,2,2020
+7111,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,14.25,Bid,ICAP,2023-02-20 00:00:00,0.0,,2023,2,2020
+7112,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,15.0,Bid,ICAP,2023-02-21 00:00:00,0.0,,2023,2,2020
+7113,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,15.2,Bid,ICAP,2023-02-23 00:00:00,0.0,,2023,2,2020
+7114,VCS 1650,REDD,Keo Seima Wildlife Sanctuary,Cambodia,VCS-CCB,0,4.0,Bid,ICAP,2023-02-23 00:00:00,1.0,,2023,2,2017
+7115,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,4.5,Bid,ICAP,2023-02-23 00:00:00,0.0,,2023,2,2016
+7116,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,15.2,Bid,ICAP,2023-02-24 00:00:00,0.0,,2023,2,2020
+7117,VCS 1650,REDD,Keo Seima Wildlife Sanctuary,Cambodia,VCS-CCB,0,4.0,Bid,ICAP,2023-02-24 00:00:00,1.0,,2023,2,2017
+7118,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,4000,6.5,Bid,Tullets,2023-02-27 00:00:00,0.0,,2023,2,2018
+7119,VCS 2070,ARR,Guinan Afforestation Project,China,VCS-CCB,0,8.25,Bid,Tullets,2023-02-27 00:00:00,0.0,,2023,2,2020
+7120,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,0,2.5,Bid,Tullets,2023-02-27 00:00:00,0.0,,2023,2,2014
+7121,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,4000,6.5,Bid,Tullets,2023-02-27 00:00:00,0.0,,2023,2,2018
+7122,VCS 2070,ARR,Guinan Afforestation Project,China,VCS-CCB,0,8.25,Bid,Tullets,2023-02-27 00:00:00,0.0,,2023,2,2020
+7123,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,7.25,Bid,Tullets,2023-02-28 00:00:00,0.0,,2023,2,2018
+7124,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,4000,7.25,Bid,Tullets,2023-02-28 00:00:00,0.0,,2023,2,2018
+7125,VCS 2070,ARR,Guinan Afforestation Project,China,VCS-CCB,0,8.25,Bid,Tullets,2023-02-28 00:00:00,0.0,,2023,2,2020
+7126,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,8.5,Bid,Tullets,2023-03-01 00:00:00,0.0,,2023,3,2019
+7127,VCS 2070,ARR,Guinan Afforestation Project,China,VCS-CCB,50000,8.25,Bid,Tullets,2023-03-01 00:00:00,0.0,,2023,3,2020
+7128,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,15.75,Bid,ICAP,2023-03-07 00:00:00,0.0,,2023,3,2020
+7129,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,16.0,Bid,ICAP,2023-03-09 00:00:00,0.0,,2023,3,2020
+7130,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,16.0,Bid,ICAP,2023-03-10 00:00:00,0.0,,2023,3,2512
+7131,VCS 1792,Solar,Ghani solar renewable power project by greenko group,India,VCS-SDG,25000,2.2,Bid,Tullets,2023-03-13 00:00:00,0.0,,2023,3,2019
+7132,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,25000,7.0,Bid,FIS,2023-03-15 00:00:00,1.0,,2023,3,2019
+7133,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,25000,6.0,Bid,FIS,2023-03-15 00:00:00,0.0,,2023,3,2019
+7134,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,9.1,Bid,ICAP,2023-03-16 00:00:00,0.0,,2023,3,2020
+7135,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,0,6.0,Bid,FIS,2023-03-16 00:00:00,1.0,,2023,3,2019
+7136,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,6.0,Bid,FIS,2023-03-16 00:00:00,0.0,,2023,3,2019
+7137,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,5.5,Bid,FIS,2023-03-16 00:00:00,1.0,,2023,3,2019
+7138,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,7.25,Bid,FIS,2023-03-16 00:00:00,1.0,,2023,3,2019
+7139,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,9.1,Bid,ICAP,2023-03-16 00:00:00,0.0,,2023,3,2020
+7140,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,6.8,Bid,Tullets,2023-03-16 00:00:00,1.0,,2023,3,2019
+7141,VCS 2252,REDD,Rio Anapu-Pacaja,Brazil,VCS-CCB,0,3.25,Bid,Tullets,2023-03-16 00:00:00,0.0,,2023,3,2016
+7142,VCS 1041,Wind,Oaxaca IV Wind Energy Project,Mexico,VCS,0,5.0,Bid,Tullets,2023-03-16 00:00:00,0.0,,2023,3,2019
+7143,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,9.25,Bid,ICAP,2023-03-17 00:00:00,1.0,,2023,3,2020
+7144,VCS 2083,ARR,Liangdu Afforestation Project,China,VCS-CCB,0,7.5,Bid,Tullets,2023-03-17 00:00:00,0.0,,2023,3,2020
+7145,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,6.75,Bid,FIS,2023-03-20 00:00:00,0.0,,2023,3,2019
+7146,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,9.25,Bid,ICAP,2023-03-20 00:00:00,1.0,,2023,3,2020
+7147,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,9.1,Bid,ICAP,2023-03-20 00:00:00,0.0,,2023,3,2020
+7148,VCS 1935,IFM,Hubei Hongshan IFM (Conversion of Logged to Protected Forest) Project,China,VCS-CCB,0,4.0,Bid,ICAP,2023-03-20 00:00:00,0.0,,2023,3,2018
+7149,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,0,9.0,Bid,ICAP,2023-03-20 00:00:00,0.0,,2023,3,2018
+7150,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,25000,6.0,Bid,FIS,2023-03-22 00:00:00,1.0,,2023,3,2019
+7151,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,50000,6.5,Bid,FIS,2023-03-22 00:00:00,1.0,,2023,3,2019
+7152,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,25000,6.75,Bid,FIS,2023-03-22 00:00:00,0.0,,2023,3,2019
+7153,VCS 1935,IFM,Hubei Hongshan IFM (Conversion of Logged to Protected Forest) Project,China,VCS-CCB,0,4.0,Bid,ICAP,2023-03-24 00:00:00,0.0,,2023,3,2018
+7154,VCS 1115,REDD,JARI/AMAPA REDD+ Project,Brazil,VCS-CCB,0,6.0,Bid,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2018
+7155,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,7.25,Bid,Sigma,2023-03-24 00:00:00,1.0,,2023,3,2019
+7156,VCS 1792,Solar,Ghani solar renewable power project by greenko group,India,VCS-SDG,0,2.0,Bid,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2019
+7157,VCS 1792,Solar,Ghani solar renewable power project by greenko group,India,VCS-SDG,0,1.8,Bid,Sigma,2023-03-27 00:00:00,0.0,,2023,3,2019
+7158,VCS 1792,Solar,Ghani solar renewable power project by greenko group,India,VCS-SDG,40000,1.8,Bid,Sigma,2023-03-28 00:00:00,0.0,,2023,3,2019
+7159,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,24000,6.0,Bid,FIS,2023-03-29 00:00:00,1.0,,2023,3,2018
+7160,VCS 1067,REDD,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park,Peru,VCS-CCB,0,6.5,Bid,ICAP,2023-03-31 00:00:00,0.0,,2023,3,2018
+7161,GS 7468,Wind,300 MW WIND ENERGY PROJECT BY GREEN INFRA WIND ENERGY LIMITED,India,VCS-SDG,43000,2.8,Bid,Sigma,2023-04-03 00:00:00,0.0,,2023,4,2021
+7162,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,9.0,Bid,ICAP,2023-04-05 00:00:00,0.0,,2023,4,2020
+7163,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,9.0,Bid,ICAP,2023-04-05 00:00:00,1.0,,2023,4,2020
+7164,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,15.0,Offer,ICAP,2022-04-06 00:00:00,0.0,,2022,4,2019
+7165,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,50000,14.85,Offer,ICAP,2022-04-06 00:00:00,1.0,,2022,4,2019
+7166,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,39000,11.75,Offer,ICAP,2022-04-12 00:00:00,1.0,,2022,4,2017
+7168,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,50000,15.15,Offer,Jarden,2022-04-13 00:00:00,1.0,,2022,4,2018
+7169,VCS 612,REDD,The Kasigau Corridor REDD Project - Phase II The Community Ranches,Kenya,VCS-CCB,40000,12.5,Offer,Jarden,2022-04-13 00:00:00,0.0,,2022,4,2016
+7171,VCS 1650,REDD,Keo Seima Wildlife Sanctuary,Cambodia,VCS-CCB,100000,15.0,Offer,Jarden,2022-04-22 00:00:00,1.0,,2022,4,2019
+7172,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,100000,16.0,Offer,TFS,2022-05-02 00:00:00,1.0,,2022,5,2018
+7173,VCS 902,ARR; REDD,Kariba REDD+,Zimbabwe,VCS-CCB,100000,16.0,Offer,TFS,2022-05-02 00:00:00,0.0,,2022,5,2018
+7174,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,10000,11.3,Offer,ICAP,2022-05-12 00:00:00,0.0,,2022,5,2015
+7175,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,50000,15.5,Offer,TFS,2022-05-16 00:00:00,1.0,,2022,5,2018
+7176,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,15.15,Offer,TFS,2022-05-16 00:00:00,0.0,,2022,5,2018
+7177,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,25000,15.75,Offer,TFS,2022-05-16 00:00:00,0.0,,2022,5,2019
+7178,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,10000,11.3,Offer,ICAP,2022-05-17 00:00:00,0.0,,2022,5,2015
+7179,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,100000,12.0,Offer,ICAP,2022-05-24 00:00:00,0.0,,2022,5,2017
+7180,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,0,11.5,Offer,ICAP,2022-05-26 00:00:00,0.0,,2022,5,2017
+7181,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,15.6,Offer,Tullets,2022-05-30 00:00:00,0.0,,2022,5,2020
+7182,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,15.6,Offer,Tullets,2022-05-31 00:00:00,0.0,,2022,5,2020
+7183,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,50000,15.25,Offer,ICAP,2022-05-31 00:00:00,1.0,,2022,5,2019
+7184,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,15.4,Offer,ICAP,2022-05-31 00:00:00,0.0,,2022,5,2019
+7185,VCS 928,Hydro,Yunnan Mangli Hydropower Project,China,VCS,0,5.0,Offer,ICAP,2022-05-31 00:00:00,0.0,,2022,5,2019
+7186,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,15.4,Offer,ICAP,2022-06-01 00:00:00,0.0,,2022,6,2019
+7187,VCS 728,Wind,CECIC Gansu Yumen Changma No.3 Wind Farm Project,China,VCS,0,4.75,Offer,ICAP,2022-06-01 00:00:00,0.0,,2022,6,2019
+7188,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,50000,15.2,Offer,ICAP,2022-06-07 00:00:00,1.0,,2022,6,2019
+7189,VCS 728,Wind,CECIC Gansu Yumen Changma No.3 Wind Farm Project,China,VCS,0,5.0,Offer,ICAP,2022-06-07 00:00:00,0.0,,2022,6,2019
+7190,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,50000,11.75,Offer,ICAP,2022-06-07 00:00:00,0.0,,2022,6,2017
+7191,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,50000,15.2,Offer,ICAP,2022-06-08 00:00:00,1.0,,2022,6,2019
+7192,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,16.2,Offer,TFS,2022-06-08 00:00:00,0.0,,2022,6,2020
+7193,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,100000,11.1,Offer,ICAP,2022-06-09 00:00:00,0.0,,2022,6,2016
+7195,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,100000,13.85,Offer,ICAP,2022-06-20 00:00:00,0.0,,2022,6,2019
+7196,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,100000,13.0,Offer,ICAP,2022-06-20 00:00:00,0.0,,2022,6,2018
+7197,GS 7312,Cookstoves,Promoting improved cooking practices in nigeria,Nigeria,GS-SDG,20000,10.3,Offer,ICAP,2022-06-20 00:00:00,0.0,,2022,6,2021
+7198,GS 7312,Cookstoves,Promoting improved cooking practices in nigeria,Nigeria,GS-SDG,50000,10.85,Offer,ICAP,2022-06-20 00:00:00,0.0,,2022,6,2020
+7199,VCS 2375,ARR,Jilin Sanchazi Afforestation Project,China,VCS-CCB,0,14.75,Offer,ICAP,2022-06-27 00:00:00,0.0,,2022,6,2019
+7200,GS 7312,Cookstoves,Promoting improved cooking practices in nigeria,Nigeria,GS-SDG,20000,10.4,Offer,ICAP,2022-06-27 00:00:00,0.0,,2022,6,2021
+7202,VCS 2082,ARR,Qianbei Afforestation Project,China,VCS,0,14.75,Offer,Tullets,2022-06-28 00:00:00,0.0,,2022,6,2019
+7203,VCS 1001,Wind,Inner mongolia yihewusu phase II wind power project,China,VCS,15000,3.9,Offer,TFS,2022-06-30 00:00:00,0.0,,2022,6,2021
+7204,VCS 2375,ARR,Jilin Sanchazi Afforestation Project,China,VCS-CCB,0,14.75,Offer,ICAP,2022-06-30 00:00:00,0.0,Sep22 delivery,2022,6,2019
+7205,GS 7312,Cookstoves,Promoting improved cooking practices in nigeria,Nigeria,GS-SDG,20000,10.4,Offer,ICAP,2022-06-30 00:00:00,0.0,,2022,6,2021
+7206,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,100000,13.5,Offer,Tullets,2022-07-22 00:00:00,1.0,,2022,7,2019
+7207,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,90000,9.0,Offer,ICAP,2022-07-22 00:00:00,0.0,,2022,7,2016
+7210,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,13.25,Offer,Tullets,2022-08-02 00:00:00,0.0,Corporate - Needed 3 day due dilligence window,2022,8,2020
+7214,VCS 1650,REDD,Keo Seima Wildlife Sanctuary,Cambodia,VCS-CCB,0,13.75,Offer,ICAP,2022-08-22 00:00:00,1.0,,2022,8,2019
+7215,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,100000,16.0,Offer,TFS,2022-08-28 00:00:00,1.0,,2022,8,2018
+7216,VCS 902,ARR; REDD,Kariba REDD+,Zimbabwe,VCS-CCB,100000,16.0,Offer,TFS,2022-08-28 00:00:00,0.0,,2022,8,2018
+7217,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,10.25,Offer,ICAP,2022-08-31 00:00:00,0.0,,2022,8,2016
+7218,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,14.75,Offer,TFS,2022-09-01 00:00:00,1.0,,2022,9,2019
+7219,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,15.25,Offer,TFS,2022-09-01 00:00:00,1.0,,2022,9,2020
+7221,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,13.75,Offer,TFS,2022-09-02 00:00:00,1.0,,2022,9,2019
+7222,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,15.0,Offer,TFS,2022-09-02 00:00:00,1.0,,2022,9,2020
+7223,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,13.75,Offer,TFS,2022-09-05 00:00:00,1.0,,2022,9,2019
+7224,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,15.0,Offer,TFS,2022-09-05 00:00:00,1.0,,2022,9,2020
+7225,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,14.0,Offer,TFS,2022-09-06 00:00:00,1.0,,2022,9,2019
+7226,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,15.5,Offer,TFS,2022-09-06 00:00:00,1.0,,2022,9,2020
+7227,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,25000,14.25,Offer,TFS,2022-09-07 00:00:00,1.0,,2022,9,2019
+7228,VCS 2082,ARR,Qianbei Afforestation Project,China,VCS,50000,15.5,Offer,Jarden,2022-09-07 00:00:00,0.0,,2022,9,2020
+7229,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,50000,9.25,Offer,ICAP,2022-09-12 00:00:00,0.0,,2022,9,2016
+7230,VCS 1935,IFM,Hubei Hongshan IFM (Conversion of Logged to Protected Forest) Project,China,VCS-CCB,60000,9.25,Offer,ICAP,2022-09-12 00:00:00,0.0,,2022,9,2016
+7231,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,50000,9.25,Offer,ICAP,2022-09-13 00:00:00,0.0,,2022,9,2016
+7232,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,50000,14.8,Offer,TFS,2022-09-14 00:00:00,1.0,"25k sept, 25k oct (bid)",2022,9,2019
+7233,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,11.0,Offer,ICAP,2022-09-14 00:00:00,0.0,,2022,9,2016
+7234,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,50000,10.0,Offer,ICAP,2022-09-14 00:00:00,0.0,,2022,9,2016
+7235,VCS 2478,Fugitive emissions,Reducing Gas Leakages within the Titas Gas Distribution Network in Bangladesh,Bangladesh,VCS-SDG,125000,5.7,Offer,ICAP,2022-09-15 00:00:00,1.0,,2022,9,2019
+7236,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,50000,15.5,Offer,TFS,2022-09-26 00:00:00,1.0,,2022,9,2019
+7238,VCS 1587,Wind,FATMA WEPP,Turkey,VCS,50000,6.4,Offer,ICAP,2022-09-29 00:00:00,0.0,,2022,9,2020
+7239,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,25000,10.05,Offer,ICAP,2022-10-10 00:00:00,0.0,,2022,10,2017
+7240,VCS 1566,REDD,REDD+ Project Resguardo Indigena Unificado Selva de Mataven,Colombia,VCS-CCB,0,13.3,Offer,ICAP,2022-10-10 00:00:00,0.0,2023-01-01 00:00:00,2022,10,2018
+7241,VCS 1566,REDD,REDD+ Project Resguardo Indigena Unificado Selva de Mataven,Colombia,VCS-CCB,0,13.5,Offer,ICAP,2022-10-10 00:00:00,0.0,,2022,10,2018
+7242,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,11.0,Offer,ICAP,2022-10-11 00:00:00,0.0,,2022,10,2017
+7243,VCS 1650,REDD,Keo Seima Wildlife Sanctuary,Cambodia,VCS-CCB,20000,8.6,Offer,HVB,2022-10-13 00:00:00,1.0,,2022,10,2016
+7245,VCS 1258,Wind,Saint Nikola Wind Farm,Bulgaria,VCS,50000,5.45,Offer,ICAP,2022-10-26 00:00:00,0.0,,2022,10,2018
+7246,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,0,14.5,Offer,Tullets,2022-10-26 00:00:00,0.0,,2022,10,2018
+7247,VCS 2359,ARR,Serro Do Sudeste Landscape Restoration and Reforestation Project,Brazil,VCS,0,8.0,Offer,Tullets,2022-10-26 00:00:00,0.0,,2022,10,2020
+7251,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,15.9,Offer,ICAP,2022-11-03 00:00:00,1.0,,2022,11,2020
+7252,VCS 1067,REDD,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park,Peru,VCS-CCB,50000,14.8,Offer,ICAP,2022-11-04 00:00:00,0.0,,2022,11,2020
+7253,VCS 1067,REDD,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park,Peru,VCS-CCB,70000,14.8,Offer,Tullets,2022-11-07 00:00:00,0.0,,2022,11,2020
+7254,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,0,14.0,Offer,Tullets,2022-11-07 00:00:00,0.0,Feb23 Delivery,2022,11,2018
+7255,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,60000,15.25,Offer,TFS,2022-11-09 00:00:00,0.0,,2022,11,2019
+7256,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,15.9,Offer,ICAP,2022-11-10 00:00:00,1.0,,2022,11,2020
+7257,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,14.25,Offer,TFS,2022-11-14 00:00:00,0.0,,2022,11,2019
+7258,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,14.5,Offer,FIS,2022-11-14 00:00:00,0.0,,2022,11,2019
+7259,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,0,12.5,Offer,Tullets,2022-11-14 00:00:00,0.0,,2022,11,2018
+7260,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,100000,14.5,Offer,FIS,2022-11-18 00:00:00,0.0,,2022,11,2019
+7261,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,100000,15.5,Offer,FIS,2022-11-18 00:00:00,0.0,,2022,11,2020
+7262,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,14.5,Offer,ICAP,2022-11-21 00:00:00,0.0,,2022,11,2019
+7263,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,50000,13.6,Offer,Jarden,2022-11-22 00:00:00,0.0,,2022,11,2018
+7264,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,14.5,Offer,ICAP,2022-11-23 00:00:00,0.0,,2022,11,2019
+7265,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,14.2,Offer,FIS,2022-11-23 00:00:00,0.0,,2022,11,2019
+7266,GS 11207,Energy Efficiency,Multi-Layer Household Water Filtration System in Kenya,Kenya,GS-SDG,25000,11.0,Offer,Tullets,2022-11-24 00:00:00,0.0,,2022,11,2021
+7267,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,7.15,Offer,ICAP,2022-11-28 00:00:00,0.0,,2022,11,2016
+7268,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,10.1,Offer,ICAP,2022-11-28 00:00:00,0.0,,2022,11,2017
+7269,VCS 1792,Solar,Ghani solar renewable power project by greenko group,India,VCS-SDG,10000,4.25,Offer,Jarden,2022-11-30 00:00:00,0.0,,2022,11,2021
+7270,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,100000,9.55,Offer,FIS,2022-11-30 00:00:00,0.0,,2022,11,2016
+7271,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,10.1,Offer,ICAP,2022-12-02 00:00:00,0.0,,2022,12,2017
+7272,VCS 1792,Solar,Ghani solar renewable power project by greenko group,India,VCS-SDG,10000,4.25,Offer,Jarden,2022-12-05 00:00:00,0.0,,2022,12,2021
+7273,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,10.1,Offer,ICAP,2022-12-05 00:00:00,0.0,,2022,12,2017
+7274,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,14.0,Offer,Tullets,2022-12-08 00:00:00,0.0,,2022,12,2019
+7275,VCS 1067,REDD,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park,Peru,VCS-CCB,0,14.5,Offer,ICAP,2022-12-08 00:00:00,0.0,,2022,12,2020
+7276,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,0,13.35,Offer,ICAP,2022-12-08 00:00:00,0.0,,2022,12,2018
+7277,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,0,13.35,Offer,ICAP,2022-12-12 00:00:00,0.0,,2022,12,2018
+7278,VCS 1067,REDD,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park,Peru,VCS-CCB,0,14.5,Offer,ICAP,2022-12-12 00:00:00,0.0,,2022,12,2020
+7279,VCS 985,REDD,Cordillera Azul National Park REDD Project,Peru,VCS-CCB,0,5.0,Offer,Tullets,2022-12-12 00:00:00,0.0,,2022,12,2017
+7280,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,5.75,Offer,Tullets,2022-12-13 00:00:00,1.0,,2022,12,2016
+7281,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,25000,14.0,Offer,Tullets,2022-12-14 00:00:00,0.0,,2022,12,2019
+7283,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,0,12.5,Offer,ICAP,2022-12-19 00:00:00,0.0,,2022,12,2018
+7284,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,0,9.0,Offer,Tullets,2023-01-09 00:00:00,0.0,,2023,1,2016
+7285,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,50000,8.0,Offer,Tullets,2023-01-10 00:00:00,0.0,,2023,1,2016
+7286,VCS 674,REDD,Rimba Raya,Indonesia,VCS-CCB-SDG,50000,6.5,Offer,Tullets,2023-01-11 00:00:00,0.0,,2023,1,2016
+7287,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,12.0,Offer,ICAP,2023-01-17 00:00:00,0.0,,2023,1,2019
+7288,VCS 902,ARR; REDD,Kariba REDD+,Zimbabwe,VCS-CCB,0,4.0,Offer,ICAP,2023-01-17 00:00:00,0.0,,2023,1,2016
+7289,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,17.35,Offer,Tullets,2023-01-17 00:00:00,0.0,,2023,1,2020
+7290,VCS 902,ARR; REDD,Kariba REDD+,Zimbabwe,VCS-CCB,0,4.0,Offer,ICAP,2023-01-18 00:00:00,0.0,,2023,1,2016
+7291,VCS 2252,REDD,Rio Anapu-Pacaja,Brazil,VCS-CCB,0,4.9,Offer,Tullets,2023-01-18 00:00:00,0.0,,2023,1,2017
+7292,VCS 2252,REDD,Rio Anapu-Pacaja,Brazil,VCS-CCB,0,4.6,Offer,ICAP,2023-01-23 00:00:00,0.0,,2023,1,2017
+7293,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,7.5,Offer,Tullets,2023-01-25 00:00:00,0.0,,2023,1,2017
+7294,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,50000,7.5,Offer,Tullets,2023-01-26 00:00:00,0.0,,2023,1,2016
+7295,GS 5642,Cookstoves,Burn Stoves Project in Kenya,Kenya,GS-SDG,0,8.25,Offer,ICAP,2023-02-01 00:00:00,0.0,,2023,2,2020
+7296,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,20000,6.75,Offer,Tullets,2023-02-06 00:00:00,0.0,,2023,2,2016
+7297,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,9.25,Offer,ICAP,2023-02-09 00:00:00,0.0,,2023,2,2019
+7298,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,9.55,Offer,ICAP,2023-02-09 00:00:00,1.0,,2023,2,2019
+7299,VCS 1364,Hydro,Hydroelectric Project PCH Luzma,Colombia,VCS-SDG,0,4.15,Offer,Tullets,2023-02-13 00:00:00,0.0,,2023,2,2019
+7300,VCS 1644,Wind,Larimar Wind Farm Project,Dominican Republic,VCS-SDG,0,3.9,Offer,Tullets,2023-02-15 00:00:00,0.0,,2023,2,2018
+7301,VCS 1067,REDD,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park,Peru,VCS-CCB,0,11.0,Offer,ICAP,2023-02-17 00:00:00,0.0,,2023,2,2020
+7302,VCS 1644,Wind,Larimar Wind Farm Project,Dominican Republic,VCS-SDG,0,3.9,Offer,Tullets,2023-02-17 00:00:00,0.0,,2023,2,2018
+7303,VCS 1067,REDD,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park,Peru,VCS-CCB,0,11.5,Offer,ICAP,2023-02-17 00:00:00,0.0,,2023,2,2020
+7304,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,17.8,Offer,ICAP,2023-02-17 00:00:00,0.0,,2023,2,2020
+7305,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,16.25,Offer,ICAP,2023-02-20 00:00:00,0.0,,2023,2,2020
+7306,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,15.75,Offer,ICAP,2023-02-21 00:00:00,0.0,,2023,2,2020
+7307,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,15.75,Offer,ICAP,2023-02-23 00:00:00,0.0,,2023,2,2020
+7308,VCS 1650,REDD,Keo Seima Wildlife Sanctuary,Cambodia,VCS-CCB,0,4.5,Offer,ICAP,2023-02-23 00:00:00,1.0,,2023,2,2017
+7309,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,4.75,Offer,ICAP,2023-02-23 00:00:00,0.0,,2023,2,2016
+7310,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,15.75,Offer,ICAP,2023-02-24 00:00:00,0.0,,2023,2,2020
+7311,VCS 1650,REDD,Keo Seima Wildlife Sanctuary,Cambodia,VCS-CCB,0,4.5,Offer,ICAP,2023-02-24 00:00:00,1.0,,2023,2,2017
+7312,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,4000,8.5,Offer,Tullets,2023-02-27 00:00:00,0.0,,2023,2,2018
+7313,VCS 2070,ARR,Guinan Afforestation Project,China,VCS-CCB,0,9.8,Offer,Tullets,2023-02-27 00:00:00,0.0,,2023,2,2020
+7314,VCS 1382,REDD,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil,VCS-CCB,0,3.0,Offer,Tullets,2023-02-27 00:00:00,0.0,,2023,2,2014
+7315,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,4000,8.5,Offer,Tullets,2023-02-27 00:00:00,0.0,,2023,2,2018
+7316,VCS 2070,ARR,Guinan Afforestation Project,China,VCS-CCB,0,9.8,Offer,Tullets,2023-02-27 00:00:00,0.0,,2023,2,2020
+7317,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,8.0,Offer,Tullets,2023-02-28 00:00:00,0.0,,2023,2,2018
+7318,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,4000,8.0,Offer,Tullets,2023-02-28 00:00:00,0.0,,2023,2,2018
+7319,VCS 2070,ARR,Guinan Afforestation Project,China,VCS-CCB,0,9.8,Offer,Tullets,2023-02-28 00:00:00,0.0,,2023,2,2020
+7320,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,50000,9.75,Offer,Tullets,2023-03-01 00:00:00,0.0,,2023,3,2019
+7321,VCS 2070,ARR,Guinan Afforestation Project,China,VCS-CCB,50000,9.8,Offer,Tullets,2023-03-01 00:00:00,0.0,,2023,3,2020
+7322,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,17.35,Offer,ICAP,2023-03-07 00:00:00,0.0,,2023,3,2020
+7323,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,17.5,Offer,ICAP,2023-03-09 00:00:00,0.0,,2023,3,2020
+7324,VCS 2512,ARR,"Afforestation of Degraded Grasslands in Vichada, Colombia",Colombia,VCS-CCB,0,17.5,Offer,ICAP,2023-03-10 00:00:00,0.0,,2023,3,2512
+7325,VCS 1792,Solar,Ghani solar renewable power project by greenko group,India,VCS-SDG,25000,2.6,Offer,Tullets,2023-03-13 00:00:00,0.0,,2023,3,2019
+7326,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,25000,8.0,Offer,FIS,2023-03-15 00:00:00,1.0,,2023,3,2019
+7327,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,25000,9.0,Offer,FIS,2023-03-15 00:00:00,0.0,,2023,3,2019
+7328,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,9.35,Offer,ICAP,2023-03-16 00:00:00,0.0,,2023,3,2020
+7329,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,0,8.0,Offer,FIS,2023-03-16 00:00:00,1.0,,2023,3,2019
+7330,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,8.75,Offer,FIS,2023-03-16 00:00:00,0.0,,2023,3,2019
+7331,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,8.5,Offer,FIS,2023-03-16 00:00:00,1.0,,2023,3,2019
+7332,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,7.75,Offer,FIS,2023-03-16 00:00:00,1.0,,2023,3,2019
+7333,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,9.35,Offer,ICAP,2023-03-16 00:00:00,0.0,,2023,3,2020
+7334,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,9.25,Offer,Tullets,2023-03-16 00:00:00,1.0,,2023,3,2019
+7335,VCS 2252,REDD,Rio Anapu-Pacaja,Brazil,VCS-CCB,0,3.5,Offer,Tullets,2023-03-16 00:00:00,0.0,,2023,3,2016
+7336,VCS 1041,Wind,Oaxaca IV Wind Energy Project,Mexico,VCS,0,5.9,Offer,Tullets,2023-03-16 00:00:00,0.0,,2023,3,2019
+7337,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,10.0,Offer,ICAP,2023-03-17 00:00:00,1.0,,2023,3,2020
+7338,VCS 2083,ARR,Liangdu Afforestation Project,China,VCS-CCB,0,8.5,Offer,Tullets,2023-03-17 00:00:00,0.0,,2023,3,2020
+7339,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,8.25,Offer,FIS,2023-03-20 00:00:00,0.0,,2023,3,2019
+7340,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,9.5,Offer,ICAP,2023-03-20 00:00:00,1.0,,2023,3,2020
+7341,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,9.35,Offer,ICAP,2023-03-20 00:00:00,0.0,,2023,3,2020
+7342,VCS 1935,IFM,Hubei Hongshan IFM (Conversion of Logged to Protected Forest) Project,China,VCS-CCB,0,7.0,Offer,ICAP,2023-03-20 00:00:00,0.0,,2023,3,2018
+7343,VCS 959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay,VCS-CCB,0,10.5,Offer,ICAP,2023-03-20 00:00:00,0.0,,2023,3,2018
+7344,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,25000,8.0,Offer,FIS,2023-03-22 00:00:00,1.0,,2023,3,2019
+7345,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,50000,8.5,Offer,FIS,2023-03-22 00:00:00,1.0,,2023,3,2019
+7346,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,25000,8.5,Offer,FIS,2023-03-22 00:00:00,0.0,,2023,3,2019
+7347,VCS 1935,IFM,Hubei Hongshan IFM (Conversion of Logged to Protected Forest) Project,China,VCS-CCB,0,7.0,Offer,ICAP,2023-03-24 00:00:00,0.0,,2023,3,2018
+7348,VCS 1115,REDD,JARI/AMAPA REDD+ Project,Brazil,VCS-CCB,0,8.25,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2018
+7349,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,8.0,Offer,Sigma,2023-03-24 00:00:00,1.0,,2023,3,2019
+7350,VCS 1792,Solar,Ghani solar renewable power project by greenko group,India,VCS-SDG,0,2.4,Offer,Sigma,2023-03-24 00:00:00,0.0,,2023,3,2019
+7351,VCS 1792,Solar,Ghani solar renewable power project by greenko group,India,VCS-SDG,0,2.2,Offer,Sigma,2023-03-27 00:00:00,0.0,,2023,3,2019
+7352,VCS 1792,Solar,Ghani solar renewable power project by greenko group,India,VCS-SDG,40000,2.2,Offer,Sigma,2023-03-28 00:00:00,0.0,,2023,3,2019
+7353,VCS 934,REDD,Mai Ndombe,Congo,VCS-CCB,24000,6.45,Offer,FIS,2023-03-29 00:00:00,1.0,,2023,3,2018
+7354,VCS 1067,REDD,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park,Peru,VCS-CCB,0,8.0,Offer,ICAP,2023-03-31 00:00:00,0.0,,2023,3,2018
+7355,GS 7468,Wind,300 MW WIND ENERGY PROJECT BY GREEN INFRA WIND ENERGY LIMITED,India,VCS-SDG,43000,3.2,Offer,Sigma,2023-04-03 00:00:00,0.0,,2023,4,2021
+7356,VCS 1477,ARR; REDD; WRC,Katingan Peatland Restoration and Conservation Project,Indonesia,VCS-CCB,0,10.0,Offer,ICAP,2023-04-05 00:00:00,0.0,,2023,4,2020
+7357,VCS 1748,REDD,Southern Cardamom,Cambodia,VCS-CCB-SDG,0,10.0,Offer,ICAP,2023-04-05 00:00:00,1.0,,2023,4,2020

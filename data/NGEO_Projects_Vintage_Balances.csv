@@ -31,7 +31,7 @@
 29,2011,902,ARR,KARIBA REDD+ PROJECT,Zimbabwe (ZW),2751549,2751549.0,0.0
 30,2011,934,Avoided Def.,The Mai Ndombe REDD+ Project,"Congo, The Democratic Republic of The (CD)",1252975,912944.0,340031.0
 31,2011,959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay (UY),945401,934923.0,10478.0
-32,2011,1067,Avoided Def.,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park within the area of Madre de Dios region –Peru,Peru (PE),190796,105515.0,85281.0
+32,2011,1067,Avoided Def.,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park within the area of Madre de Dios region –Peru,Peru (PE),190796,105530.0,85266.0
 33,2011,1530,ARR,Grouped Project for Commercial Forest Plantations Initiatives in the Department of Vichada,Colombia (CO),2790,2232.0,558.0
 34,2012,562,Avoided Def.,The Kasigau Corridor REDD Project – Phase I Rukinga Sanctuary,Kenya (KE),208202,208193.0,9.0
 35,2012,607,IFM,Darkwoods Forest Carbon Project,Canada (CA),338237,338237.0,0.0
@@ -40,7 +40,7 @@
 38,2012,844,Avoided Def.,Madre de Dios Amazon REDD+ Project,Peru (PE),4046607,3295062.0,751545.0
 39,2012,899,ARR,"TIST Program in Kenya, VCS 006",Kenya (KE),169784,169784.0,0.0
 40,2012,902,ARR,KARIBA REDD+ PROJECT,Zimbabwe (ZW),3964164,3617785.0,346379.0
-41,2012,934,Avoided Def.,The Mai Ndombe REDD+ Project,"Congo, The Democratic Republic of The (CD)",1734609,1020312.0,714297.0
+41,2012,934,Avoided Def.,The Mai Ndombe REDD+ Project,"Congo, The Democratic Republic of The (CD)",1734609,1020340.0,714269.0
 42,2012,944,Avoided Def.,Alto Mayo Conservation Initiative,Peru (PE),2842849,1878402.0,964447.0
 43,2012,953,Avoided Def.,The Paraguay Forest Conservation Project - Reduction of GHG emissions from deforestation and forest degradation in the Chaco-Pantanal ecosystem,Paraguay (PY),7601,0.0,7601.0
 44,2012,959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay (UY),1101323,1039419.0,61904.0
@@ -71,14 +71,14 @@
 69,2013,1115,Avoided Def.,JARI/AMAPÁ REDD+ PROJECT,Brazil (BR),170778,170778.0,0.0
 70,2013,1168,Avoided Def.,"Kulera Landscape REDD+ Program for Co-Managed Protected Areas, Malawi",Malawi (MW),1052022,763577.0,288445.0
 71,2013,1340,Avoided Def.,Bale Mountains Eco-region REDD+ project,Ethiopia (ET),1193723,1193723.0,0.0
-72,2013,1382,Avoided Def.,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),1923866,1152994.0,770872.0
+72,2013,1382,Avoided Def.,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),1923866,1153072.0,770794.0
 73,2013,1389,Avoided Def.,Acapa -­ Bajo Mira Y Frontera REDD+ Project,Colombia (CO),16520,10420.0,6100.0
 74,2013,1391,Avoided Def.,SIVIRÚ-USARAGÁ-PIZARRO-PILIZÁ (SUPP) REDD+ Project,Colombia (CO),46195,43468.0,2727.0
 75,2013,1395,Avoided Def.,Bajo Calima y Bahía Málaga (BCBM) REDD+ Project,Colombia (CO),133849,123855.0,9994.0
 76,2013,1399,Avoided Def.,Mutatá REDD+ Project,Colombia (CO),57042,49305.0,7737.0
 77,2013,1408,Avoided Def.,Chyulu Hills REDD+ Project,Kenya (KE),176488,176488.0,0.0
 78,2013,1503,Avoided Def.,RESEX Rio Preto-Jacundá REDD+ Project,Brazil (BR),310664,303953.0,6711.0
-79,2013,1530,ARR,Grouped Project for Commercial Forest Plantations Initiatives in the Department of Vichada,Colombia (CO),22952,17095.0,5857.0
+79,2013,1530,ARR,Grouped Project for Commercial Forest Plantations Initiatives in the Department of Vichada,Colombia (CO),22952,20553.0,2399.0
 80,2013,1541,Avoided Def.,Lacandon – Forest for life REDD+ Project,Guatemala (GT),153260,53260.0,100000.0
 81,2013,1566,Avoided Def.,REDD+ Project Resguardo Indigena Unificado Selva de Mataven (RIU SM),Colombia (CO),3615316,3615316.0,0.0
 82,2013,1882,Avoided Def.,REDD+ PROJECT IN THE ALTO HUAYABAMBA CONSERVATION CONCESSION (CCAH).,Peru (PE),6642,6642.0,0.0
@@ -86,19 +86,19 @@
 84,2014,607,IFM,Darkwoods Forest Carbon Project,Canada (CA),317035,317028.0,7.0
 85,2014,612,Avoided Def.,The Kasigau Corridor REDD Project - Phase II The Community Ranches,Kenya (KE),2722170,2245177.0,476993.0
 86,2014,673,ARR,Natural High Forest Rehabilitation Project on degraded land of Kibale National Park,Uganda (UG),173015,173015.0,0.0
-87,2014,674,Avoided Def.,Rimba Raya Biodiversity Reserve Project,Indonesia (ID),4294135,2220739.0,2073396.0
+87,2014,674,Avoided Def.,Rimba Raya Biodiversity Reserve Project,Indonesia (ID),4294135,2222381.0,2071754.0
 88,2014,844,Avoided Def.,Madre de Dios Amazon REDD+ Project,Peru (PE),823663,579417.0,244246.0
-89,2014,902,ARR,KARIBA REDD+ PROJECT,Zimbabwe (ZW),3160600,2850608.0,309992.0
+89,2014,902,ARR,KARIBA REDD+ PROJECT,Zimbabwe (ZW),3160600,2854608.0,305992.0
 90,2014,934,Avoided Def.,The Mai Ndombe REDD+ Project,"Congo, The Democratic Republic of The (CD)",2583673,25500.0,2558173.0
 91,2014,944,Avoided Def.,Alto Mayo Conservation Initiative,Peru (PE),662500,560934.0,101566.0
 92,2014,953,Avoided Def.,The Paraguay Forest Conservation Project - Reduction of GHG emissions from deforestation and forest degradation in the Chaco-Pantanal ecosystem,Paraguay (PY),13377,0.0,13377.0
-93,2014,959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay (UY),729500,265395.0,464105.0
-94,2014,985,Avoided Def.,Cordillera Azul National Park REDD Project,Peru (PE),2374091,2215847.0,158244.0
-95,2014,1067,Avoided Def.,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park within the area of Madre de Dios region –Peru,Peru (PE),625793,556804.0,68989.0
+93,2014,959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay (UY),729500,265781.0,463719.0
+94,2014,985,Avoided Def.,Cordillera Azul National Park REDD Project,Peru (PE),2374091,2215875.0,158216.0
+95,2014,1067,Avoided Def.,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park within the area of Madre de Dios region –Peru,Peru (PE),625793,556818.0,68975.0
 96,2014,1115,Avoided Def.,JARI/AMAPÁ REDD+ PROJECT,Brazil (BR),163779,162157.0,1622.0
 97,2014,1168,Avoided Def.,"Kulera Landscape REDD+ Program for Co-Managed Protected Areas, Malawi",Malawi (MW),194782,18750.0,176032.0
 98,2014,1340,Avoided Def.,Bale Mountains Eco-region REDD+ project,Ethiopia (ET),1155842,1155842.0,0.0
-99,2014,1382,Avoided Def.,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),2006058,1167869.0,838189.0
+99,2014,1382,Avoided Def.,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),2006058,1168147.0,837911.0
 100,2014,1389,Avoided Def.,Acapa -­ Bajo Mira Y Frontera REDD+ Project,Colombia (CO),134588,70111.0,64477.0
 101,2014,1390,Avoided Def.,Carmen del Darién (CDD) REDD+ Project,Colombia (CO),176470,94739.0,81731.0
 102,2014,1391,Avoided Def.,SIVIRÚ-USARAGÁ-PIZARRO-PILIZÁ (SUPP) REDD+ Project,Colombia (CO),237853,120308.0,117545.0
@@ -107,7 +107,7 @@
 105,2014,1399,Avoided Def.,Mutatá REDD+ Project,Colombia (CO),88793,37785.0,51008.0
 106,2014,1408,Avoided Def.,Chyulu Hills REDD+ Project,Kenya (KE),619404,619404.0,0.0
 107,2014,1503,Avoided Def.,RESEX Rio Preto-Jacundá REDD+ Project,Brazil (BR),454386,323125.0,131261.0
-108,2014,1530,ARR,Grouped Project for Commercial Forest Plantations Initiatives in the Department of Vichada,Colombia (CO),33226,22651.0,10575.0
+108,2014,1530,ARR,Grouped Project for Commercial Forest Plantations Initiatives in the Department of Vichada,Colombia (CO),33226,29942.0,3284.0
 109,2014,1541,Avoided Def.,Lacandon – Forest for life REDD+ Project,Guatemala (GT),117398,17112.0,100286.0
 110,2014,1882,Avoided Def.,REDD+ PROJECT IN THE ALTO HUAYABAMBA CONSERVATION CONCESSION (CCAH).,Peru (PE),43820,43820.0,0.0
 111,2015,562,Avoided Def.,The Kasigau Corridor REDD Project – Phase I Rukinga Sanctuary,Kenya (KE),290972,290972.0,0.0
@@ -115,10 +115,10 @@
 113,2015,596,ARR,"TIST Program in Kenya, VCS 003",Kenya (KE),19534,19534.0,0.0
 114,2015,597,ARR,"TIST Program in Kenya, VCS 004",Kenya (KE),20419,20419.0,0.0
 115,2015,607,IFM,Darkwoods Forest Carbon Project,Canada (CA),284577,276827.0,7750.0
-116,2015,612,Avoided Def.,The Kasigau Corridor REDD Project - Phase II The Community Ranches,Kenya (KE),1155740,1062898.0,92842.0
+116,2015,612,Avoided Def.,The Kasigau Corridor REDD Project - Phase II The Community Ranches,Kenya (KE),1155740,1062940.0,92800.0
 117,2015,674,Avoided Def.,Rimba Raya Biodiversity Reserve Project,Indonesia (ID),3925272,3157323.0,767949.0
 118,2015,844,Avoided Def.,Madre de Dios Amazon REDD+ Project,Peru (PE),459479,342022.0,117457.0
-119,2015,902,ARR,KARIBA REDD+ PROJECT,Zimbabwe (ZW),3895970,2385825.0,1510145.0
+119,2015,902,ARR,KARIBA REDD+ PROJECT,Zimbabwe (ZW),3895970,2386825.0,1509145.0
 120,2015,934,Avoided Def.,The Mai Ndombe REDD+ Project,"Congo, The Democratic Republic of The (CD)",2583673,874462.0,1709211.0
 121,2015,953,Avoided Def.,The Paraguay Forest Conservation Project - Reduction of GHG emissions from deforestation and forest degradation in the Chaco-Pantanal ecosystem,Paraguay (PY),13758,0.0,13758.0
 122,2015,958,Avoided Def.,BIOCORREDOR MARTIN SAGRADO REDD+ PROJECT,Peru (PE),146032,146032.0,0.0
@@ -128,8 +128,8 @@
 126,2015,1067,Avoided Def.,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park within the area of Madre de Dios region –Peru,Peru (PE),209048,78118.0,130930.0
 127,2015,1115,Avoided Def.,JARI/AMAPÁ REDD+ PROJECT,Brazil (BR),197650,127617.0,70033.0
 128,2015,1168,Avoided Def.,"Kulera Landscape REDD+ Program for Co-Managed Protected Areas, Malawi",Malawi (MW),202867,75000.0,127867.0
-129,2015,1340,Avoided Def.,Bale Mountains Eco-region REDD+ project,Ethiopia (ET),1119400,660668.0,458732.0
-130,2015,1382,Avoided Def.,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),2084635,858085.0,1226550.0
+129,2015,1340,Avoided Def.,Bale Mountains Eco-region REDD+ project,Ethiopia (ET),1119400,724882.0,394518.0
+130,2015,1382,Avoided Def.,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),2084635,858097.0,1226538.0
 131,2015,1389,Avoided Def.,Acapa -­ Bajo Mira Y Frontera REDD+ Project,Colombia (CO),144327,144327.0,0.0
 132,2015,1390,Avoided Def.,Carmen del Darién (CDD) REDD+ Project,Colombia (CO),170440,170440.0,0.0
 133,2015,1391,Avoided Def.,SIVIRÚ-USARAGÁ-PIZARRO-PILIZÁ (SUPP) REDD+ Project,Colombia (CO),240087,240087.0,0.0
@@ -139,20 +139,20 @@
 137,2015,1408,Avoided Def.,Chyulu Hills REDD+ Project,Kenya (KE),619404,369237.0,250167.0
 138,2015,1477,ARR,Katingan Peatland Restoration and Conservation Project,Indonesia (ID),12748611,8870715.0,3877896.0
 139,2015,1503,Avoided Def.,RESEX Rio Preto-Jacundá REDD+ Project,Brazil (BR),446476,437435.0,9041.0
-140,2015,1530,ARR,Grouped Project for Commercial Forest Plantations Initiatives in the Department of Vichada,Colombia (CO),32811,26848.0,5963.0
+140,2015,1530,ARR,Grouped Project for Commercial Forest Plantations Initiatives in the Department of Vichada,Colombia (CO),32811,31981.0,830.0
 141,2015,1541,Avoided Def.,Lacandon – Forest for life REDD+ Project,Guatemala (GT),1500,1360.0,140.0
 142,2015,1566,Avoided Def.,REDD+ Project Resguardo Indigena Unificado Selva de Mataven (RIU SM),Colombia (CO),7097573,7097563.0,10.0
 143,2015,1689,Avoided Def.,Tumring REDD+ Project,Cambodia (KH),129082,6515.0,122567.0
-144,2015,1748,Avoided Def.,Southern Cardamom REDD+ Project,Cambodia (KH),3982378,1944119.0,2038259.0
+144,2015,1748,Avoided Def.,Southern Cardamom REDD+ Project,Cambodia (KH),3982378,1956715.0,2025663.0
 145,2015,1769,IFM,"Grouped Project for restoration of degraded lands in Jaguar Corridors, Colombia",Colombia (CO),128,128.0,0.0
 146,2015,1882,Avoided Def.,REDD+ PROJECT IN THE ALTO HUAYABAMBA CONSERVATION CONCESSION (CCAH).,Peru (PE),34366,25567.0,8799.0
 147,2015,1935,IFM,Hubei Hongshan IFM (Conversion of Logged to Protected Forest) Project,China (CN),207121,57883.0,149238.0
-148,2015,2250,Blue Carbon,Delta Blue Carbon – 1,Pakistan (PK),8843,8813.0,30.0
+148,2015,2250,Blue Carbon,Delta Blue Carbon – 1,Pakistan (PK),8843,8843.0,0.0
 149,2015,2290,Avoided Def.,BLUE CARBON PROJECT GULF OF MORROSQUILLO “VIDA MANGLAR”,Colombia (CO),8990,8990.0,0.0
 150,2016,562,Avoided Def.,The Kasigau Corridor REDD Project – Phase I Rukinga Sanctuary,Kenya (KE),375656,254291.0,121365.0
 151,2016,607,IFM,Darkwoods Forest Carbon Project,Canada (CA),376211,375111.0,1100.0
 152,2016,612,Avoided Def.,The Kasigau Corridor REDD Project - Phase II The Community Ranches,Kenya (KE),1669745,504755.0,1164990.0
-153,2016,674,Avoided Def.,Rimba Raya Biodiversity Reserve Project,Indonesia (ID),3493722,1317564.0,2176158.0
+153,2016,674,Avoided Def.,Rimba Raya Biodiversity Reserve Project,Indonesia (ID),3493722,1318064.0,2175658.0
 154,2016,737,ARR,"TIST Program in Kenya, VCS 005",Kenya (KE),499331,421119.0,78212.0
 155,2016,844,Avoided Def.,Madre de Dios Amazon REDD+ Project,Peru (PE),827002,744325.0,82677.0
 156,2016,902,ARR,KARIBA REDD+ PROJECT,Zimbabwe (ZW),3212593,1911785.0,1300808.0
@@ -165,7 +165,7 @@
 163,2016,1067,Avoided Def.,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park within the area of Madre de Dios region –Peru,Peru (PE),395524,0.0,395524.0
 164,2016,1115,Avoided Def.,JARI/AMAPÁ REDD+ PROJECT,Brazil (BR),277676,155881.0,121795.0
 165,2016,1168,Avoided Def.,"Kulera Landscape REDD+ Program for Co-Managed Protected Areas, Malawi",Malawi (MW),208115,75000.0,133115.0
-166,2016,1382,Avoided Def.,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),2311131,552612.0,1758519.0
+166,2016,1382,Avoided Def.,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),2311131,552688.0,1758443.0
 167,2016,1389,Avoided Def.,Acapa -­ Bajo Mira Y Frontera REDD+ Project,Colombia (CO),154502,141922.0,12580.0
 168,2016,1390,Avoided Def.,Carmen del Darién (CDD) REDD+ Project,Colombia (CO),169042,169042.0,0.0
 169,2016,1391,Avoided Def.,SIVIRÚ-USARAGÁ-PIZARRO-PILIZÁ (SUPP) REDD+ Project,Colombia (CO),249564,249564.0,0.0
@@ -174,10 +174,10 @@
 172,2016,1399,Avoided Def.,Mutatá REDD+ Project,Colombia (CO),100002,98992.0,1010.0
 173,2016,1408,Avoided Def.,Chyulu Hills REDD+ Project,Kenya (KE),617707,435434.0,182273.0
 174,2016,1468,ALM,Northern Kenya Grassland Carbon Project,Kenya (KE),3210579,896692.0,2313887.0
-175,2016,1477,ARR,Katingan Peatland Restoration and Conservation Project,Indonesia (ID),4339233,249753.0,4089480.0
-176,2016,1530,ARR,Grouped Project for Commercial Forest Plantations Initiatives in the Department of Vichada,Colombia (CO),37879,3660.0,34219.0
+175,2016,1477,ARR,Katingan Peatland Restoration and Conservation Project,Indonesia (ID),4339233,405550.0,3933683.0
+176,2016,1530,ARR,Grouped Project for Commercial Forest Plantations Initiatives in the Department of Vichada,Colombia (CO),37879,5370.0,32509.0
 177,2016,1689,Avoided Def.,Tumring REDD+ Project,Cambodia (KH),129082,0.0,129082.0
-178,2016,1748,Avoided Def.,Southern Cardamom REDD+ Project,Cambodia (KH),3982378,1664923.0,2317455.0
+178,2016,1748,Avoided Def.,Southern Cardamom REDD+ Project,Cambodia (KH),3982378,1864923.0,2117455.0
 179,2016,1769,IFM,"Grouped Project for restoration of degraded lands in Jaguar Corridors, Colombia",Colombia (CO),1064,1064.0,0.0
 180,2016,1882,Avoided Def.,REDD+ PROJECT IN THE ALTO HUAYABAMBA CONSERVATION CONCESSION (CCAH).,Peru (PE),44562,40658.0,3904.0
 181,2016,1935,IFM,Hubei Hongshan IFM (Conversion of Logged to Protected Forest) Project,China (CN),207026,0.0,207026.0
@@ -203,44 +203,44 @@
 201,2017,607,IFM,Darkwoods Forest Carbon Project,Canada (CA),181419,155096.0,26323.0
 202,2017,612,Avoided Def.,The Kasigau Corridor REDD Project - Phase II The Community Ranches,Kenya (KE),1665110,370114.0,1294996.0
 203,2017,673,ARR,Natural High Forest Rehabilitation Project on degraded land of Kibale National Park,Uganda (UG),229902,229817.0,85.0
-204,2017,674,Avoided Def.,Rimba Raya Biodiversity Reserve Project,Indonesia (ID),3953900,1631239.0,2322661.0
-205,2017,737,ARR,"TIST Program in Kenya, VCS 005",Kenya (KE),128875,126633.0,2242.0
+204,2017,674,Avoided Def.,Rimba Raya Biodiversity Reserve Project,Indonesia (ID),3953900,1632265.0,2321635.0
+205,2017,737,ARR,"TIST Program in Kenya, VCS 005",Kenya (KE),128875,127016.0,1859.0
 206,2017,844,Avoided Def.,Madre de Dios Amazon REDD+ Project,Peru (PE),1274532,1247999.0,26533.0
 207,2017,902,ARR,KARIBA REDD+ PROJECT,Zimbabwe (ZW),3318200,2770307.0,547893.0
-208,2017,934,Avoided Def.,The Mai Ndombe REDD+ Project,"Congo, The Democratic Republic of The (CD)",4574504,146791.0,4427713.0
+208,2017,934,Avoided Def.,The Mai Ndombe REDD+ Project,"Congo, The Democratic Republic of The (CD)",4574504,146795.0,4427709.0
 209,2017,953,Avoided Def.,The Paraguay Forest Conservation Project - Reduction of GHG emissions from deforestation and forest degradation in the Chaco-Pantanal ecosystem,Paraguay (PY),14519,0.0,14519.0
 210,2017,958,Avoided Def.,BIOCORREDOR MARTIN SAGRADO REDD+ PROJECT,Peru (PE),84126,56365.0,27761.0
-211,2017,959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay (UY),662259,70674.0,591585.0
-212,2017,985,Avoided Def.,Cordillera Azul National Park REDD Project,Peru (PE),4040852,129866.0,3910986.0
-213,2017,993,ARR,"TIST Program in Uganda, VCS 005",Uganda (UG),464116,458093.0,6023.0
+211,2017,959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay (UY),662259,70724.0,591535.0
+212,2017,985,Avoided Def.,Cordillera Azul National Park REDD Project,Peru (PE),4040852,129962.0,3910890.0
+213,2017,993,ARR,"TIST Program in Uganda, VCS 005",Uganda (UG),464116,458883.0,5233.0
 214,2017,994,ARR,"TIST Program in India, VCS 001",India (IN),93207,65998.0,27209.0
 215,2017,995,ARR,"TIST Program in Uganda, VCS 006",Uganda (UG),86841,86841.0,0.0
 216,2017,1067,Avoided Def.,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park within the area of Madre de Dios region –Peru,Peru (PE),687849,62480.0,625369.0
 217,2017,1115,Avoided Def.,JARI/AMAPÁ REDD+ PROJECT,Brazil (BR),284595,135787.0,148808.0
 218,2017,1168,Avoided Def.,"Kulera Landscape REDD+ Program for Co-Managed Protected Areas, Malawi",Malawi (MW),213975,0.0,213975.0
-219,2017,1382,Avoided Def.,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),2394725,55960.0,2338765.0
+219,2017,1382,Avoided Def.,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),2394725,56370.0,2338355.0
 220,2017,1389,Avoided Def.,Acapa -­ Bajo Mira Y Frontera REDD+ Project,Colombia (CO),165543,78275.0,87268.0
 221,2017,1390,Avoided Def.,Carmen del Darién (CDD) REDD+ Project,Colombia (CO),165613,36161.0,129452.0
 222,2017,1391,Avoided Def.,SIVIRÚ-USARAGÁ-PIZARRO-PILIZÁ (SUPP) REDD+ Project,Colombia (CO),247447,0.0,247447.0
-223,2017,1395,Avoided Def.,Bajo Calima y Bahía Málaga (BCBM) REDD+ Project,Colombia (CO),364162,193370.0,170792.0
+223,2017,1395,Avoided Def.,Bajo Calima y Bahía Málaga (BCBM) REDD+ Project,Colombia (CO),364162,193445.0,170717.0
 224,2017,1396,Avoided Def.,Rio Pepe y ACABA REDD+ Project,Colombia (CO),171414,88783.0,82631.0
 225,2017,1399,Avoided Def.,Mutatá REDD+ Project,Colombia (CO),104646,16655.0,87991.0
 226,2017,1408,Avoided Def.,Chyulu Hills REDD+ Project,Kenya (KE),516453,16453.0,500000.0
-227,2017,1477,ARR,Katingan Peatland Restoration and Conservation Project,Indonesia (ID),4830311,1580831.0,3249480.0
+227,2017,1477,ARR,Katingan Peatland Restoration and Conservation Project,Indonesia (ID),4830311,1612752.0,3217559.0
 228,2017,1530,ARR,Grouped Project for Commercial Forest Plantations Initiatives in the Department of Vichada,Colombia (CO),49206,15164.0,34042.0
 229,2017,1566,Avoided Def.,REDD+ Project Resguardo Indigena Unificado Selva de Mataven (RIU SM),Colombia (CO),6404775,6361554.0,43221.0
 230,2017,1689,Avoided Def.,Tumring REDD+ Project,Cambodia (KH),129082,0.0,129082.0
-231,2017,1748,Avoided Def.,Southern Cardamom REDD+ Project,Cambodia (KH),3982378,190298.0,3792080.0
+231,2017,1748,Avoided Def.,Southern Cardamom REDD+ Project,Cambodia (KH),3982378,297213.0,3685165.0
 232,2017,1769,IFM,"Grouped Project for restoration of degraded lands in Jaguar Corridors, Colombia",Colombia (CO),3891,3891.0,0.0
 233,2017,1882,Avoided Def.,REDD+ PROJECT IN THE ALTO HUAYABAMBA CONSERVATION CONCESSION (CCAH).,Peru (PE),48143,45362.0,2781.0
-234,2017,1935,IFM,Hubei Hongshan IFM (Conversion of Logged to Protected Forest) Project,China (CN),207298,11000.0,196298.0
-235,2017,1953,Avoided Def.,Floresta Verde REDD+ Project,Brazil (BR),296489,31005.0,265484.0
+234,2017,1935,IFM,Hubei Hongshan IFM (Conversion of Logged to Protected Forest) Project,China (CN),207298,61000.0,146298.0
+235,2017,1953,Avoided Def.,Floresta Verde REDD+ Project,Brazil (BR),296489,31006.0,265483.0
 236,2017,2070,ARR,Guinan Afforestation Project,China (CN),165882,33184.0,132698.0
-237,2017,2082,ARR,Qianbei Afforestation Project,China (CN),132329,105547.0,26782.0
-238,2017,2083,ARR,Liangdu Afforestation Project,China (CN),55372,13320.0,42052.0
+237,2017,2082,ARR,Qianbei Afforestation Project,China (CN),132329,106047.0,26282.0
+238,2017,2083,ARR,Liangdu Afforestation Project,China (CN),55372,13333.0,42039.0
 239,2017,2087,ARR,Chudu Afforestation Project,China (CN),90047,21800.0,68247.0
-240,2017,2250,Blue Carbon,Delta Blue Carbon – 1,Pakistan (PK),116871,4860.0,112011.0
-241,2017,2252,Avoided Def.,Rio Anapu-Pacaja REDD Project,Brazil (BR),1422367,126073.0,1296294.0
+240,2017,2250,Blue Carbon,Delta Blue Carbon – 1,Pakistan (PK),116871,37726.0,79145.0
+241,2017,2252,Avoided Def.,Rio Anapu-Pacaja REDD Project,Brazil (BR),1422367,149573.0,1272794.0
 242,2017,2290,Avoided Def.,BLUE CARBON PROJECT GULF OF MORROSQUILLO “VIDA MANGLAR”,Colombia (CO),16594,16594.0,0.0
 243,2017,2310,ARR,Anhuang Afforestation Project,China (CN),66576,1.0,66575.0
 244,2017,2370,ARR,Zhangye City Afforestation Project in Gansu Province,China (CN),35940,35940.0,0.0
@@ -256,39 +256,39 @@
 254,2018,562,Avoided Def.,The Kasigau Corridor REDD Project – Phase I Rukinga Sanctuary,Kenya (KE),207335,207335.0,0.0
 255,2018,607,IFM,Darkwoods Forest Carbon Project,Canada (CA),160024,147999.0,12025.0
 256,2018,612,Avoided Def.,The Kasigau Corridor REDD Project - Phase II The Community Ranches,Kenya (KE),1443407,98445.0,1344962.0
-257,2018,674,Avoided Def.,Rimba Raya Biodiversity Reserve Project,Indonesia (ID),3403066,2476217.0,926849.0
-258,2018,737,ARR,"TIST Program in Kenya, VCS 005",Kenya (KE),128875,126355.0,2520.0
+257,2018,674,Avoided Def.,Rimba Raya Biodiversity Reserve Project,Indonesia (ID),3403066,2486217.0,916849.0
+258,2018,737,ARR,"TIST Program in Kenya, VCS 005",Kenya (KE),128875,126385.0,2490.0
 259,2018,844,Avoided Def.,Madre de Dios Amazon REDD+ Project,Peru (PE),774899,764088.0,10811.0
 260,2018,902,ARR,KARIBA REDD+ PROJECT,Zimbabwe (ZW),2353362,1591088.0,762274.0
 261,2018,934,Avoided Def.,The Mai Ndombe REDD+ Project,"Congo, The Democratic Republic of The (CD)",5849190,75031.0,5774159.0
 262,2018,944,Avoided Def.,Alto Mayo Conservation Initiative,Peru (PE),882845,873861.0,8984.0
 263,2018,953,Avoided Def.,The Paraguay Forest Conservation Project - Reduction of GHG emissions from deforestation and forest degradation in the Chaco-Pantanal ecosystem,Paraguay (PY),14899,0.0,14899.0
 264,2018,958,Avoided Def.,BIOCORREDOR MARTIN SAGRADO REDD+ PROJECT,Peru (PE),87268,87268.0,0.0
-265,2018,959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay (UY),702036,82937.0,619099.0
+265,2018,959,ARR,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay (UY),702036,182937.0,519099.0
 266,2018,985,Avoided Def.,Cordillera Azul National Park REDD Project,Peru (PE),4577952,108204.0,4469748.0
 267,2018,1067,Avoided Def.,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park within the area of Madre de Dios region –Peru,Peru (PE),617226,107968.0,509258.0
 268,2018,1115,Avoided Def.,JARI/AMAPÁ REDD+ PROJECT,Brazil (BR),282018,100417.0,181601.0
 269,2018,1168,Avoided Def.,"Kulera Landscape REDD+ Program for Co-Managed Protected Areas, Malawi",Malawi (MW),224306,0.0,224306.0
-270,2018,1382,Avoided Def.,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),315706,123195.0,192511.0
+270,2018,1382,Avoided Def.,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),315706,123664.0,192042.0
 271,2018,1389,Avoided Def.,Acapa -­ Bajo Mira Y Frontera REDD+ Project,Colombia (CO),167653,148262.0,19391.0
 272,2018,1408,Avoided Def.,Chyulu Hills REDD+ Project,Kenya (KE),23047,17878.0,5169.0
-273,2018,1477,ARR,Katingan Peatland Restoration and Conservation Project,Indonesia (ID),5133319,2246340.0,2886979.0
+273,2018,1477,ARR,Katingan Peatland Restoration and Conservation Project,Indonesia (ID),5133319,2266340.0,2866979.0
 274,2018,1530,ARR,Grouped Project for Commercial Forest Plantations Initiatives in the Department of Vichada,Colombia (CO),44542,3735.0,40807.0
-275,2018,1566,Avoided Def.,REDD+ Project Resguardo Indigena Unificado Selva de Mataven (RIU SM),Colombia (CO),3175941,1134141.0,2041800.0
+275,2018,1566,Avoided Def.,REDD+ Project Resguardo Indigena Unificado Selva de Mataven (RIU SM),Colombia (CO),3175941,1134181.0,2041760.0
 276,2018,1689,Avoided Def.,Tumring REDD+ Project,Cambodia (KH),129082,200.0,128882.0
 277,2018,1748,Avoided Def.,Southern Cardamom REDD+ Project,Cambodia (KH),3946277,476008.0,3470269.0
 278,2018,1769,IFM,"Grouped Project for restoration of degraded lands in Jaguar Corridors, Colombia",Colombia (CO),4910,4910.0,0.0
 279,2018,1855,ARR,Hechu Afforestation Project in Anhui Province,China (CN),326643,326643.0,0.0
 280,2018,1882,Avoided Def.,REDD+ PROJECT IN THE ALTO HUAYABAMBA CONSERVATION CONCESSION (CCAH).,Peru (PE),44399,40549.0,3850.0
 281,2018,1896,ARR,Hunan Northern and Northwestern Area Afforestation Project,China (CN),15820,15820.0,0.0
-282,2018,1897,Avoided Def.,Ntakata Mountains REDD,Tanzania (TZ),504852,499846.0,5006.0
-283,2018,1935,IFM,Hubei Hongshan IFM (Conversion of Logged to Protected Forest) Project,China (CN),207052,0.0,207052.0
+282,2018,1897,Avoided Def.,Ntakata Mountains REDD,Tanzania (TZ),504852,500346.0,4506.0
+283,2018,1935,IFM,Hubei Hongshan IFM (Conversion of Logged to Protected Forest) Project,China (CN),207052,47047.0,160005.0
 284,2018,1953,Avoided Def.,Floresta Verde REDD+ Project,Brazil (BR),342703,30000.0,312703.0
 285,2018,2070,ARR,Guinan Afforestation Project,China (CN),195252,129300.0,65952.0
-286,2018,2082,ARR,Qianbei Afforestation Project,China (CN),244033,87991.0,156042.0
+286,2018,2082,ARR,Qianbei Afforestation Project,China (CN),244033,98930.0,145103.0
 287,2018,2083,ARR,Liangdu Afforestation Project,China (CN),120851,70420.0,50431.0
 288,2018,2087,ARR,Chudu Afforestation Project,China (CN),90624,5151.0,85473.0
-289,2018,2250,Blue Carbon,Delta Blue Carbon – 1,Pakistan (PK),186481,10519.0,175962.0
+289,2018,2250,Blue Carbon,Delta Blue Carbon – 1,Pakistan (PK),186481,28915.0,157566.0
 290,2018,2252,Avoided Def.,Rio Anapu-Pacaja REDD Project,Brazil (BR),1649462,50200.0,1599262.0
 291,2018,2290,Avoided Def.,BLUE CARBON PROJECT GULF OF MORROSQUILLO “VIDA MANGLAR”,Colombia (CO),18160,5406.0,12754.0
 292,2018,2310,ARR,Anhuang Afforestation Project,China (CN),117051,117051.0,0.0
@@ -304,21 +304,21 @@
 302,2018,2512,ARR,"AFFORESTATION OF DEGRADED GRASSLANDS IN VICHADA, COLOMBIA",Colombia (CO),88559,10000.0,78559.0
 303,2019,562,Avoided Def.,The Kasigau Corridor REDD Project – Phase I Rukinga Sanctuary,Kenya (KE),220877,216772.0,4105.0
 304,2019,607,IFM,Darkwoods Forest Carbon Project,Canada (CA),217816,217816.0,0.0
-305,2019,612,Avoided Def.,The Kasigau Corridor REDD Project - Phase II The Community Ranches,Kenya (KE),1377897,429189.0,948708.0
+305,2019,612,Avoided Def.,The Kasigau Corridor REDD Project - Phase II The Community Ranches,Kenya (KE),1377897,489189.0,888708.0
 306,2019,674,Avoided Def.,Rimba Raya Biodiversity Reserve Project,Indonesia (ID),1676895,1676395.0,500.0
-307,2019,737,ARR,"TIST Program in Kenya, VCS 005",Kenya (KE),128875,64205.0,64670.0
+307,2019,737,ARR,"TIST Program in Kenya, VCS 005",Kenya (KE),128875,87836.0,41039.0
 308,2019,824,ARR,"TIST Program in Uganda, VCS 001",Uganda (UG),138235,136559.0,1676.0
 309,2019,825,ARR,"TIST Program in Uganda, VCS 002",Uganda (UG),69023,69023.0,0.0
 310,2019,826,ARR,"TIST Program in Uganda, VCS 004",Uganda (UG),5258,5258.0,0.0
 311,2019,827,ARR,"TIST Program in Uganda, VCS 003",Uganda (UG),34503,34503.0,0.0
 312,2019,844,Avoided Def.,Madre de Dios Amazon REDD+ Project,Peru (PE),833007,515762.0,317245.0
 313,2019,902,ARR,KARIBA REDD+ PROJECT,Zimbabwe (ZW),1591283,1338746.0,252537.0
-314,2019,934,Avoided Def.,The Mai Ndombe REDD+ Project,"Congo, The Democratic Republic of The (CD)",3800000,112415.0,3687585.0
+314,2019,934,Avoided Def.,The Mai Ndombe REDD+ Project,"Congo, The Democratic Republic of The (CD)",3800000,162415.0,3637585.0
 315,2019,958,Avoided Def.,BIOCORREDOR MARTIN SAGRADO REDD+ PROJECT,Peru (PE),87674,87674.0,0.0
 316,2019,993,ARR,"TIST Program in Uganda, VCS 005",Uganda (UG),111073,91593.0,19480.0
 317,2019,995,ARR,"TIST Program in Uganda, VCS 006",Uganda (UG),43372,32623.0,10749.0
 318,2019,1067,Avoided Def.,Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park within the area of Madre de Dios region –Peru,Peru (PE),745894,122313.0,623581.0
-319,2019,1115,Avoided Def.,JARI/AMAPÁ REDD+ PROJECT,Brazil (BR),428652,4070.0,424582.0
+319,2019,1115,Avoided Def.,JARI/AMAPÁ REDD+ PROJECT,Brazil (BR),440153,4070.0,436083.0
 320,2019,1168,Avoided Def.,"Kulera Landscape REDD+ Program for Co-Managed Protected Areas, Malawi",Malawi (MW),1229540,217188.0,1012352.0
 321,2019,1340,Avoided Def.,Bale Mountains Eco-region REDD+ project,Ethiopia (ET),4438780,3076549.0,1362231.0
 322,2019,1382,Avoided Def.,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),318046,0.0,318046.0
@@ -326,19 +326,19 @@
 324,2019,1530,ARR,Grouped Project for Commercial Forest Plantations Initiatives in the Department of Vichada,Colombia (CO),32883,3489.0,29394.0
 325,2019,1566,Avoided Def.,REDD+ Project Resguardo Indigena Unificado Selva de Mataven (RIU SM),Colombia (CO),4921874,825764.0,4096110.0
 326,2019,1689,Avoided Def.,Tumring REDD+ Project,Cambodia (KH),129082,0.0,129082.0
-327,2019,1748,Avoided Def.,Southern Cardamom REDD+ Project,Cambodia (KH),3946277,19468.0,3926809.0
+327,2019,1748,Avoided Def.,Southern Cardamom REDD+ Project,Cambodia (KH),3946277,54668.0,3891609.0
 328,2019,1769,IFM,"Grouped Project for restoration of degraded lands in Jaguar Corridors, Colombia",Colombia (CO),901,901.0,0.0
 329,2019,1855,ARR,Hechu Afforestation Project in Anhui Province,China (CN),138976,138976.0,0.0
 330,2019,1882,Avoided Def.,REDD+ PROJECT IN THE ALTO HUAYABAMBA CONSERVATION CONCESSION (CCAH).,Peru (PE),46356,9356.0,37000.0
 331,2019,1896,ARR,Hunan Northern and Northwestern Area Afforestation Project,China (CN),58523,8523.0,50000.0
-332,2019,1897,Avoided Def.,Ntakata Mountains REDD,Tanzania (TZ),781218,736407.0,44811.0
+332,2019,1897,Avoided Def.,Ntakata Mountains REDD,Tanzania (TZ),781218,736408.0,44810.0
 333,2019,1935,IFM,Hubei Hongshan IFM (Conversion of Logged to Protected Forest) Project,China (CN),103647,0.0,103647.0
 334,2019,1953,Avoided Def.,Floresta Verde REDD+ Project,Brazil (BR),81056,0.0,81056.0
 335,2019,2070,ARR,Guinan Afforestation Project,China (CN),320389,176389.0,144000.0
 336,2019,2082,ARR,Qianbei Afforestation Project,China (CN),339574,37887.0,301687.0
 337,2019,2083,ARR,Liangdu Afforestation Project,China (CN),149661,118412.0,31249.0
 338,2019,2087,ARR,Chudu Afforestation Project,China (CN),135646,1.0,135645.0
-339,2019,2250,Blue Carbon,Delta Blue Carbon – 1,Pakistan (PK),350126,53874.0,296252.0
+339,2019,2250,Blue Carbon,Delta Blue Carbon – 1,Pakistan (PK),350126,100755.0,249371.0
 340,2019,2252,Avoided Def.,Rio Anapu-Pacaja REDD Project,Brazil (BR),1607271,15000.0,1592271.0
 341,2019,2310,ARR,Anhuang Afforestation Project,China (CN),160410,160410.0,0.0
 342,2019,2370,ARR,Zhangye City Afforestation Project in Gansu Province,China (CN),45579,18596.0,26983.0
@@ -356,8 +356,8 @@
 354,2020,596,ARR,"TIST Program in Kenya, VCS 003",Kenya (KE),29908,29908.0,0.0
 355,2020,597,ARR,"TIST Program in Kenya, VCS 004",Kenya (KE),3731,3731.0,0.0
 356,2020,612,Avoided Def.,The Kasigau Corridor REDD Project - Phase II The Community Ranches,Kenya (KE),1609384,26425.0,1582959.0
-357,2020,673,ARR,Natural High Forest Rehabilitation Project on degraded land of Kibale National Park,Uganda (UG),199544,177690.0,21854.0
-358,2020,737,ARR,"TIST Program in Kenya, VCS 005",Kenya (KE),50139,28791.0,21348.0
+357,2020,673,ARR,Natural High Forest Rehabilitation Project on degraded land of Kibale National Park,Uganda (UG),199544,189105.0,10439.0
+358,2020,737,ARR,"TIST Program in Kenya, VCS 005",Kenya (KE),50139,30160.0,19979.0
 359,2020,844,Avoided Def.,Madre de Dios Amazon REDD+ Project,Peru (PE),884129,40983.0,843146.0
 360,2020,934,Avoided Def.,The Mai Ndombe REDD+ Project,"Congo, The Democratic Republic of The (CD)",3800000,4000.0,3796000.0
 361,2020,944,Avoided Def.,Alto Mayo Conservation Initiative,Peru (PE),471349,937245.0,-465896.0
@@ -367,20 +367,20 @@
 365,2020,1382,Avoided Def.,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),318046,0.0,318046.0
 366,2020,1408,Avoided Def.,Chyulu Hills REDD+ Project,Kenya (KE),150000,0.0,150000.0
 367,2020,1468,ALM,Northern Kenya Grassland Carbon Project,Kenya (KE),1388381,27203.0,1361178.0
-368,2020,1477,ARR,Katingan Peatland Restoration and Conservation Project,Indonesia (ID),5884249,162946.0,5721303.0
+368,2020,1477,ARR,Katingan Peatland Restoration and Conservation Project,Indonesia (ID),5884249,164946.0,5719303.0
 369,2020,1503,Avoided Def.,RESEX Rio Preto-Jacundá REDD+ Project,Brazil (BR),37951,0.0,37951.0
 370,2020,1530,ARR,Grouped Project for Commercial Forest Plantations Initiatives in the Department of Vichada,Colombia (CO),16234,12766.0,3468.0
-371,2020,1748,Avoided Def.,Southern Cardamom REDD+ Project,Cambodia (KH),3946277,60000.0,3886277.0
+371,2020,1748,Avoided Def.,Southern Cardamom REDD+ Project,Cambodia (KH),3946277,70172.0,3876105.0
 372,2020,1855,ARR,Hechu Afforestation Project in Anhui Province,China (CN),199672,54415.0,145257.0
 373,2020,1864,ARR,Puzhen Afforestation Project in Guizhou Province,China (CN),170715,170715.0,0.0
 374,2020,1882,Avoided Def.,REDD+ PROJECT IN THE ALTO HUAYABAMBA CONSERVATION CONCESSION (CCAH).,Peru (PE),46111,13390.0,32721.0
 375,2020,1896,ARR,Hunan Northern and Northwestern Area Afforestation Project,China (CN),122810,26176.0,96634.0
 376,2020,1897,Avoided Def.,Ntakata Mountains REDD,Tanzania (TZ),600000,524522.0,75478.0
 377,2020,2070,ARR,Guinan Afforestation Project,China (CN),438882,0.0,438882.0
-378,2020,2082,ARR,Qianbei Afforestation Project,China (CN),456391,76998.0,379393.0
+378,2020,2082,ARR,Qianbei Afforestation Project,China (CN),456391,86258.0,370133.0
 379,2020,2083,ARR,Liangdu Afforestation Project,China (CN),213681,20000.0,193681.0
 380,2020,2087,ARR,Chudu Afforestation Project,China (CN),196699,10000.0,186699.0
-381,2020,2250,Blue Carbon,Delta Blue Carbon – 1,Pakistan (PK),914007,34695.0,879312.0
+381,2020,2250,Blue Carbon,Delta Blue Carbon – 1,Pakistan (PK),914007,90692.0,823315.0
 382,2020,2252,Avoided Def.,Rio Anapu-Pacaja REDD Project,Brazil (BR),570104,638.0,569466.0
 383,2020,2310,ARR,Anhuang Afforestation Project,China (CN),208846,208846.0,0.0
 384,2020,2338,ARR,"TIST Program in Kenya, VCS-CCB 010",Kenya (KE),22104,20771.0,1333.0
@@ -395,10 +395,10 @@
 393,2020,2418,ARR,Gansu Lanzhou Afforestation Project,China (CN),14343,8227.0,6116.0
 394,2020,2451,ARR,Shanxi Loufan Afforestation Project,China (CN),36449,0.0,36449.0
 395,2020,2458,ARR,Guoluo Grassland Sustainable Management Project,China (CN),579723,82584.0,497139.0
-396,2020,2512,ARR,"AFFORESTATION OF DEGRADED GRASSLANDS IN VICHADA, COLOMBIA",Colombia (CO),227079,1602.0,225477.0
+396,2020,2512,ARR,"AFFORESTATION OF DEGRADED GRASSLANDS IN VICHADA, COLOMBIA",Colombia (CO),227079,7065.0,220014.0
 397,2021,562,Avoided Def.,The Kasigau Corridor REDD Project – Phase I Rukinga Sanctuary,Kenya (KE),235288,20000.0,215288.0
 398,2021,612,Avoided Def.,The Kasigau Corridor REDD Project - Phase II The Community Ranches,Kenya (KE),1637325,0.0,1637325.0
-399,2021,899,ARR,"TIST Program in Kenya, VCS 006",Kenya (KE),677799,429433.0,248366.0
+399,2021,899,ARR,"TIST Program in Kenya, VCS 006",Kenya (KE),677799,431233.0,246566.0
 400,2021,994,ARR,"TIST Program in India, VCS 001",India (IN),98536,17363.0,81173.0
 401,2021,1382,Avoided Def.,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),318047,0.0,318047.0
 402,2021,1748,Avoided Def.,Southern Cardamom REDD+ Project,Cambodia (KH),3841272,300000.0,3541272.0
@@ -408,6 +408,6 @@
 406,2021,2070,ARR,Guinan Afforestation Project,China (CN),525714,0.0,525714.0
 407,2021,2082,ARR,Qianbei Afforestation Project,China (CN),549233,243.0,548990.0
 408,2021,2083,ARR,Liangdu Afforestation Project,China (CN),277586,0.0,277586.0
-409,2021,2250,Blue Carbon,Delta Blue Carbon – 1,Pakistan (PK),1553947,134628.0,1419319.0
+409,2021,2250,Blue Carbon,Delta Blue Carbon – 1,Pakistan (PK),1553947,144890.0,1409057.0
 410,2021,2310,ARR,Anhuang Afforestation Project,China (CN),346792,273661.0,73131.0
 411,2021,2378,ARR,Miaoling Afforestation Project,China (CN),168887,0.0,168887.0

@@ -287,7 +287,7 @@ ngeos = ngeo_retirement.groupby(by=['YY']).sum()['Quantity of Units']
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-PID = 1748
+PID = 2250
 
 def project_balance(PID):
     issued = df_issuance[df_issuance['Project ID']==PID]
@@ -301,7 +301,7 @@ def project_balance(PID):
     balance['Balance'] = balance.Issued - balance.Retired
     return balance
 
-df_balance = project_balance(2410)
+df_balance = project_balance(PID)
 
 
 #non_afolu_balance.to_csv('C:/GitHub/non_afolu_ldc_projects.csv')
@@ -508,7 +508,7 @@ class Project_Analysis:
 
 
 
-prid = 2250
+prid = 1899
 project = Project_Analysis(prid)
 balance = project.project_balance()
 issuances, retirements = project.issuance_retirement_tables()
