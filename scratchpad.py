@@ -15,9 +15,13 @@ ngeo_projects = app.ngeo_project_list
 df_retirement = app.df_retirement
 broker_markets = app.df_broker
 
+arr_projects = df_projects.dropna(subset=['AFOLU Activities']).copy()
+arr_projects = df_projects[df_projects['AFOLU Activities'].str.contains('ARR', na=False)]
+
 
 ## TO DO
-# ADJUST THE BLUE CARBON CALCS TO BE FROM ONLY THE TWO METHODOLOGIES
+# GET API FROM QUANTUM FOR RELATIVE PRICING / PREMIUMS
+# CREATE A "NEW PROJECTS" SECTION
 
 
 
@@ -395,6 +399,9 @@ class Project_Analysis:
         self.ID = PID
         self.broker_ID = 'VCS ' + str(self.ID)
         
+        self.project_summary = df_projects[df_projects['Project ID']==self.ID]
+        self.annual_abatement = self.project_summary['Estimated Annual Emission Reductions']
+        
         self.broker_data = broker_markets[broker_markets['Project ID']==self.broker_ID]
         
         self.issuance = df_issuance
@@ -502,24 +509,28 @@ class Project_Analysis:
             final_frame = final_frame.reset_index()
             final_frame = final_frame.sort_values(by=['Total'], ascending=False).reset_index(drop=True)
         else:
-            pass                
+            pass
 
         return final_frame            
 
 
 
-prid = 1899
+prid = 962
 project = Project_Analysis(prid)
+
+ann_abatement = project.annual_abatement
+#summary = project.df_project
 balance = project.project_balance()
 issuances, retirements = project.issuance_retirement_tables()
 most_retires = project.top_retirees()
 broker_data = project.broker_data
+## ADD FUNCTION FOR PROJECT RATINGS ##
 
 
-z = project.retirement
-z = z[z['Beneficial Owner']=='Chanel']
-z = z.groupby(by=['Year','Month']).sum()['Quantity of Units']
+arr_projects = arr_projects[arr_projects]
 
+x = df_retirement.copy()
+x = x[x['Project ID']==2512]
 
 #######################################################################################
 ## USING FUZZY LOOKUP FOR RETIREMENT DATA
