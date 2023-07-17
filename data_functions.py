@@ -33,7 +33,7 @@ class Retrieve_Data:
         self.df_issuance = pd.merge(self.df_issuance, self.project_merge, on='Project ID', how='left')
         
         query = 'select * from \"Verra_Retirement\"'
-        self.df_retirement = pd.read_sql(query, self.engine)
+        self.df_retirement = pd.read_sql(query, self.engine).copy()
         self.df_retirement = self.df_retirement.drop_duplicates()
         self.df_retirement['Date of Retirement'] = pd.to_datetime(self.df_retirement['Date of Retirement'], format='%Y-%m-%d').dt.date
         self.df_retirement['From Vintage'] = pd.to_datetime(self.df_retirement['From Vintage'], format='%Y-%m-%d').dt.date
@@ -113,8 +113,8 @@ class Retrieve_Data:
             #--------------------------
             #--------------------------
             # Get supply / demand of NGEO eligible projects
-            ngeo_issuance = self.df_issuance[self.df_issuance['Project ID'].isin(ngeo_projects)].drop_duplicates()
-            ngeo_retirement = self.df_retirement[self.df_retirement['Project ID'].isin(ngeo_projects)].drop_duplicates()
+            ngeo_issuance = self.df_issuance[self.df_issuance['Project ID'].isin(ngeo_projects)].drop_duplicates().copy()
+            ngeo_retirement = self.df_retirement[self.df_retirement['Project ID'].isin(ngeo_projects)].drop_duplicates().copy()
             return ngeo_issuance, ngeo_retirement    
 
 
@@ -203,9 +203,9 @@ class Retrieve_Data:
     
     def ldc_project_balances(self):
         # Merge issuance and retirement data
-        df_issuance = self.df_issuance
-        retirement = self.df_retirement
-        df_projects = app.ldc_projects()
+        df_issuance = self.df_issuance.copy()
+        retirement = self.df_retirement.copy()
+        df_projects = self.ldc_projects()
         ldc_ids = list(df_projects['Project ID'].unique())
         
         df_issuance = df_issuance[df_issuance['Project ID'].isin(ldc_ids)]
@@ -238,6 +238,23 @@ class Retrieve_Data:
         balance = balance.fillna(0)
         balance['Balance'] = balance.Issued - balance.Retired
         return balance
+    
+    
+    ## GET THE VINTAGE BALANCES OF NGEO ELIGIBLE PROJECTS
+    def all_project_balances(self):
+        issuance = self.df_issuance.copy()
+        retirement = self.df_retirement.copy()
+        
+        issuance = issuance.groupby(by=['Vintage','Project ID','Method','Project Name','Project Country/Area']).sum()['Quantity of Units Issued'].reset_index()
+        issuance.columns = ['Vintage','ID','Method','Name','Country','Issued']     
+        retirement = retirement.groupby(by=['Vintage','Project ID','Method','Project Name','Project Country/Area']).sum()['Quantity of Units'].reset_index()
+        retirement.columns = ['Vintage','ID','Method','Name','Country','Retired']
+        
+        balance = pd.merge(issuance, retirement, on=['Vintage','ID','Method','Name','Country'], how="left")
+        balance = balance.fillna(0)
+        balance['Balance'] = balance.Issued - balance.Retired
+        return balance
+    
     
     # Yesterday issuances and retirements
     def yesterday_issuance_retirement(self):

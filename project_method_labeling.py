@@ -8,7 +8,7 @@ import pandas as pd
 
 aws_engine = create_engine('postgresql://Attunga01:875mSzNM@attunga-instance-1.c6crotlobtrk.us-east-2.rds.amazonaws.com/postgres')
 engine = create_engine('postgresql://postgres:iforgot23@localhost/Voluntary_Carbon')
-engine_list = [aws_engine, engine]
+engine_list = [engine, aws_engine]
 
 query = 'select * from \"VCS_Projects\"'
 df_projects = pd.read_sql(query, aws_engine)
@@ -16,62 +16,15 @@ df_projects = df_projects.drop_duplicates()
 df_projects['Crediting Period Start Date'] = pd.to_datetime(df_projects['Crediting Period Start Date'], format='%Y-%m-%d').dt.date
 df_projects['Crediting Period End Date'] = pd.to_datetime(df_projects['Crediting Period End Date'], format='%Y-%m-%d').dt.date
 
-##~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-## AFOLU ##
-# Blue Carbon 
-afolu_arr_wrc = df_projects[(df_projects['AFOLU Activities']=='ARR; WRC') | (df_projects['AFOLU Activities']=='WRC')]
-afolu_arr_wrc = afolu_arr_wrc[afolu_arr_wrc['Project ID']!=1899] # Drop sumatra
-afolu_arr_wrc['Method'] = 'Blue Carbon'
-projects_blue_carbon = list(afolu_arr_wrc['Project ID'].unique())
+#~~~~~~~~~~~~
+# FIX AFOLU LABELLING
+df_afolu = df_projects.copy()
+df_afolu = df_afolu[~df_afolu['AFOLU Activities'].isna()]
+df_afolu['Method'] = df_afolu['AFOLU Activities']
+df_afolu['Type'] = 'AFOLU'
 
-## ARR
-afolu_arr = df_projects.dropna(subset=['AFOLU Activities'])
-afolu_arr = afolu_arr[afolu_arr['AFOLU Activities'].str.contains('ARR')]
-afolu_arr = afolu_arr[~afolu_arr['Project ID'].isin(projects_blue_carbon)]
-afolu_arr['Method'] = 'ARR'
-projects_arr = list(afolu_arr['Project ID'].unique())
-project_mask = projects_blue_carbon + projects_arr
+project_mask = list(df_afolu['Project ID'].unique())
 
-# IFM
-afolu_ifm = df_projects.dropna(subset=['AFOLU Activities'])
-afolu_ifm = afolu_ifm[afolu_ifm['AFOLU Activities'].str.contains('IFM')]
-afolu_ifm = afolu_ifm[~afolu_ifm['Project ID'].isin(project_mask)]
-afolu_ifm['Method'] = 'IFM'
-projects_ifm = list(afolu_ifm['Project ID'].unique())
-project_mask += projects_ifm
-
-# Avoided_Def
-afolu_AD = df_projects.dropna(subset=['AFOLU Activities'])
-afolu_AD = afolu_AD[afolu_AD['AFOLU Activities'].str.contains('REDD')]
-afolu_AD = afolu_AD[~afolu_AD['Project ID'].isin(project_mask)]
-afolu_AD['Method'] = 'Avoided Def.'
-projects_AD = list(afolu_AD['Project ID'].unique())
-project_mask += projects_AD
-
-
-# ALM
-afolu_ALM = df_projects.dropna(subset=['AFOLU Activities'])
-afolu_ALM = afolu_ALM[afolu_ALM['AFOLU Activities'].str.contains('ALM')]
-afolu_ALM = afolu_ALM[~afolu_ALM['Project ID'].isin(project_mask)]
-afolu_ALM['Method'] = 'ALM'
-projects_ALM = list(afolu_ALM['Project ID'].unique())
-project_mask += projects_ALM
-
-# AFOLU Others
-afolu_other = df_projects.dropna(subset=['AFOLU Activities'])
-afolu_other = afolu_other[~afolu_other['Project ID'].isin(project_mask)]
-afolu_other['Method'] = 'AFOLU Other'
-projects_other = list(afolu_other['Project ID'].unique())
-project_mask += projects_other
-sub_df = df_projects[~df_projects['Project ID'].isin(project_mask)]
-sub_df = sub_df[sub_df['Project Type'].str.contains('Forestry')]
-sub_df['Method'] = 'AFOLU Other'
-sub_projects = list(sub_df['Project ID'].unique())
-project_mask += sub_projects
-
-# Concat all AFOLU Methods
-df_AFOLU = pd.concat([afolu_arr_wrc, afolu_arr, afolu_ifm, afolu_AD, afolu_ALM, afolu_other, sub_df], ignore_index=True)
-df_AFOLU['Type'] = 'AFOLU'
 
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ## NON AFOLU ##
@@ -164,7 +117,7 @@ df_OTHER['Type'] = 'Non_AFOLU'
 
 #~~~~~~~~~~~~~~~~~~~~~~~~
 ## MERGE 
-raw = pd.concat([df_AFOLU, df_OTHER])
+raw = pd.concat([df_afolu, df_OTHER])
 
 for e in engine_list:
     print(e)

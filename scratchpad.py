@@ -15,13 +15,28 @@ ngeo_projects = app.ngeo_project_list
 df_retirement = app.df_retirement
 broker_markets = app.df_broker
 
-arr_projects = df_projects.dropna(subset=['AFOLU Activities']).copy()
-arr_projects = df_projects[df_projects['AFOLU Activities'].str.contains('ARR', na=False)]
+
+"""
+CORSIA 
+"""
+import datetime
+projects = df_projects.copy()
+projects = projects[projects.Type=='Non_AFOLU']
+
+projects = projects[~(projects['Crediting Period Start Date'] < datetime.date(year=2016,month=1,day=1))]
+projects = projects[~(projects.Status.str.contains('Rejected'))]
+projects = projects[~(projects.Method.str.contains('Cookstoves'))]
+
+project_list = list(projects['Project ID'].unique())
+
+registered_projects = projects[projects.Status=='Registered']
+registered_projects = list(registered_projects['Project ID'].unique())
 
 
-## TO DO
-# GET API FROM QUANTUM FOR RELATIVE PRICING / PREMIUMS
-# CREATE A "NEW PROJECTS" SECTION
+annual_emissions = sum(projects['Estimated Annual Emission Reductions'])
+
+
+## NEED TO SCRAPE VERRA TO FIND ALL PROJECTS WITH AN SDG
 
 
 
@@ -185,11 +200,46 @@ def summary(df, datatype, CBL='Yes'):
     df_agg['Bid:Offer'] = df_agg['Bid_Count'] / df_agg['Offer_Count']
     df_agg['Bid:Offer'] = [round(i,2) for i in df_agg['Bid:Offer']]
     return df_agg
-    #return sub
+
+def vwap(df):
+    df = df.groupby(by=['Year','Month']).mean()[['Price']].reset_index()
+    df['AvgPrice'] = df.Price
+    df['AvgPrice'] = round(df.AvgPrice,2)
+    df = df.drop(columns='Price')
+    df = df.sort_values(by=['Year','Month'], ascending=[True,True]).reset_index(drop=True)
+    return df
+
+def price_summary(df, CBL='Yes'):
+    if CBL=='Yes':
+        # Only include CBL data over 1kt
+        df_cbl = df[(df.Broker=='CBL')&(df.Volume>=1000)]
+        df_other = df[df.Broker!='CBL']
+        df = pd.concat([df_cbl, df_other])
+    
+    bids = df[df['Price Type']=='Bid']
+    bids = vwap(bids)
+    bids.columns = ['Year','Month','Bid']
+    offers = df[df['Price Type']=='Offer']
+    offers = vwap(offers)
+    offers.columns = ['Year','Month','Offer']
+    trades = df[df['Price Type']=='Trade']
+    trades = vwap(trades)
+    trades.columns = ['Year','Month','Trade']
+    
+    sub = trades.merge(bids, on=['Year','Month'], how="left")
+    sub = sub.merge(offers, on=['Year','Month'], how='left')
+
+    return sub
     
 df_type = summary(broker_markets, datatype='Type', CBL='No')
+df_type = df_type.sort_values(by=['Year','Month','Bid_Count'], ascending=[False,False,False])
+
 df_vintage = summary(broker_markets, datatype='Vintage', CBL='No')
-df_project = summary(broker_markets, datatype='Project ID', CBL='Yes')
+
+df_project = summary(broker_markets, datatype='Project ID', CBL='No')
+df_project = df_project.sort_values(by=['Year','Month','Bid_Count'], ascending=[False,False,False])
+
+df_prices = price_summary(broker_markets, CBL='Yes')
 
 ## Vintage ##
 # TO DO - split out renewables
@@ -207,9 +257,10 @@ xz = x.merge(z, on=['Year','Vintage'], how="left")
 ##
 
 
-project = df_project.copy()
+
 
 ## Most Bid Projects ##
+project = df_project.copy()
 top_projects = project.groupby(by=['Project ID']).sum()
 #top_projects = top_projects[(top_projects.Offer_Count>=2) & (top_projects.Bid_Count>=1)]
 top_projects = top_projects[['Bid_Count','Offer_Count','Trade_Count']]
@@ -226,7 +277,7 @@ broker_markets_sub = broker_markets.copy()
 broker_markets_sub = broker_markets_sub[['Project ID','Name','Location','Type']]
 broker_markets_sub = broker_markets_sub.drop_duplicates()
 
-top_projects = top_projects.merge(broker_markets_sub, on='Project ID',how="left")
+top_projects = top_projects.mergeiforgot23(broker_markets_sub, on='Project ID',how="left")
 top_projects = top_projects.sort_values(by=['Bid_Count','Trade_Count'], ascending=[False,False])
 ##
 
@@ -247,6 +298,7 @@ project_monthly['Y'] = [str(i) for i in project_monthly.Year]
 project_monthly['M'] = [str(i) for i in project_monthly.Month]
 project_monthly['M'] = project_monthly.M.str.zfill(2)
 project_monthly['Y_M'] = project_monthly.Y+project_monthly.M
+project_monthly = project_monthly.sort_values(by=['Year','Month','Bid_Count'], ascending=[True,True,False])
 
 bid_monthly = project_monthly[['Y_M','Project ID','Bid_Count']]
 bid_monthly = pd.pivot_table(bid_monthly, values='Bid_Count', index='Y_M', columns=['Project ID'], fill_value=0).reset_index()
@@ -318,11 +370,7 @@ df_balance = project_balance(PID)
 # Assigning Prices to Projects
 #######################################################################################    
     
-import plotly.express as px
 
-long_df = px.data.medals_long()
-
-fig = px.bar(long_df, x="nation", y="count", color="medal", title="Long-Form Input")
 
 
 
@@ -397,20 +445,20 @@ r_2380 = r[r['Account Holder']=='2380']
 class Project_Analysis:
     def __init__(self, PID):
         self.ID = PID
-        self.broker_ID = 'VCS ' + str(self.ID)
+        self.broker_ID = ['VCS ' + str(i) for i in self.ID]
         
-        self.project_summary = df_projects[df_projects['Project ID']==self.ID]
+        self.project_summary = df_projects[df_projects['Project ID'].isin(self.ID)]
         self.annual_abatement = self.project_summary['Estimated Annual Emission Reductions']
         
-        self.broker_data = broker_markets[broker_markets['Project ID']==self.broker_ID]
+        self.broker_data = broker_markets[broker_markets['Project ID'].isin(self.broker_ID)]
         
         self.issuance = df_issuance
-        self.issuance = self.issuance[self.issuance['Project ID']==self.ID]
+        self.issuance = self.issuance[self.issuance['Project ID'].isin(self.ID)]
         self.issuance['Year'] = [i.year for i in self.issuance['Issuance Date']]
         self.issuance['Month'] = [i.month for i in self.issuance['Issuance Date']]
         
         self.retirement = df_retirement
-        self.retirement = self.retirement[self.retirement['Project ID']==self.ID]
+        self.retirement = self.retirement[self.retirement['Project ID'].isin(self.ID)]
         #self.retirement = retirement[retirement['Project ID']==prid]
         self.retirement['Year'] = [i.year for i in self.retirement['Date of Retirement']]
         #self.retirement['Year'] = [i.year for i in retirement['Date of Retirement']]
@@ -455,82 +503,167 @@ class Project_Analysis:
     
     # Use fuzzy function to merge names
     def top_retirees(self):
-        retirees = self.retirement.groupby(by=['Beneficial Owner','Year']).sum()['Quantity of Units'].reset_index()
-        #retirees = project.retirement.groupby(by=['Beneficial Owner','Year']).sum()['Quantity of Units'].reset_index()
-        retirees.columns = ['Name','Retirement Year','Qty Retired']     
+        account_types = ['Beneficial Owner','Account Holder']
+        results = []
         
-        owners = list(retirees['Name'].unique())
-        
-        match_dict = {}
-        best_name = {}
-        
-        for i in owners:
-            matches = self.match_names(i, owners)
-            #matches = project.match_names(i, owners)
-            if len(matches) > 1:
-                matches = matches.merge(retirees, on=['Name'], how="left")
-                match_dict[i] = matches
+        for acc in account_types:
+            retirees = self.retirement.groupby(by=['{}'.format(acc),'Year']).sum()['Quantity of Units'].reset_index()
+            retirees = project.retirement.groupby(by=['{}'.format(acc),'Year']).sum()['Quantity of Units'].reset_index()
+            #retirees = self.retirement.groupby(by=['Account Holder','Year']).sum()['Quantity of Units'].reset_index()
+            #retirees = project.retirement.groupby(by=['Account Holder','Year']).sum()['Quantity of Units'].reset_index()
+            retirees.columns = ['Name','Retirement Year','Qty Retired']     
+            
+            owners = list(retirees['Name'].unique())
+            
+            match_dict = {}
+            best_name = {}
+            
+            for i in owners:
+                matches = self.match_names(i, owners)
+                #matches = project.match_names(i, owners)
+                if len(matches) > 1:
+                    matches = matches.merge(retirees, on=['Name'], how="left")
+                    match_dict[i] = matches
+                    
+                    year_retired = matches.groupby(by=['Retirement Year']).sum().reset_index()  
+                    total_retired = matches['Qty Retired'].sum()
+                    largest_value = max(matches['Qty Retired'])
+                    name = matches[matches['Qty Retired']==largest_value].reset_index(drop=True)
+                    name = name.Name[0]
+                    year_retired['Name'] = name 
+                    year_retired = year_retired[['Name','Retirement Year','Qty Retired']]
+                    best_name[name] = year_retired
+                    
+                else:
+                    final_frame = retirees.copy()
+                    final_frame.columns = ['Name','Retirement Year','Qty Retired']
+                    
+                    retiree_totals = final_frame.groupby(by=['Name']).sum()['Qty Retired'].reset_index()
+                    retiree_totals.columns = ['Name','Total']
+                    
+                    final_frame = final_frame.pivot_table('Qty Retired','Name','Retirement Year')
+                    
+                    final_frame = final_frame.merge(retiree_totals, on=['Name'], how='left')
+                    pass
                 
-                year_retired = matches.groupby(by=['Retirement Year']).sum().reset_index()  
-                total_retired = matches['Qty Retired'].sum()
-                largest_value = max(matches['Qty Retired'])
-                name = matches[matches['Qty Retired']==largest_value].reset_index(drop=True)
-                name = name.Name[0]
-                year_retired['Name'] = name 
-                year_retired = year_retired[['Name','Retirement Year','Qty Retired']]
-                best_name[name] = year_retired
+            if len(list(match_dict)) > 1:
+                d = { k: v.set_index('Name') for k, v in best_name.items()}    # Conver the Dict into a DF
                 
-            else:
-                final_frame = retirees.copy()
-                final_frame.columns = ['Name','Retirement Year','Qty Retired']
+                df = pd.concat(d)
+                df = df.droplevel(0)
+                df = df.reset_index()
                 
-                retiree_totals = final_frame.groupby(by=['Name']).sum()['Qty Retired'].reset_index()
-                retiree_totals.columns = ['Name','Total']
+                dropnames = list(match_dict)
+                retirees = retirees[~retirees.Name.isin(dropnames)]
                 
+                final_frame = pd.concat([retirees,df])
                 final_frame = final_frame.pivot_table('Qty Retired','Name','Retirement Year')
-                
-                final_frame = final_frame.merge(retiree_totals, on=['Name'], how='left')
+                final_frame = final_frame.fillna(0)
+                final_frame['Total'] = final_frame[list(final_frame.columns)].sum(axis=1)
+                final_frame = final_frame.reset_index()
+                final_frame = final_frame.sort_values(by=['Total'], ascending=False).reset_index(drop=True)
+            else:
                 pass
-            
-        if len(list(match_dict)) > 1:
-            d = { k: v.set_index('Name') for k, v in best_name.items()}    # Conver the Dict into a DF
-            
-            df = pd.concat(d)
-            df = df.droplevel(0)
-            df = df.reset_index()
-            
-            dropnames = list(match_dict)
-            retirees = retirees[~retirees.Name.isin(dropnames)]
-            
-            final_frame = pd.concat([retirees,df])
-            final_frame = final_frame.pivot_table('Qty Retired','Name','Retirement Year')
-            final_frame = final_frame.fillna(0)
-            final_frame['Total'] = final_frame[list(final_frame.columns)].sum(axis=1)
-            final_frame = final_frame.reset_index()
-            final_frame = final_frame.sort_values(by=['Total'], ascending=False).reset_index(drop=True)
-        else:
-            pass
+            results.append(final_frame)
+    
+        return results       
+    
+    
+#IDs = project_list
 
-        return final_frame            
+IDs = [2000]
 
-
-
-prid = 962
-project = Project_Analysis(prid)
+project = Project_Analysis(IDs)
 
 ann_abatement = project.annual_abatement
 #summary = project.df_project
 balance = project.project_balance()
 issuances, retirements = project.issuance_retirement_tables()
-most_retires = project.top_retirees()
+most_beneficial_owner, most_account_holder = project.top_retirees()
 broker_data = project.broker_data
 ## ADD FUNCTION FOR PROJECT RATINGS ##
+# Add something that finds low balance projects and then identifies similar projects.
+# ie a corporate might have a list of similar projects they can buy and retire
+
+z = balance.copy()
+z =z.groupby(by=['Vintage']).sum()
+z = z.drop(columns=['ID'])
+
+b = broker_data.copy()
+b = b.groupby(by=['Project ID','Name','Price Type']).count()['Price'].reset_index()
+#b = b.pivot_table('Price','Project ID','Price Type')
+b = b.pivot_table('Price','Name','Price Type')
+
+class Retiree_Info:
+    def __init__(self, owner, sub):
+        self.method_types = df_projects[['Project Name','Method']]  # for merging
+        
+        self.retirements = df_retirement.copy()
+        self.retirements = self.retirements.merge(self.method_types, how='left')       
+        self.retirements['Date of Retirement'] = pd.to_datetime(self.retirements['Date of Retirement'])
+        self.retirements['Year'] = [i.year for i in self.retirements['Date of Retirement']]
+        self.retirements = self.retirements.dropna(subset=[sub])
+        self.retirements = self.retirements[self.retirements[sub].str.contains(owner)]        
+        
+    def account_holders(self):
+        account_holders = self.retirements.groupby(by=['Account Holder', 'Year']).sum()['Quantity of Units'].reset_index()
+        account_holders = account_holders.sort_values(by=['Year','Quantity of Units'], ascending=[True,False])        
+        return account_holders
+
+    def projects(self):
+        projects = self.retirements.groupby(by=['Project Name','Method']).sum()['Quantity of Units'].reset_index()
+        projects = projects.sort_values(by=['Quantity of Units'], ascending=False)
+        return projects
+    
+    def methods(self):
+        methods = self.retirements.groupby(by=['Method']).sum()['Quantity of Units'].reset_index()
+        methods = methods.sort_values(by=['Quantity of Units'], ascending=False)
+        
+        method_years = self.retirements.groupby(by=['Year','Method']).sum()['Quantity of Units'].reset_index()
+        method_years = method_years.sort_values(by=['Year','Quantity of Units'], ascending=[True,False])        
+        return methods, method_years
+    
+    def vintages(self):
+        vintages = self.retirements.groupby(by=['Vintage']).sum()['Quantity of Units'].reset_index()
+        vintages = vintages.sort_values(by=['Vintage'], ascending=True)
+        
+        vintage_years = self.retirements.groupby(by=['Year','Vintage']).sum()['Quantity of Units'].reset_index()
+        vintage_years = vintage_years.sort_values(by=['Year','Vintage'])
+        return vintages, vintage_years
+    
+owner='2234'
+# Sub can be Beneficial Owner or Account Holder depending on who you want info for
+retirees = Retiree_Info(owner, sub='Account Holder')
+
+accounts = retirees.account_holders()
+projects = retirees.projects()                                      
+methods, methods_years = retirees.methods()
+vintages, vintages_years = retirees.vintages()
+
+retirements = retirees.retirements
+
+#######################################################################################
+## DOCUMENTATION / INFO ON A SPECIFIC PID
+#######################################################################################
+import sys
+import importlib.util
+
+# Specify the path to the Python file containing the class
+module_path = 'C://GitHub//Voila_Testing//verra_project_analysis.py'
+
+# Load the module from the specified path
+spec = importlib.util.spec_from_file_location('Verra_Projects', module_path)
+module = importlib.util.module_from_spec(spec)
+sys.modules[spec.name] = module
+spec.loader.exec_module(module)
+
+# Import the class from the loaded module
+from module_name import YourClassName
+
+# Now you can use the imported class
+instance = YourClassName()
 
 
-arr_projects = arr_projects[arr_projects]
-
-x = df_retirement.copy()
-x = x[x['Project ID']==2512]
 
 #######################################################################################
 ## USING FUZZY LOOKUP FOR RETIREMENT DATA
@@ -581,4 +714,25 @@ for i in tqdm(owners):
         best_name[i] = name
     else:
         best_name[i] = i        
+
+
+
+
+
+
+
+
+
+
+z = df_retirement.copy()
+#z = z[z['Project ID']==934]
+#z = z.groupby(by=['Account Holder','Type']).sum()
+z = z.groupby(by=['Beneficial Owner']).sum()
+z = z.sort_values(by=['Type','Quantity of Units'], ascending=[True,False])
+z = z[z['Quantity of Units']>=10000]
+z = z[['Quantity of Units']].reset_index()
+
+z.to_csv('beneficial_owner_nature_vs_renewables.csv')
+
+#z = z.groupby(by=['Vintage']).sum()
 
