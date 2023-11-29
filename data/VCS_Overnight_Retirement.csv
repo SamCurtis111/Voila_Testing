@@ -1,15 +1,45 @@
 ,Date,ID,Name,Country,Method,Vintage,Qty,Account Holder,Beneficial Owner,Reason
-35,2023-07-16,1571,Manoa REDD+ Project,Brazil (BR),REDD,2019,1,Ambipar Group,C6 Bank Carbon Offset,Private offset
-36,2023-07-16,1571,Manoa REDD+ Project,Brazil (BR),REDD,2019,1,Ambipar Group,C6 Bank Carbon Offset,Private offset
-37,2023-07-16,1571,Manoa REDD+ Project,Brazil (BR),REDD,2019,1,Ambipar Group,C6 Bank Carbon Offset,Private offset
-38,2023-07-16,1571,Manoa REDD+ Project,Brazil (BR),REDD,2019,1,Ambipar Group,C6 Bank Carbon Offset,Private offset
-39,2023-07-16,1571,Manoa REDD+ Project,Brazil (BR),REDD,2019,1,Ambipar Group,C6 Bank Carbon Offset,Private offset
-40,2023-07-16,1571,Manoa REDD+ Project,Brazil (BR),REDD,2019,1,Ambipar Group,C6 Bank Carbon Offset,Private offset
-41,2023-07-16,1571,Manoa REDD+ Project,Brazil (BR),REDD,2019,1,Ambipar Group,C6 Bank Carbon Offset,Private offset
-42,2023-07-16,1571,Manoa REDD+ Project,Brazil (BR),REDD,2019,1,Ambipar Group,C6 Bank Carbon Offset,Private offset
-43,2023-07-16,674,Rimba Raya Biodiversity Reserve Project,Indonesia (ID),REDD,2017,499,CarbonClick Limited,CarbonClick Limited,These carbon credits have been retired on behalf of CarbonClick customers for the purpose of offsetting their carbon emissions.
-44,2023-07-16,902,KARIBA REDD+ PROJECT,Zimbabwe (ZW),ARR; REDD,2015,2,Offset Alliance LLC,Responsible Adventures,2023 Travel
-45,2023-07-16,1571,Manoa REDD+ Project,Brazil (BR),REDD,2019,1,Ambipar Group,C6 Bank Carbon Offset,Private offset
-46,2023-07-16,354,Assunção Ceramic Fuel Switching Project,Brazil (BR),Other,2017,104,,,
-48,2023-07-16,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),REDD,2014,11,Carbonext Tecnologia em Soluções Ambientais Ltda.,Embratur - Agência Brasileira de Promoção Internacional do Turismo,Carbon Neutral By Carbonext
-49,2023-07-16,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),REDD,2014,2,Carbonext Tecnologia em Soluções Ambientais Ltda.,Hello Hello Producoes Artisticas LTDA,Carbon Neutral By Carbonext
+6,2023-11-28,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),REDD,2014,1,Carbonext Tecnologia em Soluções Ambientais Ltda.,Hugo Alberto Segre Junior,Carbon Neutral by Carbonext
+7,2023-11-28,917,ASLANCIK HYDRO POWER PLANT PROJECT,Turkey (TR),Hydro,2017,20,Sustainable Advantage,Business Systems Limited,20 credits retired for Business Systems Limited to offset Scope 1 & 2 emissions for FY23
+8,2023-11-28,3018,BigCoast Forest Climate Initiative,Canada (CA),IFM,2019,30000,Bonneville Environmental Foundation,Puget Sound Energy,"Puget Sound Energy, Inc. for 2023 Carbon Offset Program"
+9,2023-11-28,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),REDD,2014,1,,,
+10,2023-11-28,959,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay (UY),ARR,2014,3,,,
+11,2023-11-28,875,FLORESTAL SANTA MARIA PROJECT,Brazil (BR),REDD,2016,2,Eccaplan Consultoria em Desenvolvimento Sustenta´vel ltda.,Documenta Pantanal - MoG Produtora,Retirement on be half of Documenta Pantanal - MoG Produtora - Lançamento do Livro Rewilding na Argentina
+12,2023-11-28,1301,Guohua Rongcheng Phase II Wind Farm Project,China (CN),Wind,2014,19,PrintReleaf,PrintReleaf,
+13,2023-11-28,981,Pacajai REDD+ Project,Brazil (BR),REDD,2017,116,PrintReleaf,PrintReleaf,
+14,2023-11-28,513,Salto Pilão Hydropower Plant Project Activity,Brazil (BR),Hydro,2015,36,PrintReleaf,PrintReleaf,
+15,2023-11-28,1930,Henan Nanzhao Afforestation Project,China (CN),ARR,2019,9,PrintReleaf,PrintReleaf,
+16,2023-11-28,335,"Methane Recovery Project Aben, Wanroij, North Brabant, The Netherlands",Netherlands (NL),Other,2007,92,PrintReleaf,PrintReleaf,
+17,2023-11-28,1930,Henan Nanzhao Afforestation Project,China (CN),ARR,2019,250,PrintReleaf,PrintReleaf,
+18,2023-11-28,749,Grid Connected Renewable Power Generation from Wind Mills by L.S Mills,India (IN),Wind,2013,513,PrintReleaf,PrintReleaf,
+19,2023-11-28,959,‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing,Uruguay (UY),ARR,2015,4000,Pike Carbosur S.A.,STIFTUNG KMU CLIMA,STIFTUNG KMU CLIMA
+20,2023-11-28,985,Cordillera Azul National Park REDD Project,Peru (PE),REDD,2012,2430,2192,RED DE ENERGÍA DEL PERÚ S.A. - REP,Compensación de emisiones internas año 2022
+21,2023-11-28,2250,Delta Blue Carbon – 1,Pakistan (PK),ARR; WRC,2021,22,3310,Customers of Pledge,Retired by Pledge on behalf of Pledge’s clients.
+22,2023-11-28,899,"TIST Program in Kenya, VCS 006",Kenya (KE),ARR,2021,22,3310,Customers of Pledge,Retired by Pledge on behalf of Pledge’s clients.
+23,2023-11-28,273,Diaobingshan New-built 49.5MW Wind Power Station Project,China (CN),Wind,2009,1429,,,
+24,2023-11-28,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),REDD,2014,1,Carbonext Tecnologia em Soluções Ambientais Ltda.,LC SERVIÇOS TÉCNICOS LTDA,Carbon Neutral By Carbonext
+25,2023-11-28,1897,Ntakata Mountains REDD,Tanzania (TZ),REDD,2019,28,3310,Customers of Pledge,Retired by Pledge on behalf of Pledge’s clients. Pledge retirement ID - rtm_01HEJ8TAXX78KCHFQT6ZXKXY19
+26,2023-11-28,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),REDD,2014,3,Carbonext Tecnologia em Soluções Ambientais Ltda.,BR Partners Logística Internacional LTDA,Carbon Neutral By Carbonext
+27,2023-11-28,899,"TIST Program in Kenya, VCS 006",Kenya (KE),ARR,2021,8,3310,Customers of Pledge,Retired by Pledge on behalf of Pledge’s clients. Pledge retirement ID - rtm_01HEJ8T8WFGYPP2YMS6CV1RV0V
+28,2023-11-28,2079,Fazenda Nascente do Luar Agroforestry Project,Brazil (BR),ARR,2020,16,3310,Customers of Pledge,Retired by Pledge on behalf of Pledge’s clients. Pledge retirement ID - rtm_01HEJ8T7YN7WHPTBXWVYMETTHG
+29,2023-11-28,1031,Dak Psi 3 and 4 Hydropower Project,Viet Nam (VN),Hydro,2014,250,Advantag GmbH,SQC-QualityCert GmbH,Retired for ME & Friends AG
+30,2023-11-28,844,Madre de Dios Amazon REDD+ Project,Peru (PE),REDD,2019,1,Natureoffice GmbH,Example Ltd.,Offsetting product emissions 2023
+31,2023-11-28,2250,Delta Blue Carbon – 1,Pakistan (PK),ARR; WRC,2019,1000,,,
+32,2023-11-28,292,"150 MW grid connected Wind Power based electricity generation project in Gujarat, India.",India (IN),Wind,2016,28,The Fuel Trading Co,Portland Fuel Limited,Green Fuel Club October 2023
+33,2023-11-28,3018,BigCoast Forest Climate Initiative,Canada (CA),IFM,2019,5000,,,
+34,2023-11-28,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),REDD,2014,1,Carbonext Tecnologia em Soluções Ambientais Ltda.,Fernanda Kronbauer,Carbon Neutral by Carbonext
+35,2023-11-28,674,Rimba Raya Biodiversity Reserve Project,Indonesia (ID),REDD,2014,33,,,
+36,2023-11-28,2082,Qianbei Afforestation Project,China (CN),ARR,2016,6000,,,
+37,2023-11-28,759,"Camlica-3 HPP, Run-of-River Hydro Project, Turkey",Turkey (TR),Hydro,2019,19000,,,
+38,2023-11-28,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),REDD,2014,1,Carbonext Tecnologia em Soluções Ambientais Ltda.,Eduardo Sverner,Carbon Neutral by Carbonext
+39,2023-11-28,2059,Renewable Solar Power Project by Mahindra Renewables Private Limited,India (IN),Solar,2021,150,Greenify Ltd.,Greenify Ltd.,Retired by Greenify Ltd. for positive climate action.
+41,2023-11-28,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),REDD,2016,211,Zukunftswerk eG,Zukunftswerk eG,"Stilllegung im Auftrag des Weingutes Bernhard Ellwanger GbR, Weinstadt-Großheppach, zur Kompensation der CO2e-Emissionen für das Geschäftsjahr 2023"
+42,2023-11-28,1453,Gansu Ganzhou District Nantan Phase I 50MWp Solar Photovoltaic Power Project,China (CN),Solar,2020,55,"Western Carbon Asset Business Management (Gansu) Co., Ltd",The 9th Conference on Eco-compensation and Payments for Ecosystem Services,
+43,2023-11-28,1792,Ghani Solar Renewable Power Project by Greenko Group,India (IN),Solar,2020,6500,,,
+44,2023-11-28,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),REDD,2017,3000,,,
+45,2023-11-28,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),REDD,2017,500,,,
+46,2023-11-28,1382,"The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil",Brazil (BR),REDD,2017,3000,,,
+47,2023-11-28,30,Hunan Dongping 72MW Hydropower Project,China (CN),Hydro,2013,300,Climate Bridge (Shanghai) Ltd,"Shanghai Sunglow Packaging Technology Co.,Ltd","To reduce carbon emissions and achieve carbon neutrality for Shanghai Sunglow Packaging Technology Co.,Ltd in 2022."
+48,2023-11-28,1976,Renewable Solar Power Project by Shapoorji Pallonji,India (IN),Solar,2019,13,Pangolin Associates Pty Ltd,GWOF,The GPT Wholesale Office Fund for 530 Collins St; for the period 01/04/2023 to 30/04/2023
+49,2023-11-28,981,Pacajai REDD+ Project,Brazil (BR),REDD,2017,30,Beyond Neutral Pty Ltd,Your Property Profits and Jason and Richard Geary,These units have been retired by Beyond Neutral on behalf of Your Property Profits and Jason and Richard Geary
+50,2023-11-28,539,Liaoning Kangping Furaoshan Wind Power Project,China (CN),Wind,2012,2487,"Shanghai Treasure carbon New Energy Environmental Protection Technology Co., Ltd","2023 China International Supply Chain Expo in Beijing held from Nov 28,2023 to Dec 2,2023.The VCUs are sponsored by China Pacific Property Insurance(group)Co.,Ltd.","2023 China International Supply Chain Expo in Beijing held from Nov 28,2023 to Dec 2,2023.The VCUs are sponsored by China Pacific Property Insurance(group)Co.,Ltd."

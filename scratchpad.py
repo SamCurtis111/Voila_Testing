@@ -410,6 +410,25 @@ r['Vintage'] = [i.year for i in r['From Vintage']]
 racc = r.groupby(by=['Year','Month','Account Holder']).sum()['Quantity of Units'].reset_index()
 racc = racc.sort_values(by=['Year','Month','Quantity of Units'], ascending=[False,False,False])
 
+rproj = r.groupby(by=['Year','Month','Project ID']).sum()['Quantity of Units'].reset_index()
+rproj_count = r.groupby(by=['Year','Month','Project ID']).count()['Quantity of Units'].reset_index()
+rproj = rproj.merge(rproj_count, on=['Year','Month','Project ID'], how='left')
+rproj.columns = ['Year','Month','Project ID','Quantity Retired','Retirement Count']
+# Get the average retirement volume and count for each poject so that we can indentify any trends where projects are getting retired more than normal
+averages = rproj.groupby(by=['Project ID']).mean()[['Quantity Retired','Retirement Count']].reset_index()
+averages.columns = ['Project ID','Average Retirement','Average Count']
+# Merge the averages with the data
+rproj = rproj.merge(averages, on='Project ID',how='left')
+# Cut out any data that falls below the averages
+rproj = rproj[(rproj['Quantity Retired']>rproj['Average Retirement']) & (rproj['Retirement Count']>rproj['Average Count'])]
+# Get any very significant retirements either by volume or count
+rproj['Retirement Count'].describe()
+rproj['Quantity Retired'].describe()
+rproj = rproj[(rproj['Retirement Count']>=9) | (rproj['Quantity Retired']>=90000)]
+rproj = rproj.merge(df_projects[['Project ID','Project Name']], on='Project ID',how='left')
+
+
+
 rvin = r.groupby(by=['Year','Month']).mean()['Vintage'].reset_index()
 
 rcount = r.groupby(by=['Year','Month']).count()['Vintage'].reset_index()
@@ -571,7 +590,8 @@ class Project_Analysis:
     
 #IDs = project_list
 
-IDs = [2000]
+IDs = [2250]
+ID=2250
 
 project = Project_Analysis(IDs)
 
@@ -581,6 +601,17 @@ balance = project.project_balance()
 issuances, retirements = project.issuance_retirement_tables()
 most_beneficial_owner, most_account_holder = project.top_retirees()
 broker_data = project.broker_data
+
+retirement_info = df_retirement.copy()
+retirement_info = retirement_info[retirement_info['Project ID']==ID]
+
+keepcols=['Quantity of Units','Project ID', 'Project Name', 'Account Holder', 
+          'Retirement Reason', 'Beneficial Owner', 'Retirement Reason Details', 
+          'Date of Retirement', 'Vintage', 'Method', 'Type']
+
+retirement_info = retirement_info[keepcols]
+
+
 ## ADD FUNCTION FOR PROJECT RATINGS ##
 # Add something that finds low balance projects and then identifies similar projects.
 # ie a corporate might have a list of similar projects they can buy and retire
