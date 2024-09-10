@@ -4,6 +4,7 @@ Created on Wed Jan 18 10:12:38 2023
 
 @author: SamCurtis
 """
+from tqdm import tqdm
 from fuzzywuzzy import fuzz
 app = Retrieve_Data()
 
@@ -13,8 +14,11 @@ ngeo_issuance = app.ngeo_issuance
 ngeo_retirement = app.ngeo_retirement
 ngeo_projects = app.ngeo_project_list
 df_retirement = app.df_retirement
+df_retirement = df_retirement.drop_duplicates()
 broker_markets = app.df_broker
 
+r = df_retirement.iloc[:100,:]
+i = df_issuance.iloc[:100,:]
 
 """
 CORSIA 
@@ -48,24 +52,39 @@ z_balance, z_balance_grouped = app.ngeo_undesirable_vintage_balances()
 
 #######################################################################################
 #######################################################################################
-# Analysis of Affo projects
+#### Analysis of Affo projects
 # ARR projects only (no arr;redd, arr;wrc, etc)
 #######################################################################################
-affo_types = list(df_projects['AFOLU Activities'].unique())
+affo_types = list(df_projects['AFOLU Activities'].unique())[:-1]
 
-affo_projects = df_projects[df_projects['AFOLU Activities']=='ARR']
+affo_projects = df_projects[(df_projects['AFOLU Activities']=='ARR') | (df_projects['AFOLU Activities']=='ARR; WRC')]
+affo_projects = affo_projects[affo_projects.CCB==1]   #!!!!!!!!!!!!!!!!!!!
 affo_projects = list(affo_projects['Project ID'].unique())
 
 affo_issuance = df_issuance[df_issuance['Project ID'].isin(affo_projects)]
-affo_retirement = df_retirement[df_retirement['Project ID'].isin(affo_projects)]
+affo_issuance = affo_issuance.drop_duplicates(subset=['From Vintage','To Vintage','Project ID','Quantity of Units Issued','Issuance Date','Vintage Report Total'])
 
-issuance_affo = affo_issuance.groupby(by=['Project Country/Area']).sum()['Quantity of Units Issued'].reset_index()
-retirement_affo = affo_retirement.groupby(by=['Project Country/Area']).sum()['Quantity of Units'].reset_index()
-affo_balance = issuance_affo.merge(retirement_affo, on=['Project Country/Area'], how='left')
-affo_balance.columns = ['Country','Issued', 'Retired']
+affo_retirement = df_retirement[df_retirement['Project ID'].isin(affo_projects)]
+affo_retirement = affo_retirement.drop_duplicates(subset=['Date of Retirement','Quantity of Units','Project ID','Vintage','Retirement Reason'])
+
+z = affo_issuance.drop_duplicates(subset=['Project ID','Vintage','Vintage Report Total'])
+z = z.sort_values(by=['Project Country/Area','Project ID','Vintage'])
+z = z[['Project Country/Area','Vintage','Vintage Report Total']]
+issuance_affo = z.groupby(by=['Project Country/Area','Vintage']).sum()['Vintage Report Total'].reset_index()
+issuance_affo.columns = ['Project Country/Area','Vintage','Quantity of Units Issued']    # Rename vintage report total with quantity of units issued for consistency
+
+
+retirement_affo = affo_retirement.groupby(by=['Project Country/Area','Vintage']).sum()['Quantity of Units'].reset_index()
+affo_balance = issuance_affo.merge(retirement_affo, on=['Project Country/Area','Vintage'], how='left')
+affo_balance.columns = ['Country','Vintage','Issued', 'Retired']
 affo_balance = affo_balance.fillna(0)
 affo_balance['Balance'] = affo_balance.Issued - affo_balance.Retired
 affo_balance = affo_balance.sort_values(by='Balance', ascending=False).reset_index(drop=True)
+
+non_china = affo_balance[affo_balance.Country != 'China (CN)']
+non_china = non_china[['Vintage','Issued','Retired']]
+non_china = non_china.groupby(by=['Vintage']).sum()
+non_china['Balance'] = non_china.Issued - non_china.Retired
 
 ## SUMMARY OF GEOGRAPHICAL BROKER MARKETS
 affo_projects_broker = ['VCS '+str(i) for i in affo_projects]
@@ -312,7 +331,7 @@ monthly['Bid:Offer'] = monthly.Bid_Count / monthly.Offer_Count
 
 #######################################################################################
 #######################################################################################
-# Determine what vintages still require issuance in NGEO projects
+#### Determine what vintages still require issuance in NGEO projects
 #######################################################################################  
 query = 'select * from \"VCS_Projects_Labelled\"'
 df_projects = pd.read_sql(query, aws_engine)
@@ -396,7 +415,7 @@ z = z.pivot_table
 
 #######################################################################################
 #######################################################################################
-# RETIREMENT ANALYSIS
+#### RETIREMENT ANALYSIS
 # who is retiring
 # what methods
 # what vintages
@@ -414,13 +433,17 @@ rproj = r.groupby(by=['Year','Month','Project ID']).sum()['Quantity of Units'].r
 rproj_count = r.groupby(by=['Year','Month','Project ID']).count()['Quantity of Units'].reset_index()
 rproj = rproj.merge(rproj_count, on=['Year','Month','Project ID'], how='left')
 rproj.columns = ['Year','Month','Project ID','Quantity Retired','Retirement Count']
+
 # Get the average retirement volume and count for each poject so that we can indentify any trends where projects are getting retired more than normal
 averages = rproj.groupby(by=['Project ID']).mean()[['Quantity Retired','Retirement Count']].reset_index()
 averages.columns = ['Project ID','Average Retirement','Average Count']
+
 # Merge the averages with the data
 rproj = rproj.merge(averages, on='Project ID',how='left')
+
 # Cut out any data that falls below the averages
 rproj = rproj[(rproj['Quantity Retired']>rproj['Average Retirement']) & (rproj['Retirement Count']>rproj['Average Count'])]
+
 # Get any very significant retirements either by volume or count
 rproj['Retirement Count'].describe()
 rproj['Quantity Retired'].describe()
@@ -589,9 +612,8 @@ class Project_Analysis:
     
     
 #IDs = project_list
-
-IDs = [2250]
-ID=2250
+#IDs = affo_projects
+IDs=[1811]
 
 project = Project_Analysis(IDs)
 
@@ -620,10 +642,17 @@ z = balance.copy()
 z =z.groupby(by=['Vintage']).sum()
 z = z.drop(columns=['ID'])
 
+z = balance.copy()
+z = balance[balance.Vintage==2019]
+
 b = broker_data.copy()
 b = b.groupby(by=['Project ID','Name','Price Type']).count()['Price'].reset_index()
 #b = b.pivot_table('Price','Project ID','Price Type')
 b = b.pivot_table('Price','Name','Price Type')
+
+
+
+#### RETIREE INFORMATION
 
 class Retiree_Info:
     def __init__(self, owner, sub):
@@ -633,18 +662,30 @@ class Retiree_Info:
         self.retirements = self.retirements.merge(self.method_types, how='left')       
         self.retirements['Date of Retirement'] = pd.to_datetime(self.retirements['Date of Retirement'])
         self.retirements['Year'] = [i.year for i in self.retirements['Date of Retirement']]
+        self.retirements['Month'] = [i.month for i in self.retirements['Date of Retirement']]
         self.retirements = self.retirements.dropna(subset=[sub])
-        self.retirements = self.retirements[self.retirements[sub].str.contains(owner)]        
+        #self.retirements = self.retirements[self.retirements[sub].str.contains(owner)]
+        self.retirements = self.retirements[self.retirements[sub].isin(owner)]        
         
     def account_holders(self):
-        account_holders = self.retirements.groupby(by=['Account Holder', 'Year']).sum()['Quantity of Units'].reset_index()
-        account_holders = account_holders.sort_values(by=['Year','Quantity of Units'], ascending=[True,False])        
+        account_holders = self.retirements.groupby(by=['Account Holder']).sum()['Quantity of Units'].reset_index()
+        account_holders = account_holders.sort_values(by=['Quantity of Units'], ascending=[False])        
         return account_holders
+    
+    def beneficial_owners(self):
+        sub = self.retirements.groupby(by=['Beneficial Owner']).sum()['Quantity of Units'].reset_index()
+        sub = sub.sort_values(by=['Quantity of Units'], ascending=False)        
+        return sub    
 
     def projects(self):
         projects = self.retirements.groupby(by=['Project Name','Method']).sum()['Quantity of Units'].reset_index()
         projects = projects.sort_values(by=['Quantity of Units'], ascending=False)
         return projects
+    
+    def projects_dated(self):
+        projects = self.retirements.groupby(by=['Project Name','Method','Year','Month']).sum()['Quantity of Units'].reset_index()
+        projects = projects.sort_values(by=['Year','Month','Quantity of Units'], ascending=[True, True, False])
+        return projects        
     
     def methods(self):
         methods = self.retirements.groupby(by=['Method']).sum()['Quantity of Units'].reset_index()
@@ -662,19 +703,131 @@ class Retiree_Info:
         vintage_years = vintage_years.sort_values(by=['Year','Vintage'])
         return vintages, vintage_years
     
-owner='2234'
+
+owner=['Tasman Environmental Markets Australia Pty Ltd']
+owner = ['Tasman Environmental Markets Pty Ltd']
+owner=['CARBON GROWTH OPPORTUNITIES PTY LTD ATF CARBON GROWTH OPPORTUNITIES FUND']
+owner = ['Carbon Growth Partners (Australia) Pty Ltd']
+owner = ['Carbon Financial Services Pty Ltd']
+owner = ['Macquarie Bank Limited']
+
+owners=['Tasman Environmental Markets Australia Pty Ltd','Tasman Environmental Markets Pty Ltd','CARBON GROWTH OPPORTUNITIES PTY LTD ATF CARBON GROWTH OPPORTUNITIES FUND','Carbon Growth Partners (Australia) Pty Ltd','Carbon Financial Services Pty Ltd','Macquarie Bank Limited']
+
+
+owner = ['Mott Macdonald Group Limited','Mott MacDonald']
+owner='Intrepid Group Limited'
+owner = 'Coca-Cola Europacific Partners'
+owner = ['University of Melbourne']
+owner = ['Corona Energy']
+owner = ['Lion Pty Ltd']
+owner = ['Brisbane City Council']
+owner = ['SEEK Limited']
+owner = ['Logan City Council']
+owner = ['PwC Australia']
+owner = ['BRISBANE CITY COUNCIL','Brisbane City Council']
+owner = ['Woodside Burrup Pty Ltd', 'Origin Energy Limited (Under Climate Active)', 'BHP', 'Fortescue Metals Group Ltd', 'Woodside Energy Group Ltd', 'Powershop Australia Pty Limited', 'Fortescue Metals Group Limited', 'Pluto LNG Project', 'Greenfleet', 'Origin Energy Limited (Under CRS)', 'Macquarie Group', 'University of Tasmania', 'Qantas Airways Limited', 'Macquarie Group Services Australia Pty Ltd', 'City of Adelaide', 'Dexus', 'SEEK Limited', 'Viva Energy Australia Pty Ltd', 'APA Infrastructure Limited','BRISBANE CITY COUNCIL','Brisbane City Council']
+owner = ['Uniting Communities Inc.','Uniting Communities Incorporated','Uniting Communities Incorporated_']
+owner = ['Pike Carbosur S.A.']
+
+## PRETTY CERTAIN THAT ACCOUNT 2380 IS SHELL - check VCS985 beneficial owner / account holder ##
+
 # Sub can be Beneficial Owner or Account Holder depending on who you want info for
 retirees = Retiree_Info(owner, sub='Account Holder')
+retirees = Retiree_Info(owner, sub='Beneficial Owner')
+
 
 accounts = retirees.account_holders()
+beneficial_owners = retirees.beneficial_owners()
 projects = retirees.projects()                                      
 methods, methods_years = retirees.methods()
 vintages, vintages_years = retirees.vintages()
 
 retirements = retirees.retirements
+additional_accounts = list(accounts['Account Holder'])
+
+## Cast a wide net that should be somewhat local
+# 1. Find all the beneficial owners of TEM
+owners = list(beneficial_owners['Beneficial Owner']) # These are all the beneficial owners of TEM (or whoever you choose as the input)
+# 2. Find all of the people (acocunt holders) who have ever retired on behalf of all of those beneficial owners
+retirees = Retiree_Info(owners, sub='Beneficial Owner')
+accounts = retirees.account_holders()
+accounts = list(accounts['Account Holder'].unique()) # These are all the accounts that have ever retired on behalf of all of TEMS beneficial owners
+#sublist = accounts + additional_accounts
+#sublist = pd.Series(sublist).unique()
+#sublist = list(sublist)
+# 3. Find all of the beneficial owners of all of those accounts
+retirers = Retiree_Info(accounts, sub='Account Holder')
+#retirers = Retiree_Info(sublist, sub='Account Holder')
+beneficial_owners = retirers.beneficial_owners()
+beneficial_owners = beneficial_owners[beneficial_owners['Quantity of Units'] >= 2000]
+owners = list(beneficial_owners['Beneficial Owner'].unique()) + ['BRISBANE CITY COUNCIL'] # Because BCC drops duplicates from capital letters
+owners.sort()
+
+Beneficial_Owners = dict()     # Put all of the beneficial owners into a dict and each entry is their retired projects grouped by year and month of retirement
+for acc in tqdm(owners):
+#for acc in list(sublist):
+    print(acc)
+    sub = Retiree_Info([acc], sub='Beneficial Owner')
+    Beneficial_Owners[acc] = sub.projects_dated()
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Accounts = dict()
+Beneficials = []   # Create a list of all of the beneficial owners
+for acc in list(accounts):
+#for acc in list(sublist):
+    print(acc)
+    retirees = Retiree_Info([acc], sub='Account Holder')
+    #retirees = Retiree_Info([acc], sub='Beneficial Owner')
+    beneficial_owners = retirees.beneficial_owners()
+    Beneficials = Beneficials.append(beneficial_owners)
+    Accounts[acc] = beneficial_owners
+
+# Create a Pandas Excel writer using XlsxWriter as the engine
+with pd.ExcelWriter('C:\\Users\\SamCurtis.AzureAD\\ATTUNGA CAPITAL PTY LTD\\Attunga - Documents\\Sam_Analysis\\Carbon\\analysis\\account_holder.xlsx', engine='xlsxwriter') as writer:
+    for sheet_name, df in Accounts.items():
+        df.to_excel(writer, sheet_name=sheet_name[:31], index=False)   # 31 is the max length for a sheet name
+        
+        
+      
+
+
+# Looking at a specific beneficial owner
+retiree = Retiree_Info(owner, sub='Beneficial Owner')
+retirements = retiree.retirements
+accounts = retiree.account_holders()  # These are the accounts that retire on their behalf
+projects = retiree.projects()
+
+z = retirements.copy()
+z = z.groupby(by=['Beneficial Owner']).sum()['Quantity of Units'].reset_index()
+z = z.sort_values(by=['Quantity of Units'], ascending=False)
+
+
+## FIND BENEFICIAL OWNERS WHO ARE A SUBSET OF THE FOLLOWING ACCOUNTS
+# Note that this is a group that is pretty well covered by big account holders
+owners=['Tasman Environmental Markets Australia Pty Ltd','Tasman Environmental Markets Pty Ltd','CARBON GROWTH OPPORTUNITIES PTY LTD ATF CARBON GROWTH OPPORTUNITIES FUND','Carbon Growth Partners (Australia) Pty Ltd','Carbon Financial Services Pty Ltd','Macquarie Bank Limited']
+retirees = Retiree_Info(owner, sub='Account Holder')
+
+beneficial_owners = retirees.beneficial_owners()
+beneficial_owners = beneficial_owners[beneficial_owners['Quantity of Units']>=1000]
+
+Local_Owners = dict()     # Put all of the beneficial owners into a dict and each entry is their retired projects grouped by year and month of retirement
+for acc in tqdm(list(beneficial_owners['Beneficial Owner'].unique())):
+#for acc in list(sublist):
+    print(acc)
+    sub = Retiree_Info([acc], sub='Beneficial Owner')
+    Local_Owners[acc] = sub.projects_dated()
+
+for k in list(beneficial_owners['Beneficial Owner'].unique()):
+    Local_Owners[k]['Beneficial Owner']=k
+
+local_owner_data = pd.concat(Local_Owners.values(), ignore_index=True)    
+
+
 
 #######################################################################################
-## DOCUMENTATION / INFO ON A SPECIFIC PID
+#### DOCUMENTATION / INFO ON A SPECIFIC PID
 #######################################################################################
 import sys
 import importlib.util
@@ -697,7 +850,7 @@ instance = YourClassName()
 
 
 #######################################################################################
-## USING FUZZY LOOKUP FOR RETIREMENT DATA
+#### USING FUZZY LOOKUP FOR RETIREMENT DATA
 # rename the entire retirement dataset
 # is there a more efficient way to use a dict for existing matches?
 # could be like an AWS db and then it scans it for existing match
@@ -747,14 +900,6 @@ for i in tqdm(owners):
         best_name[i] = i        
 
 
-
-
-
-
-
-
-
-
 z = df_retirement.copy()
 #z = z[z['Project ID']==934]
 #z = z.groupby(by=['Account Holder','Type']).sum()
@@ -767,3 +912,26 @@ z.to_csv('beneficial_owner_nature_vs_renewables.csv')
 
 #z = z.groupby(by=['Vintage']).sum()
 
+
+
+#### WSL OFFSETTING - NetNada
+p = df_projects.copy()
+r = df_retirement.copy()
+
+project_names = ['Mikoko']
+
+sub_p = p.copy()
+filtered_df = sub_p[sub_p['Project Name'].str.contains('|'.join(project_names), na=False)]
+
+filtered_df = df_projects[df_projects['Project Name'].str.contains('Mikoko', na=False)]
+
+
+names = ['WSL','World Surf League','Surf']
+
+sub_r = r.copy()
+sub_r = sub_r[sub_r['Beneficial Owner'].isin(names)]
+sub_r = sub_r[sub_r['Beneficial Owner'].str.contains('Surf')]
+
+sub_r = r.copy()
+sub_r = sub_r[sub_r['Retirement Reason Details'].str.contains('WSL', na=False)]
+sub_r = sub_r[sub_r['Retirement Reason Details'].str.contains('World Surf League', na=False)]

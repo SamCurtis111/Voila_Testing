@@ -1,7 +1,6 @@
 ,Project ID,Product,Country,Method,Price,Qty,Vintage
 0,VCS 1522,IC Hydro,Cote d'Ivoire,Hydro,4.7,99856,2021
-1,VCS 1899,Sumatra,Indonesia,ARR;WRC,17.75,12380,2019
-2,VCS 902,Kariba,Kariba,REDD,1.04,2395,2016
-3,VCS 2250,Delta Blue,Delta Blue,ARR;WRC,29,335,2019
-4,VCS 2250,Delta Blue,Delta Blue,ARR;WRC,30.5,75000,2020
-5,VCS 2250,Delta Blue,Delta Blue,ARR;WRC,32,40624,2021
+1,VCS 1899,Sumatra,Indonesia,ARR;WRC,17.75,380,2019
+2,VCS 902,Kariba,Zimbabwe,REDD,,2395,2016
+3,VCS 2250,Delta Blue,Delta Blue,ARR;WRC,30.5,335,2020
+4,VCS 2250,Delta Blue,Delta Blue,ARR;WRC,32,50000,2021

@@ -2,15 +2,15 @@
 0,142,2008,139358,139358.0,0.0,ARR,AFOLU,Tanzania,"Reforestation of degraded grasslands in Uchindile & Mapanda, Tanzania",Registered,25000
 1,142,2012,22790,22790.0,0.0,ARR,AFOLU,Tanzania,"Reforestation of degraded grasslands in Uchindile & Mapanda, Tanzania",Registered,25000
 2,142,2013,59738,59738.0,0.0,ARR,AFOLU,Tanzania,"Reforestation of degraded grasslands in Uchindile & Mapanda, Tanzania",Registered,25000
-3,142,2020,532089,195351.0,336738.0,ARR,AFOLU,Tanzania,"Reforestation of degraded grasslands in Uchindile & Mapanda, Tanzania",Registered,25000
+3,142,2020,532089,305956.0,226133.0,ARR,AFOLU,Tanzania,"Reforestation of degraded grasslands in Uchindile & Mapanda, Tanzania",Registered,25000
 4,181,2004,13333,13333.0,0.0,Cookstoves,Non_AFOLU,Cambodia,Fuel-Wood Saving with Improved Cookstoves in Cambodia,Registered,192600
 5,181,2005,29221,29221.0,0.0,Cookstoves,Non_AFOLU,Cambodia,Fuel-Wood Saving with Improved Cookstoves in Cambodia,Registered,192600
 6,181,2006,85019,85019.0,0.0,Cookstoves,Non_AFOLU,Cambodia,Fuel-Wood Saving with Improved Cookstoves in Cambodia,Registered,192600
 7,181,2007,8716,8716.0,0.0,Cookstoves,Non_AFOLU,Cambodia,Fuel-Wood Saving with Improved Cookstoves in Cambodia,Registered,192600
 8,181,2008,258622,258622.0,0.0,Cookstoves,Non_AFOLU,Cambodia,Fuel-Wood Saving with Improved Cookstoves in Cambodia,Registered,192600
 9,181,2009,258631,258631.0,0.0,Cookstoves,Non_AFOLU,Cambodia,Fuel-Wood Saving with Improved Cookstoves in Cambodia,Registered,192600
-10,181,2010,344181,343535.0,646.0,Cookstoves,Non_AFOLU,Cambodia,Fuel-Wood Saving with Improved Cookstoves in Cambodia,Registered,192600
-11,181,2011,349352,306896.0,42456.0,Cookstoves,Non_AFOLU,Cambodia,Fuel-Wood Saving with Improved Cookstoves in Cambodia,Registered,192600
+10,181,2010,344181,344181.0,0.0,Cookstoves,Non_AFOLU,Cambodia,Fuel-Wood Saving with Improved Cookstoves in Cambodia,Registered,192600
+11,181,2011,349352,307517.0,41835.0,Cookstoves,Non_AFOLU,Cambodia,Fuel-Wood Saving with Improved Cookstoves in Cambodia,Registered,192600
 12,181,2012,373769,371927.0,1842.0,Cookstoves,Non_AFOLU,Cambodia,Fuel-Wood Saving with Improved Cookstoves in Cambodia,Registered,192600
 13,181,2013,170345,170345.0,0.0,Cookstoves,Non_AFOLU,Cambodia,Fuel-Wood Saving with Improved Cookstoves in Cambodia,Registered,192600
 14,353,2009,1118,1118.0,0.0,Waste,Non_AFOLU,Madagascar,Composting of Municipal organic waste in Mahajanga (Madagascar),Registered,14948
@@ -20,19 +20,19 @@
 18,353,2013,4336,4336.0,0.0,Waste,Non_AFOLU,Madagascar,Composting of Municipal organic waste in Mahajanga (Madagascar),Registered,14948
 19,353,2014,3536,3536.0,0.0,Waste,Non_AFOLU,Madagascar,Composting of Municipal organic waste in Mahajanga (Madagascar),Registered,14948
 20,353,2015,3878,3878.0,0.0,Waste,Non_AFOLU,Madagascar,Composting of Municipal organic waste in Mahajanga (Madagascar),Registered,14948
-21,353,2016,4439,0.0,4439.0,Waste,Non_AFOLU,Madagascar,Composting of Municipal organic waste in Mahajanga (Madagascar),Registered,14948
-22,353,2017,4975,0.0,4975.0,Waste,Non_AFOLU,Madagascar,Composting of Municipal organic waste in Mahajanga (Madagascar),Registered,14948
-23,353,2018,4700,0.0,4700.0,Waste,Non_AFOLU,Madagascar,Composting of Municipal organic waste in Mahajanga (Madagascar),Registered,14948
-24,673,2011,372381,370421.0,1960.0,ARR,AFOLU,Uganda,Natural High Forest Rehabilitation Project on degraded land of Kibale National Park,Registered,74181
-25,673,2014,173015,173015.0,0.0,ARR,AFOLU,Uganda,Natural High Forest Rehabilitation Project on degraded land of Kibale National Park,Registered,74181
-26,673,2017,229902,229817.0,85.0,ARR,AFOLU,Uganda,Natural High Forest Rehabilitation Project on degraded land of Kibale National Park,Registered,74181
-27,673,2020,199544,189105.0,10439.0,ARR,AFOLU,Uganda,Natural High Forest Rehabilitation Project on degraded land of Kibale National Park,Registered,74181
+21,353,2016,4439,4439.0,0.0,Waste,Non_AFOLU,Madagascar,Composting of Municipal organic waste in Mahajanga (Madagascar),Registered,14948
+22,353,2017,4975,4975.0,0.0,Waste,Non_AFOLU,Madagascar,Composting of Municipal organic waste in Mahajanga (Madagascar),Registered,14948
+23,353,2018,4700,4700.0,0.0,Waste,Non_AFOLU,Madagascar,Composting of Municipal organic waste in Mahajanga (Madagascar),Registered,14948
+24,673,2011,372381,370421.0,1960.0,ARR,AFOLU,Uganda,Natural High Forest Rehabilitation Project on degraded land of Kibale National Park,Verification approval requested,74181
+25,673,2014,173015,173015.0,0.0,ARR,AFOLU,Uganda,Natural High Forest Rehabilitation Project on degraded land of Kibale National Park,Verification approval requested,74181
+26,673,2017,229902,229817.0,85.0,ARR,AFOLU,Uganda,Natural High Forest Rehabilitation Project on degraded land of Kibale National Park,Verification approval requested,74181
+27,673,2020,199544,196743.0,2801.0,ARR,AFOLU,Uganda,Natural High Forest Rehabilitation Project on degraded land of Kibale National Park,Verification approval requested,74181
 28,799,2011,25350,25350.0,0.0,ARR,AFOLU,Uganda,Bukaleba Forest Project,Registered,11903
-29,799,2016,226201,156505.0,69696.0,ARR,AFOLU,Uganda,Bukaleba Forest Project,Registered,11903
-30,799,2020,100358,4456.0,95902.0,ARR,AFOLU,Uganda,Bukaleba Forest Project,Registered,11903
+29,799,2016,226201,159422.0,66779.0,ARR,AFOLU,Uganda,Bukaleba Forest Project,Registered,11903
+30,799,2020,100358,8078.0,92280.0,ARR,AFOLU,Uganda,Bukaleba Forest Project,Registered,11903
 31,824,2011,56064,56064.0,0.0,ARR,AFOLU,Uganda,"TIST Program in Uganda, VCS 001",Registered,24348
 32,824,2013,50715,50715.0,0.0,ARR,AFOLU,Uganda,"TIST Program in Uganda, VCS 001",Registered,24348
-33,824,2019,138235,136559.0,1676.0,ARR,AFOLU,Uganda,"TIST Program in Uganda, VCS 001",Registered,24348
+33,824,2019,138235,137439.0,796.0,ARR,AFOLU,Uganda,"TIST Program in Uganda, VCS 001",Registered,24348
 34,825,2011,14989,14989.0,0.0,ARR,AFOLU,Uganda,"TIST Program in Uganda, VCS 002",Registered,4801
 35,825,2013,11265,11265.0,0.0,ARR,AFOLU,Uganda,"TIST Program in Uganda, VCS 002",Registered,4801
 36,825,2019,69023,69023.0,0.0,ARR,AFOLU,Uganda,"TIST Program in Uganda, VCS 002",Registered,4801
@@ -44,261 +44,411 @@
 42,827,2019,34503,34503.0,0.0,ARR,AFOLU,Uganda,"TIST Program in Uganda, VCS 003",Registered,13112
 43,904,2012,48000,44635.0,3365.0,REDD,AFOLU,Cambodia,"Reduced Emissions from Deforestation and Degradation in Community Forests – Oddar Meanchey, Cambodia",Registered,204792
 44,993,2012,50696,50696.0,0.0,ARR,AFOLU,Uganda,"TIST Program in Uganda, VCS 005",Registered,19342
-45,993,2017,464116,459895.0,4221.0,ARR,AFOLU,Uganda,"TIST Program in Uganda, VCS 005",Registered,19342
-46,993,2019,111073,91958.0,19115.0,ARR,AFOLU,Uganda,"TIST Program in Uganda, VCS 005",Registered,19342
+45,993,2017,464116,460184.0,3932.0,ARR,AFOLU,Uganda,"TIST Program in Uganda, VCS 005",Registered,19342
+46,993,2019,111073,102852.0,8221.0,ARR,AFOLU,Uganda,"TIST Program in Uganda, VCS 005",Registered,19342
 47,995,2012,28579,28579.0,0.0,ARR,AFOLU,Uganda,"TIST Program in Uganda, VCS 006",Registered,7787
 48,995,2017,86841,86841.0,0.0,ARR,AFOLU,Uganda,"TIST Program in Uganda, VCS 006",Registered,7787
-49,995,2019,43372,36023.0,7349.0,ARR,AFOLU,Uganda,"TIST Program in Uganda, VCS 006",Registered,7787
-50,1052,2012,56209,56196.0,13.0,REDD,AFOLU,Congo,North Pikounda REDD+,Registered,231110
+49,995,2019,43372,40477.0,2895.0,ARR,AFOLU,Uganda,"TIST Program in Uganda, VCS 006",Registered,7787
+50,1052,2012,56209,56196.0,13.0,REDD,AFOLU,Congo,North Pikounda REDD+,Verification approval requested,231110
 51,1071,2013,480,480.0,0.0,ARR,AFOLU,Senegal,Jatropha Agroforestry Senegal,Registered,1742
-52,1168,2013,1052022,774178.0,277844.0,REDD,AFOLU,Malawi,"Kulera Landscape REDD+ Program for Co-Managed Protected Areas, Malawi",Registered,210421
-53,1168,2014,194782,18750.0,176032.0,REDD,AFOLU,Malawi,"Kulera Landscape REDD+ Program for Co-Managed Protected Areas, Malawi",Registered,210421
-54,1168,2015,202867,75000.0,127867.0,REDD,AFOLU,Malawi,"Kulera Landscape REDD+ Program for Co-Managed Protected Areas, Malawi",Registered,210421
-55,1168,2016,208115,75000.0,133115.0,REDD,AFOLU,Malawi,"Kulera Landscape REDD+ Program for Co-Managed Protected Areas, Malawi",Registered,210421
-56,1168,2017,213975,0.0,213975.0,REDD,AFOLU,Malawi,"Kulera Landscape REDD+ Program for Co-Managed Protected Areas, Malawi",Registered,210421
-57,1168,2018,224306,0.0,224306.0,REDD,AFOLU,Malawi,"Kulera Landscape REDD+ Program for Co-Managed Protected Areas, Malawi",Registered,210421
-58,1168,2019,1229540,218287.0,1011253.0,REDD,AFOLU,Malawi,"Kulera Landscape REDD+ Program for Co-Managed Protected Areas, Malawi",Registered,210421
+52,1168,2013,1052022,786508.0,265514.0,REDD,AFOLU,Malawi,"Kulera Landscape REDD+ Program for Co-Managed Protected Areas, Malawi",Registered,210421
+53,1168,2014,194782,194782.0,0.0,REDD,AFOLU,Malawi,"Kulera Landscape REDD+ Program for Co-Managed Protected Areas, Malawi",Registered,210421
+54,1168,2015,202867,202867.0,0.0,REDD,AFOLU,Malawi,"Kulera Landscape REDD+ Program for Co-Managed Protected Areas, Malawi",Registered,210421
+55,1168,2016,208115,208115.0,0.0,REDD,AFOLU,Malawi,"Kulera Landscape REDD+ Program for Co-Managed Protected Areas, Malawi",Registered,210421
+56,1168,2017,213975,151475.0,62500.0,REDD,AFOLU,Malawi,"Kulera Landscape REDD+ Program for Co-Managed Protected Areas, Malawi",Registered,210421
+57,1168,2018,224306,161806.0,62500.0,REDD,AFOLU,Malawi,"Kulera Landscape REDD+ Program for Co-Managed Protected Areas, Malawi",Registered,210421
+58,1168,2019,1229540,998558.0,230982.0,REDD,AFOLU,Malawi,"Kulera Landscape REDD+ Program for Co-Managed Protected Areas, Malawi",Registered,210421
 59,1199,2010,51177,51156.0,21.0,Hydro,Non_AFOLU,Uganda,Bugoye 13.0 MW Run-of-River Hydropower Project,Registered,51074
 60,1199,2013,42153,42153.0,0.0,Hydro,Non_AFOLU,Uganda,Bugoye 13.0 MW Run-of-River Hydropower Project,Registered,51074
-61,1199,2014,54128,11387.0,42741.0,Hydro,Non_AFOLU,Uganda,Bugoye 13.0 MW Run-of-River Hydropower Project,Registered,51074
+61,1199,2014,54128,30406.0,23722.0,Hydro,Non_AFOLU,Uganda,Bugoye 13.0 MW Run-of-River Hydropower Project,Registered,51074
 62,1199,2015,47984,20741.0,27243.0,Hydro,Non_AFOLU,Uganda,Bugoye 13.0 MW Run-of-River Hydropower Project,Registered,51074
 63,1199,2016,41006,0.0,41006.0,Hydro,Non_AFOLU,Uganda,Bugoye 13.0 MW Run-of-River Hydropower Project,Registered,51074
-64,1199,2017,19996,0.0,19996.0,Hydro,Non_AFOLU,Uganda,Bugoye 13.0 MW Run-of-River Hydropower Project,Registered,51074
-65,1199,2018,48423,0.0,48423.0,Hydro,Non_AFOLU,Uganda,Bugoye 13.0 MW Run-of-River Hydropower Project,Registered,51074
-66,1199,2019,27655,0.0,27655.0,Hydro,Non_AFOLU,Uganda,Bugoye 13.0 MW Run-of-River Hydropower Project,Registered,51074
+64,1199,2017,19996,19996.0,0.0,Hydro,Non_AFOLU,Uganda,Bugoye 13.0 MW Run-of-River Hydropower Project,Registered,51074
+65,1199,2018,48423,48423.0,0.0,Hydro,Non_AFOLU,Uganda,Bugoye 13.0 MW Run-of-River Hydropower Project,Registered,51074
+66,1199,2019,27655,27581.0,74.0,Hydro,Non_AFOLU,Uganda,Bugoye 13.0 MW Run-of-River Hydropower Project,Registered,51074
 67,1201,2012,142798,142798.0,0.0,REDD,AFOLU,Sierra Leone,Gola REDD project,Registered,498667
-68,1201,2013,437785,430913.0,6872.0,REDD,AFOLU,Sierra Leone,Gola REDD project,Registered,498667
-69,1201,2014,394440,333267.0,61173.0,REDD,AFOLU,Sierra Leone,Gola REDD project,Registered,498667
-70,1202,2009,24878,22526.0,2352.0,REDD,AFOLU,Zambia,LOWER ZAMBEZI REDD+ PROJECT,Registered,210316
-71,1202,2010,98702,84452.0,14250.0,REDD,AFOLU,Zambia,LOWER ZAMBEZI REDD+ PROJECT,Registered,210316
-72,1202,2011,98702,95172.0,3530.0,REDD,AFOLU,Zambia,LOWER ZAMBEZI REDD+ PROJECT,Registered,210316
-73,1202,2012,98973,98973.0,0.0,REDD,AFOLU,Zambia,LOWER ZAMBEZI REDD+ PROJECT,Registered,210316
-74,1202,2013,124511,123436.0,1075.0,REDD,AFOLU,Zambia,LOWER ZAMBEZI REDD+ PROJECT,Registered,210316
-75,1202,2014,132994,132994.0,0.0,REDD,AFOLU,Zambia,LOWER ZAMBEZI REDD+ PROJECT,Registered,210316
-76,1202,2015,117963,117963.0,0.0,REDD,AFOLU,Zambia,LOWER ZAMBEZI REDD+ PROJECT,Registered,210316
-77,1202,2016,143862,143862.0,0.0,REDD,AFOLU,Zambia,LOWER ZAMBEZI REDD+ PROJECT,Registered,210316
-78,1202,2017,161628,161615.0,13.0,REDD,AFOLU,Zambia,LOWER ZAMBEZI REDD+ PROJECT,Registered,210316
-79,1202,2018,169214,169108.0,106.0,REDD,AFOLU,Zambia,LOWER ZAMBEZI REDD+ PROJECT,Registered,210316
-80,1202,2019,209106,209099.0,7.0,REDD,AFOLU,Zambia,LOWER ZAMBEZI REDD+ PROJECT,Registered,210316
-81,1202,2020,189663,189663.0,0.0,REDD,AFOLU,Zambia,LOWER ZAMBEZI REDD+ PROJECT,Registered,210316
-82,1202,2021,199631,0.0,199631.0,REDD,AFOLU,Zambia,LOWER ZAMBEZI REDD+ PROJECT,Registered,210316
-83,1215,2009,428901,381150.0,47751.0,REDD,AFOLU,Madagascar,The Makira Forest Protected Area in Madagascar,Registered,1267231
-84,1215,2013,226002,199939.0,26063.0,REDD,AFOLU,Madagascar,The Makira Forest Protected Area in Madagascar,Registered,1267231
-85,1251,2011,11879,11879.0,0.0,Cookstoves,Non_AFOLU,Zambia,Fuel Efficient Stoves in Zambia CPA 1,Registered,40684
-86,1251,2012,34476,30200.0,4276.0,Cookstoves,Non_AFOLU,Zambia,Fuel Efficient Stoves in Zambia CPA 1,Registered,40684
-87,1251,2013,2540,2540.0,0.0,Cookstoves,Non_AFOLU,Zambia,Fuel Efficient Stoves in Zambia CPA 1,Registered,40684
-88,1252,2011,1922,1922.0,0.0,Cookstoves,Non_AFOLU,Zambia,Fuel Efficient Stoves in Zambia CPA 2,Registered,40864
-89,1252,2012,21658,16199.0,5459.0,Cookstoves,Non_AFOLU,Zambia,Fuel Efficient Stoves in Zambia CPA 2,Registered,40864
-90,1252,2013,29542,29277.0,265.0,Cookstoves,Non_AFOLU,Zambia,Fuel Efficient Stoves in Zambia CPA 2,Registered,40864
-91,1253,2013,14648,11648.0,3000.0,Cookstoves,Non_AFOLU,Zambia,Fuel Efficient Stoves in Zambia CPA 3,Registered,40864
-92,1286,2015,16104,15804.0,300.0,Hydro,Non_AFOLU,Uganda,Ishasha 6.6 MW Small Hydropower Project,Registered,19027
-93,1286,2016,16822,16822.0,0.0,Hydro,Non_AFOLU,Uganda,Ishasha 6.6 MW Small Hydropower Project,Registered,19027
-94,1286,2017,10970,10970.0,0.0,Hydro,Non_AFOLU,Uganda,Ishasha 6.6 MW Small Hydropower Project,Registered,19027
-95,1286,2018,4191,4191.0,0.0,Hydro,Non_AFOLU,Uganda,Ishasha 6.6 MW Small Hydropower Project,Registered,19027
-96,1286,2020,30653,23537.0,7116.0,Hydro,Non_AFOLU,Uganda,Ishasha 6.6 MW Small Hydropower Project,Registered,19027
-97,1286,2021,1398,0.0,1398.0,Hydro,Non_AFOLU,Uganda,Ishasha 6.6 MW Small Hydropower Project,Registered,19027
-98,1311,2011,430000,30290.0,399710.0,REDD,AFOLU,Madagascar,"Carbon Emissions Reduction Project in the Corridor Ankeniheny-Zahamena (CAZ) Protected Area, Madagascar",Registered,1011973
-99,1318,2014,141631,125642.0,15989.0,ARR,AFOLU,Senegal,Livelihoods' mangrove restoration grouped project in Senegal,Registered,30000
-100,1318,2017,123906,108011.0,15895.0,ARR,AFOLU,Senegal,Livelihoods' mangrove restoration grouped project in Senegal,Registered,30000
-101,1318,2020,228542,109705.0,118837.0,ARR,AFOLU,Senegal,Livelihoods' mangrove restoration grouped project in Senegal,Registered,30000
-102,1319,2008,8148,7148.0,1000.0,Hydro,Non_AFOLU,Madagascar,Small-Scale Hydropower Project Sahanivotry In Madagascar.,Registered,46490
-103,1319,2009,41377,41377.0,0.0,Hydro,Non_AFOLU,Madagascar,Small-Scale Hydropower Project Sahanivotry In Madagascar.,Registered,46490
-104,1319,2010,28934,28934.0,0.0,Hydro,Non_AFOLU,Madagascar,Small-Scale Hydropower Project Sahanivotry In Madagascar.,Registered,46490
-105,1319,2015,46688,46334.0,354.0,Hydro,Non_AFOLU,Madagascar,Small-Scale Hydropower Project Sahanivotry In Madagascar.,Registered,46490
-106,1319,2016,40704,40704.0,0.0,Hydro,Non_AFOLU,Madagascar,Small-Scale Hydropower Project Sahanivotry In Madagascar.,Registered,46490
-107,1319,2017,34460,34460.0,0.0,Hydro,Non_AFOLU,Madagascar,Small-Scale Hydropower Project Sahanivotry In Madagascar.,Registered,46490
-108,1319,2018,29050,29050.0,0.0,Hydro,Non_AFOLU,Madagascar,Small-Scale Hydropower Project Sahanivotry In Madagascar.,Registered,46490
-109,1319,2019,16219,16219.0,0.0,Hydro,Non_AFOLU,Madagascar,Small-Scale Hydropower Project Sahanivotry In Madagascar.,Registered,46490
-110,1319,2020,4773,4773.0,0.0,Hydro,Non_AFOLU,Madagascar,Small-Scale Hydropower Project Sahanivotry In Madagascar.,Registered,46490
-111,1319,2021,20747,20747.0,0.0,Hydro,Non_AFOLU,Madagascar,Small-Scale Hydropower Project Sahanivotry In Madagascar.,Registered,46490
-112,1325,2013,36171,24589.0,11582.0,REDD,AFOLU,Tanzania,Mjumita Community Forest Project (Lindi),Registered,46263
-113,1340,2012,1233546,1233546.0,0.0,REDD,AFOLU,Ethiopia,Bale Mountains Eco-region REDD+ project,Registered,1288821
-114,1340,2013,1193723,1193723.0,0.0,REDD,AFOLU,Ethiopia,Bale Mountains Eco-region REDD+ project,Registered,1288821
-115,1340,2014,1155842,1152908.0,2934.0,REDD,AFOLU,Ethiopia,Bale Mountains Eco-region REDD+ project,Registered,1288821
-116,1340,2015,1119400,739633.0,379767.0,REDD,AFOLU,Ethiopia,Bale Mountains Eco-region REDD+ project,Registered,1288821
-117,1340,2019,4438780,3077180.0,1361600.0,REDD,AFOLU,Ethiopia,Bale Mountains Eco-region REDD+ project,Registered,1288821
-118,1393,2013,15229,15229.0,0.0,Waste,Non_AFOLU,Uganda,Anaerobic digestion and heat generation at Sugar Corporation of Uganda Limited,Registered,15229
-119,1505,2012,635939,610532.0,25407.0,Hydro,Non_AFOLU,Uganda,Bujagali Hydropower Project - CER Conversion,Units Transferred from Approved GHG Program,858173
-120,1532,2013,61644,18553.0,43091.0,REDD,AFOLU,Zambia,COMACO Landscape Management Project,Registered,122047
-121,1532,2014,136040,35943.0,100097.0,REDD,AFOLU,Zambia,COMACO Landscape Management Project,Registered,122047
-122,1532,2015,236858,66606.0,170252.0,REDD,AFOLU,Zambia,COMACO Landscape Management Project,Registered,122047
-123,1532,2016,277554,46265.0,231289.0,REDD,AFOLU,Zambia,COMACO Landscape Management Project,Registered,122047
-124,1532,2017,42935,40274.0,2661.0,REDD,AFOLU,Zambia,COMACO Landscape Management Project,Registered,122047
-125,1532,2018,265706,0.0,265706.0,REDD,AFOLU,Zambia,COMACO Landscape Management Project,Registered,122047
-126,1532,2019,292394,1489.0,290905.0,REDD,AFOLU,Zambia,COMACO Landscape Management Project,Registered,122047
-127,1532,2020,324968,0.0,324968.0,REDD,AFOLU,Zambia,COMACO Landscape Management Project,Registered,122047
-128,1564,2012,25200,4408.0,20792.0,LFG,Non_AFOLU,Tanzania,"Landfill gas recovery and electricity generation at “Mtoni Dumpsite”, Dar Es Salaam, Tanzania - CER Conversion",Units Transferred from Approved GHG Program,202271
-129,1650,2013,3854572,3853272.0,1300.0,REDD,AFOLU,Cambodia,Reduced Emissions from Deforestation and Degradation in Keo Seima Wildlife Sanctuary,Registered,1426648
-130,1650,2014,3079496,3077503.0,1993.0,REDD,AFOLU,Cambodia,Reduced Emissions from Deforestation and Degradation in Keo Seima Wildlife Sanctuary,Registered,1426648
-131,1650,2015,2168043,380404.0,1787639.0,REDD,AFOLU,Cambodia,Reduced Emissions from Deforestation and Degradation in Keo Seima Wildlife Sanctuary,Registered,1426648
-132,1650,2016,2267566,210400.0,2057166.0,REDD,AFOLU,Cambodia,Reduced Emissions from Deforestation and Degradation in Keo Seima Wildlife Sanctuary,Registered,1426648
-133,1650,2017,1804031,336985.0,1467046.0,REDD,AFOLU,Cambodia,Reduced Emissions from Deforestation and Degradation in Keo Seima Wildlife Sanctuary,Registered,1426648
-134,1650,2018,439129,162809.0,276320.0,REDD,AFOLU,Cambodia,Reduced Emissions from Deforestation and Degradation in Keo Seima Wildlife Sanctuary,Registered,1426648
-135,1650,2019,955477,446649.0,508828.0,REDD,AFOLU,Cambodia,Reduced Emissions from Deforestation and Degradation in Keo Seima Wildlife Sanctuary,Registered,1426648
-136,1650,2020,1868973,1847.0,1867126.0,REDD,AFOLU,Cambodia,Reduced Emissions from Deforestation and Degradation in Keo Seima Wildlife Sanctuary,Registered,1426648
-137,1650,2021,2437137,6603.0,2430534.0,REDD,AFOLU,Cambodia,Reduced Emissions from Deforestation and Degradation in Keo Seima Wildlife Sanctuary,Registered,1426648
-138,1665,2018,9100,9100.0,0.0,Other,Non_AFOLU,Liberia,HPP Project Liberia,Registered,3580
-139,1665,2022,13806,0.0,13806.0,Other,Non_AFOLU,Liberia,HPP Project Liberia,Registered,3580
-140,1683,2018,14393,0.0,14393.0,Solar,Non_AFOLU,Senegal,Kahone Solar PV Plant,Registered,21521
-141,1683,2019,17642,0.0,17642.0,Solar,Non_AFOLU,Senegal,Kahone Solar PV Plant,Registered,21521
-142,1683,2020,14716,0.0,14716.0,Solar,Non_AFOLU,Senegal,Kahone Solar PV Plant,Registered,21521
-143,1683,2021,17210,0.0,17210.0,Solar,Non_AFOLU,Senegal,Kahone Solar PV Plant,Registered,21521
-144,1683,2022,8272,0.0,8272.0,Solar,Non_AFOLU,Senegal,Kahone Solar PV Plant,Registered,21521
-145,1689,2015,129082,6515.0,122567.0,REDD,AFOLU,Cambodia,Tumring REDD+ Project,Registered,378434
-146,1689,2016,129082,0.0,129082.0,REDD,AFOLU,Cambodia,Tumring REDD+ Project,Registered,378434
-147,1689,2017,129082,108.0,128974.0,REDD,AFOLU,Cambodia,Tumring REDD+ Project,Registered,378434
-148,1689,2018,129082,200.0,128882.0,REDD,AFOLU,Cambodia,Tumring REDD+ Project,Registered,378434
-149,1689,2019,129082,0.0,129082.0,REDD,AFOLU,Cambodia,Tumring REDD+ Project,Registered,378434
-150,1719,2016,1344,1044.0,300.0,Cookstoves,Non_AFOLU,Malawi,Improved Cookstoves Project for Malawi and cross-border regions of Mozambique CPA MAL  005,Registered,44853
-151,1719,2017,5417,5417.0,0.0,Cookstoves,Non_AFOLU,Malawi,Improved Cookstoves Project for Malawi and cross-border regions of Mozambique CPA MAL  005,Registered,44853
-152,1733,2016,72889,72889.0,0.0,Wind,Non_AFOLU,Mauritania,Nouakchott 30 MW wind power plant,Registered,66438
-153,1733,2017,80512,80512.0,0.0,Wind,Non_AFOLU,Mauritania,Nouakchott 30 MW wind power plant,Registered,66438
-154,1733,2018,78671,69646.0,9025.0,Wind,Non_AFOLU,Mauritania,Nouakchott 30 MW wind power plant,Registered,66438
-155,1733,2019,78588,74823.0,3765.0,Wind,Non_AFOLU,Mauritania,Nouakchott 30 MW wind power plant,Registered,66438
-156,1733,2020,78407,23107.0,55300.0,Wind,Non_AFOLU,Mauritania,Nouakchott 30 MW wind power plant,Registered,66438
-157,1733,2021,75366,16560.0,58806.0,Wind,Non_AFOLU,Mauritania,Nouakchott 30 MW wind power plant,Registered,66438
-158,1733,2022,70358,0.0,70358.0,Wind,Non_AFOLU,Mauritania,Nouakchott 30 MW wind power plant,Registered,66438
-159,1734,2017,5095,5095.0,0.0,Solar,Non_AFOLU,Mauritania,Large scale grid connected solar PV Project in Toujounine (Nouakchott),Registered,43836
-160,1734,2018,50569,50569.0,0.0,Solar,Non_AFOLU,Mauritania,Large scale grid connected solar PV Project in Toujounine (Nouakchott),Registered,43836
-161,1734,2019,55023,55023.0,0.0,Solar,Non_AFOLU,Mauritania,Large scale grid connected solar PV Project in Toujounine (Nouakchott),Registered,43836
-162,1734,2020,51724,35273.0,16451.0,Solar,Non_AFOLU,Mauritania,Large scale grid connected solar PV Project in Toujounine (Nouakchott),Registered,43836
-163,1734,2021,43836,0.0,43836.0,Solar,Non_AFOLU,Mauritania,Large scale grid connected solar PV Project in Toujounine (Nouakchott),Registered,43836
-164,1734,2022,36513,0.0,36513.0,Solar,Non_AFOLU,Mauritania,Large scale grid connected solar PV Project in Toujounine (Nouakchott),Registered,43836
-165,1748,2015,3982378,2108523.0,1873855.0,REDD,AFOLU,Cambodia,Southern Cardamom REDD+ Project,Registered,3867568
-166,1748,2016,3982378,1971580.0,2010798.0,REDD,AFOLU,Cambodia,Southern Cardamom REDD+ Project,Registered,3867568
-167,1748,2017,3982378,339549.0,3642829.0,REDD,AFOLU,Cambodia,Southern Cardamom REDD+ Project,Registered,3867568
-168,1748,2018,3946277,487056.0,3459221.0,REDD,AFOLU,Cambodia,Southern Cardamom REDD+ Project,Registered,3867568
-169,1748,2019,3946277,82336.0,3863941.0,REDD,AFOLU,Cambodia,Southern Cardamom REDD+ Project,Registered,3867568
-170,1748,2020,3946277,87572.0,3858705.0,REDD,AFOLU,Cambodia,Southern Cardamom REDD+ Project,Registered,3867568
-171,1748,2021,3841272,356474.0,3484798.0,REDD,AFOLU,Cambodia,Southern Cardamom REDD+ Project,Registered,3867568
-172,1764,2018,31744,31321.0,423.0,ARR; WRC,AFOLU,Myanmar,"Reforestation and Restoration of degraded mangrove lands, sustainable livelihood and community development in Myanmar",Registered,184006
-173,1764,2019,26615,22055.0,4560.0,ARR; WRC,AFOLU,Myanmar,"Reforestation and Restoration of degraded mangrove lands, sustainable livelihood and community development in Myanmar",Registered,184006
-174,1764,2020,53369,43127.0,10242.0,ARR; WRC,AFOLU,Myanmar,"Reforestation and Restoration of degraded mangrove lands, sustainable livelihood and community development in Myanmar",Registered,184006
-175,1764,2021,54137,48290.0,5847.0,ARR; WRC,AFOLU,Myanmar,"Reforestation and Restoration of degraded mangrove lands, sustainable livelihood and community development in Myanmar",Registered,184006
-176,1774,2016,2548,2548.0,0.0,Solar,Non_AFOLU,Senegal,Grid-connected Solar PV project in Bokhol,Registered,22851
-177,1774,2017,22633,22633.0,0.0,Solar,Non_AFOLU,Senegal,Grid-connected Solar PV project in Bokhol,Registered,22851
-178,1774,2018,22692,22692.0,0.0,Solar,Non_AFOLU,Senegal,Grid-connected Solar PV project in Bokhol,Registered,22851
-179,1774,2019,23008,23008.0,0.0,Solar,Non_AFOLU,Senegal,Grid-connected Solar PV project in Bokhol,Registered,22851
-180,1774,2020,25276,25276.0,0.0,Solar,Non_AFOLU,Senegal,Grid-connected Solar PV project in Bokhol,Registered,22851
-181,1774,2021,26406,25000.0,1406.0,Solar,Non_AFOLU,Senegal,Grid-connected Solar PV project in Bokhol,Registered,22851
-182,1774,2022,28130,0.0,28130.0,Solar,Non_AFOLU,Senegal,Grid-connected Solar PV project in Bokhol,Registered,22851
-183,1775,2015,432111,432091.0,20.0,REDD,AFOLU,Zambia,Luangwa Community Forests Project,Registered,2985650
-184,1775,2016,856120,770343.0,85777.0,REDD,AFOLU,Zambia,Luangwa Community Forests Project,Registered,2985650
-185,1775,2017,1059733,832634.0,227099.0,REDD,AFOLU,Zambia,Luangwa Community Forests Project,Registered,2985650
-186,1775,2018,1187607,835189.0,352418.0,REDD,AFOLU,Zambia,Luangwa Community Forests Project,Registered,2985650
-187,1775,2019,1330570,1330570.0,0.0,REDD,AFOLU,Zambia,Luangwa Community Forests Project,Registered,2985650
-188,1775,2020,1418513,1418513.0,0.0,REDD,AFOLU,Zambia,Luangwa Community Forests Project,Registered,2985650
-189,1775,2021,1736102,0.0,1736102.0,REDD,AFOLU,Zambia,Luangwa Community Forests Project,Registered,2985650
-190,1863,2017,2633,2633.0,0.0,Cookstoves,Non_AFOLU,Nepal,ENERGY EFFICIENCY COOK STOVE IMPLEMENTATION IN NEPAL,Registered,56811
-191,1863,2018,30393,20396.0,9997.0,Cookstoves,Non_AFOLU,Nepal,ENERGY EFFICIENCY COOK STOVE IMPLEMENTATION IN NEPAL,Registered,56811
-192,1863,2019,4529,120.0,4409.0,Cookstoves,Non_AFOLU,Nepal,ENERGY EFFICIENCY COOK STOVE IMPLEMENTATION IN NEPAL,Registered,56811
-193,1897,2018,504852,500346.0,4506.0,REDD,AFOLU,Tanzania,Ntakata Mountains REDD,Registered,420200
-194,1897,2019,781218,736639.0,44579.0,REDD,AFOLU,Tanzania,Ntakata Mountains REDD,Registered,420200
-195,1897,2020,798220,524522.0,273698.0,REDD,AFOLU,Tanzania,Ntakata Mountains REDD,Registered,420200
-196,1897,2021,716522,116578.0,599944.0,REDD,AFOLU,Tanzania,Ntakata Mountains REDD,Registered,420200
-197,1900,2017,1516,1418.0,98.0,REDD,AFOLU,Tanzania,Makame Savannah REDD,Registered,136411
-198,1900,2018,39759,32128.0,7631.0,REDD,AFOLU,Tanzania,Makame Savannah REDD,Registered,136411
-199,1900,2019,109150,100592.0,8558.0,REDD,AFOLU,Tanzania,Makame Savannah REDD,Registered,136411
-200,1900,2020,182318,2100.0,180218.0,REDD,AFOLU,Tanzania,Makame Savannah REDD,Registered,136411
-201,1900,2021,184321,0.0,184321.0,REDD,AFOLU,Tanzania,Makame Savannah REDD,Registered,136411
-202,1971,2018,9411,1000.0,8411.0,Solar,Non_AFOLU,Senegal,SAKAL SOLAR FARM,Registered,22270
-203,1971,2019,24789,8.0,24781.0,Solar,Non_AFOLU,Senegal,SAKAL SOLAR FARM,Registered,22270
-204,1971,2020,23718,0.0,23718.0,Solar,Non_AFOLU,Senegal,SAKAL SOLAR FARM,Registered,22270
-205,1971,2021,22956,0.0,22956.0,Solar,Non_AFOLU,Senegal,SAKAL SOLAR FARM,Registered,22270
-206,1971,2022,23110,0.0,23110.0,Solar,Non_AFOLU,Senegal,SAKAL SOLAR FARM,Registered,22270
-207,2085,2019,5367,5367.0,0.0,ARR,AFOLU,Mozambique,"Revegetation with fruit Trees in North Manica Province, Mozambique",Registered,30799
-208,2263,2018,7154,7154.0,0.0,Other,Non_AFOLU,Bangladesh,Renewable Energy based power generation projects in Bangladesh,Registered,32791
-209,2263,2019,23403,23403.0,0.0,Other,Non_AFOLU,Bangladesh,Renewable Energy based power generation projects in Bangladesh,Registered,32791
-210,2303,2018,5162,5162.0,0.0,Cookstoves,Non_AFOLU,Nepal,Energy Efficient Cooking Solution for low emission development in Nepal-2,Registered,33672
-211,2303,2019,30390,30390.0,0.0,Cookstoves,Non_AFOLU,Nepal,Energy Efficient Cooking Solution for low emission development in Nepal-2,Registered,33672
-212,2303,2020,28488,2010.0,26478.0,Cookstoves,Non_AFOLU,Nepal,Energy Efficient Cooking Solution for low emission development in Nepal-2,Registered,33672
-213,2303,2021,27523,0.0,27523.0,Cookstoves,Non_AFOLU,Nepal,Energy Efficient Cooking Solution for low emission development in Nepal-2,Registered,33672
-214,2303,2022,18281,0.0,18281.0,Cookstoves,Non_AFOLU,Nepal,Energy Efficient Cooking Solution for low emission development in Nepal-2,Registered,33672
-215,2307,2018,10073,8477.0,1596.0,Solar,Non_AFOLU,Madagascar,Ambatolampy 20 MW solar PV,Registered,23431
-216,2307,2019,21421,7375.0,14046.0,Solar,Non_AFOLU,Madagascar,Ambatolampy 20 MW solar PV,Registered,23431
-217,2307,2020,20681,15144.0,5537.0,Solar,Non_AFOLU,Madagascar,Ambatolampy 20 MW solar PV,Registered,23431
-218,2307,2021,17438,2439.0,14999.0,Solar,Non_AFOLU,Madagascar,Ambatolampy 20 MW solar PV,Registered,23431
-219,2319,2019,2164,0.0,2164.0,ARR; REDD,AFOLU,Congo,Agroforestry plantation Bateke Plateaus,Registered,36102
-220,2319,2020,2164,0.0,2164.0,ARR; REDD,AFOLU,Congo,Agroforestry plantation Bateke Plateaus,Registered,36102
-221,2319,2021,1442,0.0,1442.0,ARR; REDD,AFOLU,Congo,Agroforestry plantation Bateke Plateaus,Registered,36102
-222,2324,2016,302043,131043.0,171000.0,REDD,AFOLU,Guinea-Bissau,COMMUNITY BASED AVOIDED DEFORESTATION PROJECT IN GUINEA-BISSAU - REDD,Registered,920436
-223,2339,2020,155813,82720.0,73093.0,ARR,AFOLU,Uganda,"TIST Program in Uganda, VCS-CCB 010",Registered,83340
-224,2340,2020,175,175.0,0.0,Cookstoves,Non_AFOLU,Zambia,Installation of high efficiency wood burning cookstoves in Zambia,Registered,1713078
-225,2340,2021,201009,19183.0,181826.0,Cookstoves,Non_AFOLU,Zambia,Installation of high efficiency wood burning cookstoves in Zambia,Registered,1713078
-226,2340,2022,283079,1.0,283078.0,Cookstoves,Non_AFOLU,Zambia,Installation of high efficiency wood burning cookstoves in Zambia,Registered,1713078
-227,2342,2020,713,713.0,0.0,Cookstoves,Non_AFOLU,Malawi,Installation of high efficiency wood burning cookstoves in Malawi,Registered,915838
-228,2342,2021,651202,14671.0,636531.0,Cookstoves,Non_AFOLU,Malawi,Installation of high efficiency wood burning cookstoves in Malawi,Registered,915838
-229,2342,2022,1135115,0.0,1135115.0,Cookstoves,Non_AFOLU,Malawi,Installation of high efficiency wood burning cookstoves in Malawi,Registered,915838
-230,2351,2021,8265,0.0,8265.0,Cookstoves,Non_AFOLU,Mozambique,Installation of high efficiency wood burning cookstoves in Mozambique,Registered,1713078
-231,2357,2018,3916,2717.0,1199.0,Cookstoves,Non_AFOLU,Nepal,Improved cook stove market development in rural Nepal,Registered,44763
-232,2357,2019,23433,121.0,23312.0,Cookstoves,Non_AFOLU,Nepal,Improved cook stove market development in rural Nepal,Registered,44763
-233,2357,2020,24329,1688.0,22641.0,Cookstoves,Non_AFOLU,Nepal,Improved cook stove market development in rural Nepal,Registered,44763
-234,2357,2021,23665,0.0,23665.0,Cookstoves,Non_AFOLU,Nepal,Improved cook stove market development in rural Nepal,Registered,44763
-235,2366,2020,923,923.0,0.0,Cookstoves,Non_AFOLU,Tanzania,Installation of high efficiency wood burning cookstoves in Tanzania,Registered,1882271
-236,2366,2021,121867,8697.0,113170.0,Cookstoves,Non_AFOLU,Tanzania,Installation of high efficiency wood burning cookstoves in Tanzania,Registered,1882271
-237,2366,2022,370671,0.0,370671.0,Cookstoves,Non_AFOLU,Tanzania,Installation of high efficiency wood burning cookstoves in Tanzania,Registered,1882271
-238,2371,2020,4461,2455.0,2006.0,Cookstoves,Non_AFOLU,Zambia,Installation of high efficiency wood burning cookstoves in Zambia - Project 2,Registered,1713078
-239,2371,2021,169699,11317.0,158382.0,Cookstoves,Non_AFOLU,Zambia,Installation of high efficiency wood burning cookstoves in Zambia - Project 2,Registered,1713078
-240,2371,2022,373273,41.0,373232.0,Cookstoves,Non_AFOLU,Zambia,Installation of high efficiency wood burning cookstoves in Zambia - Project 2,Registered,1713078
-241,2372,2020,22208,0.0,22208.0,Cookstoves,Non_AFOLU,Malawi,Installation of high efficiency wood burning cookstoves in Malawi - Project 2,Registered,1924569
-242,2372,2021,668818,287235.0,381583.0,Cookstoves,Non_AFOLU,Malawi,Installation of high efficiency wood burning cookstoves in Malawi - Project 2,Registered,1924569
-243,2372,2022,1723686,0.0,1723686.0,Cookstoves,Non_AFOLU,Malawi,Installation of high efficiency wood burning cookstoves in Malawi - Project 2,Registered,1924569
-244,2400,2018,650000,307224.0,342776.0,Other,Non_AFOLU,Rwanda,DelAgua Public Health Program in Eastern Africa - CER Conversion,Units Transferred from Approved GHG Program,67656
-245,2401,2017,14975,14975.0,0.0,ARR,AFOLU,Sierra Leone,Reforestation of Degraded Lands in Sierra Leone,Registered,126297
-246,2401,2018,24662,23767.0,895.0,ARR,AFOLU,Sierra Leone,Reforestation of Degraded Lands in Sierra Leone,Registered,126297
-247,2401,2019,43330,12583.0,30747.0,ARR,AFOLU,Sierra Leone,Reforestation of Degraded Lands in Sierra Leone,Registered,126297
-248,2401,2020,43330,0.0,43330.0,ARR,AFOLU,Sierra Leone,Reforestation of Degraded Lands in Sierra Leone,Registered,126297
-249,2409,2022,19943,1087.0,18856.0,Cookstoves,Non_AFOLU,Cambodia,Cleaner Cooking Solutions Program,Registered,841424
-250,2434,2019,11016,0.0,11016.0,Solar,Non_AFOLU,Burkina Faso,Off grid Solar PV project at IAMGOLD Essakane SA Gold Mine,Registered,19904
-251,2434,2020,18748,0.0,18748.0,Solar,Non_AFOLU,Burkina Faso,Off grid Solar PV project at IAMGOLD Essakane SA Gold Mine,Registered,19904
-252,2434,2021,19234,0.0,19234.0,Solar,Non_AFOLU,Burkina Faso,Off grid Solar PV project at IAMGOLD Essakane SA Gold Mine,Registered,19904
-253,2434,2022,8832,0.0,8832.0,Solar,Non_AFOLU,Burkina Faso,Off grid Solar PV project at IAMGOLD Essakane SA Gold Mine,Registered,19904
-254,2463,2018,7890,7890.0,0.0,Cookstoves,Non_AFOLU,Zambia,Fuel Efficient Stoves in Zambia CPA 3. - CER Conversion,Units Transferred from Approved GHG Program,40864
-255,2478,2018,500001,0.0,500001.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Titas Gas Distribution Network in Bangladesh - CER Conversion,Units Transferred from Approved GHG Program,3481722
-256,2478,2019,2600001,1353887.0,1246114.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Titas Gas Distribution Network in Bangladesh - CER Conversion,Units Transferred from Approved GHG Program,3481722
-257,2478,2020,2999999,1271593.0,1728406.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Titas Gas Distribution Network in Bangladesh - CER Conversion,Units Transferred from Approved GHG Program,3481722
-258,2540,2020,274807,41433.0,233374.0,Cookstoves,Non_AFOLU,Burundi,Improved cookstoves for Burundi restaurants,Registered,661007
-259,2540,2021,300432,0.0,300432.0,Cookstoves,Non_AFOLU,Burundi,Improved cookstoves for Burundi restaurants,Registered,661007
-260,2588,2019,13142,0.0,13142.0,Wind,Non_AFOLU,Senegal,Taiba N’Diaye Wind Power,Registered,243965
-261,2588,2020,124066,0.0,124066.0,Wind,Non_AFOLU,Senegal,Taiba N’Diaye Wind Power,Registered,243965
-262,2588,2021,241702,0.0,241702.0,Wind,Non_AFOLU,Senegal,Taiba N’Diaye Wind Power,Registered,243965
-263,2588,2022,155278,0.0,155278.0,Wind,Non_AFOLU,Senegal,Taiba N’Diaye Wind Power,Registered,243965
-264,2599,2016,5856,365.0,5491.0,Cookstoves,Non_AFOLU,Mozambique,Domestic Cooking Stoves substitution programme in Mozambique - CER Conversion,Units Transferred from Approved GHG Program,30373
-265,2599,2017,1916,500.0,1416.0,Cookstoves,Non_AFOLU,Mozambique,Domestic Cooking Stoves substitution programme in Mozambique - CER Conversion,Units Transferred from Approved GHG Program,30373
-266,2616,2016,81797,0.0,81797.0,Cookstoves,Non_AFOLU,Burundi,BQS improved cookstoves for Burundi’s schools,Registered,187061
-267,2616,2017,87395,0.0,87395.0,Cookstoves,Non_AFOLU,Burundi,BQS improved cookstoves for Burundi’s schools,Registered,187061
-268,2616,2018,94503,386.0,94117.0,Cookstoves,Non_AFOLU,Burundi,BQS improved cookstoves for Burundi’s schools,Registered,187061
-269,2736,2019,415826,15.0,415811.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Bakhrabad Gas Distribution Network in Bangladesh,Registered,1387409
-270,2736,2020,875765,0.0,875765.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Bakhrabad Gas Distribution Network in Bangladesh,Registered,1387409
-271,2736,2021,1503664,0.0,1503664.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Bakhrabad Gas Distribution Network in Bangladesh,Registered,1387409
-272,2737,2019,416043,2.0,416041.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Jalalabad Gas Distribution Network in Bangladesh,Registered,1054305
-273,2737,2020,640615,0.0,640615.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Jalalabad Gas Distribution Network in Bangladesh,Registered,1054305
-274,2737,2021,1124521,0.0,1124521.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Jalalabad Gas Distribution Network in Bangladesh,Registered,1054305
-275,2738,2019,495490,2.0,495488.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Karnaphuli Gas Distribution Network in Bangladesh,Registered,839133
-276,2738,2020,507342,0.0,507342.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Karnaphuli Gas Distribution Network in Bangladesh,Registered,839133
-277,2738,2021,871219,0.0,871219.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Karnaphuli Gas Distribution Network in Bangladesh,Registered,839133
-278,2739,2020,173801,0.0,173801.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Pashchimanchal Gas Distribution Network in Bangladesh,Registered,365129
-279,2739,2021,371861,0.0,371861.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Pashchimanchal Gas Distribution Network in Bangladesh,Registered,365129
-280,2749,2019,889786,2090.0,887696.0,Cookstoves,Non_AFOLU,Rwanda,DelAgua Clean Cooking Grouped Project,Registered,4485674
-281,2749,2020,892224,1115.0,891109.0,Cookstoves,Non_AFOLU,Rwanda,DelAgua Clean Cooking Grouped Project,Registered,4485674
-282,2749,2021,626507,0.0,626507.0,Cookstoves,Non_AFOLU,Rwanda,DelAgua Clean Cooking Grouped Project,Registered,4485674
-283,2828,2021,507694,1306.0,506388.0,Cookstoves,Non_AFOLU,Burundi,Improved Cooking Stove Programme in Burundi,Registered,506373
-284,2828,2022,125184,9.0,125175.0,Cookstoves,Non_AFOLU,Burundi,Improved Cooking Stove Programme in Burundi,Registered,506373
-285,2838,2018,54,0.0,54.0,Cookstoves,Non_AFOLU,Uganda,MicroEnergy Credits – Microfinance for Clean Energy Product Lines – Africa – Solar Lamps & Efficient cook stoves – 10341 –CPA - 0004,Registered,52430
-286,2838,2019,7080,0.0,7080.0,Cookstoves,Non_AFOLU,Uganda,MicroEnergy Credits – Microfinance for Clean Energy Product Lines – Africa – Solar Lamps & Efficient cook stoves – 10341 –CPA - 0004,Registered,52430
-287,2838,2020,13088,0.0,13088.0,Cookstoves,Non_AFOLU,Uganda,MicroEnergy Credits – Microfinance for Clean Energy Product Lines – Africa – Solar Lamps & Efficient cook stoves – 10341 –CPA - 0004,Registered,52430
-288,2838,2021,12982,0.0,12982.0,Cookstoves,Non_AFOLU,Uganda,MicroEnergy Credits – Microfinance for Clean Energy Product Lines – Africa – Solar Lamps & Efficient cook stoves – 10341 –CPA - 0004,Registered,52430
-289,2839,2019,77,0.0,77.0,Cookstoves,Non_AFOLU,Uganda,MicroEnergy Credits – Microfinance for Clean Energy Product Lines – Africa – Solar Lamps & Efficient cook stoves – 10341 –CPA - 0005,Registered,74471
-290,2839,2020,2729,0.0,2729.0,Cookstoves,Non_AFOLU,Uganda,MicroEnergy Credits – Microfinance for Clean Energy Product Lines – Africa – Solar Lamps & Efficient cook stoves – 10341 –CPA - 0005,Registered,74471
-291,2839,2021,6560,0.0,6560.0,Cookstoves,Non_AFOLU,Uganda,MicroEnergy Credits – Microfinance for Clean Energy Product Lines – Africa – Solar Lamps & Efficient cook stoves – 10341 –CPA - 0005,Registered,74471
-292,2930,2021,4137966,0.0,4137966.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Titas Gas Distribution Network in Bangladesh Verra,Registered,3289487
-293,2965,2018,38769,22400.0,16369.0,ARR,AFOLU,Niger,Niger Acacia Senegal Plantation Project - CER Conversion,Units Transferred from Approved GHG Program,24957
-294,3262,2022,100959,0.0,100959.0,Other,Non_AFOLU,Malawi,Livelihoods Chitetezo Mbaula Project,Registration and verification approval requested,262431
-295,3279,2020,456395,2518.0,453877.0,Cookstoves,Non_AFOLU,Bangladesh,IDCOL Improved Cook Stove Program - CER Conversion,Units Transferred from Approved GHG Program,1278597
-296,3371,2020,63908,0.0,63908.0,Cookstoves,Non_AFOLU,Uganda,"Up Energy Improved Cookstoves Programme, Uganda - CER Conversion",Units Transferred from Approved GHG Program,44874
-297,3545,2020,8391,0.0,8391.0,Solar,Non_AFOLU,Bangladesh,"50 MW (AC) SOLAR PARK AT SUTIAKHALI, GOURIPUR, MYMENSINGH",Registered,55302
-298,3545,2021,55480,0.0,55480.0,Solar,Non_AFOLU,Bangladesh,"50 MW (AC) SOLAR PARK AT SUTIAKHALI, GOURIPUR, MYMENSINGH",Registered,55302
-299,3545,2022,36116,0.0,36116.0,Solar,Non_AFOLU,Bangladesh,"50 MW (AC) SOLAR PARK AT SUTIAKHALI, GOURIPUR, MYMENSINGH",Registered,55302
-300,3937,2017,500,0.0,500.0,Cookstoves,Non_AFOLU,Malawi,"Improved Cook Stove Project 1, Nkhata Bay District, Malawi - CER Conversion",Units Transferred from Approved GHG Program,32672
-301,4157,2021,12430,0.0,12430.0,Cookstoves,Non_AFOLU,Tanzania,Installation of high efficiency wood burning cookstoves in Tanzania - Project 3,Under validation,285339
-302,4157,2022,38829,0.0,38829.0,Cookstoves,Non_AFOLU,Tanzania,Installation of high efficiency wood burning cookstoves in Tanzania - Project 3,Under validation,285339
+68,1201,2013,437785,432966.0,4819.0,REDD,AFOLU,Sierra Leone,Gola REDD project,Registered,498667
+69,1201,2014,394440,379233.0,15207.0,REDD,AFOLU,Sierra Leone,Gola REDD project,Registered,498667
+70,1201,2015,389949,1500.0,388449.0,REDD,AFOLU,Sierra Leone,Gola REDD project,Registered,498667
+71,1201,2016,411990,342244.0,69746.0,REDD,AFOLU,Sierra Leone,Gola REDD project,Registered,498667
+72,1201,2017,436324,24115.0,412209.0,REDD,AFOLU,Sierra Leone,Gola REDD project,Registered,498667
+73,1201,2018,459234,456686.0,2548.0,REDD,AFOLU,Sierra Leone,Gola REDD project,Registered,498667
+74,1202,2009,24878,22526.0,2352.0,REDD,AFOLU,Zambia,LOWER ZAMBEZI REDD+ PROJECT,Registered,189117
+75,1202,2010,98702,84452.0,14250.0,REDD,AFOLU,Zambia,LOWER ZAMBEZI REDD+ PROJECT,Registered,189117
+76,1202,2011,98702,98172.0,530.0,REDD,AFOLU,Zambia,LOWER ZAMBEZI REDD+ PROJECT,Registered,189117
+77,1202,2012,98973,98973.0,0.0,REDD,AFOLU,Zambia,LOWER ZAMBEZI REDD+ PROJECT,Registered,189117
+78,1202,2013,124511,123436.0,1075.0,REDD,AFOLU,Zambia,LOWER ZAMBEZI REDD+ PROJECT,Registered,189117
+79,1202,2014,132994,132994.0,0.0,REDD,AFOLU,Zambia,LOWER ZAMBEZI REDD+ PROJECT,Registered,189117
+80,1202,2015,117963,117963.0,0.0,REDD,AFOLU,Zambia,LOWER ZAMBEZI REDD+ PROJECT,Registered,189117
+81,1202,2016,143862,143862.0,0.0,REDD,AFOLU,Zambia,LOWER ZAMBEZI REDD+ PROJECT,Registered,189117
+82,1202,2017,161628,161628.0,0.0,REDD,AFOLU,Zambia,LOWER ZAMBEZI REDD+ PROJECT,Registered,189117
+83,1202,2018,169214,169135.0,79.0,REDD,AFOLU,Zambia,LOWER ZAMBEZI REDD+ PROJECT,Registered,189117
+84,1202,2019,209106,209099.0,7.0,REDD,AFOLU,Zambia,LOWER ZAMBEZI REDD+ PROJECT,Registered,189117
+85,1202,2020,189663,189663.0,0.0,REDD,AFOLU,Zambia,LOWER ZAMBEZI REDD+ PROJECT,Registered,189117
+86,1202,2021,208194,199631.0,8563.0,REDD,AFOLU,Zambia,LOWER ZAMBEZI REDD+ PROJECT,Registered,189117
+87,1202,2022,260011,0.0,260011.0,REDD,AFOLU,Zambia,LOWER ZAMBEZI REDD+ PROJECT,Registered,189117
+88,1202,2023,190633,0.0,190633.0,REDD,AFOLU,Zambia,LOWER ZAMBEZI REDD+ PROJECT,Registered,189117
+89,1215,2009,428901,416150.0,12751.0,REDD,AFOLU,Madagascar,The Makira Forest Protected Area in Madagascar,Registered,1267231
+90,1215,2013,226002,199939.0,26063.0,REDD,AFOLU,Madagascar,The Makira Forest Protected Area in Madagascar,Registered,1267231
+91,1251,2011,11879,11879.0,0.0,Cookstoves,Non_AFOLU,Zambia,Fuel Efficient Stoves in Zambia CPA 1,Registered,40684
+92,1251,2012,34476,31160.0,3316.0,Cookstoves,Non_AFOLU,Zambia,Fuel Efficient Stoves in Zambia CPA 1,Registered,40684
+93,1251,2013,2540,2540.0,0.0,Cookstoves,Non_AFOLU,Zambia,Fuel Efficient Stoves in Zambia CPA 1,Registered,40684
+94,1252,2011,1922,1922.0,0.0,Cookstoves,Non_AFOLU,Zambia,Fuel Efficient Stoves in Zambia CPA 2,Late to verify,40864
+95,1252,2012,21658,17013.0,4645.0,Cookstoves,Non_AFOLU,Zambia,Fuel Efficient Stoves in Zambia CPA 2,Late to verify,40864
+96,1252,2013,29542,29277.0,265.0,Cookstoves,Non_AFOLU,Zambia,Fuel Efficient Stoves in Zambia CPA 2,Late to verify,40864
+97,1253,2013,14648,11648.0,3000.0,Cookstoves,Non_AFOLU,Zambia,Fuel Efficient Stoves in Zambia CPA 3,Late to verify,40864
+98,1286,2015,16104,16104.0,0.0,Hydro,Non_AFOLU,Uganda,Ishasha 6.6 MW Small Hydropower Project,Registered,19027
+99,1286,2016,16822,16822.0,0.0,Hydro,Non_AFOLU,Uganda,Ishasha 6.6 MW Small Hydropower Project,Registered,19027
+100,1286,2017,10970,10970.0,0.0,Hydro,Non_AFOLU,Uganda,Ishasha 6.6 MW Small Hydropower Project,Registered,19027
+101,1286,2018,4191,4191.0,0.0,Hydro,Non_AFOLU,Uganda,Ishasha 6.6 MW Small Hydropower Project,Registered,19027
+102,1286,2020,30653,23537.0,7116.0,Hydro,Non_AFOLU,Uganda,Ishasha 6.6 MW Small Hydropower Project,Registered,19027
+103,1286,2021,1398,0.0,1398.0,Hydro,Non_AFOLU,Uganda,Ishasha 6.6 MW Small Hydropower Project,Registered,19027
+104,1311,2011,430000,30290.0,399710.0,REDD,AFOLU,Madagascar,"Carbon Emissions Reduction Project in the Corridor Ankeniheny-Zahamena (CAZ) Protected Area, Madagascar",Registered,1011973
+105,1318,2014,141631,125642.0,15989.0,ARR,AFOLU,Senegal,Livelihoods' mangrove restoration grouped project in Senegal,Registered,30000
+106,1318,2017,123906,108011.0,15895.0,ARR,AFOLU,Senegal,Livelihoods' mangrove restoration grouped project in Senegal,Registered,30000
+107,1318,2020,228542,115231.0,113311.0,ARR,AFOLU,Senegal,Livelihoods' mangrove restoration grouped project in Senegal,Registered,30000
+108,1319,2008,8148,7148.0,1000.0,Hydro,Non_AFOLU,Madagascar,Small-Scale Hydropower Project Sahanivotry In Madagascar.,Registered,46490
+109,1319,2009,41377,41377.0,0.0,Hydro,Non_AFOLU,Madagascar,Small-Scale Hydropower Project Sahanivotry In Madagascar.,Registered,46490
+110,1319,2010,28934,28934.0,0.0,Hydro,Non_AFOLU,Madagascar,Small-Scale Hydropower Project Sahanivotry In Madagascar.,Registered,46490
+111,1319,2015,46688,46354.0,334.0,Hydro,Non_AFOLU,Madagascar,Small-Scale Hydropower Project Sahanivotry In Madagascar.,Registered,46490
+112,1319,2016,40704,40704.0,0.0,Hydro,Non_AFOLU,Madagascar,Small-Scale Hydropower Project Sahanivotry In Madagascar.,Registered,46490
+113,1319,2017,34460,34460.0,0.0,Hydro,Non_AFOLU,Madagascar,Small-Scale Hydropower Project Sahanivotry In Madagascar.,Registered,46490
+114,1319,2018,29050,29050.0,0.0,Hydro,Non_AFOLU,Madagascar,Small-Scale Hydropower Project Sahanivotry In Madagascar.,Registered,46490
+115,1319,2019,16219,16219.0,0.0,Hydro,Non_AFOLU,Madagascar,Small-Scale Hydropower Project Sahanivotry In Madagascar.,Registered,46490
+116,1319,2020,4773,4773.0,0.0,Hydro,Non_AFOLU,Madagascar,Small-Scale Hydropower Project Sahanivotry In Madagascar.,Registered,46490
+117,1319,2021,20747,20747.0,0.0,Hydro,Non_AFOLU,Madagascar,Small-Scale Hydropower Project Sahanivotry In Madagascar.,Registered,46490
+118,1325,2013,36171,25375.0,10796.0,REDD,AFOLU,Tanzania,Mjumita Community Forest Project (Lindi),Late to verify,46263
+119,1340,2012,1233546,1233546.0,0.0,REDD,AFOLU,Ethiopia,Bale Mountains Eco-region REDD+ project,Verification approval requested,1288821
+120,1340,2013,1193723,1193723.0,0.0,REDD,AFOLU,Ethiopia,Bale Mountains Eco-region REDD+ project,Verification approval requested,1288821
+121,1340,2014,1155842,1155842.0,0.0,REDD,AFOLU,Ethiopia,Bale Mountains Eco-region REDD+ project,Verification approval requested,1288821
+122,1340,2015,1119400,1077234.0,42166.0,REDD,AFOLU,Ethiopia,Bale Mountains Eco-region REDD+ project,Verification approval requested,1288821
+123,1340,2019,4438780,3369175.0,1069605.0,REDD,AFOLU,Ethiopia,Bale Mountains Eco-region REDD+ project,Verification approval requested,1288821
+124,1393,2013,15229,15229.0,0.0,Waste,Non_AFOLU,Uganda,Anaerobic digestion and heat generation at Sugar Corporation of Uganda Limited,Registered,15229
+125,1393,2020,30000,0.0,30000.0,Waste,Non_AFOLU,Uganda,Anaerobic digestion and heat generation at Sugar Corporation of Uganda Limited,Registered,15229
+126,1505,2012,635939,627038.0,8901.0,Hydro,Non_AFOLU,Uganda,Bujagali Hydropower Project - CER Conversion,Units Transferred from Approved GHG Program,858173
+127,1532,2013,61644,18553.0,43091.0,REDD,AFOLU,Zambia,COMACO Landscape Management Project,Registered,122047
+128,1532,2014,136040,35943.0,100097.0,REDD,AFOLU,Zambia,COMACO Landscape Management Project,Registered,122047
+129,1532,2015,236858,66606.0,170252.0,REDD,AFOLU,Zambia,COMACO Landscape Management Project,Registered,122047
+130,1532,2016,277554,46265.0,231289.0,REDD,AFOLU,Zambia,COMACO Landscape Management Project,Registered,122047
+131,1532,2017,42935,42935.0,0.0,REDD,AFOLU,Zambia,COMACO Landscape Management Project,Registered,122047
+132,1532,2018,265706,265706.0,0.0,REDD,AFOLU,Zambia,COMACO Landscape Management Project,Registered,122047
+133,1532,2019,292394,292384.0,10.0,REDD,AFOLU,Zambia,COMACO Landscape Management Project,Registered,122047
+134,1532,2020,324968,324968.0,0.0,REDD,AFOLU,Zambia,COMACO Landscape Management Project,Registered,122047
+135,1564,2012,25200,4408.0,20792.0,LFG,Non_AFOLU,Tanzania,"Landfill gas recovery and electricity generation at “Mtoni Dumpsite”, Dar Es Salaam, Tanzania - CER Conversion",Units Transferred from Approved GHG Program,202271
+136,1650,2013,3854572,3853272.0,1300.0,REDD,AFOLU,Cambodia,Reduced Emissions from Deforestation and Degradation in Keo Seima Wildlife Sanctuary,Registered,1426648
+137,1650,2014,3079496,3077550.0,1946.0,REDD,AFOLU,Cambodia,Reduced Emissions from Deforestation and Degradation in Keo Seima Wildlife Sanctuary,Registered,1426648
+138,1650,2015,2168043,1857298.0,310745.0,REDD,AFOLU,Cambodia,Reduced Emissions from Deforestation and Degradation in Keo Seima Wildlife Sanctuary,Registered,1426648
+139,1650,2016,2267566,218856.0,2048710.0,REDD,AFOLU,Cambodia,Reduced Emissions from Deforestation and Degradation in Keo Seima Wildlife Sanctuary,Registered,1426648
+140,1650,2017,1804031,792085.0,1011946.0,REDD,AFOLU,Cambodia,Reduced Emissions from Deforestation and Degradation in Keo Seima Wildlife Sanctuary,Registered,1426648
+141,1650,2018,439129,392076.0,47053.0,REDD,AFOLU,Cambodia,Reduced Emissions from Deforestation and Degradation in Keo Seima Wildlife Sanctuary,Registered,1426648
+142,1650,2019,955477,834558.0,120919.0,REDD,AFOLU,Cambodia,Reduced Emissions from Deforestation and Degradation in Keo Seima Wildlife Sanctuary,Registered,1426648
+143,1650,2020,1868973,77258.0,1791715.0,REDD,AFOLU,Cambodia,Reduced Emissions from Deforestation and Degradation in Keo Seima Wildlife Sanctuary,Registered,1426648
+144,1650,2021,2437137,8603.0,2428534.0,REDD,AFOLU,Cambodia,Reduced Emissions from Deforestation and Degradation in Keo Seima Wildlife Sanctuary,Registered,1426648
+145,1665,2018,9100,9100.0,0.0,Other,Non_AFOLU,Liberia,HPP Project Liberia,Registered,3580
+146,1665,2022,13806,4126.0,9680.0,Other,Non_AFOLU,Liberia,HPP Project Liberia,Registered,3580
+147,1683,2018,14393,14393.0,0.0,Solar,Non_AFOLU,Senegal,Kahone Solar PV Plant,Verification approval requested,21521
+148,1683,2019,17642,17642.0,0.0,Solar,Non_AFOLU,Senegal,Kahone Solar PV Plant,Verification approval requested,21521
+149,1683,2020,14716,14716.0,0.0,Solar,Non_AFOLU,Senegal,Kahone Solar PV Plant,Verification approval requested,21521
+150,1683,2021,17210,17210.0,0.0,Solar,Non_AFOLU,Senegal,Kahone Solar PV Plant,Verification approval requested,21521
+151,1683,2022,8272,0.0,8272.0,Solar,Non_AFOLU,Senegal,Kahone Solar PV Plant,Verification approval requested,21521
+152,1689,2015,129082,13060.0,116022.0,REDD,AFOLU,Cambodia,Tumring REDD+ Project,Registered,378434
+153,1689,2016,129082,0.0,129082.0,REDD,AFOLU,Cambodia,Tumring REDD+ Project,Registered,378434
+154,1689,2017,129082,108.0,128974.0,REDD,AFOLU,Cambodia,Tumring REDD+ Project,Registered,378434
+155,1689,2018,129082,526.0,128556.0,REDD,AFOLU,Cambodia,Tumring REDD+ Project,Registered,378434
+156,1689,2019,129082,82.0,129000.0,REDD,AFOLU,Cambodia,Tumring REDD+ Project,Registered,378434
+157,1719,2016,1344,1045.0,299.0,Cookstoves,Non_AFOLU,Malawi,Improved Cookstoves Project for Malawi and cross-border regions of Mozambique CPA MAL  005,Late to verify,44853
+158,1719,2017,5417,5417.0,0.0,Cookstoves,Non_AFOLU,Malawi,Improved Cookstoves Project for Malawi and cross-border regions of Mozambique CPA MAL  005,Late to verify,44853
+159,1733,2016,72889,72889.0,0.0,Wind,Non_AFOLU,Mauritania,Nouakchott 30 MW wind power plant,Registered,70358
+160,1733,2017,80512,80512.0,0.0,Wind,Non_AFOLU,Mauritania,Nouakchott 30 MW wind power plant,Registered,70358
+161,1733,2018,78671,73319.0,5352.0,Wind,Non_AFOLU,Mauritania,Nouakchott 30 MW wind power plant,Registered,70358
+162,1733,2019,78588,78588.0,0.0,Wind,Non_AFOLU,Mauritania,Nouakchott 30 MW wind power plant,Registered,70358
+163,1733,2020,78407,29104.0,49303.0,Wind,Non_AFOLU,Mauritania,Nouakchott 30 MW wind power plant,Registered,70358
+164,1733,2021,75366,50260.0,25106.0,Wind,Non_AFOLU,Mauritania,Nouakchott 30 MW wind power plant,Registered,70358
+165,1733,2022,70358,10016.0,60342.0,Wind,Non_AFOLU,Mauritania,Nouakchott 30 MW wind power plant,Registered,70358
+166,1733,2023,58021,0.0,58021.0,Wind,Non_AFOLU,Mauritania,Nouakchott 30 MW wind power plant,Registered,70358
+167,1734,2017,5095,5095.0,0.0,Solar,Non_AFOLU,Mauritania,Large scale grid connected solar PV Project in Toujounine (Nouakchott),Registered,34705
+168,1734,2018,50569,50569.0,0.0,Solar,Non_AFOLU,Mauritania,Large scale grid connected solar PV Project in Toujounine (Nouakchott),Registered,34705
+169,1734,2019,55023,55023.0,0.0,Solar,Non_AFOLU,Mauritania,Large scale grid connected solar PV Project in Toujounine (Nouakchott),Registered,34705
+170,1734,2020,51724,48858.0,2866.0,Solar,Non_AFOLU,Mauritania,Large scale grid connected solar PV Project in Toujounine (Nouakchott),Registered,34705
+171,1734,2021,43836,43836.0,0.0,Solar,Non_AFOLU,Mauritania,Large scale grid connected solar PV Project in Toujounine (Nouakchott),Registered,34705
+172,1734,2022,36513,27213.0,9300.0,Solar,Non_AFOLU,Mauritania,Large scale grid connected solar PV Project in Toujounine (Nouakchott),Registered,34705
+173,1734,2023,34705,8000.0,26705.0,Solar,Non_AFOLU,Mauritania,Large scale grid connected solar PV Project in Toujounine (Nouakchott),Registered,34705
+174,1748,2015,3982378,2196599.0,1785779.0,REDD,AFOLU,Cambodia,Southern Cardamom REDD+ Project,On Hold - see notification letter,3867568
+175,1748,2016,3982378,2136102.0,1846276.0,REDD,AFOLU,Cambodia,Southern Cardamom REDD+ Project,On Hold - see notification letter,3867568
+176,1748,2017,3982378,494445.0,3487933.0,REDD,AFOLU,Cambodia,Southern Cardamom REDD+ Project,On Hold - see notification letter,3867568
+177,1748,2018,3946277,503296.0,3442981.0,REDD,AFOLU,Cambodia,Southern Cardamom REDD+ Project,On Hold - see notification letter,3867568
+178,1748,2019,3946277,211950.0,3734327.0,REDD,AFOLU,Cambodia,Southern Cardamom REDD+ Project,On Hold - see notification letter,3867568
+179,1748,2020,3946277,150000.0,3796277.0,REDD,AFOLU,Cambodia,Southern Cardamom REDD+ Project,On Hold - see notification letter,3867568
+180,1748,2021,3841272,455970.0,3385302.0,REDD,AFOLU,Cambodia,Southern Cardamom REDD+ Project,On Hold - see notification letter,3867568
+181,1764,2018,31744,31429.0,315.0,ARR; WRC,AFOLU,Myanmar,"Reforestation and Restoration of degraded mangrove lands, sustainable livelihood and community development in Myanmar",Registered,184006
+182,1764,2019,26615,23862.0,2753.0,ARR; WRC,AFOLU,Myanmar,"Reforestation and Restoration of degraded mangrove lands, sustainable livelihood and community development in Myanmar",Registered,184006
+183,1764,2020,53369,50645.0,2724.0,ARR; WRC,AFOLU,Myanmar,"Reforestation and Restoration of degraded mangrove lands, sustainable livelihood and community development in Myanmar",Registered,184006
+184,1764,2021,79217,58046.0,21171.0,ARR; WRC,AFOLU,Myanmar,"Reforestation and Restoration of degraded mangrove lands, sustainable livelihood and community development in Myanmar",Registered,184006
+185,1764,2022,20691,1546.0,19145.0,ARR; WRC,AFOLU,Myanmar,"Reforestation and Restoration of degraded mangrove lands, sustainable livelihood and community development in Myanmar",Registered,184006
+186,1774,2016,2548,2548.0,0.0,Solar,Non_AFOLU,Senegal,Grid-connected Solar PV project in Bokhol,Registered,28130
+187,1774,2017,22633,22633.0,0.0,Solar,Non_AFOLU,Senegal,Grid-connected Solar PV project in Bokhol,Registered,28130
+188,1774,2018,22692,22692.0,0.0,Solar,Non_AFOLU,Senegal,Grid-connected Solar PV project in Bokhol,Registered,28130
+189,1774,2019,23008,23008.0,0.0,Solar,Non_AFOLU,Senegal,Grid-connected Solar PV project in Bokhol,Registered,28130
+190,1774,2020,25276,25276.0,0.0,Solar,Non_AFOLU,Senegal,Grid-connected Solar PV project in Bokhol,Registered,28130
+191,1774,2021,26406,25000.0,1406.0,Solar,Non_AFOLU,Senegal,Grid-connected Solar PV project in Bokhol,Registered,28130
+192,1774,2022,28130,27461.0,669.0,Solar,Non_AFOLU,Senegal,Grid-connected Solar PV project in Bokhol,Registered,28130
+193,1774,2023,28372,0.0,28372.0,Solar,Non_AFOLU,Senegal,Grid-connected Solar PV project in Bokhol,Registered,28130
+194,1775,2015,432111,432091.0,20.0,REDD,AFOLU,Zambia,Luangwa Community Forests Project,Registered,2985650
+195,1775,2016,856120,788866.0,67254.0,REDD,AFOLU,Zambia,Luangwa Community Forests Project,Registered,2985650
+196,1775,2017,1059733,843121.0,216612.0,REDD,AFOLU,Zambia,Luangwa Community Forests Project,Registered,2985650
+197,1775,2018,1187607,841921.0,345686.0,REDD,AFOLU,Zambia,Luangwa Community Forests Project,Registered,2985650
+198,1775,2019,1330570,1330570.0,0.0,REDD,AFOLU,Zambia,Luangwa Community Forests Project,Registered,2985650
+199,1775,2020,1418513,1418513.0,0.0,REDD,AFOLU,Zambia,Luangwa Community Forests Project,Registered,2985650
+200,1775,2021,1736102,222907.0,1513195.0,REDD,AFOLU,Zambia,Luangwa Community Forests Project,Registered,2985650
+201,1775,2022,1362702,0.0,1362702.0,REDD,AFOLU,Zambia,Luangwa Community Forests Project,Registered,2985650
+202,1863,2017,2633,2633.0,0.0,Cookstoves,Non_AFOLU,Nepal,ENERGY EFFICIENCY COOK STOVE IMPLEMENTATION IN NEPAL,Late to verify,56811
+203,1863,2018,30393,20481.0,9912.0,Cookstoves,Non_AFOLU,Nepal,ENERGY EFFICIENCY COOK STOVE IMPLEMENTATION IN NEPAL,Late to verify,56811
+204,1863,2019,4529,409.0,4120.0,Cookstoves,Non_AFOLU,Nepal,ENERGY EFFICIENCY COOK STOVE IMPLEMENTATION IN NEPAL,Late to verify,56811
+205,1897,2018,504852,503435.0,1417.0,REDD,AFOLU,Tanzania,Ntakata Mountains REDD,Registered,420200
+206,1897,2019,781218,741555.0,39663.0,REDD,AFOLU,Tanzania,Ntakata Mountains REDD,Registered,420200
+207,1897,2020,798220,777443.0,20777.0,REDD,AFOLU,Tanzania,Ntakata Mountains REDD,Registered,420200
+208,1897,2021,943855,929376.0,14479.0,REDD,AFOLU,Tanzania,Ntakata Mountains REDD,Registered,420200
+209,1897,2022,138202,69842.0,68360.0,REDD,AFOLU,Tanzania,Ntakata Mountains REDD,Registered,420200
+210,1900,2017,1516,1418.0,98.0,REDD,AFOLU,Tanzania,Makame Savannah REDD,Registered,136411
+211,1900,2018,39759,33816.0,5943.0,REDD,AFOLU,Tanzania,Makame Savannah REDD,Registered,136411
+212,1900,2019,109150,100592.0,8558.0,REDD,AFOLU,Tanzania,Makame Savannah REDD,Registered,136411
+213,1900,2020,182318,66413.0,115905.0,REDD,AFOLU,Tanzania,Makame Savannah REDD,Registered,136411
+214,1900,2021,352693,0.0,352693.0,REDD,AFOLU,Tanzania,Makame Savannah REDD,Registered,136411
+215,1900,2022,78439,0.0,78439.0,REDD,AFOLU,Tanzania,Makame Savannah REDD,Registered,136411
+216,1971,2018,9411,9411.0,0.0,Solar,Non_AFOLU,Senegal,SAKAL SOLAR FARM,Registered,22270
+217,1971,2019,24789,24789.0,0.0,Solar,Non_AFOLU,Senegal,SAKAL SOLAR FARM,Registered,22270
+218,1971,2020,23718,23718.0,0.0,Solar,Non_AFOLU,Senegal,SAKAL SOLAR FARM,Registered,22270
+219,1971,2021,22956,22956.0,0.0,Solar,Non_AFOLU,Senegal,SAKAL SOLAR FARM,Registered,22270
+220,1971,2022,23110,23110.0,0.0,Solar,Non_AFOLU,Senegal,SAKAL SOLAR FARM,Registered,22270
+221,1971,2023,23956,22508.0,1448.0,Solar,Non_AFOLU,Senegal,SAKAL SOLAR FARM,Registered,22270
+222,2085,2019,5367,5367.0,0.0,ARR,AFOLU,Mozambique,"Revegetation with fruit trees in North Manica Province, Mozambique",Verification approval requested,30799
+223,2263,2018,7154,7154.0,0.0,Other,Non_AFOLU,Bangladesh,Renewable Energy based power generation projects in Bangladesh,Registered,32791
+224,2263,2019,23403,23403.0,0.0,Other,Non_AFOLU,Bangladesh,Renewable Energy based power generation projects in Bangladesh,Registered,32791
+225,2303,2018,5162,5162.0,0.0,Cookstoves,Non_AFOLU,Nepal,Energy Efficient Cooking Solution for low emission development in Nepal-2,Registered,33672
+226,2303,2019,30390,30390.0,0.0,Cookstoves,Non_AFOLU,Nepal,Energy Efficient Cooking Solution for low emission development in Nepal-2,Registered,33672
+227,2303,2020,28488,2060.0,26428.0,Cookstoves,Non_AFOLU,Nepal,Energy Efficient Cooking Solution for low emission development in Nepal-2,Registered,33672
+228,2303,2021,27523,0.0,27523.0,Cookstoves,Non_AFOLU,Nepal,Energy Efficient Cooking Solution for low emission development in Nepal-2,Registered,33672
+229,2303,2022,18281,0.0,18281.0,Cookstoves,Non_AFOLU,Nepal,Energy Efficient Cooking Solution for low emission development in Nepal-2,Registered,33672
+230,2307,2018,10073,8620.0,1453.0,Solar,Non_AFOLU,Madagascar,Ambatolampy 20 MW solar PV,Registered,23431
+231,2307,2019,21421,7375.0,14046.0,Solar,Non_AFOLU,Madagascar,Ambatolampy 20 MW solar PV,Registered,23431
+232,2307,2020,20681,15211.0,5470.0,Solar,Non_AFOLU,Madagascar,Ambatolampy 20 MW solar PV,Registered,23431
+233,2307,2021,17438,6948.0,10490.0,Solar,Non_AFOLU,Madagascar,Ambatolampy 20 MW solar PV,Registered,23431
+234,2311,2021,33768,0.0,33768.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cookstove Project by KCM-Wood#CPA-W-001,Registered,37722
+235,2311,2022,33768,34.0,33734.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cookstove Project by KCM-Wood#CPA-W-001,Registered,37722
+236,2311,2023,23311,0.0,23311.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cookstove Project by KCM-Wood#CPA-W-001,Registered,37722
+237,2312,2021,34225,0.0,34225.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cookstove Project by KCM-Wood#CPA-W-002,Registered,37950
+238,2312,2022,34225,0.0,34225.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cookstove Project by KCM-Wood#CPA-W-002,Registered,37950
+239,2312,2023,25598,0.0,25598.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cookstove Project by KCM-Wood#CPA-W-002,Registered,37950
+240,2313,2021,34893,0.0,34893.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cookstove Project by KCM-Wood#CPA-W-003,Registered,37950
+241,2313,2022,34893,0.0,34893.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cookstove Project by KCM-Wood#CPA-W-003,Registered,37950
+242,2313,2023,24447,0.0,24447.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cookstove Project by KCM-Wood#CPA-W-003,Registered,37950
+243,2314,2021,35112,0.0,35112.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cookstove Project by KCM-Wood#CPA-W-004,Registered,37950
+244,2314,2022,35112,0.0,35112.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cookstove Project by KCM-Wood#CPA-W-004,Registered,37950
+245,2314,2023,24762,0.0,24762.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cookstove Project by KCM-Wood#CPA-W-004,Registered,37950
+246,2315,2021,36608,0.0,36608.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cookstove Project by KCM-Wood#CPA-W-005,Registered,37950
+247,2315,2022,36608,0.0,36608.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cookstove Project by KCM-Wood#CPA-W-005,Registered,37950
+248,2315,2023,26888,0.0,26888.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cookstove Project by KCM-Wood#CPA-W-005,Registered,37950
+249,2319,2019,2164,0.0,2164.0,ARR; REDD,AFOLU,Congo,Agroforestry plantation Bateke Plateaus,Registered,36102
+250,2319,2020,2164,0.0,2164.0,ARR; REDD,AFOLU,Congo,Agroforestry plantation Bateke Plateaus,Registered,36102
+251,2319,2021,1442,0.0,1442.0,ARR; REDD,AFOLU,Congo,Agroforestry plantation Bateke Plateaus,Registered,36102
+252,2324,2016,302043,131069.0,170974.0,REDD,AFOLU,Guinea-Bissau,COMMUNITY BASED AVOIDED DEFORESTATION PROJECT IN GUINEA-BISSAU - REDD,Registered,920436
+253,2339,2020,155813,82820.0,72993.0,ARR,AFOLU,Uganda,"TIST Program in Uganda, VCS-CCB 010",Registered,83340
+254,2340,2020,175,175.0,0.0,Cookstoves,Non_AFOLU,Zambia,Installation of high efficiency wood burning cookstoves in Zambia,On Hold - see notification letter,1713078
+255,2340,2021,201009,20198.0,180811.0,Cookstoves,Non_AFOLU,Zambia,Installation of high efficiency wood burning cookstoves in Zambia,On Hold - see notification letter,1713078
+256,2340,2022,393480,1.0,393479.0,Cookstoves,Non_AFOLU,Zambia,Installation of high efficiency wood burning cookstoves in Zambia,On Hold - see notification letter,1713078
+257,2340,2023,185617,0.0,185617.0,Cookstoves,Non_AFOLU,Zambia,Installation of high efficiency wood burning cookstoves in Zambia,On Hold - see notification letter,1713078
+258,2342,2020,713,713.0,0.0,Cookstoves,Non_AFOLU,Malawi,Installation of high efficiency wood burning cookstoves in Malawi,On Hold - see notification letter,915838
+259,2342,2021,651202,35491.0,615711.0,Cookstoves,Non_AFOLU,Malawi,Installation of high efficiency wood burning cookstoves in Malawi,On Hold - see notification letter,915838
+260,2342,2022,1771121,93585.0,1677536.0,Cookstoves,Non_AFOLU,Malawi,Installation of high efficiency wood burning cookstoves in Malawi,On Hold - see notification letter,915838
+261,2342,2023,380185,0.0,380185.0,Cookstoves,Non_AFOLU,Malawi,Installation of high efficiency wood burning cookstoves in Malawi,On Hold - see notification letter,915838
+262,2350,2021,95,0.0,95.0,Cookstoves,Non_AFOLU,Uganda,Installation of high efficiency wood burning cookstoves in Uganda,Registered,1459980
+263,2350,2022,31450,0.0,31450.0,Cookstoves,Non_AFOLU,Uganda,Installation of high efficiency wood burning cookstoves in Uganda,Registered,1459980
+264,2351,2021,38392,0.0,38392.0,Cookstoves,Non_AFOLU,Mozambique,Installation of high efficiency wood burning cookstoves in Mozambique,On Hold - see notification letter,1713078
+265,2351,2022,130939,0.0,130939.0,Cookstoves,Non_AFOLU,Mozambique,Installation of high efficiency wood burning cookstoves in Mozambique,On Hold - see notification letter,1713078
+266,2351,2023,31493,0.0,31493.0,Cookstoves,Non_AFOLU,Mozambique,Installation of high efficiency wood burning cookstoves in Mozambique,On Hold - see notification letter,1713078
+267,2357,2018,3916,3293.0,623.0,Cookstoves,Non_AFOLU,Nepal,Improved cook stove market development in rural Nepal,Registered,44763
+268,2357,2019,23433,1049.0,22384.0,Cookstoves,Non_AFOLU,Nepal,Improved cook stove market development in rural Nepal,Registered,44763
+269,2357,2020,24329,1688.0,22641.0,Cookstoves,Non_AFOLU,Nepal,Improved cook stove market development in rural Nepal,Registered,44763
+270,2357,2021,28078,0.0,28078.0,Cookstoves,Non_AFOLU,Nepal,Improved cook stove market development in rural Nepal,Registered,44763
+271,2357,2022,21991,0.0,21991.0,Cookstoves,Non_AFOLU,Nepal,Improved cook stove market development in rural Nepal,Registered,44763
+272,2366,2020,923,923.0,0.0,Cookstoves,Non_AFOLU,Tanzania,Installation of high efficiency wood burning cookstoves in Tanzania,On Hold - see notification letter,1882271
+273,2366,2021,121867,13697.0,108170.0,Cookstoves,Non_AFOLU,Tanzania,Installation of high efficiency wood burning cookstoves in Tanzania,On Hold - see notification letter,1882271
+274,2366,2022,627628,23001.0,604627.0,Cookstoves,Non_AFOLU,Tanzania,Installation of high efficiency wood burning cookstoves in Tanzania,On Hold - see notification letter,1882271
+275,2366,2023,291296,0.0,291296.0,Cookstoves,Non_AFOLU,Tanzania,Installation of high efficiency wood burning cookstoves in Tanzania,On Hold - see notification letter,1882271
+276,2371,2020,4461,2926.0,1535.0,Cookstoves,Non_AFOLU,Zambia,Installation of high efficiency wood burning cookstoves in Zambia - Project 2,On Hold - see notification letter,1713078
+277,2371,2021,169699,12529.0,157170.0,Cookstoves,Non_AFOLU,Zambia,Installation of high efficiency wood burning cookstoves in Zambia - Project 2,On Hold - see notification letter,1713078
+278,2371,2022,582471,30041.0,552430.0,Cookstoves,Non_AFOLU,Zambia,Installation of high efficiency wood burning cookstoves in Zambia - Project 2,On Hold - see notification letter,1713078
+279,2371,2023,195205,0.0,195205.0,Cookstoves,Non_AFOLU,Zambia,Installation of high efficiency wood burning cookstoves in Zambia - Project 2,On Hold - see notification letter,1713078
+280,2372,2020,22208,175.0,22033.0,Cookstoves,Non_AFOLU,Malawi,Installation of high efficiency wood burning cookstoves in Malawi - Project 2,On Hold - see notification letter,1924569
+281,2372,2021,668818,336406.0,332412.0,Cookstoves,Non_AFOLU,Malawi,Installation of high efficiency wood burning cookstoves in Malawi - Project 2,On Hold - see notification letter,1924569
+282,2372,2022,2955081,85273.0,2869808.0,Cookstoves,Non_AFOLU,Malawi,Installation of high efficiency wood burning cookstoves in Malawi - Project 2,On Hold - see notification letter,1924569
+283,2372,2023,798535,0.0,798535.0,Cookstoves,Non_AFOLU,Malawi,Installation of high efficiency wood burning cookstoves in Malawi - Project 2,On Hold - see notification letter,1924569
+284,2390,2021,11,0.0,11.0,Cookstoves,Non_AFOLU,Angola,Installation of high efficiency wood burning cookstoves in Angola,Registered,2567788
+285,2390,2022,11047,0.0,11047.0,Cookstoves,Non_AFOLU,Angola,Installation of high efficiency wood burning cookstoves in Angola,Registered,2567788
+286,2400,2018,650000,495789.0,154211.0,Other,Non_AFOLU,Rwanda,DelAgua Public Health Program in Eastern Africa - CER Conversion,Units Transferred from Approved GHG Program,67656
+287,2401,2017,14975,14975.0,0.0,ARR,AFOLU,Sierra Leone,Reforestation of Degraded Lands in Sierra Leone,Verification approval requested,126297
+288,2401,2018,24662,24662.0,0.0,ARR,AFOLU,Sierra Leone,Reforestation of Degraded Lands in Sierra Leone,Verification approval requested,126297
+289,2401,2019,43330,42191.0,1139.0,ARR,AFOLU,Sierra Leone,Reforestation of Degraded Lands in Sierra Leone,Verification approval requested,126297
+290,2401,2020,43330,43329.0,1.0,ARR,AFOLU,Sierra Leone,Reforestation of Degraded Lands in Sierra Leone,Verification approval requested,126297
+291,2409,2022,146182,1088.0,145094.0,Cookstoves,Non_AFOLU,Cambodia,Cleaner Cooking Solutions Program,On Hold - see notification letter,841424
+292,2434,2019,11016,0.0,11016.0,Solar,Non_AFOLU,Burkina Faso,Off grid Solar PV project at IAMGOLD Essakane SA Gold Mine,Registered,27179
+293,2434,2020,18748,0.0,18748.0,Solar,Non_AFOLU,Burkina Faso,Off grid Solar PV project at IAMGOLD Essakane SA Gold Mine,Registered,27179
+294,2434,2021,19234,0.0,19234.0,Solar,Non_AFOLU,Burkina Faso,Off grid Solar PV project at IAMGOLD Essakane SA Gold Mine,Registered,27179
+295,2434,2022,17964,0.0,17964.0,Solar,Non_AFOLU,Burkina Faso,Off grid Solar PV project at IAMGOLD Essakane SA Gold Mine,Registered,27179
+296,2434,2023,18047,0.0,18047.0,Solar,Non_AFOLU,Burkina Faso,Off grid Solar PV project at IAMGOLD Essakane SA Gold Mine,Registered,27179
+297,2463,2018,7890,7890.0,0.0,Cookstoves,Non_AFOLU,Zambia,Fuel Efficient Stoves in Zambia CPA 3. - CER Conversion,Units Transferred from Approved GHG Program,40864
+298,2478,2018,800001,189406.0,610595.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Titas Gas Distribution Network in Bangladesh - CER Conversion,Units Transferred from Approved GHG Program,3481722
+299,2478,2019,2900001,1993054.0,906947.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Titas Gas Distribution Network in Bangladesh - CER Conversion,Units Transferred from Approved GHG Program,3481722
+300,2478,2020,3174810,1736357.0,1438453.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Titas Gas Distribution Network in Bangladesh - CER Conversion,Units Transferred from Approved GHG Program,3481722
+301,2497,2003,1188,0.0,1188.0,ARR; REDD,AFOLU,Uganda,"TIST Program in Uganda, VCS-CCB 011",Registered,121978
+302,2497,2004,29473,1425.0,28048.0,ARR; REDD,AFOLU,Uganda,"TIST Program in Uganda, VCS-CCB 011",Registered,121978
+303,2497,2005,29473,1425.0,28048.0,ARR; REDD,AFOLU,Uganda,"TIST Program in Uganda, VCS-CCB 011",Registered,121978
+304,2497,2006,29473,1425.0,28048.0,ARR; REDD,AFOLU,Uganda,"TIST Program in Uganda, VCS-CCB 011",Registered,121978
+305,2497,2007,29473,1506.0,27967.0,ARR; REDD,AFOLU,Uganda,"TIST Program in Uganda, VCS-CCB 011",Registered,121978
+306,2497,2008,29473,1611.0,27862.0,ARR; REDD,AFOLU,Uganda,"TIST Program in Uganda, VCS-CCB 011",Registered,121978
+307,2497,2009,29473,1611.0,27862.0,ARR; REDD,AFOLU,Uganda,"TIST Program in Uganda, VCS-CCB 011",Registered,121978
+308,2497,2010,29473,1611.0,27862.0,ARR; REDD,AFOLU,Uganda,"TIST Program in Uganda, VCS-CCB 011",Registered,121978
+309,2497,2011,29473,1611.0,27862.0,ARR; REDD,AFOLU,Uganda,"TIST Program in Uganda, VCS-CCB 011",Registered,121978
+310,2497,2012,29473,1611.0,27862.0,ARR; REDD,AFOLU,Uganda,"TIST Program in Uganda, VCS-CCB 011",Registered,121978
+311,2497,2013,29473,1611.0,27862.0,ARR; REDD,AFOLU,Uganda,"TIST Program in Uganda, VCS-CCB 011",Registered,121978
+312,2497,2014,29473,1611.0,27862.0,ARR; REDD,AFOLU,Uganda,"TIST Program in Uganda, VCS-CCB 011",Registered,121978
+313,2497,2015,29473,1612.0,27861.0,ARR; REDD,AFOLU,Uganda,"TIST Program in Uganda, VCS-CCB 011",Registered,121978
+314,2497,2016,29473,1613.0,27860.0,ARR; REDD,AFOLU,Uganda,"TIST Program in Uganda, VCS-CCB 011",Registered,121978
+315,2497,2017,29473,1612.0,27861.0,ARR; REDD,AFOLU,Uganda,"TIST Program in Uganda, VCS-CCB 011",Registered,121978
+316,2497,2018,29473,1611.0,27862.0,ARR; REDD,AFOLU,Uganda,"TIST Program in Uganda, VCS-CCB 011",Registered,121978
+317,2497,2019,29473,1610.0,27863.0,ARR; REDD,AFOLU,Uganda,"TIST Program in Uganda, VCS-CCB 011",Registered,121978
+318,2497,2020,29473,1612.0,27861.0,ARR; REDD,AFOLU,Uganda,"TIST Program in Uganda, VCS-CCB 011",Registered,121978
+319,2497,2021,6304,0.0,6304.0,ARR; REDD,AFOLU,Uganda,"TIST Program in Uganda, VCS-CCB 011",Registered,121978
+320,2510,2017,170837,0.0,170837.0,REDD,AFOLU,Central African Republic,"CHINKO CONSERVATION AREA REDD+ PROJECT, CENTRAL AFRICAN REPUBLIC",Registered,398553
+321,2510,2018,79163,0.0,79163.0,REDD,AFOLU,Central African Republic,"CHINKO CONSERVATION AREA REDD+ PROJECT, CENTRAL AFRICAN REPUBLIC",Registered,398553
+322,2538,2017,20235,0.0,20235.0,REDD,AFOLU,Benin,Pendjari and W-Benin National Parks REDD+ Project,Registered,228923
+323,2538,2018,70343,0.0,70343.0,REDD,AFOLU,Benin,Pendjari and W-Benin National Parks REDD+ Project,Registered,228923
+324,2538,2019,76274,0.0,76274.0,REDD,AFOLU,Benin,Pendjari and W-Benin National Parks REDD+ Project,Registered,228923
+325,2538,2020,123848,0.0,123848.0,REDD,AFOLU,Benin,Pendjari and W-Benin National Parks REDD+ Project,Registered,228923
+326,2540,2020,274807,78653.0,196154.0,Cookstoves,Non_AFOLU,Burundi,Improved cookstoves for Burundi restaurants,Registered,661007
+327,2540,2021,300432,235000.0,65432.0,Cookstoves,Non_AFOLU,Burundi,Improved cookstoves for Burundi restaurants,Registered,661007
+328,2588,2019,13142,0.0,13142.0,Wind,Non_AFOLU,Senegal,Taiba N’Diaye Wind Power,Registered,243965
+329,2588,2020,124066,0.0,124066.0,Wind,Non_AFOLU,Senegal,Taiba N’Diaye Wind Power,Registered,243965
+330,2588,2021,241702,0.0,241702.0,Wind,Non_AFOLU,Senegal,Taiba N’Diaye Wind Power,Registered,243965
+331,2588,2022,225897,0.0,225897.0,Wind,Non_AFOLU,Senegal,Taiba N’Diaye Wind Power,Registered,243965
+332,2588,2023,146865,0.0,146865.0,Wind,Non_AFOLU,Senegal,Taiba N’Diaye Wind Power,Registered,243965
+333,2599,2016,5856,1200.0,4656.0,Cookstoves,Non_AFOLU,Mozambique,Domestic Cooking Stoves substitution programme in Mozambique - CER Conversion,Units Transferred from Approved GHG Program,30373
+334,2599,2017,1916,500.0,1416.0,Cookstoves,Non_AFOLU,Mozambique,Domestic Cooking Stoves substitution programme in Mozambique - CER Conversion,Units Transferred from Approved GHG Program,30373
+335,2616,2016,81797,14469.0,67328.0,Cookstoves,Non_AFOLU,Burundi,BQS improved cookstoves for Burundi’s schools,Registered,187061
+336,2616,2017,87395,1172.0,86223.0,Cookstoves,Non_AFOLU,Burundi,BQS improved cookstoves for Burundi’s schools,Registered,187061
+337,2616,2018,94503,41285.0,53218.0,Cookstoves,Non_AFOLU,Burundi,BQS improved cookstoves for Burundi’s schools,Registered,187061
+338,2676,2022,85784,0.0,85784.0,Cookstoves,Non_AFOLU,Tanzania,Community Carbon Efficient Cooking Programme - Tanzania-1,Registered,933092
+339,2676,2023,187039,0.0,187039.0,Cookstoves,Non_AFOLU,Tanzania,Community Carbon Efficient Cooking Programme - Tanzania-1,Registered,933092
+340,2685,2021,36130,0.0,36130.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cook Stove Project by KCM-Wood#CPA-W-009,Registered,37950
+341,2685,2022,36130,0.0,36130.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cook Stove Project by KCM-Wood#CPA-W-009,Registered,37950
+342,2685,2023,25517,0.0,25517.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cook Stove Project by KCM-Wood#CPA-W-009,Registered,37950
+343,2687,2021,36995,0.0,36995.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cook Stove Project by KCM-Wood#CPA-W-010,Registered,37950
+344,2687,2022,36995,0.0,36995.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cook Stove Project by KCM-Wood#CPA-W-010,Registered,37950
+345,2687,2023,27272,0.0,27272.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cook Stove Project by KCM-Wood#CPA-W-010,Registered,37950
+346,2688,2021,35391,0.0,35391.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cook Stove Project by KCM-Wood#CPA-W-011,Registered,37950
+347,2688,2022,35391,0.0,35391.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cook Stove Project by KCM-Wood#CPA-W-011,Registered,37950
+348,2688,2023,25115,0.0,25115.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cook Stove Project by KCM-Wood#CPA-W-011,Registered,37950
+349,2689,2021,36257,0.0,36257.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cook Stove Project by KCM-Wood#CPA-W-012,Registered,37950
+350,2689,2022,36558,0.0,36558.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cook Stove Project by KCM-Wood#CPA-W-012,Registered,37950
+351,2689,2023,27016,0.0,27016.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cook Stove Project by KCM-Wood#CPA-W-012,Registered,37950
+352,2690,2021,36206,0.0,36206.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cook Stove Project by KCM-Wood#CPA-W-013,Registered,37950
+353,2690,2022,36206,0.0,36206.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cook Stove Project by KCM-Wood#CPA-W-013,Registered,37950
+354,2690,2023,25762,0.0,25762.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cook Stove Project by KCM-Wood#CPA-W-013,Registered,37950
+355,2707,2022,15996,0.0,15996.0,Other,Non_AFOLU,Madagascar,ICS distribution for Improving life style of Malagasy Community,Registered,313237
+356,2707,2023,14632,0.0,14632.0,Other,Non_AFOLU,Madagascar,ICS distribution for Improving life style of Malagasy Community,Registered,313237
+357,2711,2021,386735,180000.0,206735.0,Cookstoves,Non_AFOLU,Malawi,Distribution of Improved Cook Stoves in Sub-Saharan Africa-Malawi-CPA-002,On Hold - see notification letter,75815
+358,2711,2022,320723,0.0,320723.0,Cookstoves,Non_AFOLU,Malawi,Distribution of Improved Cook Stoves in Sub-Saharan Africa-Malawi-CPA-002,On Hold - see notification letter,75815
+359,2712,2021,1057731,0.0,1057731.0,Cookstoves,Non_AFOLU,Malawi,Distribution of Improved Cook Stoves in Sub-Saharan Africa-Malawi-CPA-006,On Hold - see notification letter,967622
+360,2712,2022,877513,0.0,877513.0,Cookstoves,Non_AFOLU,Malawi,Distribution of Improved Cook Stoves in Sub-Saharan Africa-Malawi-CPA-006,On Hold - see notification letter,967622
+361,2734,2021,50016,0.0,50016.0,Cookstoves,Non_AFOLU,Zambia,Fuel Efficient Stoves in Zambia – Korea Carbon Management Ltd. CPA No.1,Registered,52455
+362,2734,2022,50016,0.0,50016.0,Cookstoves,Non_AFOLU,Zambia,Fuel Efficient Stoves in Zambia – Korea Carbon Management Ltd. CPA No.1,Registered,52455
+363,2735,2021,225828,0.0,225828.0,Cookstoves,Non_AFOLU,Zambia,Fuel Efficient Stoves in Zambia (Korea Carbon Management Ltd. CPA No.02),Registered,99475
+364,2735,2022,225828,0.0,225828.0,Cookstoves,Non_AFOLU,Zambia,Fuel Efficient Stoves in Zambia (Korea Carbon Management Ltd. CPA No.02),Registered,99475
+365,2736,2019,415826,223.0,415603.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Bakhrabad Gas Distribution Network in Bangladesh,Registered,1387409
+366,2736,2020,875765,0.0,875765.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Bakhrabad Gas Distribution Network in Bangladesh,Registered,1387409
+367,2736,2021,1503664,0.0,1503664.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Bakhrabad Gas Distribution Network in Bangladesh,Registered,1387409
+368,2737,2019,416043,60.0,415983.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Jalalabad Gas Distribution Network in Bangladesh,Registered,1054305
+369,2737,2020,640615,0.0,640615.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Jalalabad Gas Distribution Network in Bangladesh,Registered,1054305
+370,2737,2021,1124521,0.0,1124521.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Jalalabad Gas Distribution Network in Bangladesh,Registered,1054305
+371,2738,2019,495490,72.0,495418.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Karnaphuli Gas Distribution Network in Bangladesh,Registered,839133
+372,2738,2020,507342,0.0,507342.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Karnaphuli Gas Distribution Network in Bangladesh,Registered,839133
+373,2738,2021,871219,0.0,871219.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Karnaphuli Gas Distribution Network in Bangladesh,Registered,839133
+374,2738,2022,873809,0.0,873809.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Karnaphuli Gas Distribution Network in Bangladesh,Registered,839133
+375,2739,2020,173801,19.0,173782.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Pashchimanchal Gas Distribution Network in Bangladesh,Registered,371861
+376,2739,2021,371861,0.0,371861.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Pashchimanchal Gas Distribution Network in Bangladesh,Registered,371861
+377,2749,2019,889786,351976.0,537810.0,Cookstoves,Non_AFOLU,Rwanda,DelAgua Clean Cooking Grouped Project,Registered,545712
+378,2749,2020,892224,1926.0,890298.0,Cookstoves,Non_AFOLU,Rwanda,DelAgua Clean Cooking Grouped Project,Registered,545712
+379,2749,2021,626507,12563.0,613944.0,Cookstoves,Non_AFOLU,Rwanda,DelAgua Clean Cooking Grouped Project,Registered,545712
+380,2789,2022,12987,0.0,12987.0,Other,Non_AFOLU,Uganda,UpEnergy-Social and Climate Impact Programme-Uganda 1,Registered,742688
+381,2828,2021,507694,455694.0,52000.0,Cookstoves,Non_AFOLU,Burundi,Improved Cooking Stove Programme in Burundi,Registered,506373
+382,2828,2022,583465,124828.0,458637.0,Cookstoves,Non_AFOLU,Burundi,Improved Cooking Stove Programme in Burundi,Registered,506373
+383,2838,2018,54,0.0,54.0,Cookstoves,Non_AFOLU,Uganda,MicroEnergy Credits – Microfinance for Clean Energy Product Lines – Africa – Solar Lamps & Efficient cook stoves – 10341 –CPA - 0004,Verification approval requested,52430
+384,2838,2019,7080,0.0,7080.0,Cookstoves,Non_AFOLU,Uganda,MicroEnergy Credits – Microfinance for Clean Energy Product Lines – Africa – Solar Lamps & Efficient cook stoves – 10341 –CPA - 0004,Verification approval requested,52430
+385,2838,2020,13088,0.0,13088.0,Cookstoves,Non_AFOLU,Uganda,MicroEnergy Credits – Microfinance for Clean Energy Product Lines – Africa – Solar Lamps & Efficient cook stoves – 10341 –CPA - 0004,Verification approval requested,52430
+386,2838,2021,12982,0.0,12982.0,Cookstoves,Non_AFOLU,Uganda,MicroEnergy Credits – Microfinance for Clean Energy Product Lines – Africa – Solar Lamps & Efficient cook stoves – 10341 –CPA - 0004,Verification approval requested,52430
+387,2838,2022,11747,0.0,11747.0,Cookstoves,Non_AFOLU,Uganda,MicroEnergy Credits – Microfinance for Clean Energy Product Lines – Africa – Solar Lamps & Efficient cook stoves – 10341 –CPA - 0004,Verification approval requested,52430
+388,2839,2019,77,0.0,77.0,Cookstoves,Non_AFOLU,Uganda,MicroEnergy Credits – Microfinance for Clean Energy Product Lines – Africa – Solar Lamps & Efficient cook stoves – 10341 –CPA - 0005,Verification approval requested,14645
+389,2839,2020,2729,2729.0,0.0,Cookstoves,Non_AFOLU,Uganda,MicroEnergy Credits – Microfinance for Clean Energy Product Lines – Africa – Solar Lamps & Efficient cook stoves – 10341 –CPA - 0005,Verification approval requested,14645
+390,2839,2021,6560,271.0,6289.0,Cookstoves,Non_AFOLU,Uganda,MicroEnergy Credits – Microfinance for Clean Energy Product Lines – Africa – Solar Lamps & Efficient cook stoves – 10341 –CPA - 0005,Verification approval requested,14645
+391,2839,2022,10212,0.0,10212.0,Cookstoves,Non_AFOLU,Uganda,MicroEnergy Credits – Microfinance for Clean Energy Product Lines – Africa – Solar Lamps & Efficient cook stoves – 10341 –CPA - 0005,Verification approval requested,14645
+392,2886,2022,45551,355.0,45196.0,Cookstoves,Non_AFOLU,Malawi,Installation of high efficiency wood burning cookstoves in Malawi – Project 3,On Hold - see notification letter,1470813
+393,2886,2023,28009,0.0,28009.0,Cookstoves,Non_AFOLU,Malawi,Installation of high efficiency wood burning cookstoves in Malawi – Project 3,On Hold - see notification letter,1470813
+394,2888,2021,165,0.0,165.0,Cookstoves,Non_AFOLU,Mozambique,Installation of high efficiency wood burning cookstoves in Mozambique – Project 2,On Hold - see notification letter,861165
+395,2888,2022,49272,141.0,49131.0,Cookstoves,Non_AFOLU,Mozambique,Installation of high efficiency wood burning cookstoves in Mozambique – Project 2,On Hold - see notification letter,861165
+396,2925,2022,356611,0.0,356611.0,Cookstoves,Non_AFOLU,Cambodia,Grouped Projects for Cambodia Improved Cookstove,Registered,7172213
+397,2925,2023,251866,0.0,251866.0,Cookstoves,Non_AFOLU,Cambodia,Grouped Projects for Cambodia Improved Cookstove,Registered,7172213
+398,2930,2021,4137966,35368.0,4102598.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Titas Gas Distribution Network in Bangladesh,Registered,3289487
+399,2930,2022,4135618,0.0,4135618.0,Fugitive Emiss.,Non_AFOLU,Bangladesh,Reducing Gas Leakages within the Titas Gas Distribution Network in Bangladesh,Registered,3289487
+400,2965,2018,38769,22400.0,16369.0,ARR,AFOLU,Niger,Niger Acacia Senegal Plantation Project - CER Conversion,Units Transferred from Approved GHG Program,24957
+401,2981,2021,8927,0.0,8927.0,Cookstoves,Non_AFOLU,Angola,Installation of high efficiency wood burning cookstoves in Angola – Project 2,On Hold - see notification letter,2567788
+402,2981,2022,124606,0.0,124606.0,Cookstoves,Non_AFOLU,Angola,Installation of high efficiency wood burning cookstoves in Angola – Project 2,On Hold - see notification letter,2567788
+403,2982,2020,116570,4101.0,112469.0,Cookstoves,Non_AFOLU,Uganda,BioLite Improved Cook stoves Programme - CER Conversion,Units Transferred from Approved GHG Program,11005
+404,3096,2022,23088,0.0,23088.0,Cookstoves,Non_AFOLU,Madagascar,UPLIFTING OF MALAGASY COMMUNITES BY DISTRUBUTING EFFICIENT COOKING APPLIANCE,Registered,1210110
+405,3096,2023,3167,0.0,3167.0,Cookstoves,Non_AFOLU,Madagascar,UPLIFTING OF MALAGASY COMMUNITES BY DISTRUBUTING EFFICIENT COOKING APPLIANCE,Registered,1210110
+406,3099,2021,30336,0.0,30336.0,Solar,Non_AFOLU,Bangladesh,Spectra Solar Park Ltd _35 MW AC Grid-Tied by Spectra Solar Park Limited,Registered,37042
+407,3099,2022,2887,0.0,2887.0,Solar,Non_AFOLU,Bangladesh,Spectra Solar Park Ltd _35 MW AC Grid-Tied by Spectra Solar Park Limited,Registered,37042
+408,3116,2022,22090,0.0,22090.0,Cookstoves,Non_AFOLU,Cambodia,CAMBODIA PREY MOAN KHMER IMPROVED COOKSTOVE PROGRAM I,Registered,381007
+409,3116,2023,10033,0.0,10033.0,Cookstoves,Non_AFOLU,Cambodia,CAMBODIA PREY MOAN KHMER IMPROVED COOKSTOVE PROGRAM I,Registered,381007
+410,3262,2022,100959,0.0,100959.0,Other,Non_AFOLU,Malawi,Livelihoods Chitetezo Mbaula Project,Registered,262431
+411,3279,2020,456395,7317.0,449078.0,Cookstoves,Non_AFOLU,Bangladesh,IDCOL Improved Cook Stove Program - CER Conversion,Units Transferred from Approved GHG Program,1278597
+412,3298,2021,24402,0.0,24402.0,Solar,Non_AFOLU,Togo,Blitta – Togo Solar Power Plant,Registered,61326
+413,3298,2022,46567,0.0,46567.0,Solar,Non_AFOLU,Togo,Blitta – Togo Solar Power Plant,Registered,61326
+414,3371,2020,63908,0.0,63908.0,Cookstoves,Non_AFOLU,Uganda,"Up Energy Improved Cookstoves Programme, Uganda - CER Conversion",Units Transferred from Approved GHG Program,44874
+415,3545,2020,8391,0.0,8391.0,Solar,Non_AFOLU,Bangladesh,"50 MW (AC) SOLAR PARK AT SUTIAKHALI, GOURIPUR, MYMENSINGH",Registered,55302
+416,3545,2021,55480,0.0,55480.0,Solar,Non_AFOLU,Bangladesh,"50 MW (AC) SOLAR PARK AT SUTIAKHALI, GOURIPUR, MYMENSINGH",Registered,55302
+417,3545,2022,36116,0.0,36116.0,Solar,Non_AFOLU,Bangladesh,"50 MW (AC) SOLAR PARK AT SUTIAKHALI, GOURIPUR, MYMENSINGH",Registered,55302
+418,3613,2020,595,595.0,0.0,Solar,Non_AFOLU,Cambodia,Solar Power Project by SOMA Energy,Registered,5113
+419,3613,2021,2906,2906.0,0.0,Solar,Non_AFOLU,Cambodia,Solar Power Project by SOMA Energy,Registered,5113
+420,3613,2022,3049,3049.0,0.0,Solar,Non_AFOLU,Cambodia,Solar Power Project by SOMA Energy,Registered,5113
+421,3720,2020,1456,0.0,1456.0,Hydro,Non_AFOLU,Rwanda,Giciye III Hydropower Project in Rwanda,Registered,25787
+422,3720,2021,23276,0.0,23276.0,Hydro,Non_AFOLU,Rwanda,Giciye III Hydropower Project in Rwanda,Registered,25787
+423,3720,2022,22638,0.0,22638.0,Hydro,Non_AFOLU,Rwanda,Giciye III Hydropower Project in Rwanda,Registered,25787
+424,3720,2023,9385,0.0,9385.0,Hydro,Non_AFOLU,Rwanda,Giciye III Hydropower Project in Rwanda,Registered,25787
+425,3788,2021,2489,0.0,2489.0,Solar,Non_AFOLU,Comoros,Foumbouni-Mitsamiouli solar farm,Registered,9510
+426,3788,2022,2803,0.0,2803.0,Solar,Non_AFOLU,Comoros,Foumbouni-Mitsamiouli solar farm,Registered,9510
+427,3788,2023,5088,0.0,5088.0,Solar,Non_AFOLU,Comoros,Foumbouni-Mitsamiouli solar farm,Registered,9510
+428,3837,2023,2078,0.0,2078.0,Cookstoves,Non_AFOLU,Sierra Leone,DelAgua Clean Cooking Grouped Project in Sierra Leone,Registered,5235427
+429,3937,2017,500,72.0,428.0,Cookstoves,Non_AFOLU,Malawi,"Improved Cook Stove Project 1, Nkhata Bay District, Malawi - CER Conversion",Units Transferred from Approved GHG Program,32672
+430,4036,2022,20393,0.0,20393.0,Solar,Non_AFOLU,Cambodia,"26MWp Solar Photovoltaic Power Plant in Bavet City, Cambodia",Verification approval requested,26473
+431,4150,2021,421,8.0,413.0,Cookstoves,Non_AFOLU,Rwanda,DelAgua Clean Cooking Grouped Project in Rwanda,Verification approval requested,2243669
+432,4150,2022,989019,39780.0,949239.0,Cookstoves,Non_AFOLU,Rwanda,DelAgua Clean Cooking Grouped Project in Rwanda,Verification approval requested,2243669
+433,4150,2023,378483,7570.0,370913.0,Cookstoves,Non_AFOLU,Rwanda,DelAgua Clean Cooking Grouped Project in Rwanda,Verification approval requested,2243669
+434,4157,2021,12430,0.0,12430.0,Cookstoves,Non_AFOLU,Tanzania,Installation of high efficiency wood burning cookstoves in Tanzania - Project 3,On Hold - see notification letter,285339
+435,4157,2022,78376,0.0,78376.0,Cookstoves,Non_AFOLU,Tanzania,Installation of high efficiency wood burning cookstoves in Tanzania - Project 3,On Hold - see notification letter,285339
+436,4157,2023,38777,0.0,38777.0,Cookstoves,Non_AFOLU,Tanzania,Installation of high efficiency wood burning cookstoves in Tanzania - Project 3,On Hold - see notification letter,285339
+437,4657,2018,48426,400.0,48026.0,Cookstoves,Non_AFOLU,Ethiopia,Energy Efficient Stoves Program (EESP) - CER Conversion,Units Transferred from Approved GHG Program,139588
+438,4971,2019,4893,0.0,4893.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cookstove Project by KCM-Wood#CPA-W-001 - CER Conversion,Units Transferred from Approved GHG Program,37722
+439,4971,2020,4307,0.0,4307.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cookstove Project by KCM-Wood#CPA-W-001 - CER Conversion,Units Transferred from Approved GHG Program,37722
+440,4972,2019,4113,0.0,4113.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cookstove Project by KCM-Wood#CPA-W-002 - CER Conversion,Units Transferred from Approved GHG Program,37950
+441,4972,2020,7372,0.0,7372.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cookstove Project by KCM-Wood#CPA-W-002 - CER Conversion,Units Transferred from Approved GHG Program,37950
+442,4973,2019,2715,0.0,2715.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cookstove Project by KCM-Wood#CPA-W-003 - CER Conversion,Units Transferred from Approved GHG Program,37950
+443,4973,2020,5631,0.0,5631.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cookstove Project by KCM-Wood#CPA-W-003 - CER Conversion,Units Transferred from Approved GHG Program,37950
+444,4974,2019,251,0.0,251.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cookstove Project by KCM-Wood#CPA-W-004 - CER Conversion,Units Transferred from Approved GHG Program,37950
+445,4974,2020,3955,0.0,3955.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cookstove Project by KCM-Wood#CPA-W-004 - CER Conversion,Units Transferred from Approved GHG Program,37950
+446,4975,2019,320,0.0,320.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cookstove Project by KCM-Wood#CPA-W-005 - CER Conversion,Units Transferred from Approved GHG Program,37950
+447,4975,2020,3263,0.0,3263.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cookstove Project by KCM-Wood#CPA-W-005 - CER Conversion,Units Transferred from Approved GHG Program,37950
+448,4976,2020,331,0.0,331.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cook Stove Project by KCM-Wood#CPA-W-009 - CER Conversion,Units Transferred from Approved GHG Program,37950
+449,4977,2019,80,0.0,80.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cook Stove Project by KCM-Wood#CPA-W-006 - CER Conversion,Units Transferred from Approved GHG Program,37950
+450,4977,2020,3576,0.0,3576.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cook Stove Project by KCM-Wood#CPA-W-006 - CER Conversion,Units Transferred from Approved GHG Program,37950
+451,4978,2020,2373,0.0,2373.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cook Stove Project by KCM-Wood#CPA-W-007 - CER Conversion,Units Transferred from Approved GHG Program,37950
+452,4979,2020,373,0.0,373.0,Cookstoves,Non_AFOLU,Madagascar,Madagascar Improved Cook Stove Project by KCM-Wood#CPA-W-008 - CER Conversions,Units Transferred from Approved GHG Program,37950
