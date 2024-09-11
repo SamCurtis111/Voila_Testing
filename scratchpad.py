@@ -935,3 +935,99 @@ sub_r = sub_r[sub_r['Beneficial Owner'].str.contains('Surf')]
 sub_r = r.copy()
 sub_r = sub_r[sub_r['Retirement Reason Details'].str.contains('WSL', na=False)]
 sub_r = sub_r[sub_r['Retirement Reason Details'].str.contains('World Surf League', na=False)]
+
+
+# Verra Projects by Geography
+sub = sub_p.copy()
+list(sub.Region.unique())
+sorted(list(sub['Country/Area'].unique()))
+
+sub_m = broker_markets.copy()
+sub_m['Continent'] = sub_m['Location'].apply(get_continent)
+
+brokered_countries = list(sub_m.Location.unique())
+list(sub_m.Continent.unique())
+
+brokered_australia = sub_m[sub_m['Location']=='Australia']
+brokered_north_america = sub_m[sub_m.Continent=='North America']
+
+
+projects_australia = p[p['Country/Area']=='Australia']
+projects_australia['PID'] = ['VCS {}'.format(i) for i in projects_australia['Project ID']]
+markets_australia
+
+
+
+
+# Try map countires to their continents
+import pycountry_convert as pc
+
+# Your list of brokered countries
+brokered_countries = ["Australia", "Brazil", "Canada", "China", "France", "India", "Japan", "Nigeria", "Russia", "United States"]
+
+# Function to get continent name from country name
+def get_continent(country_name):
+    try:
+        country_alpha2 = pc.country_name_to_country_alpha2(country_name)
+        continent_code = pc.country_alpha2_to_continent_code(country_alpha2)
+        continent_name = pc.convert_continent_code_to_continent_name(continent_code)
+        return continent_name
+    except KeyError:
+        return "Unknown"
+
+# Map each country to its continent
+country_continent_mapping = {country: get_continent(country) for country in brokered_countries}
+
+# Print the results
+for country, continent in country_continent_mapping.items():
+    print(f"{country}: {continent}")
+    
+    
+    
+# Filter out anything non nature based
+brokered_methods = list(broker_markets.Type.unique())
+keeplist = ['REDD','ARR; REDD', 'ARR', 'ARR; REDD; WRC', 'IFM', 'ARR; WRC', 'Blue Carbon', 'IFM; REDD']
+removals_list = ['ARR; REDD', 'ARR', 'ARR; REDD; WRC','ARR; WRC', 'Blue Carbon']
+
+brokered_nature = broker_markets[broker_markets['Type'].isin(keeplist)]
+
+
+
+# Only keep stuff that has been brokered this year
+brokered_nature = brokered_nature[brokered_nature.Year==2024]
+
+# Exclude known controversial projects
+exclude_list = ['Southern Cardamom','Mai Ndombe','Keo Seima Wildlife Sactuary','Rimba Raya','Cordillera Azul National Park REDD Project',
+                'Pacajai REDD+','JARI/AMAPA REDD+ PROJECT','JARI/AMAPA REDD+ Project','Rio Anapu-Pacaja','UNITOR REDD+ PROJECT',
+                'Cikel Brazilian Amazon REDD APD Project Avoiding Planned Deforestation','EVERGREEN REDD+ PROJECT','JARI/PARA REDD+ Project',
+                'TIST Program in Uganda, VCS 005','TIST Program in Kenya, VCS 005','TIST Program in Uganda, VCS 001','Blue Carbon Project Gulf of Morrosquillo "Vidda Manglar"',
+                'TIST Program in Kenya, VCS 002','RMDLT Portel - Para REDD Project']
+
+brokered_nature = brokered_nature[~(brokered_nature.Name.isin(exclude_list))]
+
+
+
+redd = brokered_nature[brokered_nature.Type=='REDD']
+
+redd_brazil = redd[redd.Location=='Brazil']
+redd_brazil = redd_brazil.drop_duplicates(subset='Name', keep='last')
+
+
+brokered_nature['Continent'] = brokered_nature['Location'].apply(get_continent)
+
+# Only get stuff that has been offered this year
+
+# Look at removals
+brokered_removals = broker_markets[broker_markets['Type'].isin(removals_list)]
+brokered_removals = brokered_removals[brokered_removals.Year==2024]
+brokered_removals = brokered_removals[brokered_removals.Month>=9]
+brokered_removals = brokered_removals[~(brokered_removals.Name.isin(exclude_list))]
+brokered_removals = brokered_removals.drop_duplicates(subset='Name', keep='last')
+
+drop_countries = ['China']
+brokered_removals = brokered_removals[~(brokered_removals.Location.isin(drop_countries))]
+
+
+# Check the markets for all of the following projects:
+checklist = ['VCS 977', 'VCS 1113', 'VCS 1112', 'VCS 1329', 'VCS 2532', 'VCS 2512', 'VCS 962', 'GS 11154', 'GS 2940', 'VCS 2404', 'VCS 799', 'VCS 2410', 'VCS 2576', 'VCS 142', 'VCS 920', 'ACR 114', 'VCS 959', 'GS 4221', 'VCS 1543', 'VCS 2250']
+markets_check = broker_markets[broker_markets['Project ID'].isin(checklist)]

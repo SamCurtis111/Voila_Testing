@@ -13,8 +13,8 @@ engine_list = [engine, aws_engine]
 
 class Retrieve_Data:
     def __init__(self):
-        #self.engine = create_engine('postgresql://Attunga01:875mSzNM@attunga-instance-1.c6crotlobtrk.us-east-2.rds.amazonaws.com/postgres')
-        self.engine = create_engine('postgresql://postgres:iforgot23@localhost/Voluntary_Carbon')
+        self.engine = create_engine('postgresql://Attunga01:875mSzNM@attunga-instance-1.c6crotlobtrk.us-east-2.rds.amazonaws.com/postgres')
+        #self.engine = create_engine('postgresql://postgres:iforgot23@localhost/Voluntary_Carbon')
 
         query = 'select * from \"VCS_Projects_Labelled\"'
         self.df_projects = pd.read_sql(query, self.engine)

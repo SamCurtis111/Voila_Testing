@@ -79,4 +79,8 @@ sumatra = df_projects.copy()
 sumatra = sumatra[sumatra.Methodology=='VM0007']
 
 
-
+wrc_projects = df_issuance.copy()
+wrc_projects = wrc_projects.drop(columns=['From Vintage','To Vintage'])
+#wrc_projects = wrc_projects[wrc_projects.Method=='ARR; WRC']
+wrc_projects = wrc_projects[wrc_projects.Method.str.contains('ARR', na=False)]
+wrc_projects = wrc_projects.groupby(by=['Project ID','Vintage','Project Name','Method','Project Country/Area']).sum()
