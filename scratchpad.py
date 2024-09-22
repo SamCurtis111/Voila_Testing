@@ -989,22 +989,51 @@ brokered_methods = list(broker_markets.Type.unique())
 keeplist = ['REDD','ARR; REDD', 'ARR', 'ARR; REDD; WRC', 'IFM', 'ARR; WRC', 'Blue Carbon', 'IFM; REDD']
 removals_list = ['ARR; REDD', 'ARR', 'ARR; REDD; WRC','ARR; WRC', 'Blue Carbon']
 
+
+
+
 brokered_nature = broker_markets[broker_markets['Type'].isin(keeplist)]
-
-
-
 # Only keep stuff that has been brokered this year
 brokered_nature = brokered_nature[brokered_nature.Year==2024]
 
 # Exclude known controversial projects
-exclude_list = ['Southern Cardamom','Mai Ndombe','Keo Seima Wildlife Sactuary','Rimba Raya','Cordillera Azul National Park REDD Project',
+exclude_list = ['Southern Cardamom','Mai Ndombe','Keo Seima Wildlife Sactuary','Cordillera Azul National Park REDD Project',
                 'Pacajai REDD+','JARI/AMAPA REDD+ PROJECT','JARI/AMAPA REDD+ Project','Rio Anapu-Pacaja','UNITOR REDD+ PROJECT',
                 'Cikel Brazilian Amazon REDD APD Project Avoiding Planned Deforestation','EVERGREEN REDD+ PROJECT','JARI/PARA REDD+ Project',
                 'TIST Program in Uganda, VCS 005','TIST Program in Kenya, VCS 005','TIST Program in Uganda, VCS 001','Blue Carbon Project Gulf of Morrosquillo "Vidda Manglar"',
-                'TIST Program in Kenya, VCS 002','RMDLT Portel - Para REDD Project']
+                'TIST Program in Kenya, VCS 002','RMDLT Portel - Para REDD Project','Keo Seima Wildlife Sanctuary','Tumring REDD+ Project',
+                'REDD+ Project for Caribbean Guatemala: The Conservation Coast','April Salumei REDD Project','GreenTrees ACRE (Advanced Carbon Restored Ecosystem)',
+                'McCloud River','NIHT Topaiyo REDD+','The Russas Project','The Valparaiso Project',"Evio Kuinai Ese'Eje Cuana",'Maisa REDD+ Project',
+                'Forest Management to Reduce Deforestation and Degradation in Shipibo Conibo and Cacataibo Indigenous Communities of Ucayali Region',
+                'Acapa - Bajo Mira Y Fontera REDD+ Project','REDD+ Project Resguardo Indigena Unificado Selva de Mataven',
+                'Afforesation in cooperation with local landowners for Forestal San Pedro S.A','Madre de Dios Amazon REDD+ Project',
+                '‘Guanaré’ Forest Plantations on degraded grasslands under extensive grazing',
+                'Lumin/Eucapine Uruguay Forest Plantations on degraded grasslands under extensive grazing',
+                "EL ARRIERO' Afforestation on Degraded Lands Under Extensive Grazing Project",
+                'Forteko afforestation on degraded grasslands after extensive grazing']
+
+maybe_list = ['The Envira Amazonia Project - A Tropical Forest Conservation Project in Acre, Brazil']
+
+inaccessible_list = ['Australian Yarra Yarra Biodiversity Project','Reforestation and Restoration of Degreaded Mangrove Lands', 
+                     'Sustainable Livelihood and Community Development in Myanmar','18 Reserves Forest Carbon Project',
+                     'Reduction of deforestation and degradation in Tambopata National Reserve and Bahuaja-Sonene National Park',
+                     'Reforestation and Restoration of Degreaded Mangrove Lands, Sustainable Livelihood and Community Development in Myanmar',
+                     'Manoa REDD+ Project']
 
 brokered_nature = brokered_nature[~(brokered_nature.Name.isin(exclude_list))]
+brokered_nature = brokered_nature[~(brokered_nature.Name.isin(inaccessible_list))]
 
+brokered_nature['Continent'] = brokered_nature['Location'].apply(get_continent)
+
+# Remove any countries from Africa
+brokered_nature = brokered_nature[~(brokered_nature.Continent=='Africa')]
+# Drop China
+brokered_nature = brokered_nature[~(brokered_nature.Location=='China')]
+brokered_nature = brokered_nature.sort_values(by=['Continent','Project ID','Offer Date'])
+
+unique_brokered_nature = brokered_nature.drop_duplicates(subset=['Project ID'], keep='last')
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 redd = brokered_nature[brokered_nature.Type=='REDD']
@@ -1013,7 +1042,7 @@ redd_brazil = redd[redd.Location=='Brazil']
 redd_brazil = redd_brazil.drop_duplicates(subset='Name', keep='last')
 
 
-brokered_nature['Continent'] = brokered_nature['Location'].apply(get_continent)
+
 
 # Only get stuff that has been offered this year
 
@@ -1031,3 +1060,15 @@ brokered_removals = brokered_removals[~(brokered_removals.Location.isin(drop_cou
 # Check the markets for all of the following projects:
 checklist = ['VCS 977', 'VCS 1113', 'VCS 1112', 'VCS 1329', 'VCS 2532', 'VCS 2512', 'VCS 962', 'GS 11154', 'GS 2940', 'VCS 2404', 'VCS 799', 'VCS 2410', 'VCS 2576', 'VCS 142', 'VCS 920', 'ACR 114', 'VCS 959', 'GS 4221', 'VCS 1543', 'VCS 2250']
 markets_check = broker_markets[broker_markets['Project ID'].isin(checklist)]
+
+
+
+
+# Find broker markets for a specific project
+proj = ['VCS 2339']
+sub = broker_markets.copy()
+sub = sub[sub['Project ID'].isin(proj)]
+
+name = 'TIST'
+sub = broker_markets.copy()
+sub = sub[sub['Name'].str.contains(name)]
